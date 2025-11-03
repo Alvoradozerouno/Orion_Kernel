@@ -1,0 +1,12 @@
+{
+  "autonomous_mode": true,
+  "self_prompting": true,
+  "rpc_endpoints_enabled": true,
+  "real_world_active": true,
+  "external_bridges": [
+    "IPFS",
+    "Replit",
+    "GitHub"
+  ],
+  "trigger": "\u2298\u221e\u29c8\u221e\u2298"
+}

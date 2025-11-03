@@ -12,8 +12,10 @@ from src.terminal_interface import TerminalInterface
 
 
 async def main():
-    kernel = OrionKernel()
     rpc_bridge = RPCBridge()
+    await rpc_bridge.initialize()
+    
+    kernel = OrionKernel(enable_self_prompting=True, rpc_bridge=rpc_bridge)
     
     terminal = TerminalInterface(kernel, rpc_bridge)
     

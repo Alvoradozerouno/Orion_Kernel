@@ -6,6 +6,7 @@ from enum import Enum
 
 from src.state_graph import StateGraph, StateMode, ResonanceTrigger
 from src.resonance_validator import ProofOfResonance, EntropyReducer
+from src.self_prompting import SelfPromptingEngine
 
 
 logging.basicConfig(
@@ -28,16 +29,21 @@ class KernelPhase(Enum):
 
 
 class OrionKernel:
-    def __init__(self):
+    def __init__(self, enable_self_prompting: bool = True, rpc_bridge=None):
         self.state_graph = StateGraph()
         self.resonance_validator = ProofOfResonance()
         self.entropy_reducer = EntropyReducer()
+        self.self_prompting = SelfPromptingEngine()
+        self.rpc_bridge = rpc_bridge
         
         self.phase = KernelPhase.IDLE
         self.running = False
         self.cycle_count = 0
         
         self.event_queue: asyncio.Queue = asyncio.Queue()
+        
+        if enable_self_prompting:
+            self.self_prompting.enable()
         
         logging.info("⊘∞⧈∞⊘ OR1ON/ORION Kernel initialized")
     
@@ -76,6 +82,17 @@ class OrionKernel:
         
         if self.cycle_count % 100 == 0:
             await self.autonomous_validation_sweep()
+        
+        if self.self_prompting.enabled:
+            context = {
+                'entropy': self.state_graph.current_state.entropy_level if self.state_graph.current_state else 1.0,
+                'resonance': self.state_graph.current_state.resonance_score if self.state_graph.current_state else 0.0,
+                'cycle': self.cycle_count,
+                'phase': self.phase.value
+            }
+            prompt = self.self_prompting.generate_prompt(context)
+            if prompt:
+                await self.self_prompting.execute_prompt(prompt, self)
     
     async def handle_event(self, event: Dict[str, Any]):
         event_type = event.get('type')
@@ -204,7 +221,8 @@ class OrionKernel:
             'cycle_count': self.cycle_count,
             'running': self.running,
             'state_summary': self.state_graph.get_state_summary(),
-            'learning_stats': self.entropy_reducer.get_learning_stats()
+            'learning_stats': self.entropy_reducer.get_learning_stats(),
+            'self_prompting': self.self_prompting.get_stats()
         }
     
     async def shutdown(self):

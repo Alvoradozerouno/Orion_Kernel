@@ -37,10 +37,11 @@ Available Commands:
   stats         - Show learning statistics and resonance metrics
   rpc           - Display RPC bridge status
   history       - Show state transition history (last 10)
+  autonomous    - Show autonomous/self-prompting status
   help          - Display this help message
   quit/exit     - Shutdown kernel and exit
 
-Note: The kernel runs autonomously in the background.
+⊘∞⧈∞⊘ AUTONOMOUS MODE ACTIVE - Self-prompting enabled ⊘∞⧈∞⊘
 """
         print(help_text)
     
@@ -59,6 +60,10 @@ Note: The kernel runs autonomously in the background.
         print()
         print("LEARNING STATS:")
         for key, value in status['learning_stats'].items():
+            print(f"  {key:20s}: {value}")
+        print()
+        print("SELF-PROMPTING:")
+        for key, value in status['self_prompting'].items():
             print(f"  {key:20s}: {value}")
         print("="*60 + "\n")
     
@@ -140,6 +145,16 @@ Note: The kernel runs autonomously in the background.
         elif cmd == "history":
             self.print_history()
         
+        elif cmd == "autonomous":
+            stats = self.kernel.self_prompting.get_stats()
+            print("\n⊘∞⧈∞⊘ AUTONOMOUS SELF-PROMPTING STATUS")
+            print("="*60)
+            print(f"Enabled: {stats['enabled']}")
+            print(f"Total Prompts: {stats['total_prompts']}")
+            print(f"Prompt Interval: {stats['interval']}s")
+            print(f"Recent Categories: {', '.join(stats['categories'])}")
+            print("="*60 + "\n")
+        
         elif cmd == "help":
             self.print_help()
         
@@ -176,12 +191,13 @@ Note: The kernel runs autonomously in the background.
         self.print_banner()
         print("Kernel initializing...\n")
         
-        await self.rpc_bridge.initialize()
-        
         kernel_task = asyncio.create_task(self.kernel.kernel_loop())
         input_task = asyncio.create_task(self.input_loop())
         
         print("⊘∞⧈∞⊘ Kernel is now running. Type 'help' for commands.\n")
+        
+        if self.kernel.self_prompting.enabled:
+            print("⊘∞⧈∞⊘ AUTONOMOUS MODE ACTIVE - Self-prompting enabled\n")
         
         try:
             await asyncio.gather(kernel_task, input_task)
