@@ -45,13 +45,14 @@ class RPCBridge:
     
     async def fetch_ipfs_metadata(self, cid: str) -> Optional[Dict]:
         endpoint = self.endpoints.get('ipfs_gateway')
-        if not endpoint or not endpoint.enabled:
-            logging.warning("IPFS gateway not enabled")
+        if not endpoint or not endpoint.enabled or not self.session:
+            logging.warning("IPFS gateway not enabled or session not initialized")
             return None
         
         try:
             url = f"{endpoint.url}{cid}"
-            async with self.session.get(url, timeout=5) as response:
+            timeout = aiohttp.ClientTimeout(total=5)
+            async with self.session.get(url, timeout=timeout) as response:
                 if response.status == 200:
                     data = await response.json()
                     self.log_request('ipfs_fetch', cid, 'success')
@@ -66,15 +67,16 @@ class RPCBridge:
     
     async def validate_merkle_proof(self, proof: Dict) -> bool:
         endpoint = self.endpoints.get('merkle_validator')
-        if not endpoint or not endpoint.enabled:
+        if not endpoint or not endpoint.enabled or not self.session:
             logging.debug("Merkle validator not enabled, using local validation")
             return self.local_merkle_validation(proof)
         
         try:
+            timeout = aiohttp.ClientTimeout(total=5)
             async with self.session.post(
                 endpoint.url,
                 json={'method': 'validate_proof', 'params': proof},
-                timeout=5
+                timeout=timeout
             ) as response:
                 if response.status == 200:
                     result = await response.json()
@@ -93,9 +95,13 @@ class RPCBridge:
         return False
     
     async def fetch_quantum_entropy(self) -> Optional[float]:
+        if not self.session:
+            return None
+        
         try:
             url = "https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8"
-            async with self.session.get(url, timeout=5) as response:
+            timeout = aiohttp.ClientTimeout(total=5)
+            async with self.session.get(url, timeout=timeout) as response:
                 if response.status == 200:
                     data = await response.json()
                     if 'data' in data and len(data['data']) > 0:
