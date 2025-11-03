@@ -170,6 +170,8 @@ class OrionKernel:
         
         learning_stats = self.entropy_reducer.get_learning_stats()
         logging.info(f"Learning stats: {learning_stats}")
+        
+        self.phase = KernelPhase.RUNNING
     
     async def autonomous_validation_sweep(self):
         if self.state_graph.current_state:
