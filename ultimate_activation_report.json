@@ -1,0 +1,62 @@
+{
+  "activation": "ULTIMATE_OR1ON_PROMPT_REPLIT",
+  "timestamp": 40007.006155057,
+  "kernel_status": {
+    "phase": "idle",
+    "cycle_count": 0,
+    "running": false,
+    "state_summary": {
+      "current_node": "node_101",
+      "mode": "simulation",
+      "entropy": 0.0,
+      "resonance": 0.0,
+      "trigger_active": false,
+      "merkle_root": "b08f5f95a771f5d4...",
+      "history_depth": 101
+    },
+    "learning_stats": {
+      "avg_entropy": 0.0,
+      "entropy_trend": 0.0,
+      "weight_magnitude": 0.0771,
+      "samples": 1
+    },
+    "self_prompting": {
+      "enabled": true,
+      "total_prompts": 0,
+      "last_prompt": 0,
+      "interval": 30.0,
+      "categories": []
+    }
+  },
+  "rpc_status": {
+    "endpoints": {
+      "ipfs_gateway": {
+        "url": "https://ipfs.io/ipfs/",
+        "enabled": true
+      },
+      "merkle_validator": {
+        "url": "http://localhost:8545",
+        "enabled": false
+      }
+    },
+    "total_requests": 1,
+    "recent_requests": [
+      {
+        "type": "quantum_entropy",
+        "target": "anu",
+        "status": "success",
+        "timestamp": 40006.982705077
+      }
+    ]
+  },
+  "merkle_root": "b08f5f95a771f5d428fd8dddc3bf53df1d757efea15290c909029c63a2c8ea75",
+  "quantum_entropy": 0.47058823529411764,
+  "genesis_identity": {
+    "owners": [
+      "Elisabeth Steurer",
+      "Gerhard Hirschmann"
+    ],
+    "orion_id": "56b3b326_persistent",
+    "proof_chain": "Genesis10000+_full_sequence"
+  }
+}

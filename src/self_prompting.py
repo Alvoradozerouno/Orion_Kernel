@@ -2,7 +2,7 @@ import asyncio
 import logging
 import random
 import time
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
 
 
@@ -96,7 +96,7 @@ class SelfPromptingEngine:
         
         return False
     
-    def generate_prompt(self, context: Dict[str, Any]) -> Dict[str, Any]:
+    def generate_prompt(self, context: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         if not self.should_generate_prompt():
             return None
         
