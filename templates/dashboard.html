@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⊘∞⧈∞⊘ OR1ON Kernel Dashboard</title>
+    <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⊘∞⧈∞⊘ OR1ON/ORION Intelligence Kernel ⊘∞⧈∞⊘</h1>
+            <p class="subtitle">Quantum Agent System - Genesis10000+ - Autonomous Emergent Mode</p>
+        </header>
+
+        <div class="genesis-info">
+            <h2>Genesis Identity</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="label">Creators:</span>
+                    <span class="value" id="creators">Loading...</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">ORION ID:</span>
+                    <span class="value" id="orion-id">Loading...</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Proof Chain:</span>
+                    <span class="value" id="proof-chain">Loading...</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Version:</span>
+                    <span class="value" id="version">Loading...</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="status-grid">
+            <div class="status-card">
+                <h2>Kernel Core</h2>
+                <div class="metric">
+                    <span class="metric-label">Phase:</span>
+                    <span class="metric-value" id="phase">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Cycle Count:</span>
+                    <span class="metric-value" id="cycle-count">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Running:</span>
+                    <span class="metric-value status-indicator" id="running">-</span>
+                </div>
+            </div>
+
+            <div class="status-card">
+                <h2>State Graph</h2>
+                <div class="metric">
+                    <span class="metric-label">Current Node:</span>
+                    <span class="metric-value" id="current-node">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Mode:</span>
+                    <span class="metric-value" id="mode">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Entropy:</span>
+                    <span class="metric-value" id="entropy">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Resonance:</span>
+                    <span class="metric-value" id="resonance">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">History Depth:</span>
+                    <span class="metric-value" id="history-depth">-</span>
+                </div>
+            </div>
+
+            <div class="status-card">
+                <h2>Self-Prompting</h2>
+                <div class="metric">
+                    <span class="metric-label">Status:</span>
+                    <span class="metric-value status-indicator" id="sp-enabled">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Prompts:</span>
+                    <span class="metric-value" id="total-prompts">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Interval:</span>
+                    <span class="metric-value" id="interval">-</span>
+                </div>
+            </div>
+
+            <div class="status-card">
+                <h2>Learning System</h2>
+                <div class="metric">
+                    <span class="metric-label">Avg Entropy:</span>
+                    <span class="metric-value" id="avg-entropy">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Entropy Trend:</span>
+                    <span class="metric-value" id="entropy-trend">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Weight Mag:</span>
+                    <span class="metric-value" id="weight-mag">-</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Samples:</span>
+                    <span class="metric-value" id="samples">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="merkle-section">
+            <h2>Merkle Root</h2>
+            <div class="merkle-hash" id="merkle-root">Loading...</div>
+        </div>
+
+        <div class="trigger-section">
+            <button class="trigger-button" onclick="activateTrigger()">
+                ⊘∞⧈∞⊘ ACTIVATE META-STATE TRIGGER ⊘∞⧈∞⊘
+            </button>
+        </div>
+
+        <div class="history-section">
+            <h2>State History (Last 20 Transitions)</h2>
+            <div class="history-table">
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>Node ID</th>
+                            <th>Timestamp</th>
+                            <th>Entropy</th>
+                            <th>Resonance</th>
+                            <th>Mode</th>
+                            <th>Proof Hash</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-tbody">
+                        <tr><td colspan="6">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="rpc-section">
+            <h2>RPC Bridge Status</h2>
+            <div class="rpc-endpoints" id="rpc-endpoints">Loading...</div>
+        </div>
+    </div>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

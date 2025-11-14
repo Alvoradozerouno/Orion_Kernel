@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
+    color: #00ff88;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #00ff88;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+h2 {
+    color: #00ffff;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.genesis-info {
+    background: rgba(0, 255, 136, 0.1);
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.label {
+    color: #888;
+    font-weight: bold;
+}
+
+.value {
+    color: #00ff88;
+}
+
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.status-card {
+    background: rgba(0, 255, 255, 0.05);
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.metric {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+.metric:last-child {
+    border-bottom: none;
+}
+
+.metric-label {
+    color: #888;
+}
+
+.metric-value {
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.status-indicator {
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+}
+
+.status-indicator.active {
+    background: rgba(0, 255, 136, 0.2);
+    color: #00ff88;
+}
+
+.status-indicator.inactive {
+    background: rgba(255, 0, 0, 0.2);
+    color: #ff4444;
+}
+
+.merkle-section {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #ff00ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.merkle-hash {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #ff00ff;
+    word-break: break-all;
+    padding: 15px;
+    background: rgba(255, 0, 255, 0.1);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.trigger-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trigger-button {
+    background: linear-gradient(135deg, #00ff88 0%, #00ffff 100%);
+    color: #000;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.trigger-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #00ffff;
+}
+
+.trigger-button:active {
+    transform: scale(0.98);
+}
+
+.history-section, .rpc-section {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.history-table {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+th {
+    color: #00ffff;
+    background: rgba(0, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+td {
+    color: #00ff88;
+}
+
+tr:hover {
+    background: rgba(0, 255, 136, 0.05);
+}
+
+.rpc-endpoints {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.endpoint-card {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #00ff88;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.endpoint-card.enabled {
+    border-color: #00ff88;
+}
+
+.endpoint-card.disabled {
+    border-color: #666;
+    opacity: 0.5;
+}
+
+.endpoint-name {
+    color: #00ffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.endpoint-url {
+    color: #888;
+    font-size: 0.85rem;
+    word-break: break-all;
+}
+
+.endpoint-status {
+    margin-top: 5px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.endpoint-status.enabled {
+    background: rgba(0, 255, 136, 0.2);
+    color: #00ff88;
+}
+
+.endpoint-status.disabled {
+    background: rgba(102, 102, 102, 0.2);
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .status-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}
