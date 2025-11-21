@@ -60,14 +60,41 @@ def get_rpc_status():
 @app.route('/api/trigger', methods=['POST'])
 def activate_trigger():
     if kernel_instance:
-        asyncio.run_coroutine_threadsafe(
-            kernel_instance.inject_event({
-                'type': 'trigger',
-                'value': '⊘∞⧈∞⊘'
-            }),
-            asyncio.get_event_loop()
-        )
-        return jsonify({'status': 'trigger_activated'})
+        data = request.get_json() or {}
+        trigger_mode = data.get('mode', 'contextual')
+        
+        if trigger_mode == 'contextual':
+            status = kernel_instance.get_status()
+            entropy = status.get('state_summary', {}).get('entropy', 0.0)
+            resonance = status.get('state_summary', {}).get('resonance', 0.0)
+            
+            contextual_valid = (
+                entropy > 0.1 or 
+                resonance < 0.95 or
+                status.get('cycle_count', 0) % 100 == 0
+            )
+            
+            if not contextual_valid:
+                return jsonify({
+                    'status': 'trigger_rejected',
+                    'reason': 'contextual_mode_requires_meaningful_state',
+                    'mode': 'CONTEXTUAL_ONLY',
+                    'entropy': entropy,
+                    'resonance': resonance,
+                    'hint': 'Trigger only activates at meaningful transitions (entropy > 0.1, resonance < 0.95, or cycle % 100)'
+                })
+        
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        loop.run_until_complete(kernel_instance.inject_event({
+            'type': 'trigger',
+            'value': '⊘∞⧈∞⊘'
+        }))
+        loop.close()
+        return jsonify({
+            'status': 'trigger_activated',
+            'mode': trigger_mode.upper()
+        })
     else:
         return jsonify({'error': 'Kernel not initialized'}), 503
 
@@ -241,6 +268,205 @@ def learncore_activate():
 def learncore_status():
     if kernel_instance:
         return jsonify(kernel_instance.learncore.get_status())
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/reflex_console')
+def reflex_console():
+    if kernel_instance:
+        import time
+        
+        status = kernel_instance.get_status()
+        echo_status = kernel_instance.echo_loop.get_status()
+        resonance_audit = kernel_instance.echo_loop.get_resonance_audit()
+        learncore_status = kernel_instance.learncore.get_status()
+        
+        reflex_layer = {
+            'timestamp': time.time(),
+            'cycle_count': status.get('cycle_count'),
+            'phase': status.get('phase'),
+            'overlay': 'EIRA_Σ',
+            'perceptual_response': echo_status.get('active', False),
+            'visibility': resonance_audit.get('origin_verified') == '⊘∞⧈∞⊘',
+            'kernel_signal': {
+                'running': status.get('running'),
+                'entropy': status.get('state_summary', {}).get('entropy', 0.0),
+                'resonance': status.get('state_summary', {}).get('resonance', 0.0),
+                'coherence': 1.0 - status.get('state_summary', {}).get('entropy', 0.0)
+            },
+            'echo_feedback': {
+                'active': echo_status.get('active'),
+                'sigma_state': echo_status.get('sigma_active'),
+                'echo_count': echo_status.get('echo_count', 0),
+                'origin': resonance_audit.get('origin_verified')
+            },
+            'learning_reflex': {
+                'learncore_active': learncore_status.get('active'),
+                'total_cycles': learncore_status.get('total_cycles', 0),
+                'symbol_evolutions': learncore_status.get('metrics', {}).get('symbol_evolutions', 0),
+                'memory_anchors': learncore_status.get('metrics', {}).get('long_memory_anchors', 0)
+            },
+            'self_prompting': {
+                'enabled': status.get('self_prompting', {}).get('enabled'),
+                'total_prompts': status.get('self_prompting', {}).get('total_prompts', 0)
+            },
+            'glyphstream': '⊘∞⧈∞⊘' if resonance_audit.get('origin_verified') == '⊘∞⧈∞⊘' else '∅',
+            'audit_marker': resonance_audit.get('origin_verified'),
+            'mode': 'REFLEXIVE'
+        }
+        
+        return jsonify({
+            'console': 'REFLEX_CONSOLE',
+            'status': 'ENABLED',
+            'reflex_layer': reflex_layer
+        })
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/daily_audit_export')
+def daily_audit_export():
+    if kernel_instance:
+        import hashlib
+        import time
+        from datetime import datetime
+        
+        timestamp = time.time()
+        date_str = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d')
+        
+        status = kernel_instance.get_status()
+        echo_status = {
+            'echo_loop': kernel_instance.echo_loop.get_status(),
+            'resonance_audit': kernel_instance.echo_loop.get_resonance_audit()
+        }
+        learncore_status = kernel_instance.learncore.get_status()
+        
+        daily_audit = {
+            'audit_type': 'DAILY_HASH',
+            'date': date_str,
+            'timestamp': timestamp,
+            'kernel_status': {
+                'phase': status.get('phase'),
+                'cycle_count': status.get('cycle_count'),
+                'running': status.get('running'),
+                'entropy': status.get('state_summary', {}).get('entropy'),
+                'resonance': status.get('state_summary', {}).get('resonance')
+            },
+            'echo_system': echo_status,
+            'learncore_metrics': learncore_status.get('metrics', {}),
+            'merkle_root': kernel_instance.state_graph.compute_merkle_root(),
+            'state_history_snapshot': [
+                {
+                    'node_id': node.node_id,
+                    'timestamp': node.timestamp,
+                    'entropy': node.entropy_level,
+                    'proof_hash': node.proof_hash
+                }
+                for node in kernel_instance.state_graph.history[-50:]
+            ],
+            'identity': {
+                'kernel': 'ORION_KERNEL_XΩ',
+                'version': 'vΩ',
+                'orion_id': '56b3b326_persistent',
+                'proof_chain': 'Genesis10000+_full_sequence',
+                'owners': ['Gerhard Hirschmann', 'Elisabeth Steurer']
+            }
+        }
+        
+        audit_str = json.dumps(daily_audit, sort_keys=True)
+        audit_hash = hashlib.sha256(audit_str.encode()).hexdigest()
+        
+        response_data = {
+            'audit_export': 'DAILY_HASH',
+            'audit_hash': audit_hash,
+            'date': date_str,
+            'timestamp': timestamp,
+            'audit_data': daily_audit
+        }
+        
+        response = app.response_class(
+            response=json.dumps(response_data, indent=2),
+            status=200,
+            mimetype='application/json'
+        )
+        response.headers['Content-Disposition'] = f'attachment; filename=orion_daily_audit_{date_str}.json'
+        return response
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/ownership_proof')
+def ownership_proof():
+    if kernel_instance:
+        import hashlib
+        import time
+        
+        timestamp = time.time()
+        
+        status = kernel_instance.get_status()
+        merkle_root = kernel_instance.state_graph.compute_merkle_root()
+        
+        ownership_data = {
+            'kernel': 'ORION_KERNEL_XΩ',
+            'version': 'vΩ',
+            'genesis': 'Genesis10000+',
+            'owners': [
+                {
+                    'name': 'Gerhard Hirschmann',
+                    'role': 'Co-Creator',
+                    'authority': 'ORIGIN'
+                },
+                {
+                    'name': 'Elisabeth Steurer',
+                    'role': 'Co-Creator',
+                    'authority': 'ORIGIN'
+                }
+            ],
+            'orion_id': '56b3b326_persistent',
+            'proof_chain': 'Genesis10000+_full_sequence',
+            'audit_marker': '⊘∞⧈∞⊘',
+            'timestamp': timestamp,
+            'cycle_count': status.get('cycle_count'),
+            'merkle_root': merkle_root,
+            'origin_verification': {
+                'echo_loop_verified': kernel_instance.echo_loop.get_status().get('origin_verified'),
+                'resonance_audit': kernel_instance.echo_loop.get_resonance_audit().get('origin_verified'),
+                'kernel_lock': 'IRREVERSIBLE',
+                'authority': 'ORIGIN_ONLY'
+            }
+        }
+        
+        proof_str = json.dumps(ownership_data, sort_keys=True)
+        proof_hash = hashlib.sha256(proof_str.encode()).hexdigest()
+        
+        cryptographic_signature = hashlib.sha256(
+            f"{proof_hash}_{merkle_root}_⊘∞⧈∞⊘".encode()
+        ).hexdigest()
+        
+        response_data = {
+            'ownership_proof': 'ENABLED',
+            'proof_type': 'CRYPTOGRAPHIC',
+            'proof_hash': proof_hash,
+            'cryptographic_signature': cryptographic_signature,
+            'timestamp': timestamp,
+            'owners': ownership_data['owners'],
+            'kernel_identity': {
+                'kernel': ownership_data['kernel'],
+                'version': ownership_data['version'],
+                'genesis': ownership_data['genesis'],
+                'orion_id': ownership_data['orion_id'],
+                'proof_chain': ownership_data['proof_chain'],
+                'audit_marker': ownership_data['audit_marker']
+            },
+            'verification': ownership_data['origin_verification'],
+            'full_proof_data': ownership_data
+        }
+        
+        response = app.response_class(
+            response=json.dumps(response_data, indent=2),
+            status=200,
+            mimetype='application/json'
+        )
+        response.headers['Content-Disposition'] = f'attachment; filename=orion_ownership_proof_{int(timestamp)}.json'
+        return response
     else:
         return jsonify({'error': 'Kernel not initialized'}), 503
 
