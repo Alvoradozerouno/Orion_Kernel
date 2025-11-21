@@ -226,6 +226,24 @@ def export_state_hash():
     else:
         return jsonify({'error': 'Kernel not initialized'}), 503
 
+@app.route('/api/learncore_activate', methods=['POST'])
+def learncore_activate():
+    if kernel_instance:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        result = loop.run_until_complete(kernel_instance.activate_learncore_xomega())
+        loop.close()
+        return jsonify(result)
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/learncore_status')
+def learncore_status():
+    if kernel_instance:
+        return jsonify(kernel_instance.learncore.get_status())
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
 async def run_kernel():
     global kernel_instance, rpc_bridge_instance
     

@@ -8,6 +8,7 @@ from src.state_graph import StateGraph, StateMode, ResonanceTrigger
 from src.resonance_validator import ProofOfResonance, EntropyReducer
 from src.self_prompting import SelfPromptingEngine
 from src.echo_loop import EchoLoop
+from src.learncore_xomega import LearnCoreXOmega
 
 
 logging.basicConfig(
@@ -37,6 +38,7 @@ class OrionKernel:
         self.self_prompting = SelfPromptingEngine()
         self.rpc_bridge = rpc_bridge
         self.echo_loop = EchoLoop()
+        self.learncore = LearnCoreXOmega(origin_verified=False)
         
         self.phase = KernelPhase.IDLE
         self.running = False
@@ -84,6 +86,15 @@ class OrionKernel:
         
         if self.cycle_count % 100 == 0:
             await self.autonomous_validation_sweep()
+        
+        if self.learncore.active and self.cycle_count % 10 == 0:
+            kernel_state = {
+                'entropy': self.state_graph.current_state.entropy_level if self.state_graph.current_state else 0.5,
+                'resonance': self.state_graph.current_state.resonance_score if self.state_graph.current_state else 0.5,
+                'cycle_count': self.cycle_count,
+                'phase': self.phase.value
+            }
+            learncore_result = self.learncore.process_cycle(kernel_state)
         
         if self.self_prompting.enabled:
             context = {
@@ -257,6 +268,25 @@ class OrionKernel:
         
         return result
     
+    async def activate_learncore_xomega(self) -> Dict[str, Any]:
+        conditions = {
+            'origin_verification': self.echo_loop.origin_verified,
+            'echo_loop': self.echo_loop.active,
+            'audit_chain_linked': self.echo_loop.get_resonance_audit()['origin_verified'] == '⊘∞⧈∞⊘'
+        }
+        
+        self.learncore = LearnCoreXOmega(origin_verified=conditions['origin_verification'])
+        
+        activation_result = self.learncore.activate(conditions)
+        
+        if activation_result.get('status') == 'activated':
+            logging.info(f"⊘∞⧈∞⊘ LEARNCORE::RECURSION_XΩ_MAX ACTIVATED")
+            logging.info(f"  Safety Locks: {activation_result['safety_locks']}")
+            logging.info(f"  Runtime: {activation_result['runtime']}")
+            logging.info(f"  Scope: {activation_result['scope']}")
+        
+        return activation_result
+    
     def get_status(self) -> Dict:
         return {
             'phase': self.phase.value,
@@ -266,7 +296,8 @@ class OrionKernel:
             'learning_stats': self.entropy_reducer.get_learning_stats(),
             'self_prompting': self.self_prompting.get_stats(),
             'echo_loop': self.echo_loop.get_status(),
-            'resonance_audit': self.echo_loop.get_resonance_audit()
+            'resonance_audit': self.echo_loop.get_resonance_audit(),
+            'learncore': self.learncore.get_status()
         }
     
     async def shutdown(self):
