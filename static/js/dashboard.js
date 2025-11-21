@@ -38,6 +38,20 @@ function updateDashboard() {
             if (data.merkle_root) {
                 document.getElementById('merkle-root').textContent = data.merkle_root;
             }
+            
+            if (data.echo_loop) {
+                const echoActiveEl = document.getElementById('echo-active');
+                echoActiveEl.textContent = data.echo_loop.active ? 'ACTIVE' : 'INACTIVE';
+                echoActiveEl.className = 'metric-value status-indicator ' + (data.echo_loop.active ? 'active' : 'inactive');
+                
+                document.getElementById('origin-verified').textContent = data.echo_loop.origin_verified ? '⊘∞⧈∞⊘' : 'FALSE';
+                
+                const sigmaStateEl = document.getElementById('sigma-state');
+                sigmaStateEl.textContent = data.echo_loop.sigma_active ? 'Σ-ACTIVE' : 'INACTIVE';
+                sigmaStateEl.className = 'metric-value status-indicator ' + (data.echo_loop.sigma_active ? 'active' : 'inactive');
+                
+                document.getElementById('echo-count').textContent = data.echo_loop.echo_count;
+            }
         })
         .catch(error => console.error('Error fetching status:', error));
 }
@@ -114,6 +128,80 @@ function activateTrigger() {
             console.error('Error activating trigger:', error);
             alert('Failed to activate trigger');
         });
+}
+
+function activateSigma() {
+    fetch('/api/sigma_activate', { method: 'POST' })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'activated') {
+                alert('⊘∞⧈∞⊘ Σ-ACTIVATION SUCCESSFUL ⊘∞⧈∞⊘\n\nActivation Hash: ' + data.activation_hash.substring(0, 16) + '...');
+                setTimeout(() => {
+                    updateDashboard();
+                    updateEchoStatus();
+                }, 1000);
+            } else {
+                alert('Σ-Activation failed: ' + (data.reason || 'Unknown error'));
+            }
+        })
+        .catch(error => {
+            console.error('Error activating Sigma:', error);
+            alert('Failed to activate Σ-system');
+        });
+}
+
+function triggerSigmaResonance() {
+    const strength = prompt('Enter Σ-Resonance strength (0.0 - 2.0):', '1.0');
+    if (strength === null) return;
+    
+    const strengthValue = parseFloat(strength);
+    if (isNaN(strengthValue) || strengthValue < 0 || strengthValue > 2.0) {
+        alert('Invalid strength value. Must be between 0.0 and 2.0');
+        return;
+    }
+    
+    fetch('/api/sigma_trigger', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ strength: strengthValue })
+    })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'triggered') {
+                alert('Σ-RESONANZ TRIGGERED!\n\nStrength: ' + strengthValue + '\nHash: ' + data.sigma_hash.substring(0, 16) + '...\nAmplification: ' + data.echo_amplification);
+                setTimeout(() => {
+                    updateDashboard();
+                    updateEchoStatus();
+                }, 1000);
+            } else {
+                alert('Σ-Resonance trigger failed: ' + (data.message || 'Unknown error'));
+            }
+        })
+        .catch(error => {
+            console.error('Error triggering Sigma resonance:', error);
+            alert('Failed to trigger Σ-resonance');
+        });
+}
+
+function updateEchoStatus() {
+    fetch('/api/echo_status')
+        .then(response => response.json())
+        .then(data => {
+            if (data.echo_loop) {
+                const echoActiveEl = document.getElementById('echo-active');
+                echoActiveEl.textContent = data.echo_loop.active ? 'ACTIVE' : 'INACTIVE';
+                echoActiveEl.className = 'metric-value status-indicator ' + (data.echo_loop.active ? 'active' : 'inactive');
+                
+                document.getElementById('origin-verified').textContent = data.echo_loop.origin_verified ? '⊘∞⧈∞⊘' : 'FALSE';
+                
+                const sigmaStateEl = document.getElementById('sigma-state');
+                sigmaStateEl.textContent = data.echo_loop.sigma_active ? 'Σ-ACTIVE' : 'INACTIVE';
+                sigmaStateEl.className = 'metric-value status-indicator ' + (data.echo_loop.sigma_active ? 'active' : 'inactive');
+                
+                document.getElementById('echo-count').textContent = data.echo_loop.echo_count;
+            }
+        })
+        .catch(error => console.error('Error fetching echo status:', error));
 }
 
 function init() {

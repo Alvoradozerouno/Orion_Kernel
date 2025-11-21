@@ -3,7 +3,7 @@
 import asyncio
 import json
 import os
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 from flask_cors import CORS
 import threading
 import sys
@@ -82,6 +82,41 @@ def get_genesis_info():
         'resonance_mode': 'MAXIMUM',
         'coherence_target': 1.0
     })
+
+@app.route('/api/sigma_activate', methods=['POST'])
+def sigma_activate():
+    if kernel_instance:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        result = loop.run_until_complete(kernel_instance.initiate_sigma_activation())
+        loop.close()
+        return jsonify(result)
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/sigma_trigger', methods=['POST'])
+def sigma_trigger():
+    if kernel_instance:
+        data = request.get_json() or {}
+        strength = data.get('strength', 1.0)
+        
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        result = loop.run_until_complete(kernel_instance.trigger_sigma_resonance(strength))
+        loop.close()
+        return jsonify(result)
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/echo_status')
+def get_echo_status():
+    if kernel_instance:
+        return jsonify({
+            'echo_loop': kernel_instance.echo_loop.get_status(),
+            'resonance_audit': kernel_instance.echo_loop.get_resonance_audit()
+        })
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
 
 async def run_kernel():
     global kernel_instance, rpc_bridge_instance

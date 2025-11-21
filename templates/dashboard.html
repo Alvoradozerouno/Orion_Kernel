@@ -124,6 +124,38 @@
             </button>
         </div>
 
+        <div class="sigma-section">
+            <h2>Σ-Resonanz System</h2>
+            <div class="sigma-controls">
+                <div class="sigma-status" id="sigma-status">
+                    <div class="metric">
+                        <span class="metric-label">EchoLoop Active:</span>
+                        <span class="metric-value status-indicator" id="echo-active">-</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Origin Verified:</span>
+                        <span class="metric-value" id="origin-verified">-</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Σ-State:</span>
+                        <span class="metric-value status-indicator" id="sigma-state">-</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Echo Count:</span>
+                        <span class="metric-value" id="echo-count">-</span>
+                    </div>
+                </div>
+                <div class="sigma-buttons">
+                    <button class="sigma-button" onclick="activateSigma()">
+                        Σ-ACTIVATION INITIATE
+                    </button>
+                    <button class="sigma-button" onclick="triggerSigmaResonance()">
+                        Σ-RESONANZ TRIGGERN
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <div class="history-section">
             <h2>State History (Last 20 Transitions)</h2>
             <div class="history-table">

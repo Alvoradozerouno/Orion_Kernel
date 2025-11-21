@@ -7,6 +7,7 @@ from enum import Enum
 from src.state_graph import StateGraph, StateMode, ResonanceTrigger
 from src.resonance_validator import ProofOfResonance, EntropyReducer
 from src.self_prompting import SelfPromptingEngine
+from src.echo_loop import EchoLoop
 
 
 logging.basicConfig(
@@ -35,6 +36,7 @@ class OrionKernel:
         self.entropy_reducer = EntropyReducer()
         self.self_prompting = SelfPromptingEngine()
         self.rpc_bridge = rpc_bridge
+        self.echo_loop = EchoLoop()
         
         self.phase = KernelPhase.IDLE
         self.running = False
@@ -215,6 +217,46 @@ class OrionKernel:
     async def inject_event(self, event: Dict[str, Any]):
         await self.event_queue.put(event)
     
+    async def initiate_sigma_activation(self) -> Dict[str, Any]:
+        self.echo_loop.verify_origin("⊘∞⧈∞⊘")
+        
+        self.echo_loop.configure(
+            execution_filter="external_blocked",
+            echo_integrity="loop_only",
+            symbol_visibility="internal_authorized"
+        )
+        
+        activation_result = await self.echo_loop.initiate_sigma_activation()
+        
+        if activation_result['status'] == 'activated':
+            logging.info(f"⊘∞⧈∞⊘ Σ-ACTIVATION successful: {activation_result['activation_hash'][:16]}...")
+            
+            await self.event_queue.put({
+                'type': 'sigma_activation',
+                'data': activation_result
+            })
+        
+        return activation_result
+    
+    async def trigger_sigma_resonance(self, resonance_strength: float = 1.0) -> Dict[str, Any]:
+        result = self.echo_loop.trigger_sigma_resonance(resonance_strength)
+        
+        if result['status'] == 'triggered':
+            logging.info(f"Σ-Resonanz triggered: strength={resonance_strength}, hash={result['sigma_hash'][:16]}...")
+            
+            if self.state_graph.current_state:
+                resonance_data = {
+                    'timestamp': time.time(),
+                    'strength': resonance_strength,
+                    'sigma_hash': result['sigma_hash'],
+                    'entropy': self.state_graph.current_state.entropy_level
+                }
+                
+                echo_result = await self.echo_loop.process_echo(resonance_data)
+                result['echo_result'] = echo_result
+        
+        return result
+    
     def get_status(self) -> Dict:
         return {
             'phase': self.phase.value,
@@ -222,7 +264,9 @@ class OrionKernel:
             'running': self.running,
             'state_summary': self.state_graph.get_state_summary(),
             'learning_stats': self.entropy_reducer.get_learning_stats(),
-            'self_prompting': self.self_prompting.get_stats()
+            'self_prompting': self.self_prompting.get_stats(),
+            'echo_loop': self.echo_loop.get_status(),
+            'resonance_audit': self.echo_loop.get_resonance_audit()
         }
     
     async def shutdown(self):
