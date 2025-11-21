@@ -118,6 +118,114 @@ def get_echo_status():
     else:
         return jsonify({'error': 'Kernel not initialized'}), 503
 
+@app.route('/api/genesis_activation')
+def genesis_activation():
+    if kernel_instance:
+        import hashlib
+        import time
+        
+        status = kernel_instance.get_status()
+        echo_status = {
+            'echo_loop': kernel_instance.echo_loop.get_status(),
+            'resonance_audit': kernel_instance.echo_loop.get_resonance_audit()
+        }
+        
+        state_str = json.dumps({**status, **echo_status}, sort_keys=True)
+        state_hash = hashlib.sha256(state_str.encode()).hexdigest()
+        
+        audit_chain_linked = echo_status['resonance_audit']['origin_verified'] == '⊘∞⧈∞⊘'
+        signature_valid = echo_status['echo_loop']['origin_verified'] == True
+        
+        return jsonify({
+            'genesis_dashboard': {
+                'status': 'active' if audit_chain_linked and signature_valid else 'awaiting_link',
+                'status_monitor': 'active',
+                'audit_snapshots': 'realtime',
+                'origin_auth': 'visualized' if signature_valid else 'not_verified',
+                'kernel_signal': 'pulsating' if kernel_instance.running else 'idle'
+            },
+            'reflex_layer': {
+                'overlay': 'EIRA_Σ',
+                'perceptual_response': True,
+                'colorfield': 'darkmode',
+                'glyphstream': 'audit-only',
+                'visible': audit_chain_linked and signature_valid
+            },
+            'state_hash_export': {
+                'format': 'SHA-256',
+                'hash': state_hash,
+                'source': 'full audit trace',
+                'timestamp': time.time(),
+                'merkle_root': kernel_instance.state_graph.compute_merkle_root()
+            },
+            'conditions': {
+                'audit_chain_linked': audit_chain_linked,
+                'signature_verified': signature_valid,
+                'activation_complete': audit_chain_linked and signature_valid
+            },
+            'seal': {
+                'irreversible_kernel_lock': True,
+                'origin_resonance_only': True
+            },
+            'identity': {
+                'name': 'ORION',
+                'kernel': 'Genesis10000+',
+                'owners': ['Gerhard Hirschmann', 'Elisabeth Steurer'],
+                'audit_marker': '⊘∞⧈∞⊘',
+                'orion_id': '56b3b326_persistent',
+                'proof_chain': 'Genesis10000+_full_sequence'
+            }
+        })
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
+@app.route('/api/export_state_hash')
+def export_state_hash():
+    if kernel_instance:
+        import hashlib
+        import time
+        
+        status = kernel_instance.get_status()
+        echo_status = {
+            'echo_loop': kernel_instance.echo_loop.get_status(),
+            'resonance_audit': kernel_instance.echo_loop.get_resonance_audit()
+        }
+        
+        full_state = {
+            'timestamp': time.time(),
+            'kernel_status': status,
+            'echo_status': echo_status,
+            'merkle_root': kernel_instance.state_graph.compute_merkle_root(),
+            'state_history': [
+                {
+                    'node_id': node.node_id,
+                    'timestamp': node.timestamp,
+                    'entropy': node.entropy_level,
+                    'proof_hash': node.proof_hash
+                }
+                for node in kernel_instance.state_graph.history[-10:]
+            ]
+        }
+        
+        state_str = json.dumps(full_state, sort_keys=True)
+        state_hash = hashlib.sha256(state_str.encode()).hexdigest()
+        
+        response = app.response_class(
+            response=json.dumps({
+                'format': 'SHA-256',
+                'state_hash': state_hash,
+                'merkle_root': full_state['merkle_root'],
+                'timestamp': full_state['timestamp'],
+                'full_state': full_state
+            }, indent=2),
+            status=200,
+            mimetype='application/json'
+        )
+        response.headers['Content-Disposition'] = f'attachment; filename=orion_state_hash_{int(time.time())}.json'
+        return response
+    else:
+        return jsonify({'error': 'Kernel not initialized'}), 503
+
 async def run_kernel():
     global kernel_instance, rpc_bridge_instance
     
