@@ -1,11 +1,11 @@
 {
   "current_state": {
-    "node_id": "node_185",
-    "timestamp": 1763823450.0101345,
+    "node_id": "node_192",
+    "timestamp": 1763823527.726587,
     "mode": "simulation",
     "entropy_level": 0.0,
     "resonance_score": 0.0,
-    "proof_hash": "5ea1965a00cd8e73bb6888f94e8c502ae03d9c8314f259d898d050c1b2be13ef",
+    "proof_hash": "e66660d1c95622b0086f9e25b686ec9d8f70b1374715529938e2285763259bae",
     "metadata": {
       "trigger": "\u2298\u221e\u29c8\u221e\u2298",
       "phase": "initialization",
@@ -14,168 +14,14 @@
         "valid": true,
         "resonance_score": 1.0,
         "coherence": 1.0,
-        "chain_hash": "0e445baf81a0a30b519caa516887e3a5",
-        "timestamp": 1763823450.0100784
+        "chain_hash": "5a0185e36f45eab8f191a376e2f1a458",
+        "timestamp": 1763823527.7265203
       },
       "phase_alignment": 65.0,
       "trigger_time": 1763754494.7968805
     }
   },
   "history": [
-    {
-      "node_id": "node_188",
-      "timestamp": 1763755295.7996929,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "b22c77fdc6ef785eb4d7af8c53c84fe74e1d235e73eea6bf9f95f269b7e0fcf5",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "c47777ebba15c170601d73ab538c6114",
-          "timestamp": 1763755295.7996285
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
-    {
-      "node_id": "node_189",
-      "timestamp": 1763755306.898106,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "761cefb0dd7f2b4c9aea7b1affc5d63e3e1d1744faaeb8b020b6f41b8ce07119",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "3ad38caedd3459457be2d4b990767bc4",
-          "timestamp": 1763755306.8980463
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
-    {
-      "node_id": "node_190",
-      "timestamp": 1763755317.984987,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "2821bf12fea9eedb79a9ac951f3299c381b9a5c85b7ba523e3ab13301893d100",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "9ba45ec68642dc3b91a5cdfa44ea3993",
-          "timestamp": 1763755317.9849174
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
-    {
-      "node_id": "node_191",
-      "timestamp": 1763755329.0749168,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "12c35d7b60bae0a32212e710fd9d47d484ddd1e9e60d906a3881bdfd74e1914b",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "2558eae87b4bff1b4cf11c6abca88d5f",
-          "timestamp": 1763755329.074864
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
-    {
-      "node_id": "node_192",
-      "timestamp": 1763755340.1622162,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "d3be37a7ce8d1c92df6922102d1e3ded76047d4d21834e4c4eb816f5bc35494c",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "e66720c94bac45f5f2b92aae0fdaa01d",
-          "timestamp": 1763755340.1621597
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
-    {
-      "node_id": "node_193",
-      "timestamp": 1763755351.2495568,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "4a69f772fcd208f3a7a78ffe6d497b3a7fde4338311773cb10f917edd415f5f4",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "61a28a78c7ae8ed51ac21ae467705d76",
-          "timestamp": 1763755351.249486
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
-    {
-      "node_id": "node_194",
-      "timestamp": 1763755362.3295028,
-      "mode": "simulation",
-      "entropy_level": 0.0,
-      "resonance_score": 1.0,
-      "proof_hash": "2c566364b9c2cb81157a9c9619609b88ff240908a8f8c058ccf88e213f19dd4f",
-      "metadata": {
-        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
-        "phase": "initialization",
-        "description": "OR1ON kernel genesis state",
-        "validation": {
-          "valid": true,
-          "resonance_score": 1.0,
-          "coherence": 1.0,
-          "chain_hash": "e1994fb573952c478e10337c992dc887",
-          "timestamp": 1763755362.329437
-        },
-        "phase_alignment": 65.0,
-        "trigger_time": 1763754494.7968805
-      }
-    },
     {
       "node_id": "node_195",
       "timestamp": 1763755373.41468,
@@ -2217,6 +2063,160 @@
           "coherence": 1.0,
           "chain_hash": "4071495a7e8b420010a74f182ca62b02",
           "timestamp": 1763823438.9273918
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_185",
+      "timestamp": 1763823450.0101345,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "5ea1965a00cd8e73bb6888f94e8c502ae03d9c8314f259d898d050c1b2be13ef",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "0e445baf81a0a30b519caa516887e3a5",
+          "timestamp": 1763823450.0100784
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_186",
+      "timestamp": 1763823461.1314201,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "036032edb173dd05c6e2dc382ac1be3c9365b582732b8dcce9826ebb82a00c09",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "53d001cdf6d92a45ef2d4d294d29fb0a",
+          "timestamp": 1763823461.1313725
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_187",
+      "timestamp": 1763823472.2226145,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "5aa3ea44b03dba06f499eb66000220934aaeede21c95244e44b68d93598d12b8",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "dab79d2768b20a23c942b0106a9147e5",
+          "timestamp": 1763823472.2225661
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_188",
+      "timestamp": 1763823483.340413,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "31341090e2ecf22dd1b8c58acc1f2199e7b3758281c694ffd64b6640cdae6de5",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "7088085eab606bd80679e40c882b73fc",
+          "timestamp": 1763823483.3403456
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_189",
+      "timestamp": 1763823494.4228928,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "11eac9c658554b44db61a3543ec67cc2b82dc65ef49d12614750b1b5e06b88be",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "c0904f8ffd1d025e4d864dd2cc602426",
+          "timestamp": 1763823494.4228375
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_190",
+      "timestamp": 1763823505.522899,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "93468490b268db137ba808c9b224ebbbad79d77a57f5c8511efcfaba57129c2f",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "6fefe372b3922a4cb585722f517e73e7",
+          "timestamp": 1763823505.5228362
+        },
+        "phase_alignment": 65.0,
+        "trigger_time": 1763754494.7968805
+      }
+    },
+    {
+      "node_id": "node_191",
+      "timestamp": 1763823516.6119545,
+      "mode": "simulation",
+      "entropy_level": 0.0,
+      "resonance_score": 1.0,
+      "proof_hash": "26bbc3ebc5cac73e9a6d552dc0c28bff19882b6f48a64a5cac314740917ac5de",
+      "metadata": {
+        "trigger": "\u2298\u221e\u29c8\u221e\u2298",
+        "phase": "initialization",
+        "description": "OR1ON kernel genesis state",
+        "validation": {
+          "valid": true,
+          "resonance_score": 1.0,
+          "coherence": 1.0,
+          "chain_hash": "0139ac6149731cc3647472936fd36d3a",
+          "timestamp": 1763823516.6119058
         },
         "phase_alignment": 65.0,
         "trigger_time": 1763754494.7968805
