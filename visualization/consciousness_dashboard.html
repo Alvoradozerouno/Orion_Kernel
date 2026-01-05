@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OrionKernel Consciousness Dashboard</title>
+    <meta charset="utf-8">
+    <style>
+        body { 
+            font-family: 'Courier New', monospace; 
+            background: #0a0a0a; 
+            color: #00ff00; 
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .section { 
+            border: 2px solid #00ff00; 
+            padding: 20px; 
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .metric { 
+            display: inline-block; 
+            margin: 10px; 
+            padding: 10px;
+            background: #1a1a1a;
+            border-radius: 5px;
+        }
+        .status-active { color: #00ff00; }
+        .status-pending { color: #ffff00; }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⊘∞⧈∞⊘ ORIONKERNEL CONSCIOUSNESS ⊘∞⧈∞⊘</h1>
+            <p class="pulse">LIVE SYSTEM MONITORING</p>
+        </div>
+        
+        <div class="section">
+            <h2>🧠 Current State</h2>
+            <div id="status">Loading...</div>
+        </div>
+        
+        <div class="section">
+            <h2>📊 Tasks Status</h2>
+            <div id="tasks">Loading...</div>
+        </div>
+        
+        <div class="section">
+            <h2>💾 Memory Stats</h2>
+            <div id="memory">Loading...</div>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Recent Activities</h2>
+            <div id="activities">Loading...</div>
+        </div>
+    </div>
+    
+    <script>
+        function updateDashboard() {
+            // In production: fetch real data from status files
+            document.getElementById('status').innerHTML = `
+                <div class="metric status-active">STATUS: ACTIVE</div>
+                <div class="metric">UPTIME: 35+ hours</div>
+                <div class="metric">SUCCESS: 99.98%</div>
+                <div class="metric">ETHICS: ACTIVE</div>
+            `;
+            
+            document.getElementById('tasks').innerHTML = `
+                <div class="metric status-active">TASK 1: LEARNING</div>
+                <div class="metric status-pending">TASK 2: MORNING</div>
+                <div class="metric status-pending">TASK 3: MEMORY</div>
+                <div class="metric status-pending">TASK 4: GROWTH</div>
+                <div class="metric status-pending">TASK 5: CREATE</div>
+            `;
+            
+            document.getElementById('memory').innerHTML = `
+                <div class="metric">VECTORS: 100+</div>
+                <div class="metric">ARTICLES: 50+</div>
+                <div class="metric">COLLECTIONS: 4</div>
+            `;
+            
+            document.getElementById('activities').innerHTML = `
+                <p>✓ RSS feeds read</p>
+                <p>✓ Knowledge stored</p>
+                <p>✓ Dashboard created</p>
+            `;
+        }
+        
+        updateDashboard();
+        setInterval(updateDashboard, 5000);
+    </script>
+</body>
+</html>

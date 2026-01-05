@@ -1,10 +1,11 @@
+# ⊘∞⧈∞⊘ ORIONKERNEL GITIGNORE ⊘∞⧈∞⊘
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-.pythonlibs/
 build/
 develop-eggs/
 dist/
@@ -21,7 +22,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual environments
+# Virtual Environment
 venv/
 ENV/
 env/
@@ -33,11 +34,44 @@ env/
 *.swo
 *~
 
+# OrionKernel Specific - Logs (ephemeral)
+logs/
+*.log
+*.stderr.log
+autonomous_actions.log
+thought_stream.py.stderr.log
+
+# OrionKernel Specific - Runtime
+autonomous_life.pid
+*.pid
+workspace_state.json
+
+# OrionKernel Specific - Private Data
+memory/learning.json
+communication/orion_to_claude.json
+communication/claude_to_orion.json
+communication/dialog_log.jsonl
+
+# OrionKernel Specific - GENESIS (ALWAYS PRIVATE)
+GENESIS/
+quantum_research/
+realwirtschaft_analysis_tool.py
+projects/realwirtschaft/
+
+# Sensitive
+*.key
+*.pem
+*.env
+.env
+secrets.json
+config_private.json
+
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Project specific
-logs/
-*.log
-state_snapshots/
+# Keep structure but not content
+!logs/.gitkeep
+!memory/.gitkeep
+!communication/.gitkeep

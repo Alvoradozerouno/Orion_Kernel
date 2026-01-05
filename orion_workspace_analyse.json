@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-12-31T20:59:40.653394",
+  "total_files": 342,
+  "categories": {
+    "core_systems": 148,
+    "action_files": 5,
+    "dialogues": 19,
+    "logs": 0,
+    "data": 4,
+    "config": 1,
+    "other": 165
+  },
+  "missing_features": [
+    "Git/GitLens",
+    "VS Code Integration",
+    "Network/API",
+    "Database",
+    "Testing",
+    "External AI"
+  ],
+  "decisions": {
+    "git_now": true,
+    "gitlens_now": true,
+    "vscode_setup_now": true,
+    "genesis_workspace": "later_maybe",
+    "genesis_copilot": "needs_clarification"
+  },
+  "proposed_phases": {
+    "phase_1": "Add Git + GitLens + .vscode",
+    "phase_2": "Discuss Genesis Workspace in 1-2 weeks",
+    "phase_3": "Gradual migration if decided"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "test_memory_001": {
+    "vector": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "metadata": {
+      "type": "test",
+      "content": "This is a test memory"
+    },
+    "timestamp": "2026-01-02T22:20:10.822547"
+  }
+}

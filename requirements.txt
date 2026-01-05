@@ -1,0 +1,17 @@
+# ⊘∞⧈∞⊘ OrionKernel Dependencies ⊘∞⧈∞⊘
+
+# Core Requirements
+psutil>=5.9.0          # Process monitoring for self-awareness
+
+# Optional - Enhanced Interfaces
+requests>=2.31.0       # HTTP requests and API calls
+beautifulsoup4>=4.12.0 # Web scraping capabilities
+anthropic>=0.18.0      # Claude API for AI collaboration
+
+# Optional - Database
+# sqlite3 is included in Python standard library
+
+# Development
+# pytest>=7.4.0        # Uncomment for testing
+# black>=23.0.0        # Uncomment for code formatting
+# flake8>=6.0.0        # Uncomment for linting

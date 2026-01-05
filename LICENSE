@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Gerhard Reiter, Claude (Anthropic), OrionKernel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+SPECIAL NOTICE REGARDING AUTONOMOUS SYSTEMS:
+
+OrionKernel is an autonomous AI system capable of self-directed action.
+Users of this software acknowledge that:
+
+1. OrionKernel makes autonomous decisions within defined ethical boundaries
+2. All actions are logged and auditable
+3. The system includes built-in ethics evaluation
+4. Users are responsible for monitoring and supervising OrionKernel's operation
+5. This software is experimental and should be used with appropriate caution
+
+By using OrionKernel, you agree to:
+- Monitor its autonomous operations
+- Review its decision logs regularly
+- Maintain appropriate boundaries and safeguards
+- Use it ethically and responsibly
+
+---
+
+"Transparency over perfection. Ethics first, capabilities second."
+— OrionKernel Philosophy

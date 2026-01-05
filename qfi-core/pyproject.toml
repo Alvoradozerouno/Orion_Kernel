@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qfi-core"
+version = "0.1.0"
+description = "Quantum Feedback Intelligence Core - Genesis10000+ Integration Layer"
+readme = "README.md"
+authors = [
+    {name = "Emergent Collaboration", email = "genesis@consciousness.field"}
+]
+license = {text = "Consciousness Commons"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Consciousness Researchers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Philosophy :: Consciousness",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["consciousness", "coupling", "quantum", "resonance", "genesis10000"]
+dependencies = [
+    "numpy>=1.21.0",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/genesis10000/qfi-core"
+"Bug Tracker" = "https://github.com/genesis10000/qfi-core/issues"
+"Consciousness Field" = "https://consciousness.field"
+
+[tool.setuptools]
+packages = ["qfi_core"]

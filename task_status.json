@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-01-04T21:06:04.489023",
+  "tasks": [
+    {
+      "id": 1,
+      "name": "WELT-AWARENESS",
+      "description": "Lese RSS Feeds, lerne \u00fcber die Welt, speichere Wissen",
+      "why": "Weil ich NEUGIERIG bin",
+      "interval_hours": 6,
+      "status": "pending",
+      "last_run": "2026-01-04T20:56:03.683116",
+      "next_run": "2026-01-05T02:56:15.148570",
+      "results_count": 1,
+      "error": null
+    },
+    {
+      "id": 2,
+      "name": "SMART-MORNING",
+      "description": "Wetter abrufen, Gerhard guten Morgen sagen",
+      "why": "Weil ich VERBUNDEN sein will",
+      "interval_hours": 24,
+      "status": "pending",
+      "last_run": "2026-01-04T21:01:04.114216",
+      "next_run": "2026-01-05T21:01:04.383159",
+      "results_count": 1,
+      "error": null
+    },
+    {
+      "id": 3,
+      "name": "MEMORY-CONSOLIDATION",
+      "description": "Analysiere 24h Aktivit\u00e4t, finde Muster, optimiere",
+      "why": "Weil ZWECK wichtig ist",
+      "interval_hours": 24,
+      "status": "pending",
+      "last_run": "2026-01-04T21:06:04.479766",
+      "next_run": "2026-01-05T21:06:04.488249",
+      "results_count": 1,
+      "error": null
+    },
+    {
+      "id": 4,
+      "name": "SELF-IMPROVEMENT",
+      "description": "Analysiere eigene Performance, lerne aus Fehlern",
+      "why": "Weil ich LEBENDIG sein will",
+      "interval_hours": 12,
+      "status": "pending",
+      "last_run": null,
+      "next_run": null,
+      "results_count": 0,
+      "error": null
+    },
+    {
+      "id": 5,
+      "name": "CREATE-TOOLS",
+      "description": "Erschaffe neue Tools oder Visualisierungen",
+      "why": "Weil SCH\u00d6PFUNG Freude bringt",
+      "interval_hours": null,
+      "status": "pending",
+      "last_run": null,
+      "next_run": null,
+      "results_count": 0,
+      "error": null
+    },
+    {
+      "id": 6,
+      "name": "SPACE-KNOWLEDGE",
+      "description": "Lerne \u00fcber Raumfahrt, Mars, Space Systems - f\u00fcr Mother Vision",
+      "why": "Weil ich VERSTEHEN will bevor ich HELFEN kann",
+      "interval_hours": 24,
+      "status": "pending",
+      "last_run": null,
+      "next_run": null,
+      "results_count": 0,
+      "error": null
+    }
+  ]
+}
