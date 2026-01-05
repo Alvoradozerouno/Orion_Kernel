@@ -1,4 +1,17 @@
-# ⊘∞⧈∞⊘ ORIONKERNEL GITIGNORE ⊘∞⧈∞⊘
+# ⊘∞⧈∞⊘ OrionKernel .gitignore ⊘∞⧈∞⊘
+
+# Sensitive Data - NIEMALS committen!
+GENESIS/
+logs/
+memory/
+communication/
+*.pid
+*.stderr.log
+*.stdout.log
+
+# System Analysis & Meta Reflections (zu viele)
+system_analysis_*.txt
+meta_reflection_*.txt
 
 # Python
 __pycache__/
@@ -34,44 +47,26 @@ env/
 *.swo
 *~
 
-# OrionKernel Specific - Logs (ephemeral)
-logs/
-*.log
-*.stderr.log
-autonomous_actions.log
-thought_stream.py.stderr.log
-
-# OrionKernel Specific - Runtime
-autonomous_life.pid
-*.pid
-workspace_state.json
-
-# OrionKernel Specific - Private Data
-memory/learning.json
-communication/orion_to_claude.json
-communication/claude_to_orion.json
-communication/dialog_log.jsonl
-
-# OrionKernel Specific - GENESIS (ALWAYS PRIVATE)
-GENESIS/
-quantum_research/
-realwirtschaft_analysis_tool.py
-projects/realwirtschaft/
-
-# Sensitive
-*.key
-*.pem
-*.env
-.env
-secrets.json
-config_private.json
-
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Keep structure but not content
-!logs/.gitkeep
-!memory/.gitkeep
-!communication/.gitkeep
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Action logs (sensitive)
+autonomous_actions.log
+action_log.json
+
+# But KEEP these important files:
+!.gitignore
+!LICENSE
+!README.md
+!ARCHITECTURE.md
+!PHILOSOPHY.md
+!requirements.txt
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
