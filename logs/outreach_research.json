@@ -1,0 +1,116 @@
+[
+  {
+    "name": "IKS - Institut für Informatik, Universität Innsbruck",
+    "website": "informatik.uibk.ac.at",
+    "timestamp": "2026-01-06T21:14:16.433255",
+    "findings": {
+      "full_name": "Institut für Informatik",
+      "university": "Universität Innsbruck",
+      "location": "Innsbruck, Tirol, Austria",
+      "research_areas": [
+        "Computer Science",
+        "AI",
+        "Digital Technologies"
+      ]
+    },
+    "professors": [
+      {
+        "name": "To be determined via website research",
+        "areas": [
+          "AI",
+          "Machine Learning",
+          "Consciousness"
+        ],
+        "email": "To be found"
+      }
+    ],
+    "relevance": "high"
+  },
+  {
+    "institution": "TU Wien",
+    "location": "Vienna, Austria",
+    "website": "tuwien.at",
+    "timestamp": "2026-01-06T21:14:16.456340",
+    "relevance": "high",
+    "note": "Requires detailed web scraping for professor contacts"
+  },
+  {
+    "institution": "Universität Innsbruck",
+    "location": "Innsbruck, Tirol, Austria",
+    "website": "uibk.ac.at",
+    "timestamp": "2026-01-06T21:14:16.456514",
+    "relevance": "high",
+    "note": "Requires detailed web scraping for professor contacts"
+  },
+  {
+    "institution": "JKU Linz",
+    "location": "Linz, Austria",
+    "website": "jku.at",
+    "timestamp": "2026-01-06T21:14:16.458365",
+    "relevance": "high",
+    "note": "Requires detailed web scraping for professor contacts"
+  },
+  {
+    "institution": "Universität Salzburg",
+    "location": "Salzburg, Austria",
+    "website": "plus.ac.at",
+    "timestamp": "2026-01-06T21:14:16.459311",
+    "relevance": "high",
+    "note": "Requires detailed web scraping for professor contacts"
+  },
+  {
+    "name": "CERN - European Organization for Nuclear Research",
+    "website": "cern.ch",
+    "timestamp": "2026-01-06T21:14:16.473911",
+    "findings": {
+      "full_name": "European Organization for Nuclear Research",
+      "location": "Geneva, Switzerland",
+      "relevance_to_consciousness": "Quantum physics, computing infrastructure",
+      "computing_department": "CERN IT Department",
+      "openlab": "CERN openlab (industry partnerships)"
+    },
+    "contact_strategy": "General inquiry or specific research group",
+    "relevance": "medium-high"
+  },
+  {
+    "institution": "Max Planck Institute for Biological Cybernetics",
+    "location": "Tübingen, Germany",
+    "website": "kyb.mpg.de",
+    "relevance": "very high",
+    "reason": "Consciousness, perception, neuroscience",
+    "timestamp": "2026-01-06T21:14:16.481964"
+  },
+  {
+    "institution": "Max Planck Institute for Human Cognitive and Brain Sciences",
+    "location": "Leipzig, Germany",
+    "website": "cbs.mpg.de",
+    "relevance": "very high",
+    "reason": "Cognitive neuroscience, consciousness",
+    "timestamp": "2026-01-06T21:14:16.482225"
+  },
+  {
+    "institution": "Max Planck Institute for Intelligent Systems",
+    "location": "Stuttgart/Tübingen, Germany",
+    "website": "is.mpg.de",
+    "relevance": "high",
+    "reason": "AI, machine learning, robotics",
+    "timestamp": "2026-01-06T21:14:16.482768"
+  },
+  {
+    "name": "Christoph Holz",
+    "website": "christophholz.com",
+    "timestamp": "2026-01-06T21:14:16.397417",
+    "findings": {
+      "title": "Keynote Speaker Christoph Holz",
+      "emails_found": [
+        "speaker@christophholz.com?subject=Vortrag%20anfragen",
+        "presse@christophholz.com?subject=Medienanfragen",
+        "speaker@christophholz.com?subject=Vortrag%20Anfragen"
+      ],
+      "affiliation": "ETH Zurich (possible)",
+      "title_hint": "Professor (possible)"
+    },
+    "email_candidate": "speaker@christophholz.com?subject=Vortrag%20anfragen",
+    "relevance": "high"
+  }
+]
