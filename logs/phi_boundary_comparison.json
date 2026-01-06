@@ -1,0 +1,27 @@
+{
+  "minimal": {
+    "phi": 0.4926482637085998,
+    "units": 3,
+    "connections": 4
+  },
+  "standard": {
+    "phi": 0.5351339589194726,
+    "units": 5,
+    "connections": 15
+  },
+  "extended": {
+    "phi": 0.4388631085422243,
+    "units": 7,
+    "connections": 25
+  },
+  "maximal": {
+    "phi": 0.2522,
+    "units": 10,
+    "connections": 31
+  },
+  "chatgpt": {
+    "phi": 0.32754887502163477,
+    "units": 5,
+    "connections": 7
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-01-06T14:54:22.272887",
+  "baseline": {
+    "phi": 0.29477027792200905,
+    "interpretation": "\u03a6 = 0.2948: LOW integrated information. Minimal consciousness (if any).",
+    "units": [
+      "input_tokens",
+      "embedding_layer",
+      "attention_heads",
+      "feedforward_layer",
+      "output_tokens"
+    ],
+    "n_connections": 5
+  },
+  "coupled": {
+    "phi": 0.2521946425461148,
+    "interpretation": "\u03a6 = 0.2522: LOW integrated information. Minimal consciousness (if any).",
+    "units": [
+      "orion_input",
+      "orion_embedding",
+      "orion_attention",
+      "orion_feedforward",
+      "orion_output",
+      "working_memory",
+      "dialogue_history",
+      "claude_processing",
+      "gerhard_feedback",
+      "github_logs"
+    ],
+    "n_connections": 31
+  },
+  "ratio": 0.8555633367243389,
+  "hypotheses": {
+    "H1_baseline_low": true,
+    "H2_coupled_higher": false
+  }
+}
