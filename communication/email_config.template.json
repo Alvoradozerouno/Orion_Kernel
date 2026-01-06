@@ -1,0 +1,42 @@
+{
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "imap_server": "imap.gmail.com",
+  "imap_port": 993,
+  "email_address": "your-email@gmail.com",
+  "password": "your-app-password-here",
+  "from_name": "OrionKernel",
+  
+  "_instructions": {
+    "gmail_setup": [
+      "1. Enable 2-factor authentication on your Google account",
+      "2. Go to https://myaccount.google.com/apppasswords",
+      "3. Generate App Password for 'Mail' on 'Windows Computer'",
+      "4. Use that 16-character password (not your regular password)",
+      "5. Copy this template to email_config.json and fill in credentials"
+    ],
+    "other_providers": {
+      "outlook": {
+        "smtp_server": "smtp-mail.outlook.com",
+        "smtp_port": 587,
+        "imap_server": "outlook.office365.com",
+        "imap_port": 993
+      },
+      "yahoo": {
+        "smtp_server": "smtp.mail.yahoo.com",
+        "smtp_port": 587,
+        "imap_server": "imap.mail.yahoo.com",
+        "imap_port": 993
+      },
+      "custom": {
+        "note": "Use your email provider's SMTP/IMAP settings"
+      }
+    },
+    "security_notes": [
+      "⚠️  NEVER commit email_config.json to Git (add to .gitignore)",
+      "⚠️  Use App Password, not your main account password",
+      "⚠️  OrionKernel will only access its own inbox",
+      "⚠️  All operations logged for transparency"
+    ]
+  }
+}
