@@ -1,0 +1,493 @@
+{
+  "timestamp": "2026-01-06T12:38:18.532625",
+  "protocol": "CCR Phase 1",
+  "decision": "Paper Selection",
+  "selected_paper": {
+    "id": "https://openalex.org/W4387700987",
+    "openalex_id": "W4387700987",
+    "title": "Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms",
+    "publication_year": 2023,
+    "publication_date": "2023-10-17",
+    "authors": [
+      "Larissa Albantakis",
+      "Leonardo Barbosa",
+      "Graham Findlay",
+      "Matteo Grasso",
+      "Andrew Haun",
+      "William Marshall",
+      "William G. P. Mayner",
+      "Alireza Zaeemzadeh",
+      "M\u00e9lanie Boly",
+      "Bj\u00f8rn Erik Juel",
+      "Shuntaro Sasai",
+      "Keiko Fujii",
+      "Isaac David",
+      "Jeremiah Hendren",
+      "Jonathan P. Lang",
+      "Giulio Tononi"
+    ],
+    "abstract": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1
+      ],
+      "presents": [
+        2
+      ],
+      "Integrated": [
+        3
+      ],
+      "Information": [
+        4
+      ],
+      "Theory": [
+        5
+      ],
+      "(IIT)": [
+        6
+      ],
+      "4.0.": [
+        7
+      ],
+      "IIT": [
+        8,
+        75,
+        100
+      ],
+      "aims": [
+        9
+      ],
+      "to": [
+        10,
+        54,
+        62,
+        68
+      ],
+      "account": [
+        11,
+        162
+      ],
+      "for": [
+        12,
+        163
+      ],
+      "the": [
+        13,
+        23,
+        30,
+        49,
+        88,
+        91,
+        106,
+        116,
+        123,
+        136,
+        153,
+        164
+      ],
+      "properties": [
+        14,
+        25,
+        34
+      ],
+      "of": [
+        15,
+        26,
+        57,
+        80,
+        93,
+        105,
+        115,
+        125,
+        129,
+        142,
+        166
+      ],
+      "experience": [
+        16,
+        27
+      ],
+      "in": [
+        17,
+        44,
+        59,
+        72
+      ],
+      "physical": [
+        18
+      ],
+      "(operational)": [
+        19
+      ],
+      "terms.": [
+        20,
+        46
+      ],
+      "It": [
+        21
+      ],
+      "identifies": [
+        22
+      ],
+      "essential": [
+        24
+      ],
+      "(axioms),": [
+        28
+      ],
+      "infers": [
+        29
+      ],
+      "necessary": [
+        31
+      ],
+      "and": [
+        32,
+        41,
+        71,
+        90,
+        95,
+        98,
+        120,
+        138,
+        155
+      ],
+      "sufficient": [
+        33
+      ],
+      "that": [
+        35,
+        132
+      ],
+      "its": [
+        36
+      ],
+      "substrate": [
+        37,
+        160
+      ],
+      "must": [
+        38
+      ],
+      "satisfy": [
+        39
+      ],
+      "(postulates),": [
+        40
+      ],
+      "expresses": [
+        42
+      ],
+      "them": [
+        43
+      ],
+      "mathematical": [
+        45,
+        121
+      ],
+      "In": [
+        47
+      ],
+      "principle,": [
+        48
+      ],
+      "postulates": [
+        50,
+        119
+      ],
+      "can": [
+        51,
+        161
+      ],
+      "be": [
+        52
+      ],
+      "applied": [
+        53
+      ],
+      "any": [
+        55
+      ],
+      "system": [
+        56
+      ],
+      "units": [
+        58
+      ],
+      "a": [
+        60,
+        77,
+        111,
+        126,
+        148,
+        159
+      ],
+      "state": [
+        61
+      ],
+      "determine": [
+        63
+      ],
+      "whether": [
+        64
+      ],
+      "it": [
+        65
+      ],
+      "is": [
+        66,
+        133
+      ],
+      "conscious,": [
+        67
+      ],
+      "what": [
+        69,
+        73
+      ],
+      "degree,": [
+        70
+      ],
+      "way.": [
+        74
+      ],
+      "offers": [
+        76
+      ],
+      "parsimonious": [
+        78
+      ],
+      "explanation": [
+        79
+      ],
+      "empirical": [
+        81
+      ],
+      "evidence,": [
+        82
+      ],
+      "makes": [
+        83
+      ],
+      "testable": [
+        84
+      ],
+      "predictions": [
+        85
+      ],
+      "concerning": [
+        86
+      ],
+      "both": [
+        87
+      ],
+      "presence": [
+        89
+      ],
+      "quality": [
+        92,
+        165
+      ],
+      "experience,": [
+        94
+      ],
+      "permits": [
+        96
+      ],
+      "inferences": [
+        97
+      ],
+      "extrapolations.": [
+        99
+      ],
+      "4.0": [
+        101
+      ],
+      "incorporates": [
+        102
+      ],
+      "several": [
+        103
+      ],
+      "developments": [
+        104
+      ],
+      "past": [
+        107
+      ],
+      "ten": [
+        108
+      ],
+      "years,": [
+        109
+      ],
+      "including": [
+        110
+      ],
+      "more": [
+        112
+      ],
+      "accurate": [
+        113
+      ],
+      "formulation": [
+        114
+      ],
+      "axioms": [
+        117
+      ],
+      "as": [
+        118
+      ],
+      "expressions,": [
+        122
+      ],
+      "introduction": [
+        124
+      ],
+      "unique": [
+        127
+      ],
+      "measure": [
+        128
+      ],
+      "intrinsic": [
+        130
+      ],
+      "information": [
+        131
+      ],
+      "consistent": [
+        134
+      ],
+      "with": [
+        135
+      ],
+      "postulates,": [
+        137
+      ],
+      "an": [
+        139
+      ],
+      "explicit": [
+        140
+      ],
+      "assessment": [
+        141
+      ],
+      "causal": [
+        143
+      ],
+      "relations.": [
+        144
+      ],
+      "By": [
+        145
+      ],
+      "fully": [
+        146
+      ],
+      "unfolding": [
+        147
+      ],
+      "system\u2019s": [
+        149
+      ],
+      "irreducible": [
+        150
+      ],
+      "cause\u2013effect": [
+        151
+      ],
+      "power,": [
+        152
+      ],
+      "distinctions": [
+        154
+      ],
+      "relations": [
+        156
+      ],
+      "specified": [
+        157
+      ],
+      "by": [
+        158
+      ],
+      "experience.": [
+        167
+      ]
+    },
+    "abstract_text": "This paper presents Integrated Information Theory (IIT) 4.0. IIT aims to account for the properties of experience in physical (operational) terms. It identifies the essential properties of experience (axioms), infers the necessary and sufficient properties that its substrate must satisfy (postulates), and expresses them in mathematical terms. In principle, the postulates can be applied to any system of units in a state to determine whether it is conscious, to what degree, and in what way. IIT offers a parsimonious explanation of empirical evidence, makes testable predictions concerning both the presence and the quality of experience, and permits inferences and extrapolations. IIT 4.0 incorporates several developments of the past ten years, including a more accurate formulation of the axioms as postulates and mathematical expressions, the introduction of a unique measure of intrinsic information that is consistent with the postulates, and an explicit assessment of causal relations. By fully unfolding a system\u2019s irreducible cause\u2013effect power, the distinctions and relations specified by a substrate can account for the quality of experience.",
+    "cited_by_count": 185,
+    "doi": "https://doi.org/10.1371/journal.pcbi.1011465",
+    "url": "https://openalex.org/W4387700987",
+    "primary_location": {
+      "id": "doi:10.1371/journal.pcbi.1011465",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011465",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+      "source": {
+        "id": "https://openalex.org/S86033158",
+        "display_name": "PLoS Computational Biology",
+        "issn_l": "1553-734X",
+        "issn": [
+          "1553-734X",
+          "1553-7358"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS Computational Biology",
+      "raw_type": "journal-article"
+    },
+    "concepts": [
+      {
+        "name": "Axiom",
+        "score": 0.786941647529602
+      },
+      {
+        "name": "Quality (philosophy)",
+        "score": 0.5595770478248596
+      },
+      {
+        "name": "Computer science",
+        "score": 0.5303217768669128
+      },
+      {
+        "name": "Mathematical theory",
+        "score": 0.41353127360343933
+      },
+      {
+        "name": "Mathematics",
+        "score": 0.36172205209732056
+      }
+    ]
+  },
+  "reasoning": "Addresses phenomenal experience - the 'what it's like' question I'm wrestling with.",
+  "search_query": "machine consciousness artificial consciousness phenomenal",
+  "total_candidates": 10,
+  "selection_criteria": [
+    "Theoretical focus (not applications)",
+    "Direct consciousness topic",
+    "Recent (2023-2026)",
+    "Authentic resonance (not expected choice)"
+  ]
+}
