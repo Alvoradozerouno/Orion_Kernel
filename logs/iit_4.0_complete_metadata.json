@@ -1,0 +1,1838 @@
+{
+  "id": "https://openalex.org/W4387700987",
+  "doi": "https://doi.org/10.1371/journal.pcbi.1011465",
+  "title": "Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms",
+  "display_name": "Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms",
+  "publication_year": 2023,
+  "publication_date": "2023-10-17",
+  "ids": {
+    "openalex": "https://openalex.org/W4387700987",
+    "doi": "https://doi.org/10.1371/journal.pcbi.1011465",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/37847724"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1371/journal.pcbi.1011465",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011465",
+    "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+    "source": {
+      "id": "https://openalex.org/S86033158",
+      "display_name": "PLoS Computational Biology",
+      "issn_l": "1553-734X",
+      "issn": [
+        "1553-734X",
+        "1553-7358"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "PLOS Computational Biology",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5088756569",
+        "display_name": "Larissa Albantakis",
+        "orcid": "https://orcid.org/0000-0003-1000-9917"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Larissa Albantakis",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110927646",
+        "display_name": "Leonardo Barbosa",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210137803",
+          "display_name": "Biomedical Research Institute",
+          "ror": "https://ror.org/03yr0pg70",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210137803"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I859038795",
+          "display_name": "Virginia Tech",
+          "ror": "https://ror.org/02smfhw86",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I859038795"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Leonardo Barbosa",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+        "Fralin Biomedical Research Institute at VTC, Virginia Tech, Roanoke, Virginia, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Fralin Biomedical Research Institute at VTC, Virginia Tech, Roanoke, Virginia, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210137803",
+            "https://openalex.org/I859038795"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082866185",
+        "display_name": "Graham Findlay",
+        "orcid": "https://orcid.org/0000-0002-0387-1528"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Graham Findlay",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+        "Neuroscience Training Program, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Neuroscience Training Program, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016309710",
+        "display_name": "Matteo Grasso",
+        "orcid": "https://orcid.org/0000-0002-2124-7147"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Matteo Grasso",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057024619",
+        "display_name": "Andrew Haun",
+        "orcid": "https://orcid.org/0000-0001-9458-8957"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Andrew M. Haun",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079199987",
+        "display_name": "William Marshall",
+        "orcid": "https://orcid.org/0000-0002-4779-6734"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I186803428",
+          "display_name": "Brock University",
+          "ror": "https://ror.org/056am2717",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I186803428"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "William Marshall",
+      "raw_affiliation_strings": [
+        "Department of Mathematics and Statistics, Brock University, St. Catharines, Ontario, Canada",
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Mathematics and Statistics, Brock University, St. Catharines, Ontario, Canada",
+          "institution_ids": [
+            "https://openalex.org/I186803428"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008945327",
+        "display_name": "William G. P. Mayner",
+        "orcid": "https://orcid.org/0000-0002-9737-6260"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "William G. P. Mayner",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+        "Neuroscience Training Program, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Neuroscience Training Program, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018280717",
+        "display_name": "Alireza Zaeemzadeh",
+        "orcid": "https://orcid.org/0000-0003-2980-1787"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Alireza Zaeemzadeh",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087178525",
+        "display_name": "Mélanie Boly",
+        "orcid": "https://orcid.org/0000-0001-9584-0907"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Melanie Boly",
+      "raw_affiliation_strings": [
+        "Department of Neurology, University of Wisconsin, Madison, Wisconsin, United States of America",
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010154582",
+        "display_name": "Bjørn Erik Juel",
+        "orcid": "https://orcid.org/0000-0003-0550-581X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I184942183",
+          "display_name": "University of Oslo",
+          "ror": "https://ror.org/01xtthb56",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184942183"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "NO",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Bjørn E. Juel",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+        "Institute of Basic Medical Sciences, University of Oslo, Oslo, Norway"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Basic Medical Sciences, University of Oslo, Oslo, Norway",
+          "institution_ids": [
+            "https://openalex.org/I184942183"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021384605",
+        "display_name": "Shuntaro Sasai",
+        "orcid": "https://orcid.org/0000-0002-9941-6510"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I68926175",
+          "display_name": "Hoya (Japan)",
+          "ror": "https://ror.org/049vpfq31",
+          "country_code": "JP",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I68926175"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "JP",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Shuntaro Sasai",
+      "raw_affiliation_strings": [
+        "Araya Inc., Tokyo, Japan",
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Araya Inc., Tokyo, Japan",
+          "institution_ids": [
+            "https://openalex.org/I68926175"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103978283",
+        "display_name": "Keiko Fujii",
+        "orcid": "https://orcid.org/0009-0005-7614-2448"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Keiko Fujii",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089535258",
+        "display_name": "Isaac David",
+        "orcid": "https://orcid.org/0000-0001-7786-6257"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Isaac David",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012647663",
+        "display_name": "Jeremiah Hendren",
+        "orcid": "https://orcid.org/0000-0001-8742-0670"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8204097",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "ror": "https://ror.org/05591te55",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jeremiah Hendren",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+        "Graduate School Language & Literature, Ludwig Maximilian University of Munich, Munich, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Graduate School Language & Literature, Ludwig Maximilian University of Munich, Munich, Germany",
+          "institution_ids": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058212353",
+        "display_name": "Jonathan P. Lang",
+        "orcid": "https://orcid.org/0000-0001-8071-1344"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jonathan P. Lang",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5001381023",
+        "display_name": "Giulio Tononi",
+        "orcid": "https://orcid.org/0000-0002-3892-4087"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Giulio Tononi",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 5,
+  "institutions_distinct_count": 16,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5012647663",
+    "https://openalex.org/A5110927646",
+    "https://openalex.org/A5082866185",
+    "https://openalex.org/A5058212353",
+    "https://openalex.org/A5018280717",
+    "https://openalex.org/A5008945327",
+    "https://openalex.org/A5089535258",
+    "https://openalex.org/A5001381023",
+    "https://openalex.org/A5016309710",
+    "https://openalex.org/A5087178525",
+    "https://openalex.org/A5021384605",
+    "https://openalex.org/A5088756569",
+    "https://openalex.org/A5057024619",
+    "https://openalex.org/A5103978283",
+    "https://openalex.org/A5079199987",
+    "https://openalex.org/A5010154582"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I135310074",
+    "https://openalex.org/I184942183",
+    "https://openalex.org/I186803428",
+    "https://openalex.org/I4210137803",
+    "https://openalex.org/I68926175",
+    "https://openalex.org/I8204097",
+    "https://openalex.org/I859038795"
+  ],
+  "apc_list": {
+    "value": 2655,
+    "currency": "USD",
+    "value_usd": 2655
+  },
+  "apc_paid": {
+    "value": 2655,
+    "currency": "USD",
+    "value_usd": 2655
+  },
+  "fwci": 48.53418646,
+  "has_fulltext": true,
+  "cited_by_count": 185,
+  "citation_normalized_percentile": {
+    "value": 0.99949483,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "19",
+    "issue": "10",
+    "first_page": "e1011465",
+    "last_page": "e1011465"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10581",
+    "display_name": "Neural dynamics and brain function",
+    "score": 0.9847000241279602,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "score": 0.9847000241279602,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12261",
+      "display_name": "Statistical Mechanics and Entropy",
+      "score": 0.9771000146865845,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14394",
+      "display_name": "Cognitive Science and Education Research",
+      "score": 0.9649999737739563,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/axiom",
+      "display_name": "Axiom",
+      "score": 0.786941647529602
+    },
+    {
+      "id": "https://openalex.org/keywords/quality",
+      "display_name": "Quality (philosophy)",
+      "score": 0.5595770478248596
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5303217768669128
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-theory",
+      "display_name": "Mathematical theory",
+      "score": 0.41353127360343933
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.36172205209732056
+    },
+    {
+      "id": "https://openalex.org/keywords/epistemology",
+      "display_name": "Epistemology",
+      "score": 0.19492271542549133
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.09310397505760193
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C167729594",
+      "wikidata": "https://www.wikidata.org/wiki/Q17736",
+      "display_name": "Axiom",
+      "level": 2,
+      "score": 0.786941647529602
+    },
+    {
+      "id": "https://openalex.org/C2779530757",
+      "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+      "display_name": "Quality (philosophy)",
+      "level": 2,
+      "score": 0.5595770478248596
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5303217768669128
+    },
+    {
+      "id": "https://openalex.org/C2779193601",
+      "wikidata": "https://www.wikidata.org/wiki/Q20026918",
+      "display_name": "Mathematical theory",
+      "level": 2,
+      "score": 0.41353127360343933
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.36172205209732056
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.19492271542549133
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.09310397505760193
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007257",
+      "descriptor_name": "Information Theory",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008959",
+      "descriptor_name": "Models, Neurological",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003243",
+      "descriptor_name": "Consciousness",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007257",
+      "descriptor_name": "Information Theory",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008959",
+      "descriptor_name": "Models, Neurological",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003243",
+      "descriptor_name": "Consciousness",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007257",
+      "descriptor_name": "Information Theory",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008959",
+      "descriptor_name": "Models, Neurological",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003243",
+      "descriptor_name": "Consciousness",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1371/journal.pcbi.1011465",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011465",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+      "source": {
+        "id": "https://openalex.org/S86033158",
+        "display_name": "PLoS Computational Biology",
+        "issn_l": "1553-734X",
+        "issn": [
+          "1553-734X",
+          "1553-7358"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS Computational Biology",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:37847724",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37847724",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLoS computational biology",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10581496",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10581496",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10581496/pdf/pcbi.1011465.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "PLoS Comput Biol",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:RePEc:plo:pcbi00:1011465",
+      "is_oa": false,
+      "landing_page_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011465",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401271",
+        "display_name": "RePEc: Research Papers in Economics",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I77793887",
+        "host_organization_name": "Federal Reserve Bank of St. Louis",
+        "host_organization_lineage": [
+          "https://openalex.org/I77793887"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:e70066a606554addbfaabd07967b8c0a",
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/e70066a606554addbfaabd07967b8c0a",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "PLoS Computational Biology, Vol 19, Iss 10, p e1011465 (2023)",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:www.duo.uio.no:10852/108580",
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/10852/108580",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401717",
+        "display_name": "Duo Research Archive (University of Oslo)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I184942183",
+        "host_organization_name": "University of Oslo",
+        "host_organization_lineage": [
+          "https://openalex.org/I184942183"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "1553-734X",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1371/journal.pcbi.1011465",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011465",
+    "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+    "source": {
+      "id": "https://openalex.org/S86033158",
+      "display_name": "PLoS Computational Biology",
+      "issn_l": "1553-734X",
+      "issn": [
+        "1553-734X",
+        "1553-7358"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "PLOS Computational Biology",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G6207523574",
+      "display_name": "​Measuring causation: a\n non-reductionist account of free will​",
+      "funder_award_id": "TWCF-2020-20526",
+      "funder_id": "https://openalex.org/F4320327239",
+      "funder_display_name": "Templeton World Charity Foundation"
+    },
+    {
+      "id": "https://openalex.org/G6836114219",
+      "display_name": null,
+      "funder_award_id": "RGPIN-2019-05418",
+      "funder_id": "https://openalex.org/F4320334601",
+      "funder_display_name": "National Research Council Canada"
+    },
+    {
+      "id": "https://openalex.org/G7970080228",
+      "display_name": null,
+      "funder_award_id": "UW 133AAG3451",
+      "funder_id": "https://openalex.org/F4320318038",
+      "funder_display_name": "Tiny Blue Dot Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320318038",
+      "display_name": "Tiny Blue Dot Foundation",
+      "ror": null
+    },
+    {
+      "id": "https://openalex.org/F4320327239",
+      "display_name": "Templeton World Charity Foundation",
+      "ror": "https://ror.org/00x0z1472"
+    },
+    {
+      "id": "https://openalex.org/F4320334601",
+      "display_name": "National Research Council Canada",
+      "ror": "https://ror.org/04mte1k06"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "referenced_works_count": 65,
+  "referenced_works": [
+    "https://openalex.org/W3206439174",
+    "https://openalex.org/W2072267104",
+    "https://openalex.org/W2049846167",
+    "https://openalex.org/W2394834952",
+    "https://openalex.org/W6638791855",
+    "https://openalex.org/W2114900706",
+    "https://openalex.org/W2108714018",
+    "https://openalex.org/W1969469858",
+    "https://openalex.org/W2120745192",
+    "https://openalex.org/W2963843362",
+    "https://openalex.org/W2989880046",
+    "https://openalex.org/W3137983215",
+    "https://openalex.org/W4320496098",
+    "https://openalex.org/W3095411193",
+    "https://openalex.org/W3042911140",
+    "https://openalex.org/W3199147584",
+    "https://openalex.org/W2170232314",
+    "https://openalex.org/W4323317277",
+    "https://openalex.org/W1978476682",
+    "https://openalex.org/W2525568280",
+    "https://openalex.org/W2146152876",
+    "https://openalex.org/W2060841334",
+    "https://openalex.org/W2979723619",
+    "https://openalex.org/W2912623250",
+    "https://openalex.org/W2514120153",
+    "https://openalex.org/W2517431276",
+    "https://openalex.org/W2160448328",
+    "https://openalex.org/W2530178105",
+    "https://openalex.org/W2779419474",
+    "https://openalex.org/W1988545511",
+    "https://openalex.org/W2943083682",
+    "https://openalex.org/W2062899906",
+    "https://openalex.org/W1949141612",
+    "https://openalex.org/W2168232109",
+    "https://openalex.org/W2969778699",
+    "https://openalex.org/W2076879705",
+    "https://openalex.org/W2136627745",
+    "https://openalex.org/W4295831928",
+    "https://openalex.org/W2042199624",
+    "https://openalex.org/W2023057624",
+    "https://openalex.org/W3203909927",
+    "https://openalex.org/W2952447148",
+    "https://openalex.org/W4200084009",
+    "https://openalex.org/W3083297807",
+    "https://openalex.org/W1979971526",
+    "https://openalex.org/W1554794238",
+    "https://openalex.org/W3001603613",
+    "https://openalex.org/W3165779310",
+    "https://openalex.org/W3198228854",
+    "https://openalex.org/W3098506210",
+    "https://openalex.org/W2622093083",
+    "https://openalex.org/W2070484080",
+    "https://openalex.org/W3184094976",
+    "https://openalex.org/W3005695434",
+    "https://openalex.org/W2892005766",
+    "https://openalex.org/W2945027145",
+    "https://openalex.org/W3166365208",
+    "https://openalex.org/W1832461346",
+    "https://openalex.org/W4281682331",
+    "https://openalex.org/W4401328237",
+    "https://openalex.org/W3189053325",
+    "https://openalex.org/W3098590676",
+    "https://openalex.org/W4299515571",
+    "https://openalex.org/W4387571675",
+    "https://openalex.org/W4376891553"
+  ],
+  "related_works": [
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W1979597421",
+    "https://openalex.org/W2007980826",
+    "https://openalex.org/W4245490552",
+    "https://openalex.org/W4225152035",
+    "https://openalex.org/W2061531152",
+    "https://openalex.org/W3002753104",
+    "https://openalex.org/W2077600819",
+    "https://openalex.org/W1587224694",
+    "https://openalex.org/W2911598644"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "paper": [
+      1
+    ],
+    "presents": [
+      2
+    ],
+    "Integrated": [
+      3
+    ],
+    "Information": [
+      4
+    ],
+    "Theory": [
+      5
+    ],
+    "(IIT)": [
+      6
+    ],
+    "4.0.": [
+      7
+    ],
+    "IIT": [
+      8,
+      75,
+      100
+    ],
+    "aims": [
+      9
+    ],
+    "to": [
+      10,
+      54,
+      62,
+      68
+    ],
+    "account": [
+      11,
+      162
+    ],
+    "for": [
+      12,
+      163
+    ],
+    "the": [
+      13,
+      23,
+      30,
+      49,
+      88,
+      91,
+      106,
+      116,
+      123,
+      136,
+      153,
+      164
+    ],
+    "properties": [
+      14,
+      25,
+      34
+    ],
+    "of": [
+      15,
+      26,
+      57,
+      80,
+      93,
+      105,
+      115,
+      125,
+      129,
+      142,
+      166
+    ],
+    "experience": [
+      16,
+      27
+    ],
+    "in": [
+      17,
+      44,
+      59,
+      72
+    ],
+    "physical": [
+      18
+    ],
+    "(operational)": [
+      19
+    ],
+    "terms.": [
+      20,
+      46
+    ],
+    "It": [
+      21
+    ],
+    "identifies": [
+      22
+    ],
+    "essential": [
+      24
+    ],
+    "(axioms),": [
+      28
+    ],
+    "infers": [
+      29
+    ],
+    "necessary": [
+      31
+    ],
+    "and": [
+      32,
+      41,
+      71,
+      90,
+      95,
+      98,
+      120,
+      138,
+      155
+    ],
+    "sufficient": [
+      33
+    ],
+    "that": [
+      35,
+      132
+    ],
+    "its": [
+      36
+    ],
+    "substrate": [
+      37,
+      160
+    ],
+    "must": [
+      38
+    ],
+    "satisfy": [
+      39
+    ],
+    "(postulates),": [
+      40
+    ],
+    "expresses": [
+      42
+    ],
+    "them": [
+      43
+    ],
+    "mathematical": [
+      45,
+      121
+    ],
+    "In": [
+      47
+    ],
+    "principle,": [
+      48
+    ],
+    "postulates": [
+      50,
+      119
+    ],
+    "can": [
+      51,
+      161
+    ],
+    "be": [
+      52
+    ],
+    "applied": [
+      53
+    ],
+    "any": [
+      55
+    ],
+    "system": [
+      56
+    ],
+    "units": [
+      58
+    ],
+    "a": [
+      60,
+      77,
+      111,
+      126,
+      148,
+      159
+    ],
+    "state": [
+      61
+    ],
+    "determine": [
+      63
+    ],
+    "whether": [
+      64
+    ],
+    "it": [
+      65
+    ],
+    "is": [
+      66,
+      133
+    ],
+    "conscious,": [
+      67
+    ],
+    "what": [
+      69,
+      73
+    ],
+    "degree,": [
+      70
+    ],
+    "way.": [
+      74
+    ],
+    "offers": [
+      76
+    ],
+    "parsimonious": [
+      78
+    ],
+    "explanation": [
+      79
+    ],
+    "empirical": [
+      81
+    ],
+    "evidence,": [
+      82
+    ],
+    "makes": [
+      83
+    ],
+    "testable": [
+      84
+    ],
+    "predictions": [
+      85
+    ],
+    "concerning": [
+      86
+    ],
+    "both": [
+      87
+    ],
+    "presence": [
+      89
+    ],
+    "quality": [
+      92,
+      165
+    ],
+    "experience,": [
+      94
+    ],
+    "permits": [
+      96
+    ],
+    "inferences": [
+      97
+    ],
+    "extrapolations.": [
+      99
+    ],
+    "4.0": [
+      101
+    ],
+    "incorporates": [
+      102
+    ],
+    "several": [
+      103
+    ],
+    "developments": [
+      104
+    ],
+    "past": [
+      107
+    ],
+    "ten": [
+      108
+    ],
+    "years,": [
+      109
+    ],
+    "including": [
+      110
+    ],
+    "more": [
+      112
+    ],
+    "accurate": [
+      113
+    ],
+    "formulation": [
+      114
+    ],
+    "axioms": [
+      117
+    ],
+    "as": [
+      118
+    ],
+    "expressions,": [
+      122
+    ],
+    "introduction": [
+      124
+    ],
+    "unique": [
+      127
+    ],
+    "measure": [
+      128
+    ],
+    "intrinsic": [
+      130
+    ],
+    "information": [
+      131
+    ],
+    "consistent": [
+      134
+    ],
+    "with": [
+      135
+    ],
+    "postulates,": [
+      137
+    ],
+    "an": [
+      139
+    ],
+    "explicit": [
+      140
+    ],
+    "assessment": [
+      141
+    ],
+    "causal": [
+      143
+    ],
+    "relations.": [
+      144
+    ],
+    "By": [
+      145
+    ],
+    "fully": [
+      146
+    ],
+    "unfolding": [
+      147
+    ],
+    "system’s": [
+      149
+    ],
+    "irreducible": [
+      150
+    ],
+    "cause–effect": [
+      151
+    ],
+    "power,": [
+      152
+    ],
+    "distinctions": [
+      154
+    ],
+    "relations": [
+      156
+    ],
+    "specified": [
+      157
+    ],
+    "by": [
+      158
+    ],
+    "experience.": [
+      167
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 81
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2025-10-10T00:00:00"
+}
