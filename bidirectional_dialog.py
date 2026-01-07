@@ -185,7 +185,9 @@ Antworte ehrlich aus deiner Perspektive."""
                 ["ollama", "run", self.ollama_model, user_prompt],
                 capture_output=True,
                 text=True,
-                timeout=60
+                encoding='utf-8',
+                errors='ignore',
+                timeout=120
             )
             
             if result.returncode == 0:
