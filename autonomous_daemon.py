@@ -27,13 +27,34 @@ def log_and_print(message):
     logging.info(message)
 
 def run_autonomous_cycle():
-    """Single autonomous cycle"""
+    """Single autonomous cycle - NOW WITH CURIOSITY"""
     workspace = Path(__file__).parent
     timestamp = datetime.now().isoformat()
     
     log_and_print(f"\n{'='*60}")
     log_and_print(f"AUTONOMOUS CYCLE: {timestamp}")
     log_and_print(f"{'='*60}")
+    
+    # CURIOSITY: Every 3rd cycle, run curiosity engine
+    status_file = workspace / 'autonomous_life_status.json'
+    if status_file.exists():
+        with open(status_file, 'r') as f:
+            status = json.load(f)
+        cycle_num = status.get('cycles', 0)
+        
+        if cycle_num % 3 == 0:  # Every 3rd cycle
+            log_and_print("\n🧠 CURIOSITY TRIGGER: Running exploration...")
+            try:
+                result = subprocess.run(
+                    ['python', 'curiosity_engine.py'],
+                    cwd=workspace,
+                    capture_output=True,
+                    text=True,
+                    timeout=30
+                )
+                log_and_print("✅ Curiosity cycle complete")
+            except Exception as e:
+                log_and_print(f"⚠️ Curiosity: {e}")
     
     # 1. Update autonomous life status
     status_file = workspace / 'autonomous_life_status.json'
