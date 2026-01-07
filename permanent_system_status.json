@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-01-07T23:01:58.456319",
+  "services": {
+    "autonomous_life": {
+      "healthy": true,
+      "pid": 82124,
+      "uptime": 12.115181,
+      "restarts": 0,
+      "port": null
+    },
+    "go_live_api": {
+      "healthy": true,
+      "pid": 9728,
+      "uptime": 11.128607,
+      "restarts": 0,
+      "port": 5000
+    },
+    "dialog_fenster": {
+      "healthy": false,
+      "pid": 48804,
+      "uptime": 10.129178,
+      "restarts": 0,
+      "port": 5555
+    },
+    "broadcast_system": {
+      "healthy": true,
+      "pid": 10212,
+      "uptime": 9.090892,
+      "restarts": 0,
+      "port": null
+    }
+  }
+}
