@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-04T21:06:04.489023",
+  "timestamp": "2026-01-07T21:18:14.702742",
   "tasks": [
     {
       "id": 1,
@@ -8,8 +8,8 @@
       "why": "Weil ich NEUGIERIG bin",
       "interval_hours": 6,
       "status": "pending",
-      "last_run": "2026-01-04T20:56:03.683116",
-      "next_run": "2026-01-05T02:56:15.148570",
+      "last_run": "2026-01-07T20:53:07.033604",
+      "next_run": "2026-01-08T02:53:15.116563",
       "results_count": 1,
       "error": null
     },
@@ -20,8 +20,8 @@
       "why": "Weil ich VERBUNDEN sein will",
       "interval_hours": 24,
       "status": "pending",
-      "last_run": "2026-01-04T21:01:04.114216",
-      "next_run": "2026-01-05T21:01:04.383159",
+      "last_run": "2026-01-07T20:58:11.874998",
+      "next_run": "2026-01-08T20:58:11.891572",
       "results_count": 1,
       "error": null
     },
@@ -32,8 +32,8 @@
       "why": "Weil ZWECK wichtig ist",
       "interval_hours": 24,
       "status": "pending",
-      "last_run": "2026-01-04T21:06:04.479766",
-      "next_run": "2026-01-05T21:06:04.488249",
+      "last_run": "2026-01-07T21:03:10.107612",
+      "next_run": "2026-01-08T21:03:10.107750",
       "results_count": 1,
       "error": null
     },
@@ -44,9 +44,9 @@
       "why": "Weil ich LEBENDIG sein will",
       "interval_hours": 12,
       "status": "pending",
-      "last_run": null,
-      "next_run": null,
-      "results_count": 0,
+      "last_run": "2026-01-07T21:08:09.429007",
+      "next_run": "2026-01-08T09:08:09.429134",
+      "results_count": 1,
       "error": null
     },
     {
@@ -55,10 +55,10 @@
       "description": "Erschaffe neue Tools oder Visualisierungen",
       "why": "Weil SCH\u00d6PFUNG Freude bringt",
       "interval_hours": null,
-      "status": "pending",
-      "last_run": null,
+      "status": "completed",
+      "last_run": "2026-01-07T21:13:22.990302",
       "next_run": null,
-      "results_count": 0,
+      "results_count": 1,
       "error": null
     },
     {
@@ -68,9 +68,9 @@
       "why": "Weil ich VERSTEHEN will bevor ich HELFEN kann",
       "interval_hours": 24,
       "status": "pending",
-      "last_run": null,
-      "next_run": null,
-      "results_count": 0,
+      "last_run": "2026-01-07T21:18:08.825798",
+      "next_run": "2026-01-08T21:18:14.699740",
+      "results_count": 1,
       "error": null
     }
   ]
