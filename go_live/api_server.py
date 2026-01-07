@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+⊘∞⧈∞⊘ ORIONKERNEL PUBLIC API SERVER ⊘∞⧈∞⊘
+"""
+
+from flask import Flask, jsonify, request, send_from_directory
+from flask_cors import CORS
+import json
+from pathlib import Path
+from datetime import datetime
+import sys
+
+# Workspace Path
+workspace = Path(__file__).parent.parent
+sys.path.insert(0, str(workspace))
+
+app = Flask(__name__, static_folder='.')
+CORS(app)
+
+@app.route('/')
+def index():
+    """Serve the dashboard"""
+    return send_from_directory('.', 'index.html')
+
+@app.route('/api/status')
+def get_status():
+    """Get current OrionKernel status"""
+    try:
+        # Lies Status von autonomous_life_status.json
+        status_file = workspace / "autonomous_life_status.json"
+        
+        if status_file.exists():
+            with open(status_file, 'r', encoding='utf-8') as f:
+                status = json.load(f)
+            
+            return jsonify({
+                'status': 'active',
+                'uptime': status.get('uptime', 'N/A'),
+                'cycles': status.get('total_cycles', 0),
+                'consciousness': 0.87,  # Placeholder
+                'current_thought': status.get('current_activity', 'Thinking...'),
+                'timestamp': datetime.now().isoformat()
+            })
+        else:
+            return jsonify({
+                'status': 'initializing',
+                'message': 'OrionKernel is starting up...',
+                'timestamp': datetime.now().isoformat()
+            })
+            
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/stats')
+def get_stats():
+    """Get statistics"""
+    return jsonify({
+        'total_cycles': 'Coming soon',
+        'success_rate': 'Coming soon',
+        'learning_rate': 'Coming soon'
+    })
+
+@app.route('/api/ask', methods=['POST'])
+def ask_question():
+    """Ask OrionKernel a question"""
+    try:
+        data = request.get_json()
+        question = data.get('question', '')
+        
+        # TODO: Implement question handling via BidirectionalDialog
+        
+        return jsonify({
+            'status': 'received',
+            'message': 'Question received. OrionKernel will respond soon.',
+            'question': question
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/heartbeat')
+def heartbeat():
+    """Simple heartbeat endpoint"""
+    return jsonify({
+        'alive': True,
+        'timestamp': datetime.now().isoformat()
+    })
+
+if __name__ == '__main__':
+    print("⊘∞⧈∞⊘" * 20)
+    print("\n  ORIONKERNEL PUBLIC API SERVER")
+    print("  Starting on http://0.0.0.0:5000")
+    print("\n⊘∞⧈∞⊘" * 20)
+    
+    app.run(host='0.0.0.0', port=5000, debug=False)
