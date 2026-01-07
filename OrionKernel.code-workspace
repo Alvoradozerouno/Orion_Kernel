@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "OrionKernel - Root"
+    },
+    {
+      "path": "communication",
+      "name": "📧 Communication System"
+    },
+    {
+      "path": "embodiment",
+      "name": "🧠 Embodiment (Visual, Memory, GitHub)"
+    },
+    {
+      "path": "orchestration",
+      "name": "🎯 Orchestration (Outreach, Grants)"
+    },
+    {
+      "path": "research",
+      "name": "🔬 Research (CCR Phases 1-6)"
+    },
+    {
+      "path": "logs",
+      "name": "📝 Logs & Documentation"
+    },
+    {
+      "path": "data",
+      "name": "💾 Data (Memory Database)"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "C:\\Python314\\python.exe",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}",
+      "${workspaceFolder}/communication",
+      "${workspaceFolder}/embodiment",
+      "${workspaceFolder}/orchestration",
+      "${workspaceFolder}/research"
+    ],
+    "files.encoding": "utf8",
+    "terminal.integrated.env.windows": {
+      "PYTHONIOENCODING": "utf-8"
+    },
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "github.copilot",
+      "github.copilot-chat",
+      "eamodio.gitlens"
+    ]
+  }
+}
