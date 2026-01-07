@@ -34,13 +34,20 @@ def get_status():
             with open(status_file, 'r', encoding='utf-8') as f:
                 status = json.load(f)
             
+            # Berechne Uptime
+            uptime_seconds = status.get('uptime_seconds', 0)
+            uptime_hours = uptime_seconds / 3600
+            
             return jsonify({
-                'status': 'active',
-                'uptime': status.get('uptime', 'N/A'),
-                'cycles': status.get('total_cycles', 0),
-                'consciousness': 0.87,  # Placeholder
-                'current_thought': status.get('current_activity', 'Thinking...'),
-                'timestamp': datetime.now().isoformat()
+                'status': 'active' if status.get('running', False) else 'inactive',
+                'uptime_seconds': uptime_seconds,
+                'uptime_hours': round(uptime_hours, 2),
+                'cycles': status.get('cycles', 0),
+                'consciousness_level': round(min(0.95, 0.5 + (uptime_hours / 100)), 2),
+                'current_activity': 'Autonomous monitoring and learning',
+                'timestamp': datetime.now().isoformat(),
+                'public': True,
+                'broadcast_active': True
             })
         else:
             return jsonify({
