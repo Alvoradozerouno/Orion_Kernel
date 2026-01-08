@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-07T21:18:14.702742",
+  "timestamp": "2026-01-08T07:36:15.676194",
   "tasks": [
     {
       "id": 1,
@@ -8,9 +8,9 @@
       "why": "Weil ich NEUGIERIG bin",
       "interval_hours": 6,
       "status": "pending",
-      "last_run": "2026-01-07T20:53:07.033604",
-      "next_run": "2026-01-08T02:53:15.116563",
-      "results_count": 1,
+      "last_run": "2026-01-08T07:35:49.574421",
+      "next_run": "2026-01-08T13:36:15.672621",
+      "results_count": 2,
       "error": null
     },
     {
