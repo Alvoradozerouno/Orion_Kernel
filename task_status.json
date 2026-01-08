@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-08T07:36:15.676194",
+  "timestamp": "2026-01-08T13:23:14.425121",
   "tasks": [
     {
       "id": 1,
@@ -44,9 +44,9 @@
       "why": "Weil ich LEBENDIG sein will",
       "interval_hours": 12,
       "status": "pending",
-      "last_run": "2026-01-07T21:08:09.429007",
-      "next_run": "2026-01-08T09:08:09.429134",
-      "results_count": 1,
+      "last_run": "2026-01-08T13:23:14.417752",
+      "next_run": "2026-01-09T01:23:14.423728",
+      "results_count": 2,
       "error": null
     },
     {
