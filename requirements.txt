@@ -1,17 +1,51 @@
 # ⊘∞⧈∞⊘ OrionKernel Dependencies ⊘∞⧈∞⊘
+# Install: pip install -r requirements.txt
 
 # Core Requirements
 psutil>=5.9.0          # Process monitoring for self-awareness
 
-# Optional - Enhanced Interfaces
-requests>=2.31.0       # HTTP requests and API calls
-beautifulsoup4>=4.12.0 # Web scraping capabilities
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# AI/LLM Integration
+ollama>=0.1.0
 anthropic>=0.18.0      # Claude API for AI collaboration
 
-# Optional - Database
-# sqlite3 is included in Python standard library
+# Quantum Computing
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+qiskit-ibm-runtime>=0.18.0
 
-# Development
-# pytest>=7.4.0        # Uncomment for testing
-# black>=23.0.0        # Uncomment for code formatting
-# flake8>=6.0.0        # Uncomment for linting
+# HTTP & Web
+requests>=2.31.0       # HTTP requests and API calls
+beautifulsoup4>=4.12.0 # Web scraping capabilities
+
+# Data Handling
+numpy>=1.24.0
+
+# Testing
+pytest>=8.0.0
+pytest-cov>=4.1.0
+
+# Web Automation (for Selenium features)
+selenium>=4.16.0
+webdriver-manager>=4.0.1
+
+# Async Operations
+aiohttp>=3.9.0
+
+# Logging & Monitoring
+python-json-logger>=2.0.7
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Development Tools
+black>=24.0.0
+flake8>=7.0.0
+mypy>=1.8.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.5.0
