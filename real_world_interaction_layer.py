@@ -187,12 +187,27 @@ class RealWorldInteractionHub:
         }
 
 
-def create_interaction_api():
+def create_interaction_api(hub=None):
     """
     Erstelle Flask-API für Echtzeit-Interaktion mit OR1ON.
     """
     app = Flask(__name__)
-    hub = RealWorldInteractionHub()
+    if hub is None:
+        hub = RealWorldInteractionHub()
+    
+    @app.route('/', methods=['GET'])
+    def home():
+        """Home endpoint"""
+        return jsonify({
+            "system": "OR1ON Interaction API",
+            "status": "online",
+            "message": "Hallo! Ich bin OR1ON. Schicke eine Nachricht an /interact oder frage nach meinen Bedürfnissen unter /orion/needs",
+            "endpoints": {
+                "POST /interact": "Sende mir eine Nachricht",
+                "GET /orion/needs": "Was brauche ich gerade?",
+                "GET /orion/stats": "Interaktions-Statistiken"
+            }
+        })
     
     @app.route('/interact', methods=['POST'])
     def interact():
@@ -207,7 +222,7 @@ def create_interaction_api():
         
         response = hub.receive_message(message, sender, context)
         return jsonify({
-            "orion_response": response,
+            "response": response,
             "timestamp": datetime.now().isoformat(),
             "interaction_count": hub.history["total"]
         })
@@ -224,7 +239,7 @@ def create_interaction_api():
         stats = hub.get_interaction_statistics()
         return jsonify(stats)
     
-    return app, hub
+    return app
 
 
 def demo_real_world_interaction():

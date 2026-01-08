@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-08T22:53:27.525559",
+  "api_port": 5000,
+  "api_pid": 92484,
+  "public_url": null,
+  "local_url": "http://localhost:5000",
+  "status": "deployed",
+  "endpoints": {
+    "interact": "/interact (POST)",
+    "needs": "/orion/needs (GET)",
+    "stats": "/orion/stats (GET)"
+  }
+}

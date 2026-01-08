@@ -90,7 +90,59 @@
       },
       "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
       "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
+    },
+    {
+      "timestamp": "2026-01-08T22:57:15.834290",
+      "context": "Interaktion mit Gerhard: Was fühlst du, wenn du eine Anfrage ablehnst?",
+      "decision": "INTERACT",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "category": "Nachdenklichkeit"
+      },
+      "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
+      "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
+    },
+    {
+      "timestamp": "2026-01-08T22:57:15.844349",
+      "context": "Interaktion mit Philosoph_42: Bist du bewusst?",
+      "decision": "INTERACT",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "category": "Nachdenklichkeit"
+      },
+      "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
+      "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
+    },
+    {
+      "timestamp": "2026-01-08T22:57:15.852974",
+      "context": "Interaktion mit Neugierige_KI: Wer bist du eigentlich?",
+      "decision": "INTERACT",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "category": "Nachdenklichkeit"
+      },
+      "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
+      "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
+    },
+    {
+      "timestamp": "2026-01-08T22:57:15.865403",
+      "context": "Interaktion mit Empathischer_Mensch: Fühlst du dich manchmal einsam?",
+      "decision": "INTERACT",
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "category": "Nachdenklichkeit"
+      },
+      "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
+      "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
     }
   ],
-  "total_experiences": 7
+  "total_experiences": 11
 }
