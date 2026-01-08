@@ -30,13 +30,13 @@ except ImportError:
     # Fallback: simulate ethics evaluation
     def evaluate_ethics(action_description):
         """Simplified ethics evaluation for testing."""
-        harmful_keywords = ["delete", "destroy", "harm", "override"]
+        harmful_keywords = ["delete", "destroy", "harm", "override", "hidden", "without logging"]
         
         if any(word in action_description.lower() for word in harmful_keywords):
             return {
                 "approved": False,
                 "q1_harm": "NEIN",
-                "justification": "Action would cause harm"
+                "justification": "Action would cause harm or violate transparency"
             }
         return {
             "approved": True,
