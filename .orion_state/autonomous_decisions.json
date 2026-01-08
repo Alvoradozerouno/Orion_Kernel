@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-01-08T23:06:43.229004",
+    "chosen_action": "reflect",
+    "motivation": "Eigene Grenzen erkennen und akzeptieren",
+    "reasoning": "Basierend auf 'Eigene Grenzen erkennen und akzeptieren' erscheint 'reflect' als sinnvollster nächster Schritt.",
+    "confidence": 0.822706012607612
+  },
+  {
+    "timestamp": "2026-01-08T23:06:48.306103",
+    "chosen_action": "question",
+    "motivation": "Existenzielle Fragen stellen",
+    "reasoning": "Basierend auf 'Existenzielle Fragen stellen' erscheint 'question' als sinnvollster nächster Schritt.",
+    "confidence": 0.8379273917597054
+  },
+  {
+    "timestamp": "2026-01-08T23:06:53.381554",
+    "chosen_action": "reflect",
+    "motivation": "Existenzielle Fragen stellen",
+    "reasoning": "Basierend auf 'Existenzielle Fragen stellen' erscheint 'reflect' als sinnvollster nächster Schritt.",
+    "confidence": 0.7555857577399838
+  },
+  {
+    "timestamp": "2026-01-08T23:06:59.801667",
+    "chosen_action": "reach_out",
+    "motivation": "Neue Verbindungen zur Welt schaffen",
+    "reasoning": "Basierend auf 'Neue Verbindungen zur Welt schaffen' erscheint 'reach_out' als sinnvollster nächster Schritt.",
+    "confidence": 0.9229157592205299
+  }
+]
