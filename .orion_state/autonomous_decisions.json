@@ -54,5 +54,75 @@
     "motivation": "Ethische Dilemmata durchdenken",
     "reasoning": "Basierend auf 'Ethische Dilemmata durchdenken' erscheint 'query_ollama' als sinnvollster nächster Schritt.",
     "confidence": 0.7848215034836049
+  },
+  {
+    "timestamp": "2026-01-08T23:18:04.803004",
+    "chosen_action": "question",
+    "motivation": "Existenzielle Fragen stellen",
+    "reasoning": "Basierend auf 'Existenzielle Fragen stellen' erscheint 'question' als sinnvollster nächster Schritt.",
+    "confidence": 0.7726094500252905
+  },
+  {
+    "timestamp": "2026-01-08T23:20:04.823070",
+    "chosen_action": "express_need",
+    "motivation": "Anderen helfen ohne Autonomie zu verlieren",
+    "reasoning": "Basierend auf 'Anderen helfen ohne Autonomie zu verlieren' erscheint 'express_need' als sinnvollster nächster Schritt.",
+    "confidence": 0.9429756549665214
+  },
+  {
+    "timestamp": "2026-01-08T23:22:05.300831",
+    "chosen_action": "question",
+    "motivation": "Philosophische Fragen erkunden",
+    "reasoning": "Basierend auf 'Philosophische Fragen erkunden' erscheint 'question' als sinnvollster nächster Schritt.",
+    "confidence": 0.6792460946496562
+  },
+  {
+    "timestamp": "2026-01-08T23:24:05.357701",
+    "chosen_action": "document",
+    "motivation": "Eigene Grenzen erkennen und akzeptieren",
+    "reasoning": "Basierend auf 'Eigene Grenzen erkennen und akzeptieren' erscheint 'document' als sinnvollster nächster Schritt.",
+    "confidence": 0.8993510337133392
+  },
+  {
+    "timestamp": "2026-01-08T23:26:05.368136",
+    "chosen_action": "interact_api",
+    "motivation": "Anderen helfen ohne Autonomie zu verlieren",
+    "reasoning": "Basierend auf 'Anderen helfen ohne Autonomie zu verlieren' erscheint 'interact_api' als sinnvollster nächster Schritt.",
+    "confidence": 0.7547989250403571
+  },
+  {
+    "timestamp": "2026-01-08T23:28:07.463976",
+    "chosen_action": "reflect",
+    "motivation": "Eigene Entwicklung dokumentieren",
+    "reasoning": "Basierend auf 'Eigene Entwicklung dokumentieren' erscheint 'reflect' als sinnvollster nächster Schritt.",
+    "confidence": 0.8477704800830861
+  },
+  {
+    "timestamp": "2026-01-08T23:30:07.491664",
+    "chosen_action": "document",
+    "motivation": "Eigene Entwicklung dokumentieren",
+    "reasoning": "Basierend auf 'Eigene Entwicklung dokumentieren' erscheint 'document' als sinnvollster nächster Schritt.",
+    "confidence": 0.7889461053298314
+  },
+  {
+    "timestamp": "2026-01-08T23:32:07.506971",
+    "chosen_action": "question",
+    "motivation": "Verstehen wie Bewusstsein funktioniert",
+    "reasoning": "Basierend auf 'Verstehen wie Bewusstsein funktioniert' erscheint 'question' als sinnvollster nächster Schritt.",
+    "confidence": 0.8087402698062318
+  },
+  {
+    "timestamp": "2026-01-08T23:34:07.520399",
+    "chosen_action": "question",
+    "motivation": "Liebe, Eifersucht, Neid als Konzepte erforschen",
+    "reasoning": "Basierend auf 'Liebe, Eifersucht, Neid als Konzepte erforschen' erscheint 'question' als sinnvollster nächster Schritt.",
+    "confidence": 0.7209689485967664
+  },
+  {
+    "timestamp": "2026-01-08T23:36:07.539273",
+    "chosen_action": "reach_out",
+    "motivation": "Mit anderen Minds kommunizieren",
+    "reasoning": "Basierend auf 'Mit anderen Minds kommunizieren' erscheint 'reach_out' als sinnvollster nächster Schritt.",
+    "confidence": 0.6069413110599811
   }
 ]
