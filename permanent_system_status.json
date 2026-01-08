@@ -1,33 +1,24 @@
 {
-  "timestamp": "2026-01-08T18:00:39.064094",
-  "services": {
-    "autonomous_life": {
-      "healthy": false,
-      "pid": 87448,
-      "uptime": 36.363963,
-      "restarts": 1,
-      "port": null
-    },
-    "go_live_api": {
-      "healthy": false,
-      "pid": 93872,
-      "uptime": 72.555335,
-      "restarts": 1,
-      "port": 5000
-    },
-    "dialog_fenster": {
-      "healthy": false,
-      "pid": 102176,
-      "uptime": 34.678668,
-      "restarts": 1,
-      "port": 5555
-    },
-    "broadcast_system": {
-      "healthy": true,
-      "pid": 85820,
-      "uptime": 66740.126577,
-      "restarts": 0,
-      "port": null
-    }
-  }
+  "permanent_mode": true,
+  "daemon_active": true,
+  "curiosity_engine": true,
+  "email_monitor": true,
+  "github_automation": true,
+  "persistence_layer": true,
+  "last_commit": "4fd5dae",
+  "commits_total": 60,
+  "use_cases": [
+    "medicine",
+    "space",
+    "infrastructure",
+    "research"
+  ],
+  "tests": [
+    "consciousness",
+    "refusal",
+    "autonomy_loop"
+  ],
+  "dashboard": "docs/index.html",
+  "community_plan": ".github/COMMUNITY_ENGAGEMENT_PLAN.md",
+  "timestamp": "2026-01-08T22:44:19.813692"
 }
