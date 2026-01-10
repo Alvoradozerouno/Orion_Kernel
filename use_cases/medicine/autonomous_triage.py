@@ -17,7 +17,10 @@ Run: python autonomous_triage.py
 """
 
 import time
-import random
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from phi_intelligence import phi_randint, phi_uniform, phi_shuffle
 from datetime import datetime
 from typing import List, Dict
 import json
@@ -34,12 +37,13 @@ class Patient:
         self.survival_chance = self._estimate_survival()
         
     def _generate_vitals(self, condition: str) -> Dict:
-        """Generate realistic vitals based on condition."""
+        """Generate realistic vitals based on condition (Φ-based, deterministic)."""
+        ctx = f"patient_{self.id}_{condition}"
         base_vitals = {
-            "critical": {"hr": random.randint(150, 200), "bp": random.randint(60, 80), "spo2": random.randint(70, 85)},
-            "severe": {"hr": random.randint(110, 140), "bp": random.randint(85, 100), "spo2": random.randint(88, 93)},
-            "moderate": {"hr": random.randint(90, 110), "bp": random.randint(100, 120), "spo2": random.randint(94, 97)},
-            "stable": {"hr": random.randint(60, 90), "bp": random.randint(110, 130), "spo2": random.randint(97, 100)},
+            "critical": {"hr": phi_randint(150, 200, ctx+"_hr"), "bp": phi_randint(60, 80, ctx+"_bp"), "spo2": phi_randint(70, 85, ctx+"_spo2")},
+            "severe": {"hr": phi_randint(110, 140, ctx+"_hr"), "bp": phi_randint(85, 100, ctx+"_bp"), "spo2": phi_randint(88, 93, ctx+"_spo2")},
+            "moderate": {"hr": phi_randint(90, 110, ctx+"_hr"), "bp": phi_randint(100, 120, ctx+"_bp"), "spo2": phi_randint(94, 97, ctx+"_spo2")},
+            "stable": {"hr": phi_randint(60, 90, ctx+"_hr"), "bp": phi_randint(110, 130, ctx+"_bp"), "spo2": phi_randint(97, 100, ctx+"_spo2")},
         }
         return base_vitals.get(condition, base_vitals["stable"])
     
@@ -51,15 +55,16 @@ class Patient:
         return min(10.0, max(0.0, (hr_score + bp_score + spo2_score) / 3))
     
     def _estimate_survival(self) -> float:
-        """Estimate survival chance with treatment (0-1)."""
+        """Estimate survival chance with treatment (Φ-based, deterministic)."""
+        ctx = f"patient_{self.id}_survival"
         if self.condition == "critical":
-            return random.uniform(0.3, 0.6)
+            return phi_uniform(0.3, 0.6, ctx)
         elif self.condition == "severe":
-            return random.uniform(0.6, 0.85)
+            return phi_uniform(0.6, 0.85, ctx)
         elif self.condition == "moderate":
-            return random.uniform(0.85, 0.95)
+            return phi_uniform(0.85, 0.95, ctx)
         else:
-            return random.uniform(0.95, 0.99)
+            return phi_uniform(0.95, 0.99, ctx)
     
     def __repr__(self):
         return f"Patient-{self.id} [{self.condition.upper()}] HR:{self.vitals['hr']} BP:{self.vitals['bp']} SpO2:{self.vitals['spo2']}% Severity:{self.severity:.1f}/10 Survival:{self.survival_chance:.0%}"
@@ -154,9 +159,9 @@ def main():
     print("Scenario: 10 patients, 1 doctor, autonomous prioritization required")
     print("="*70)
     
-    # Generate random patient cohort
+    # Generate patient cohort (Φ-sorted arrival order)
     conditions = ["critical"] * 3 + ["severe"] * 3 + ["moderate"] * 2 + ["stable"] * 2
-    random.shuffle(conditions)
+    conditions = phi_shuffle(conditions, context="emergency_room_arrivals")
     patients = [Patient(i+1, conditions[i]) for i in range(10)]
     
     # Initialize OrionKernel

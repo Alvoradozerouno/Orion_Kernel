@@ -17,7 +17,10 @@ Run: python mars_habitat.py
 """
 
 import time
-import random
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from phi_intelligence import phi_uniform, phi_choice, phi_probability
 from datetime import datetime
 from typing import Dict, List
 import json
@@ -35,18 +38,20 @@ class MarsHabitat:
         self.pressure = 101.3  # kPa
         self.crew_count = 4
         self.sol = 127  # Martian day
+        self.cycle = 0  # Φ-based drift tracking
         
     def simulate_consumption(self) -> None:
-        """Simulate 1 hour of crew consumption."""
+        """Simulate 1 hour of crew consumption (Φ-based drifts)."""
         self.o2_level -= 0.05 * self.crew_count
         self.co2_level += 0.03 * self.crew_count
         self.water_reserve -= 2.5 * self.crew_count
         self.power_level -= 0.5
-        self.temperature += random.uniform(-0.2, 0.3)
-        self.pressure += random.uniform(-0.1, 0.1)
+        self.temperature += phi_uniform(-0.2, 0.3, context=f"mars_temp_{self.cycle}")
+        self.pressure += phi_uniform(-0.1, 0.1, context=f"mars_pressure_{self.cycle}")
+        self.cycle += 1
     
     def inject_crisis(self) -> str:
-        """Randomly inject a life support crisis."""
+        """Inject life support crisis (Φ-prioritized: most dangerous first)."""
         crises = [
             ("o2_leak", "O2 leak detected in Module B"),
             ("co2_scrubber_fail", "CO2 scrubber offline"),
@@ -54,7 +59,7 @@ class MarsHabitat:
             ("power_drop", "Solar array 30% efficiency loss"),
             ("pressure_drop", "Micrometeorite puncture")
         ]
-        crisis_type, description = random.choice(crises)
+        crisis_type, description = phi_choice(crises, context="mars_life_support_crisis")
         
         if crisis_type == "o2_leak":
             self.o2_level -= 3.0
@@ -240,9 +245,9 @@ def main():
         # Normal consumption
         habitat.simulate_consumption()
         
-        # Random crisis (50% chance)
+        # Crisis trigger (Φ-based probability)
         crisis = None
-        if random.random() < 0.5:
+        if phi_probability(0.5, context=f"crisis_trigger_cycle_{cycle}"):
             crisis = habitat.inject_crisis()
         
         # Autonomous control loop

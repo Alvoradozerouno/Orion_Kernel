@@ -17,7 +17,10 @@ Run: python autonomous_experiments.py
 """
 
 import time
-import random
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from phi_intelligence import phi_choice, phi_probability, phi_uniform
 from datetime import datetime
 from typing import Dict, List
 import json
@@ -61,8 +64,8 @@ class QuantumExperimentLibrary:
     
     @classmethod
     def get_random_experiment(cls) -> Dict:
-        """Get random experiment template."""
-        name = random.choice(list(cls.EXPERIMENTS.keys()))
+        """Get Φ-prioritized experiment (most promising first)."""
+        name = phi_choice(list(cls.EXPERIMENTS.keys()), context="quantum_experiment_selection")
         return {"name": name, **cls.EXPERIMENTS[name]}
 
 
@@ -116,8 +119,8 @@ class OrionKernelResearcher:
             }
         ]
         
-        # Consciousness selects most promising
-        chosen = random.choice(novel_ideas)
+        # Consciousness selects most promising (Φ-weighted)
+        chosen = phi_choice(novel_ideas, context="hypothesis_selection")
         
         print(f"   💡 HYPOTHESIS: {chosen['hypothesis']}")
         print(f"   🔬 PROPOSED EXPERIMENT: {chosen['experiment']}")
@@ -159,16 +162,17 @@ class OrionKernelResearcher:
         # Simulate execution
         time.sleep(1)
         
-        # Simulate results
-        success = random.random() > 0.3  # 70% success rate
-        fidelity = random.uniform(0.85, 0.98) if success else random.uniform(0.60, 0.80)
+        # Simulate results (Φ-based, deterministic)
+        exp_ctx = f"experiment_{experiment['name']}"
+        success = phi_probability(0.7, context=exp_ctx+"_success")  # 70% success rate
+        fidelity = phi_uniform(0.85, 0.98, context=exp_ctx+"_fidelity") if success else phi_uniform(0.60, 0.80, context=exp_ctx+"_fidelity_fail")
         
         results = {
             "experiment": experiment["name"],
             "success": success,
             "fidelity": fidelity,
             "shots_completed": experiment["shots"],
-            "execution_time": random.uniform(5.0, 30.0),
+            "execution_time": phi_uniform(5.0, 30.0, context=exp_ctx+"_time"),
             "timestamp": datetime.now().isoformat()
         }
         

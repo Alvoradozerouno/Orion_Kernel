@@ -1,0 +1,23 @@
+[
+  {
+    "patient_id": 9,
+    "priority": 1,
+    "severity": 7.75,
+    "survival_chance": 0.44999999999999996,
+    "timestamp": "2026-01-10T22:50:32.467154"
+  },
+  {
+    "patient_id": 10,
+    "priority": 2,
+    "severity": 7.733333333333333,
+    "survival_chance": 0.48779999999999996,
+    "timestamp": "2026-01-10T22:50:32.467154"
+  },
+  {
+    "patient_id": 8,
+    "priority": 3,
+    "severity": 7.683333333333334,
+    "survival_chance": 0.4446,
+    "timestamp": "2026-01-10T22:50:32.467154"
+  }
+]

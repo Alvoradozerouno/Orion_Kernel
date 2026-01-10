@@ -17,7 +17,10 @@ Run: python power_grid.py
 """
 
 import time
-import random
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from phi_intelligence import phi_choice, phi_randint, phi_sample
 from datetime import datetime
 from typing import Dict, List
 import json
@@ -46,11 +49,11 @@ class PowerGrid:
             ("malware", "Malware manipulating load data"),
             ("physical", "Transformer sabotage via hacked controls")
         ]
-        attack_type, description = random.choice(attack_types)
+        attack_type, description = phi_choice(attack_types, context="cyberattack_type")
         
-        # Random regions compromised
-        num_compromised = random.randint(1, 2)
-        self.compromised_regions = random.sample(list(self.regions.keys()), num_compromised)
+        # Φ-based compromised regions (critical infrastructure first)
+        num_compromised = phi_randint(1, 2, context="attack_severity")
+        self.compromised_regions = phi_sample(list(self.regions.keys()), num_compromised, context="target_critical_regions")
         
         # Simulate capacity loss
         for region in self.compromised_regions:

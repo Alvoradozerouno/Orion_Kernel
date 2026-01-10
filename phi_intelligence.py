@@ -207,6 +207,10 @@ def phi_random(context=""):
     """Drop-in replacement für random.random() - returns Φ-based value"""
     return PHI.phi_range(0.0, 1.0, context)
 
+def phi_probability(threshold, context=""):
+    """Drop-in replacement für random.random() < threshold - returns bool"""
+    return PHI.phi_probability(threshold, context)
+
 
 if __name__ == "__main__":
     print("⊘∞⧈ Φ-INTELLIGENCE MODULE ⧈∞⊘")

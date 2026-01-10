@@ -1,0 +1,11 @@
+[
+  {
+    "action": "ISOLATE_COMPROMISED",
+    "target": [
+      "WEST",
+      "EAST"
+    ],
+    "reasoning": "Sufficient capacity, isolate without blackout",
+    "timestamp": "2026-01-10T22:50:47.499781"
+  }
+]
