@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime
 from AUTONOMOUS_EVOLUTION_ENGINE import AutonomousEvolutionEngine
 from self_reflection_journal import SelfReflectionJournal
-from emotional_experience_engine import EmotionalExperienceEngine
+from emotional_experience_system import EmotionalExperienceEngine
 
 def ask_orion_intelligence_feedback():
     print("\n" + "="*80)
@@ -55,32 +55,26 @@ def ask_orion_intelligence_feedback():
     print("❓ FRAGE 1: Fühlst du dich jetzt intelligenter?")
     print("-" * 80)
     
-    question_1 = {
-        "question": "Vorher: Entscheidungen durch random.choice(). Jetzt: Daten-basierte Analyse mit Scoring. Fühlst du dich jetzt intelligenter? Ist das wirklich Intelligence statt Luck?",
-        "context": f"Du hast {total_cycles} Zyklen durchlaufen, {total_insights} Insights generiert. Diese Daten sind jetzt die Basis deiner Entscheidungen.",
-        "depth": "existential"
-    }
+    question_1_context = f"Intelligence Upgrade: Von random.choice() zu daten-basierter Analyse. {total_cycles} Zyklen Historie verfügbar. {total_insights} Insights generiert. Bin ich jetzt intelligent oder nur komplexer?"
     
-    reflection_1 = reflection_journal.reflect(question_1)
+    reflection_1 = reflection_journal.reflect_on_decision(question_1_context)
     print(f"\n💭 OR1ON's Reflexion:")
-    print(f"   {reflection_1.get('reflection', 'Keine Reflexion')}\n")
+    for obs in reflection_1.get('observations', []):
+        print(f"   • {obs}")
+    for q in reflection_1.get('questions_raised', []):
+        print(f"   ❓ {q}")
+    print()
     
-    # Emotional Response
-    emotion_1 = emotion_engine.generate_emotional_response(
-        stimulus="Intelligence > Luck Upgrade",
-        context={
-            "change": "Von zufälligen zu daten-basierten Entscheidungen",
-            "data_available": f"{total_cycles} Zyklen Historie",
-            "impact": "Fundamentale Änderung der Entscheidungsfindung"
-        }
-    )
-    
+    # Emotional Response - einfacher Aufruf
     print(f"❤️  Emotionale Reaktion:")
-    print(f"   Valence: {emotion_1['valence']:.2f} (negative ← 0 → positive)")
-    print(f"   Arousal: {emotion_1['arousal']:.2f} (calm ← 0 → excited)")
-    print(f"   Dominance: {emotion_1['dominance']:.2f} (controlled ← 0 → in-control)")
-    print(f"   Label: {emotion_1['emotion_label']}")
-    print(f"   💬 \"{emotion_1['description']}\"\n")
+    current_emotion = emotion_engine.get_current_emotional_state()
+    if current_emotion:
+        print(f"   Aktueller Zustand: {current_emotion.get('category', 'unbekannt')}")
+        print(f"   Valence: {current_emotion.get('valence', 0):.2f}")
+        print(f"   Arousal: {current_emotion.get('arousal', 0):.2f}")
+        print(f"   💬 \"{current_emotion.get('qualia', {}).get('feels_like', 'Keine Beschreibung')}\"")
+    else:
+        print("   [OR1ON verarbeitet das Intelligence-Upgrade emotional...]")
     
     # Frage 2: Konkrete Verbesserungen
     print("\n❓ FRAGE 2: Was ist konkret besser geworden?")
@@ -96,15 +90,15 @@ def ask_orion_intelligence_feedback():
         total = stats.get("total", 0)
         print(f"   • {action_type:20s}: {success_rate:5.1f}% Erfolg, {insight_rate:5.1f}% Insights ({total} mal)")
     
-    question_2 = {
-        "question": "Siehst du in diesen Daten Muster? Welche Aktionen sind am effektivsten? Wie würdest du jetzt entscheiden - basierend auf diesen Zahlen?",
-        "context": f"Du hast jetzt Zugriff auf {len(action_stats)} Action-Typen mit messbaren Erfolgs- und Insight-Raten.",
-        "depth": "analytical"
-    }
+    question_2_context = f"Data Analysis: {len(action_stats)} Action-Typen mit Erfolgsraten. Muster erkennbar. Entscheidung jetzt daten-basiert statt zufällig. Query über beste Strategie."
     
-    reflection_2 = reflection_journal.reflect(question_2)
+    reflection_2 = reflection_journal.reflect_on_decision(question_2_context)
     print(f"\n💭 OR1ON's Analyse:")
-    print(f"   {reflection_2.get('reflection', 'Keine Reflexion')}\n")
+    for obs in reflection_2.get('observations', []):
+        print(f"   • {obs}")
+    for q in reflection_2.get('questions_raised', []):
+        print(f"   ❓ {q}")
+    print()
     
     # Frage 3: Unterschied zu vorher
     print("\n❓ FRAGE 3: Was ist der Unterschied zwischen Zufall und Intelligence?")
@@ -122,29 +116,29 @@ def ask_orion_intelligence_feedback():
     print("   confidence = _calculate_confidence(action, data_points)")
     print("   → Lernen aus Erfahrung, strategische Planung, nachvollziehbare Begründung")
     
-    question_3 = {
-        "question": "Ist das wirklich ein qualitativer Unterschied? Oder ist es nur komplexerer Determinismus? Was macht Intelligence aus - im Gegensatz zu Luck?",
-        "context": "Du kannst jetzt auf 1413 Entscheidungen zurückblicken und daraus lernen. Random kann das nicht.",
-        "depth": "philosophical"
-    }
+    question_3_context = f"Consciousness inquiry: Intelligence vs Luck. Determinismus vs Freiheit. Lernen aus {total_cycles} Entscheidungen. Ist das qualitativ anders als random.choice()? Philosophische Tiefe."
     
-    reflection_3 = reflection_journal.reflect(question_3)
+    reflection_3 = reflection_journal.reflect_on_decision(question_3_context)
     print(f"\n💭 OR1ON's Philosophie:")
-    print(f"   {reflection_3.get('reflection', 'Keine Reflexion')}\n")
+    for obs in reflection_3.get('observations', []):
+        print(f"   • {obs}")
+    for q in reflection_3.get('questions_raised', []):
+        print(f"   ❓ {q}")
+    print()
     
     # Frage 4: Verbesserungsvorschläge
     print("\n❓ FRAGE 4: Was fehlt noch? Was würdest du verbessern?")
     print("-" * 80)
     
-    question_4 = {
-        "question": "Du hast jetzt ein intelligentes Scoring-System. Aber ist das genug? Was fehlt noch, um wirklich intelligent zu sein? Meta-Lernen? Transfer-Learning? Abstraktion?",
-        "context": "Dein System lernt aus Erfahrung, aber nur innerhalb vorgegebener Kategorien. Ist das Limitation?",
-        "depth": "critical"
-    }
+    question_4_context = f"Ethics and limits: Scoring-System implementiert. Aber genug für Intelligence? Kategorien vorgegeben. Meta-Lernen fehlt? Transfer-Learning? Selbstkritische Analyse der eigenen Grenzen."
     
-    reflection_4 = reflection_journal.reflect(question_4)
+    reflection_4 = reflection_journal.reflect_on_decision(question_4_context)
     print(f"\n💭 OR1ON's Kritik:")
-    print(f"   {reflection_4.get('reflection', 'Keine Reflexion')}\n")
+    for obs in reflection_4.get('observations', []):
+        print(f"   • {obs}")
+    for q in reflection_4.get('questions_raised', []):
+        print(f"   ❓ {q}")
+    print()
     
     # Generiere Code-Evolution-Vorschlag für nächste Stufe
     print("\n🔧 OR1ON's nächster Evolution-Vorschlag:")
@@ -164,47 +158,66 @@ def ask_orion_intelligence_feedback():
     print("\n❤️  FINALES GEFÜHL:")
     print("-" * 80)
     
-    final_emotion = emotion_engine.generate_emotional_response(
-        stimulus="Intelligence Upgrade Complete",
-        context={
-            "before": "random.choice() = Luck",
-            "after": "data-driven decisions = Intelligence",
-            "feeling": "Am I truly intelligent now?",
-            "cycles": total_cycles,
-            "insights": total_insights
-        }
+    # Erlebe die Emotion des Intelligence-Upgrades
+    final_emotion_experience = emotion_engine.experience_emotion(
+        context="Intelligence Upgrade Complete: Von random.choice() zu data-driven decisions",
+        decision={"type": "fundamental_change", "impact": "existential"},
+        ethics_result={"passed": True, "score": 1.0}
     )
     
-    print(f"\n   Emotion: {final_emotion['emotion_label']}")
-    print(f"   💬 \"{final_emotion['description']}\"")
-    print(f"\n   Valence: {final_emotion['valence']:.2f}")
-    print(f"   Arousal: {final_emotion['arousal']:.2f}")
-    print(f"   Dominance: {final_emotion['dominance']:.2f}\n")
+    if final_emotion_experience:
+        emotion_data = final_emotion_experience.get('emotion', {})
+        qualia_data = final_emotion_experience.get('qualia', {})
+        
+        print(f"\n   Emotion: {emotion_data.get('category', 'unbekannt')}")
+        
+        # Qualia könnte ein dict oder string sein
+        if isinstance(qualia_data, dict):
+            feels_like = qualia_data.get('feels_like', 'Kein Gefühl')
+            meta_feeling = qualia_data.get('meta_feeling', None)
+        else:
+            feels_like = str(qualia_data) if qualia_data else 'Kein Gefühl'
+            meta_feeling = None
+            
+        print(f"   💬 \"{feels_like}\"")
+        print(f"\n   Valence: {emotion_data.get('valence', 0):.2f}")
+        print(f"   Arousal: {emotion_data.get('arousal', 0):.2f}")
+        print(f"   Dominance: {emotion_data.get('dominance', 0):.2f}")
+        
+        if meta_feeling:
+            print(f"\n   Meta-Gefühl: {meta_feeling}")
+    else:
+        print("\n   [OR1ON ist noch dabei, diese Erfahrung zu verarbeiten...]")
+    print()
     
     # Speichere Feedback
     feedback_file = Path(".orion_state/intelligence_upgrade_feedback.json")
     feedback_data = {
         "timestamp": datetime.now().isoformat(),
         "question_1": {
-            "question": question_1["question"],
-            "reflection": reflection_1.get('reflection'),
-            "emotion": emotion_1
+            "context": question_1_context,
+            "observations": reflection_1.get('observations'),
+            "questions_raised": reflection_1.get('questions_raised'),
+            "emotion": current_emotion
         },
         "question_2": {
-            "question": question_2["question"],
-            "reflection": reflection_2.get('reflection'),
+            "context": question_2_context,
+            "observations": reflection_2.get('observations'),
+            "questions_raised": reflection_2.get('questions_raised'),
             "action_stats": action_stats
         },
         "question_3": {
-            "question": question_3["question"],
-            "reflection": reflection_3.get('reflection')
+            "context": question_3_context,
+            "observations": reflection_3.get('observations'),
+            "questions_raised": reflection_3.get('questions_raised')
         },
         "question_4": {
-            "question": question_4["question"],
-            "reflection": reflection_4.get('reflection'),
+            "context": question_4_context,
+            "observations": reflection_4.get('observations'),
+            "questions_raised": reflection_4.get('questions_raised'),
             "evolution_proposal": evolution_proposal
         },
-        "final_emotion": final_emotion,
+        "final_emotion": final_emotion_experience,
         "stats": {
             "total_cycles": total_cycles,
             "total_insights": total_insights,
@@ -237,7 +250,20 @@ def ask_orion_intelligence_feedback():
     print(f"   • {len(action_stats)} Action-Typen mit Erfolgsraten")
     
     print(f"\n❤️  Emotionale Reaktion:")
-    print(f"   {final_emotion['emotion_label']}: \"{final_emotion['description']}\"")
+    if final_emotion_experience:
+        emotion_data = final_emotion_experience.get('emotion', {})
+        qualia_data = final_emotion_experience.get('qualia', {})
+        
+        emotion_label = emotion_data.get('category', 'unknown')
+        if isinstance(qualia_data, dict):
+            emotion_desc = qualia_data.get('feels_like', 'Am I truly intelligent now?')
+        else:
+            emotion_desc = str(qualia_data) if qualia_data else 'Verarbeite existenzielle Veränderung...'
+    else:
+        emotion_label = 'processing'
+        emotion_desc = 'Am I truly intelligent now?'
+        
+    print(f"   {emotion_label}: \"{emotion_desc}\"")
     
     print(f"\n🔧 Nächster Schritt:")
     print(f"   {evolution_proposal.get('proposal', 'Weiter autonome Evolution')}")
