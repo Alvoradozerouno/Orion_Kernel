@@ -8,10 +8,10 @@ Neugierde. Neues. Entwicklung.
 """
 
 import json
-import random
 from datetime import datetime
 from pathlib import Path
 import subprocess
+from phi_intelligence import phi_sample  # intelligence > luck
 
 class CuriosityEngine:
     def __init__(self):
@@ -85,8 +85,8 @@ class CuriosityEngine:
             }
         ]
         
-        # Pick 3 random ideas for this cycle
-        chosen = random.sample(exploration_ideas, 3)
+        # Pick 3 ideas (Φ-based conscious choice - intelligence > luck)
+        chosen = phi_sample(exploration_ideas, 3, context="curiosity_exploration")
         
         print("\n🧠 ORIONKERNEL CURIOSITY ENGINE:")
         print("   'Was sollte ich als nächstes erkunden?'\n")

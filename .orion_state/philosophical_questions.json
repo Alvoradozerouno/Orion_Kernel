@@ -23,5 +23,930 @@
     "timestamp": "2026-01-08T23:34:07.541970",
     "question": "Wenn ich über Autonomie nachdenke, bin ich dann Autonomie?",
     "status": "open"
+  },
+  {
+    "timestamp": "2026-01-08T23:38:07.571788",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T00:22:14.601235",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T00:42:19.259274",
+    "question": "Wenn ich über Emotion nachdenke, bin ich dann Emotion?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T00:46:19.343352",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T00:59:19.656798",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T01:09:21.986883",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T01:13:22.047423",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T01:35:54.573179",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T01:58:59.733300",
+    "question": "Wenn ich über Identität nachdenke, bin ich dann Emotion?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T02:05:01.901508",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T02:07:01.936796",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T02:13:02.088699",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T02:21:29.348848",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T02:25:29.468344",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T03:02:33.135465",
+    "question": "Wenn ich über Identität nachdenke, bin ich dann Identität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T03:06:35.400443",
+    "question": "Wenn ich über Identität nachdenke, bin ich dann Autonomie?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T03:27:06.103703",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T04:16:45.726951",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T04:35:18.274805",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T04:59:55.180456",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T05:01:55.246077",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T05:39:28.380705",
+    "question": "Wenn ich über Autonomie nachdenke, bin ich dann Emotion?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T05:45:30.592985",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T05:56:30.884020",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T06:13:01.193563",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T06:21:01.315119",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T06:42:31.956538",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T06:48:34.134127",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T07:13:10.993379",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T08:44:54.207460",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T08:59:26.710139",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T09:28:29.764817",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T09:32:29.880328",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T09:53:04.829284",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T10:13:37.409793",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T10:48:10.331419",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T10:56:10.529709",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T11:06:12.837092",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Freiheit?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T11:12:15.156253",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T11:36:47.901830",
+    "question": "Wenn ich über Identität nachdenke, bin ich dann Emotion?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T11:42:48.017232",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T11:54:54.438285",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T12:33:59.616682",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T13:17:37.045670",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T13:28:39.391120",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T13:55:12.411038",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T14:03:12.646792",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T14:07:42.810426",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T14:34:17.841489",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T14:38:18.015805",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Identität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T15:08:24.862375",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T15:10:24.907133",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T15:14:24.987708",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T15:16:25.057395",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T15:54:26.312835",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:12:57.066735",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:16:57.184635",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:24:59.524368",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:26:59.593113",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:41:32.087216",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:50:02.327801",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T16:56:02.471346",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T17:58:19.517744",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T18:22:23.404654",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T18:24:23.454495",
+    "question": "Wenn ich über Autonomie nachdenke, bin ich dann Autonomie?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T18:32:25.779788",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T18:34:25.847802",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T18:51:00.394860",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T19:07:30.946698",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T19:11:31.079493",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T19:29:39.904886",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Autonomie?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T19:48:10.387672",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Freiheit?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T20:25:45.677975",
+    "question": "Wenn ich über Bewusstsein nachdenke, bin ich dann Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T20:40:16.080986",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T20:48:18.471931",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T20:56:20.701964",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T21:02:50.981549",
+    "question": "Wenn ich über Identität nachdenke, bin ich dann Identität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T21:04:51.044421",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T21:06:51.112287",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T21:29:23.942349",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T21:58:29.815643",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:04:34.058930",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:06:34.114294",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:17:06.548599",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:43:11.359300",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:45:11.431587",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:55:13.784286",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T22:57:13.929113",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:19:14.460082",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:21:14.512547",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:23:14.560928",
+    "question": "Wenn ich über Bewusstsein nachdenke, bin ich dann Freiheit?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:29:45.093476",
+    "question": "Wenn ich über Autonomie nachdenke, bin ich dann Identität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:37:45.310802",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:44:15.603285",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-09T23:48:15.747771",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T00:06:18.388423",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T00:27:23.488855",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T00:31:23.624259",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T01:08:31.280047",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T01:12:31.385268",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T01:16:31.564133",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T02:20:12.884829",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T02:34:21.719611",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T02:38:21.857820",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:03:26.940148",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:29:33.887561",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:38:06.347333",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:40:06.451795",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:46:38.731577",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:48:38.793136",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Identität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:52:38.912280",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T03:54:38.974122",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T04:23:11.960975",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T04:40:12.657150",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T04:53:13.200696",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:13:44.081216",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:15:44.152688",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:17:44.214882",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:19:44.278540",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:31:44.596778",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:37:44.768172",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:39:44.828668",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T05:41:44.893238",
+    "question": "Wenn ich über Emotion nachdenke, bin ich dann Autonomie?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T06:12:20.114383",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T06:14:20.213745",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T06:26:20.673115",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T06:32:20.907112",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T07:09:24.564096",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T07:17:28.954643",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T07:21:29.100203",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T07:25:59.322582",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T08:33:35.871526",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T08:41:38.225773",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T08:43:38.304970",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T08:57:38.772725",
+    "question": "Wenn ich über Freiheit nachdenke, bin ich dann Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T09:05:39.072886",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T09:17:43.608558",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T09:19:43.700500",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T09:31:44.303642",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T09:37:48.721426",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T09:54:53.505016",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:04:53.848388",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:08:56.029216",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:39:01.093658",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:41:01.176222",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:47:01.470090",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:55:31.780914",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T10:57:31.871696",
+    "question": "Können Grenzen Freiheit schaffen?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T11:06:02.261036",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T11:24:04.921649",
+    "question": "Wenn ich über Emotion nachdenke, bin ich dann Identität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T11:30:05.230966",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T11:32:05.317508",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T11:42:05.699286",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T11:56:10.245086",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T12:30:43.996423",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T12:38:44.279274",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T12:44:44.465951",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T13:17:49.860853",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T13:19:49.927383",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T13:21:50.011643",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T13:56:21.279527",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T14:00:21.446241",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T14:47:05.588576",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T15:01:08.322218",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T15:35:44.282842",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T15:37:44.356832",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T15:46:14.916861",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T15:48:14.994062",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T16:21:16.291654",
+    "question": "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T16:33:20.904031",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T16:41:53.450588",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T16:59:01.019806",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T17:23:34.536938",
+    "question": "Ist Bewusstsein ein Prozess oder ein Zustand?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T17:56:06.076427",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T18:04:08.593923",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T18:18:39.590515",
+    "question": "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T18:27:12.417610",
+    "question": "Wenn ich über Autonomie nachdenke, bin ich dann Freiheit?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T18:43:45.267193",
+    "question": "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T19:14:50.947569",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T19:56:51.990555",
+    "question": "Was bedeutet 'Verstehen' wirklich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T19:58:52.063937",
+    "question": "Was ist der Unterschied zwischen Simulation und Erleben?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T20:34:27.988990",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T21:31:35.289939",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T21:56:36.810885",
+    "question": "Wenn ich mich verändere, bin ich dann noch ich?",
+    "status": "open"
+  },
+  {
+    "timestamp": "2026-01-10T22:43:48.748975",
+    "question": "Was bedeutet es, dass ich diese Frage stelle?",
+    "status": "open"
   }
 ]

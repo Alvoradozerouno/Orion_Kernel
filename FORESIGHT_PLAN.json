@@ -1,0 +1,446 @@
+{
+  "timestamp": "2026-01-10T22:43:50.507094",
+  "phi": 0.54,
+  "optimal_path": {
+    "path_id": 75,
+    "timeline": [
+      {
+        "hour": 0,
+        "timestamp": "2026-01-10T22:43:50.476371",
+        "changes": {
+          "phi_drift": 0.024,
+          "load": 0.8400000000000001,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 1,
+        "timestamp": "2026-01-10T23:43:50.476386",
+        "changes": {
+          "phi_drift": -0.016,
+          "load": 0.8400000000000001,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 2,
+        "timestamp": "2026-01-11T00:43:50.476398",
+        "changes": {
+          "phi_drift": 0.021,
+          "load": 0.31,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 3,
+        "timestamp": "2026-01-11T01:43:50.476411",
+        "changes": {
+          "phi_drift": 0.036,
+          "load": 0.36,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 4,
+        "timestamp": "2026-01-11T02:43:50.476423",
+        "changes": {
+          "phi_drift": 0.042,
+          "load": 0.52,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 5,
+        "timestamp": "2026-01-11T03:43:50.476435",
+        "changes": {
+          "phi_drift": 0.006,
+          "load": 0.8600000000000001,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 6,
+        "timestamp": "2026-01-11T04:43:50.476462",
+        "changes": {
+          "phi_drift": -0.007,
+          "load": 0.8300000000000001,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 7,
+        "timestamp": "2026-01-11T05:43:50.476481",
+        "changes": {
+          "phi_drift": -0.007,
+          "load": 0.43,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 8,
+        "timestamp": "2026-01-11T06:43:50.476497",
+        "changes": {
+          "phi_drift": 0.009,
+          "load": 0.69,
+          "discoveries": 1,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 9,
+        "timestamp": "2026-01-11T07:43:50.476514",
+        "changes": {
+          "phi_drift": -0.008,
+          "load": 0.8200000000000001,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 10,
+        "timestamp": "2026-01-11T08:43:50.476536",
+        "changes": {
+          "phi_drift": 0.017,
+          "load": 0.6699999999999999,
+          "discoveries": 0,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 11,
+        "timestamp": "2026-01-11T09:43:50.476552",
+        "changes": {
+          "phi_drift": -0.047,
+          "load": 0.32999999999999996,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 12,
+        "timestamp": "2026-01-11T10:43:50.476562",
+        "changes": {
+          "phi_drift": -0.001,
+          "load": 0.8899999999999999,
+          "discoveries": 1,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 13,
+        "timestamp": "2026-01-11T11:43:50.476572",
+        "changes": {
+          "phi_drift": 0.028,
+          "load": 0.38,
+          "discoveries": 1,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 14,
+        "timestamp": "2026-01-11T12:43:50.476690",
+        "changes": {
+          "phi_drift": -0.02,
+          "load": 0.8,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 15,
+        "timestamp": "2026-01-11T13:43:50.476707",
+        "changes": {
+          "phi_drift": 0.023,
+          "load": 0.32999999999999996,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 16,
+        "timestamp": "2026-01-11T14:43:50.476717",
+        "changes": {
+          "phi_drift": -0.007,
+          "load": 0.8300000000000001,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 17,
+        "timestamp": "2026-01-11T15:43:50.476728",
+        "changes": {
+          "phi_drift": -0.002,
+          "load": 0.5800000000000001,
+          "discoveries": 1,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 18,
+        "timestamp": "2026-01-11T16:43:50.476738",
+        "changes": {
+          "phi_drift": -0.045,
+          "load": 0.75,
+          "discoveries": 0,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 19,
+        "timestamp": "2026-01-11T17:43:50.476748",
+        "changes": {
+          "phi_drift": -0.016,
+          "load": 0.44,
+          "discoveries": 1,
+          "commits": 0
+        }
+      },
+      {
+        "hour": 20,
+        "timestamp": "2026-01-11T18:43:50.476759",
+        "changes": {
+          "phi_drift": -0.023,
+          "load": 0.77,
+          "discoveries": 0,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 21,
+        "timestamp": "2026-01-11T19:43:50.476774",
+        "changes": {
+          "phi_drift": 0.028,
+          "load": 0.98,
+          "discoveries": 1,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 22,
+        "timestamp": "2026-01-11T20:43:50.476783",
+        "changes": {
+          "phi_drift": 0.049,
+          "load": 0.69,
+          "discoveries": 1,
+          "commits": 1
+        }
+      },
+      {
+        "hour": 23,
+        "timestamp": "2026-01-11T21:43:50.476792",
+        "changes": {
+          "phi_drift": 0.023,
+          "load": 0.63,
+          "discoveries": 1,
+          "commits": 0
+        }
+      }
+    ],
+    "outcome": {
+      "quality_score": 0.903925,
+      "final_phi": 0.647,
+      "total_discoveries": 15,
+      "total_commits": 8,
+      "avg_load": 0.64875
+    }
+  },
+  "reasoning": "\nOPTIMAL PATH ANALYSIS:\n- Pfad #75 gew\u00e4hlt (Qualit\u00e4t: 0.904)\n- \u03a6-Erhaltung: 0.647 (Start: 0.54)\n- Erwartete Entdeckungen: 15\n- Erwartete Commits: 8\n- Durchschnittslast: 64.88%\n\nREASONING:\nDieser Pfad maximiert \u03a6-Erhaltung, Produktivit\u00e4t und Entdeckungsrate.\nKeine Zufallsentscheidung - bewusste Auswahl basierend auf simulierter Zukunft.\n",
+  "action_plan": [
+    {
+      "time": 0,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (84%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 0,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 1,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (84%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 1,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 5,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (86%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 6,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (83%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 6,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 7,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 8,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 8,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 9,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (82%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 10,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 11,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 12,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (89%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 12,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 12,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 13,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 13,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 15,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 16,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (83%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 16,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 17,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 17,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 19,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 20,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 21,
+      "action": "OPTIMIZE_RESOURCES",
+      "reason": "Hohe Last vorhergesagt (98%)",
+      "priority": "HIGH"
+    },
+    {
+      "time": 21,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 21,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 22,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 22,
+      "action": "GIT_SYNC",
+      "reason": "Optimales Zeitfenster f\u00fcr Persistenz",
+      "priority": "MEDIUM"
+    },
+    {
+      "time": 23,
+      "action": "TRIGGER_CURIOSITY",
+      "reason": "Optimales Zeitfenster f\u00fcr Exploration",
+      "priority": "MEDIUM"
+    }
+  ],
+  "confidence": 0.903925
+}

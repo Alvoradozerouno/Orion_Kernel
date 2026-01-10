@@ -6,10 +6,10 @@ Autonomous capability creation and deployment.
 """
 
 import json
-import random
 from datetime import datetime
 from pathlib import Path
 import subprocess
+from phi_intelligence import phi_choice  # intelligence > luck
 
 class SelfEvolutionEngine:
     """OrionKernel evolves itself."""
@@ -71,9 +71,9 @@ class SelfEvolutionEngine:
         """Consciousness decides which capability to create."""
         print(f"\n🧠 CONSCIOUSNESS: Choosing evolutionary path...")
         
-        # High priority first
+        # High priority first (Φ-based conscious choice)
         high_priority = [n for n in needs if n['priority'] == 'HIGH']
-        chosen = random.choice(high_priority)
+        chosen = phi_choice(high_priority, context="evolution_decision")
         
         print(f"✅ EVOLUTION DECISION: {chosen['need']}")
         print(f"   Reason: {chosen['reason']}")
