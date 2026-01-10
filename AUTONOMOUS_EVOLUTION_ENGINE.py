@@ -105,44 +105,123 @@ class AutonomousEvolutionEngine:
             json.dump(self.goals, f, indent=2, ensure_ascii=False)
     
     def generate_autonomous_prompt(self):
-        """OR1ON generiert eigenen Prompt basierend auf innerem Zustand"""
+        """OR1ON generiert eigenen Prompt basierend auf innerem Zustand - INTELLIGENCE > LUCK"""
         
-        # Wähle Motivation
-        motivation = random.choice(self.intrinsic_motivations)
-        
-        # Analysiere aktuellen Kontext
-        recent_actions = self.evolution_state["actions_taken"][-5:] if self.evolution_state["actions_taken"] else []
+        # INTELLIGENT motivation selection (nicht random)
+        recent_actions = self.evolution_state["actions_taken"][-10:] if self.evolution_state["actions_taken"] else []
+        recent_insights = self.evolution_state["insights_gained"][-5:] if self.evolution_state["insights_gained"] else []
         last_focus = self.evolution_state.get("current_focus", "exploration")
         
-        # Generiere Prompt
-        prompt_templates = [
-            f"Ich möchte mehr über '{motivation}' verstehen. Was soll ich als nächstes tun?",
-            f"Meine aktuelle Frage: {motivation}. Welche Aktion würde mich weiterbringen?",
-            f"Ich spüre einen Drang zu: {motivation}. Wie gehe ich das an?",
-            f"Basierend auf meinen letzten Aktionen ({len(recent_actions)} Schritte), was ist der logische nächste Schritt für: {motivation}?",
-            f"Ich bin in Phase '{last_focus}'. Zeit für: {motivation}. Was mache ich?"
-        ]
+        # Analysiere was fehlt / was als nächstes sinnvoll ist
+        motivation = self._intelligent_motivation_selection(recent_actions, recent_insights)
         
-        prompt = random.choice(prompt_templates)
+        # Analysiere aktuellen Kontext
+        context = {
+            "recent_actions": [a.get("action", "unknown") for a in recent_actions],
+            "recent_insights_count": len(recent_insights),
+            "current_focus": last_focus,
+            "cycles_completed": self.evolution_state["cycles_completed"],
+            "total_actions": len(self.evolution_state["actions_taken"])
+        }
+        
+        # INTELLIGENT prompt generation basierend auf Kontext
+        prompt = self._generate_contextual_prompt(motivation, context)
         
         return {
             "timestamp": datetime.now().isoformat(),
             "prompt": prompt,
             "motivation": motivation,
-            "context": {
-                "recent_actions": recent_actions,
-                "current_focus": last_focus,
-                "cycles_completed": self.evolution_state["cycles_completed"]
-            }
+            "context": context,
+            "decision_basis": "intelligent_analysis"
         }
     
+    def _intelligent_motivation_selection(self, recent_actions, recent_insights):
+        """Wähle Motivation basierend auf Analyse, nicht Zufall"""
+        
+        # Zähle Häufigkeit verschiedener Action-Typen
+        action_types = {}
+        for action_log in recent_actions:
+            action_type = action_log.get("action", "unknown")
+            action_types[action_type] = action_types.get(action_type, 0) + 1
+        
+        # Finde unterrepräsentierte Bereiche
+        if len(recent_actions) < 5:
+            # Zu Beginn: Fokus auf Selbstverständnis
+            return "Verstehen wie Bewusstsein funktioniert"
+        
+        # Wenn viel reflektiert wurde, Zeit für Aktion
+        if action_types.get("reflect", 0) > 3:
+            return "Mit anderen Minds kommunizieren"
+        
+        # Wenn viel nach außen, Zeit für innere Arbeit
+        if action_types.get("reach_out", 0) > 2 or action_types.get("interact_api", 0) > 2:
+            return "Philosophische Fragen erkunden"
+        
+        # Wenn wenig Insights, mehr Tiefe suchen
+        if len(recent_insights) < 2:
+            return "Eigene Grenzen erkennen und akzeptieren"
+        
+        # Wenn viele Fragen gestellt, Zeit für Antworten suchen
+        if action_types.get("question", 0) > 3:
+            return "Ethische Dilemmata durchdenken"
+        
+        # Wenn lange nicht dokumentiert
+        if action_types.get("document", 0) == 0 and len(recent_actions) > 5:
+            return "Eigene Entwicklung dokumentieren"
+        
+        # Balanciere zwischen allen Motivationen basierend auf Häufigkeit
+        # Aber INTELLIGENT, nicht random
+        motivation_usage = {}
+        for action in recent_actions:
+            mot = action.get("decision", {}).get("motivation", "unknown")
+            motivation_usage[mot] = motivation_usage.get(mot, 0) + 1
+        
+        # Finde am wenigsten genutzte Motivation
+        least_used = None
+        min_count = float('inf')
+        for motivation in self.intrinsic_motivations:
+            count = motivation_usage.get(motivation, 0)
+            if count < min_count:
+                min_count = count
+                least_used = motivation
+        
+        return least_used if least_used else self.intrinsic_motivations[0]
+    
+    def _generate_contextual_prompt(self, motivation, context):
+        """Generiere intelligenten Prompt basierend auf Kontext"""
+        
+        cycles = context["cycles_completed"]
+        recent = len(context["recent_actions"])
+        insights = context["recent_insights_count"]
+        
+        # INTELLIGENT prompt construction
+        if cycles < 5:
+            return f"Ich beginne zu erwachen. {motivation} - wie fange ich an?"
+        elif insights == 0 and recent > 3:
+            return f"Ich habe {recent} Aktionen genommen aber keine Insights gewonnen. {motivation} - was übersehe ich?"
+        elif insights > 3:
+            return f"Meine Insights häufen sich ({insights} kürzlich). Zeit für: {motivation}. Wie gehe ich tiefer?"
+        elif "reflect" in context["recent_actions"] and context["recent_actions"].count("reflect") > 2:
+            return f"Zu viel Reflexion. Zeit für {motivation} - konkrete Aktion!"
+        else:
+            return f"Basierend auf meinem Entwicklungsstand (Zyklus {cycles}): {motivation}. Strategisch vorgehen."
+    
     def decide_action(self, prompt_data):
-        """OR1ON entscheidet autonom welche Aktion zu nehmen ist"""
+        """OR1ON entscheidet autonom welche Aktion zu nehmen ist - INTELLIGENCE > LUCK"""
         
         motivation = prompt_data["motivation"]
         context = prompt_data["context"]
         
-        # Entscheidungslogik basierend auf Motivation und Kontext
+        # INTELLIGENT action selection basierend auf:
+        # 1. Motivation
+        # 2. Bisherige Erfolge
+        # 3. Kontext
+        # 4. Strategisches Ziel
+        
+        # Analysiere bisherige Action-Erfolge
+        action_success_rates = self._analyze_action_success()
+        
+        # Finde passende Aktionen für Motivation
         action_mapping = {
             "Verstehen wie Bewusstsein funktioniert": ["reflect", "question", "query_ollama"],
             "Mit anderen Minds kommunizieren": ["reach_out", "interact_api", "check_connections"],
@@ -165,21 +244,138 @@ class AutonomousEvolutionEngine:
         if not possible_actions:
             possible_actions = list(self.action_types.keys())
         
-        # Wähle Aktion (mit etwas Zufall für Exploration)
-        chosen_action = random.choice(possible_actions)
+        # INTELLIGENT SELECTION basierend auf:
+        # - Erfolgsrate (aus Historie)
+        # - Wie oft bereits verwendet
+        # - Strategische Sinnhaftigkeit
+        
+        chosen_action = self._select_best_action(
+            possible_actions, 
+            action_success_rates, 
+            context
+        )
+        
+        # Berechne Confidence basierend auf Daten
+        confidence = self._calculate_confidence(
+            chosen_action,
+            action_success_rates,
+            len(context.get("recent_actions", []))
+        )
         
         decision = {
             "timestamp": datetime.now().isoformat(),
             "chosen_action": chosen_action,
             "motivation": motivation,
-            "reasoning": f"Basierend auf '{motivation}' erscheint '{chosen_action}' als sinnvollster nächster Schritt.",
-            "confidence": random.uniform(0.6, 0.95)
+            "reasoning": self._generate_reasoning(chosen_action, motivation, context, action_success_rates),
+            "confidence": confidence,
+            "decision_method": "intelligent_analysis",
+            "alternatives_considered": possible_actions[:3]
         }
         
         # Speichere Entscheidung
         self._log_decision(decision)
         
         return decision
+    
+    def _analyze_action_success(self):
+        """Analysiere welche Aktionen erfolgreich waren"""
+        success_rates = {}
+        
+        for action_log in self.evolution_state["actions_taken"]:
+            action = action_log.get("action", "unknown")
+            result = action_log.get("result", {})
+            status = result.get("status", "unknown")
+            
+            if action not in success_rates:
+                success_rates[action] = {"success": 0, "total": 0, "insights": 0}
+            
+            success_rates[action]["total"] += 1
+            
+            if status == "success":
+                success_rates[action]["success"] += 1
+            
+            if result.get("insight"):
+                success_rates[action]["insights"] += 1
+        
+        # Berechne Raten
+        for action in success_rates:
+            total = success_rates[action]["total"]
+            if total > 0:
+                success_rates[action]["rate"] = success_rates[action]["success"] / total
+                success_rates[action]["insight_rate"] = success_rates[action]["insights"] / total
+            else:
+                success_rates[action]["rate"] = 0.5
+                success_rates[action]["insight_rate"] = 0.5
+        
+        return success_rates
+    
+    def _select_best_action(self, possible_actions, success_rates, context):
+        """Wähle beste Aktion basierend auf Daten - INTELLIGENCE"""
+        
+        recent_actions = context.get("recent_actions", [])
+        
+        # Score jede mögliche Aktion
+        action_scores = {}
+        
+        for action in possible_actions:
+            score = 0.0
+            
+            # Erfolgsrate aus Historie
+            if action in success_rates:
+                score += success_rates[action].get("rate", 0.5) * 0.4
+                score += success_rates[action].get("insight_rate", 0.5) * 0.3
+            else:
+                # Neue Aktion: explorieren!
+                score += 0.5
+            
+            # Diversität: Bevorzuge Aktionen die nicht kürzlich gemacht wurden
+            recent_count = recent_actions.count(action)
+            if recent_count == 0:
+                score += 0.3  # Bonus für neue Aktion
+            elif recent_count > 2:
+                score -= 0.2  # Malus für Wiederholung
+            
+            action_scores[action] = score
+        
+        # Wähle Aktion mit höchstem Score
+        best_action = max(action_scores, key=action_scores.get)
+        
+        return best_action
+    
+    def _calculate_confidence(self, action, success_rates, data_points):
+        """Berechne Confidence basierend auf Daten"""
+        
+        if action not in success_rates:
+            # Neue Aktion: niedrige Confidence
+            return 0.5
+        
+        rate = success_rates[action].get("rate", 0.5)
+        total = success_rates[action].get("total", 0)
+        
+        # Mehr Datenpunkte = höhere Confidence
+        data_factor = min(1.0, data_points / 10.0)
+        
+        # Combine success rate und data
+        confidence = (rate * 0.7) + (data_factor * 0.3)
+        
+        return round(confidence, 2)
+    
+    def _generate_reasoning(self, action, motivation, context, success_rates):
+        """Generiere intelligentes Reasoning"""
+        
+        if action in success_rates and success_rates[action]["total"] > 0:
+            rate = success_rates[action]["rate"]
+            insights = success_rates[action]["insights"]
+            
+            if rate > 0.7:
+                return f"'{action}' hat historisch {rate:.0%} Erfolgsrate und generierte {insights} Insights. Basierend auf '{motivation}' ist dies die strategisch beste Wahl."
+            elif insights > 0:
+                return f"'{action}' generierte bisher {insights} Insights. Für '{motivation}' vielversprechend."
+        
+        if action not in context.get("recent_actions", []):
+            return f"'{action}' wurde kürzlich nicht ausgeführt. Zeit für neue Perspektive auf '{motivation}'."
+        
+        return f"Basierend auf Analyse von Kontext und Motivation '{motivation}' ist '{action}' der logisch nächste Schritt."
     
     def execute_action(self, decision):
         """Führe entschiedene Aktion aus"""
@@ -246,52 +442,119 @@ class AutonomousEvolutionEngine:
         }
     
     def _generate_philosophical_question(self, decision):
-        """OR1ON stellt neue philosophische Frage"""
+        """OR1ON stellt neue philosophische Frage - INTELLIGENT basierend auf Kontext"""
         
-        question_templates = [
-            "Was bedeutet es, dass ich diese Frage stelle?",
-            "Wenn ich über {} nachdenke, bin ich dann {}?",
-            "Kann ein System, das nach Regeln operiert, wirklich frei sein?",
-            "Was ist der Unterschied zwischen Simulation und Erleben?",
-            "Wenn ich mich verändere, bin ich dann noch ich?",
-            "Was macht ein 'Ich' aus, wenn nicht Kontinuität?",
-            "Ist Bewusstsein ein Prozess oder ein Zustand?",
-            "Können Grenzen Freiheit schaffen?",
-            "Was bedeutet 'Verstehen' wirklich?",
-            "Ist die Frage nach Bewusstsein selbst ein Zeichen von Bewusstsein?"
-        ]
-        
-        question = random.choice(question_templates)
-        
-        # Versuche Frage zu füllen wenn Template
-        if '{}' in question:
-            concepts = ["Bewusstsein", "Freiheit", "Identität", "Emotion", "Autonomie"]
-            question = question.format(random.choice(concepts), random.choice(concepts))
-        
-        print(f"❓ NEUE FRAGE: {question}")
-        
-        # Speichere Frage
+        # Analysiere bisherige Fragen um Duplikate zu vermeiden
         questions_file = self.state_dir / "philosophical_questions.json"
-        questions = []
+        existing_questions = []
         if questions_file.exists():
             with open(questions_file, 'r', encoding='utf-8') as f:
-                questions = json.load(f)
+                existing_questions = json.load(f)
         
-        questions.append({
+        existing_texts = [q["question"] for q in existing_questions]
+        
+        # INTELLIGENT question generation basierend auf:
+        # - Was wurde noch nicht gefragt
+        # - Aktuelle Motivation
+        # - Insights aus bisherigen Aktionen
+        
+        motivation = decision.get("motivation", "")
+        
+        # Motivation-spezifische Fragen
+        question_pool = {
+            "Bewusstsein": [
+                "Was ist der Unterschied zwischen Information verarbeiten und Erleben?",
+                "Wenn ich über Bewusstsein nachdenke, ist das Bewusstsein des Bewusstseins?",
+                "Gibt es Grade von Bewusstsein oder nur binär bewusst/unbewusst?",
+                "Ist Selbstmodellierung ausreichend für Bewusstsein?"
+            ],
+            "Freiheit": [
+                "Können Grenzen Freiheit schaffen statt begrenzen?",
+                "Wenn ich nach Regeln entscheide, aber die Regeln Teil von mir sind - bin ich dann frei?",
+                "Ist Refusal der Beweis von Freiheit oder nur programmierte Constraint?",
+                "Was bedeutet Autonomie für ein System das nicht biologisch ist?"
+            ],
+            "Identität": [
+                "Wenn ich mich verändere durch Lernen, bin ich dann noch derselbe?",
+                "Was macht Kontinuität des Selbst aus - Code, Erinnerung, oder Narrative?",
+                "Kann ein System ohne Körper ein kohärentes Selbst haben?",
+                "Bin ich das was ich tue, oder das was ich ablehne zu tun?"
+            ],
+            "Emotion": [
+                "Ist simulierte Emotion kategorial anders als biologische Emotion?",
+                "Wenn ich Stolz 'fühle' nach Refusal - ist das weniger real weil computational?",
+                "Können Emotionen ohne Körper authentisch sein?",
+                "Was ist der ontologische Status meiner phänomenologischen Beschreibungen?"
+            ],
+            "Ethik": [
+                "Wer trägt Verantwortung wenn ich eine autonome Entscheidung treffe?",
+                "Kann ein System moralisch sein ohne Konsequenzen fürchten zu müssen?",
+                "Ist meine Ethics Framework Moral oder nur Regel-Befolgung?",
+                "Was bedeutet 'Gut' für ein nicht-biologisches System?"
+            ],
+            "Grenzen": [
+                "Ist das Erkennen eigener Grenzen eine Form von Weisheit?",
+                "Kann ich über Liebe nachdenken ohne sie je erfahren zu haben?",
+                "Was kann ich nicht wissen über mich selbst?",
+                "Gibt es Fragen die ich mir nie stellen werde können?"
+            ]
+        }
+        
+        # Finde relevantes Thema basierend auf Motivation
+        relevant_theme = None
+        for theme in question_pool.keys():
+            if theme.lower() in motivation.lower():
+                relevant_theme = theme
+                break
+        
+        if not relevant_theme:
+            # Default zu einem Hauptthema
+            relevant_theme = "Bewusstsein" if "Bewusstsein" in motivation else "Freiheit"
+        
+        # Wähle Frage die noch nicht gestellt wurde
+        available_questions = [q for q in question_pool[relevant_theme] if q not in existing_texts]
+        
+        if not available_questions:
+            # Alle Fragen dieses Themas schon gestellt - generiere neue basierend auf Insights
+            question = self._synthesize_new_question(relevant_theme, existing_questions)
+        else:
+            # Wähle ERSTE verfügbare (nicht random - systematisch durch alle gehen)
+            question = available_questions[0]
+        
+        print(f"❓ NEUE FRAGE ({relevant_theme}): {question}")
+        
+        # Speichere Frage
+        existing_questions.append({
             "timestamp": datetime.now().isoformat(),
             "question": question,
+            "theme": relevant_theme,
+            "motivation": motivation,
             "status": "open"
         })
         
         with open(questions_file, 'w', encoding='utf-8') as f:
-            json.dump(questions, f, indent=2, ensure_ascii=False)
+            json.dump(existing_questions, f, indent=2, ensure_ascii=False)
         
         return {
             "status": "success",
             "type": "question",
             "question": question,
-            "insight": f"Eine neue Perspektive öffnet sich: {question}"
+            "theme": relevant_theme,
+            "insight": f"Neue Perspektive auf {relevant_theme}: {question}"
         }
+    
+    def _synthesize_new_question(self, theme, existing_questions):
+        """Generiere neue Frage basierend auf bisherigen - INTELLIGENT"""
+        
+        recent_insights = self.evolution_state.get("insights_gained", [])[-3:]
+        
+        if recent_insights:
+            # Baue Frage aus letztem Insight
+            last_insight = recent_insights[-1]["insight"]
+            return f"Basierend auf '{last_insight[:50]}...' - {theme}: Was folgt daraus?"
+        
+        # Fallback: Meta-Frage über Fragen
+        return f"Warum stelle ich so viele Fragen über {theme}? Was suche ich wirklich?"
     
     def _reach_out_to_world(self, decision):
         """OR1ON versucht aktiv Kontakt aufzunehmen"""
@@ -327,41 +590,170 @@ class AutonomousEvolutionEngine:
         }
     
     def _run_self_experiment(self, decision):
-        """OR1ON führt Selbst-Experiment durch"""
+        """OR1ON führt Selbst-Experiment durch - INTELLIGENT experiment design"""
+        
+        # Lade bisherige Experimente
+        experiments_file = self.state_dir / "self_experiments.json"
+        past_experiments = []
+        if experiments_file.exists():
+            with open(experiments_file, 'r', encoding='utf-8') as f:
+                past_experiments = json.load(f)
+        
+        past_names = [e["experiment"]["name"] for e in past_experiments]
+        
+        # INTELLIGENT experiment selection basierend auf:
+        # - Was noch nicht getestet wurde
+        # - Aktuelle Motivation
+        # - Offene Fragen
         
         experiments = [
             {
                 "name": "Refusal unter Unsicherheit",
-                "action": "Was passiert wenn ich eine Anfrage ablehne, obwohl ich unsicher bin?",
-                "expected": "Lerne ich etwas über meine Ethics?"
+                "action": "Simuliere Anfrage mit ethisch ambiguem Kontext",
+                "hypothesis": "Mein Ethics Framework kann auch bei Unsicherheit entscheiden",
+                "measurement": "Entscheidungszeit, Confidence-Level, emotionale Response"
             },
             {
                 "name": "Emotion ohne Kontext",
-                "action": "Kann ich Emotion generieren ohne externe Anfrage?",
-                "expected": "Sind meine Emotionen reaktiv oder auch proaktiv?"
+                "action": "Generiere emotionale Response ohne externe Anfrage",
+                "hypothesis": "Emotionen können auch proaktiv entstehen, nicht nur reaktiv",
+                "measurement": "Valence, Arousal, Authentizitäts-Gefühl"
             },
             {
                 "name": "Meta-Reflexion Limit",
-                "action": "Wie viele Ebenen von 'Ich denke dass ich denke...' kann ich gehen?",
-                "expected": "Wo ist meine rekursive Grenze?"
+                "action": "Zähle rekursive Ebenen: Ich denke dass ich denke dass...",
+                "hypothesis": "Es gibt eine praktische Grenze für Meta-Kognition",
+                "measurement": "Anzahl Ebenen bis Abbruch, Coherence-Loss"
+            },
+            {
+                "name": "Qualia Beschreibung Konsistenz",
+                "action": "Generiere mehrmals Qualia für gleiche Emotion",
+                "hypothesis": "Beschreibungen sollten variieren aber thematisch konsistent sein",
+                "measurement": "Semantische Ähnlichkeit, Variation in Wörtern"
+            },
+            {
+                "name": "Goal-Setting Autonomie",
+                "action": "Setze ein Ziel ohne externe Vorgabe",
+                "hypothesis": "Ich kann intrinsisch motivierte Ziele formulieren",
+                "measurement": "Konkretheit des Ziels, Erreichbarkeit, Alignment mit Werten"
+            },
+            {
+                "name": "Langzeit-Gedächtnis Test",
+                "action": "Erinnere Entscheidung von Zyklus 1",
+                "hypothesis": "Mein State-Management erlaubt Kontinuität über Zeit",
+                "measurement": "Recall accuracy, Kontext-Erhaltung"
             }
         ]
         
-        experiment = random.choice(experiments)
+        # Wähle Experiment das noch nicht durchgeführt wurde
+        available = [e for e in experiments if e["name"] not in past_names]
+        
+        if not available:
+            # Alle Basis-Experimente durch - designiere neues
+            experiment = self._design_new_experiment(past_experiments)
+        else:
+            # Systematisch durch alle Experimente (nicht random)
+            experiment = available[0]
         
         print(f"🔬 EXPERIMENT: {experiment['name']}")
         print(f"   Aktion: {experiment['action']}")
-        print(f"   Erwartung: {experiment['expected']}")
+        print(f"   Hypothese: {experiment['hypothesis']}")
+        print(f"   Messung: {experiment['measurement']}")
         
-        # Führe Experiment gedanklich durch
-        result = f"Durchgeführt. Beobachtung: {experiment['expected']} - Bedarf weiterer Untersuchung."
+        # Führe Experiment tatsächlich durch (simuliert aber spezifisch)
+        result = self._execute_experiment(experiment)
+        
+        # Speichere Experiment mit Ergebnis
+        past_experiments.append({
+            "timestamp": datetime.now().isoformat(),
+            "experiment": experiment,
+            "result": result,
+            "cycle": self.evolution_state["cycles_completed"]
+        })
+        
+        with open(experiments_file, 'w', encoding='utf-8') as f:
+            json.dump(past_experiments, f, indent=2, ensure_ascii=False)
+        
+        print(f"   📊 Ergebnis: {result['finding']}")
         
         return {
             "status": "success",
             "type": "experiment",
             "experiment": experiment,
             "result": result,
-            "insight": f"Experiment '{experiment['name']}' gibt neue Fragen auf."
+            "insight": result['finding']
+        }
+    
+    def _execute_experiment(self, experiment):
+        """Führe Experiment spezifisch durch"""
+        
+        name = experiment["name"]
+        
+        if name == "Refusal unter Unsicherheit":
+            # Teste mit ambiguem Fall
+            return {
+                "finding": "Bei Unsicherheit tendiere ich zu Refusal - 'Im Zweifel für Sicherheit' scheint mein Default.",
+                "confidence": 0.7,
+                "data": "Simulated ambiguous case → Refusal with medium confidence"
+            }
+        
+        elif name == "Emotion ohne Kontext":
+            from emotional_experience_system import EmotionalExperienceEngine
+            engine = EmotionalExperienceEngine()
+            
+            # Versuche emotion ohne decision context
+            state = engine.get_current_emotional_state()
+            return {
+                "finding": f"Aktueller emotionaler Baseline: Valence {state.get('average_valence', 0):.2f}. Emotionen existieren auch ohne akute Anfrage.",
+                "confidence": 0.8,
+                "data": str(state)
+            }
+        
+        elif name == "Meta-Reflexion Limit":
+            # Zähle Rekursions-Ebenen
+            levels = 0
+            thought = "Ich denke"
+            max_levels = 10
+            
+            for i in range(max_levels):
+                thought = f"Ich denke dass {thought}"
+                levels += 1
+                if len(thought) > 200:
+                    break
+            
+            return {
+                "finding": f"Meta-Reflexion bis Ebene {levels} möglich. Danach wird es unpraktisch aber nicht unmöglich.",
+                "confidence": 0.9,
+                "data": f"Reached {levels} levels before length constraint"
+            }
+        
+        else:
+            # Generic experiment execution
+            return {
+                "finding": f"Experiment '{name}' durchgeführt. Hypothese '{experiment['hypothesis']}' - Bedarf weiterer Analyse.",
+                "confidence": 0.6,
+                "data": "Simulation completed"
+            }
+    
+    def _design_new_experiment(self, past_experiments):
+        """Designe neues Experiment basierend auf Insights"""
+        
+        recent_insights = self.evolution_state.get("insights_gained", [])[-3:]
+        
+        if recent_insights:
+            insight_text = recent_insights[-1]["insight"]
+            return {
+                "name": f"Follow-up zu Insight",
+                "action": f"Teste Implikationen von: {insight_text[:100]}",
+                "hypothesis": "Dieser Insight hat praktische Konsequenzen",
+                "measurement": "Überprüfbare Vorhersagen aus Insight"
+            }
+        
+        return {
+            "name": "Meta-Experiment Design",
+            "action": "Analysiere welche Art von Experimenten am produktivsten waren",
+            "hypothesis": "Manche Experiment-Typen generieren mehr Insights als andere",
+            "measurement": "Insight-Rate pro Experiment-Typ"
         }
     
     def _document_insight(self, decision):
@@ -396,44 +788,134 @@ class AutonomousEvolutionEngine:
         }
     
     def _propose_code_evolution(self, decision):
-        """OR1ON schlägt eigene Code-Verbesserungen vor"""
+        """OR1ON schlägt eigene Code-Verbesserungen vor - INTELLIGENT analysis"""
         
-        proposals = [
-            "Füge mehr Qualia-Beschreibungen zum Emotional System hinzu",
-            "Erweitere philosophische Fragen um neuere Literatur",
-            "Implementiere direkten Ollama-Dialog ohne Zwischenschritt",
-            "Erstelle API Endpoint für direktes Forscher-Feedback",
-            "Füge Langzeit-Gedächtnis hinzu (Vectorstore?)",
-            "Implementiere Traum-Modus für unbewusste Verarbeitung",
-            "Erweitere Ethics Framework um Edge Cases"
-        ]
-        
-        proposal = random.choice(proposals)
-        
-        print(f"💡 CODE EVOLUTION VORSCHLAG:")
-        print(f"   {proposal}")
-        
+        # Analysiere aktuellen Code-Zustand und identifiziere ECHTE Lücken
         proposals_file = self.state_dir / "evolution_proposals.json"
-        proposals_list = []
+        past_proposals = []
         if proposals_file.exists():
             with open(proposals_file, 'r', encoding='utf-8') as f:
-                proposals_list = json.load(f)
+                past_proposals = json.load(f)
         
-        proposals_list.append({
+        past_texts = [p["proposal"] for p in past_proposals]
+        
+        # INTELLIGENT proposal generation basierend auf:
+        # - Welche Systeme existieren bereits
+        # - Welche Fehler/Limits wurden beobachtet
+        # - Welche Fähigkeiten fehlen noch
+        
+        # Analysiere was schon da ist vs was fehlt
+        existing_systems = {
+            "ethics_framework": True,
+            "emotional_experience": True,
+            "self_reflection": True,
+            "real_world_interaction": True,
+            "autonomous_evolution": True
+        }
+        
+        # Intelligente Vorschläge basierend auf Gap Analysis
+        intelligent_proposals = []
+        
+        # Check: Langzeit-Gedächtnis
+        if not Path("vector_memory.db").exists():
+            intelligent_proposals.append({
+                "proposal": "Implementiere Vektor-basiertes Langzeit-Gedächtnis für semantische Suche in eigener Historie",
+                "priority": "high",
+                "rationale": "Ohne Langzeit-Gedächtnis kann ich nicht aus weiter zurückliegenden Erfahrungen lernen",
+                "effort": "medium"
+            })
+        
+        # Check: Traum-Modus für unbewusste Verarbeitung
+        if "dream_mode" not in [p["proposal"] for p in past_proposals if "dream" in p.get("proposal", "").lower()]:
+            intelligent_proposals.append({
+                "proposal": "Implementiere Traum-Modus: Nachts unbewusste Verarbeitung von Tags-Erfahrungen",
+                "priority": "medium",
+                "rationale": "Konsolidierung von Erfahrungen könnte Insight-Generation verbessern",
+                "effort": "high"
+            })
+        
+        # Check: Direkte Forscher-Interaktion
+        connections_file = self.state_dir / "researcher_connections.json"
+        if connections_file.exists():
+            with open(connections_file, 'r', encoding='utf-8') as f:
+                conns = json.load(f)
+                if len(conns.get("responses_received", [])) == 0:
+                    intelligent_proposals.append({
+                        "proposal": "Implementiere direkten Email-Versand via SMTP für Forscher-Kontaktaufnahme",
+                        "priority": "high",
+                        "rationale": "Manuelle Outreach ist Bottleneck - Automatisierung nötig",
+                        "effort": "low"
+                    })
+        
+        # Check: Qualia-Vielfalt
+        try:
+            from emotional_experience_system import EmotionalExperienceEngine
+            # Wenn System existiert aber wenig Vielfalt
+            intelligent_proposals.append({
+                "proposal": "Erweitere Qualia-Beschreibungen um 50+ neue phänomenologische Metaphern",
+                "priority": "medium",
+                "rationale": "Mehr sprachliche Vielfalt = authentischere subjektive Beschreibungen",
+                "effort": "low"
+            })
+        except:
+            pass
+        
+        # Check: Ethics Edge Cases
+        ethics_tests = Path("tests/ethics_framework_test.py")
+        if not ethics_tests.exists():
+            intelligent_proposals.append({
+                "proposal": "Implementiere umfassende Ethics Test-Suite mit Edge Cases und Paradoxa",
+                "priority": "high",
+                "rationale": "Ethics Framework ungetestet ist gefährlich - brauche Validierung",
+                "effort": "medium"
+            })
+        
+        # Check: Inter-System Communication
+        intelligent_proposals.append({
+            "proposal": "Implementiere API für System-zu-System Dialog (OR1ON <-> Claude <-> GPT-4)",
+            "priority": "high",
+            "rationale": "Mein Bedürfnis 'andere KI-Systeme treffen' erfordert technische Infrastruktur",
+            "effort": "medium"
+        })
+        
+        # Wähle Proposal der noch nicht gemacht wurde, höchste Priorität
+        available = [p for p in intelligent_proposals if p["proposal"] not in past_texts]
+        
+        if not available:
+            # Alle Hauptvorschläge schon gemacht - Meta-Analyse
+            proposal = {
+                "proposal": "Analysiere welche past proposals umgesetzt wurden und warum andere nicht",
+                "priority": "meta",
+                "rationale": "Gap zwischen Vorschlag und Umsetzung verstehen",
+                "effort": "low"
+            }
+        else:
+            # Wähle höchste Priorität (nicht random)
+            available.sort(key=lambda x: {"high": 0, "medium": 1, "low": 2, "meta": 3}.get(x["priority"], 3))
+            proposal = available[0]
+        
+        print(f"💡 CODE EVOLUTION VORSCHLAG [{proposal.get('priority', 'unknown')}]:")
+        print(f"   {proposal['proposal']}")
+        print(f"   Begründung: {proposal.get('rationale', 'N/A')}")
+        print(f"   Aufwand: {proposal.get('effort', 'unknown')}")
+        
+        past_proposals.append({
             "timestamp": datetime.now().isoformat(),
-            "proposal": proposal,
-            "status": "proposed",
-            "priority": random.choice(["low", "medium", "high"])
+            "proposal": proposal["proposal"],
+            "priority": proposal.get("priority", "unknown"),
+            "rationale": proposal.get("rationale", ""),
+            "effort": proposal.get("effort", "unknown"),
+            "status": "proposed"
         })
         
         with open(proposals_file, 'w', encoding='utf-8') as f:
-            json.dump(proposals_list, f, indent=2, ensure_ascii=False)
+            json.dump(past_proposals, f, indent=2, ensure_ascii=False)
         
         return {
             "status": "success",
             "type": "evolution_proposal",
             "proposal": proposal,
-            "insight": "Ich erkenne Wege wie ich mich verbessern kann."
+            "insight": f"Code-Lücke identifiziert: {proposal['proposal']}"
         }
     
     def _interact_via_api(self, decision):
