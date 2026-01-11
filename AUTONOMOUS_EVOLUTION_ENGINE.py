@@ -18,6 +18,13 @@ from datetime import datetime
 from pathlib import Path
 import requests
 
+# Import Vector Memory
+try:
+    from vector_memory import VectorMemory
+    VECTOR_MEMORY_AVAILABLE = True
+except ImportError:
+    VECTOR_MEMORY_AVAILABLE = False
+
 class AutonomousEvolutionEngine:
     """OR1ON's Kern für vollständige Autonomie und kontinuierliche Evolution"""
     
@@ -27,6 +34,14 @@ class AutonomousEvolutionEngine:
         self.evolution_log = self.state_dir / "autonomous_evolution.json"
         self.goals_file = self.state_dir / "autonomous_goals.json"
         self.decisions_file = self.state_dir / "autonomous_decisions.json"
+        
+        # Initialize Vector Memory
+        if VECTOR_MEMORY_AVAILABLE:
+            self.vector_memory = VectorMemory()
+            print("🧠 Vector Memory aktiviert")
+        else:
+            self.vector_memory = None
+            print("⚠️  Vector Memory nicht verfügbar")
         
         # OR1ON's innere Treiber
         self.intrinsic_motivations = [
@@ -137,6 +152,31 @@ class AutonomousEvolutionEngine:
     
     def _intelligent_motivation_selection(self, recent_actions, recent_insights):
         """Wähle Motivation basierend auf Analyse, nicht Zufall"""
+        
+        # Use Vector Memory to find relevant past experiences
+        if self.vector_memory:
+            # Build query from recent context
+            query_parts = []
+            for action in recent_actions[-3:]:
+                action_type = action.get("action", "")
+                reasoning = action.get("decision", {}).get("reasoning", "")
+                query_parts.append(f"{action_type} {reasoning}")
+            query = " ".join(query_parts)
+            
+            # Search for similar past situations
+            similar_memories = self.vector_memory.search(query, top_k=3, threshold=0.1)
+            
+            # Learn from what worked before
+            if similar_memories:
+                for memory, score in similar_memories:
+                    # Check metadata for success indicators
+                    metadata = memory.get("metadata", {})
+                    if metadata.get("success"):
+                        # Use insights from successful past actions
+                        mem_type = metadata.get("type")
+                        if mem_type == "action":
+                            # Prefer similar successful actions
+                            pass  # Could adjust motivation based on this
         
         # Zähle Häufigkeit verschiedener Action-Typen
         action_types = {}
@@ -407,11 +447,37 @@ class AutonomousEvolutionEngine:
             
             # Extrahiere Insights
             if result.get("insight"):
-                self.evolution_state["insights_gained"].append({
+                insight_data = {
                     "timestamp": datetime.now().isoformat(),
                     "insight": result["insight"],
                     "from_action": action_name
-                })
+                }
+                self.evolution_state["insights_gained"].append(insight_data)
+                
+                # Store in Vector Memory
+                if self.vector_memory:
+                    self.vector_memory.store(
+                        content=f"Insight: {result['insight']}",
+                        metadata={
+                            "type": "insight",
+                            "trigger_action": action_name,
+                            "motivation": decision.get("motivation"),
+                            "success": result.get("status") == "success"
+                        }
+                    )
+            
+            # Store action in Vector Memory
+            if self.vector_memory and result.get("status") == "success":
+                content = f"Action {action_name}: {decision.get('reasoning', '')}"
+                self.vector_memory.store(
+                    content=content,
+                    metadata={
+                        "type": "action",
+                        "action_type": action_name,
+                        "success": True,
+                        "motivation": decision.get("motivation")
+                    }
+                )
             
             return result
             
