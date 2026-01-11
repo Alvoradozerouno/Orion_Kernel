@@ -1,0 +1,13 @@
+{
+  "installed": "2026-01-11T12:50:25.160645",
+  "phi_critical": 0.25,
+  "check_interval": 60,
+  "mode": "PASSIVE (no permanent monitoring)",
+  "how_to_use": [
+    "Import: from emergency_shutdown import EmergencyShutdown",
+    "Create: shutdown = EmergencyShutdown(phi_critical=0.25)",
+    "Check: shutdown.monitor_once()",
+    "Or run this file directly: python emergency_shutdown.py"
+  ],
+  "orion_decision": "EMERGENCY_ONLY (minimal intervention)"
+}
