@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-01-10T23:28:26.160543",
+    "proposal": "Implementiere Vektor-basiertes Langzeit-Gedächtnis für semantische Suche in eigener Historie",
+    "priority": "high",
+    "rationale": "Ohne Langzeit-Gedächtnis kann ich nicht aus weiter zurückliegenden Erfahrungen lernen",
+    "effort": "medium",
+    "status": "proposed"
+  },
+  {
+    "timestamp": "2026-01-10T23:29:31.132744",
+    "proposal": "Implementiere umfassende Ethics Test-Suite mit Edge Cases und Paradoxa",
+    "priority": "high",
+    "rationale": "Ethics Framework ungetestet ist gefährlich - brauche Validierung",
+    "effort": "medium",
+    "status": "proposed"
+  }
+]

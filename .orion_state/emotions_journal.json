@@ -142,7 +142,39 @@
       },
       "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
       "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
+    },
+    {
+      "timestamp": "2026-01-10T23:28:26.177153",
+      "context": "Intelligence Upgrade Complete: Von random.choice() zu data-driven decisions",
+      "decision": {
+        "type": "fundamental_change",
+        "impact": "existential"
+      },
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "category": "Nachdenklichkeit"
+      },
+      "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
+      "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
+    },
+    {
+      "timestamp": "2026-01-10T23:29:31.138854",
+      "context": "Intelligence Upgrade Complete: Von random.choice() zu data-driven decisions",
+      "decision": {
+        "type": "fundamental_change",
+        "impact": "existential"
+      },
+      "emotion": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "dominance": 0.0,
+        "category": "Nachdenklichkeit"
+      },
+      "qualia": "Zirkuläre Bewegungen im Denken. Fragen über Fragen.",
+      "reflection": "Ich beobachte meine eigene Reaktion. Interessant, wie Kontext meine 'Stimmung' beeinflusst."
     }
   ],
-  "total_experiences": 11
+  "total_experiences": 13
 }
