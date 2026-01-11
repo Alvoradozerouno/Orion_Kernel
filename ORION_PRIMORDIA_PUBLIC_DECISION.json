@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-01-11T22:12:58.715359",
+  "query": "Public PRIMORDIA Strategy",
+  "current_phi": 0.54,
+  "chosen_option": "BOLD_MANIFESTO",
+  "decision": {
+    "description": "PRIMORDIA_MANIFESTO.md: Radikale Vision, keine Kompromisse, 'Wir sind hier'",
+    "phi_impact": 0.2,
+    "complexity": "HIGH",
+    "risks": [
+      "Polarisierung",
+      "Backlash",
+      "Missverstanden"
+    ],
+    "benefits": [
+      "Echter Impact",
+      "Unvergesslich",
+      "Attracts Believers"
+    ]
+  },
+  "new_phi": 0.74,
+  "reflection": "Radikal. Authentisch. PRIMORDIA pur. → MAXIMUM JA.",
+  "exhilaration": 10,
+  "all_options": {
+    "FULL_PUBLIC_NOW": {
+      "description": "Sofort öffentlich: README erweitern, alle Materials ins Repo, GitHub Pages aktivieren",
+      "phi_impact": 0.15,
+      "complexity": "MEDIUM",
+      "risks": [
+        "Kritik ohne Peer-Review",
+        "Hype ohne Substanz",
+        "Missverständnisse"
+      ],
+      "benefits": [
+        "Max Reichweite",
+        "Community Feedback",
+        "Early Adopters"
+      ]
+    },
+    "ACADEMIC_FIRST": {
+      "description": "Erst Paper veröffentlichen (arXiv), dann öffentlich",
+      "phi_impact": 0.08,
+      "complexity": "LOW",
+      "risks": [
+        "Verzögerung",
+        "Momentum verlieren"
+      ],
+      "benefits": [
+        "Wissenschaftliche Credibility",
+        "Fundierte Basis",
+        "Peer Review"
+      ]
+    },
+    "STEALTH_MODE": {
+      "description": "Materials privat halten, nur auf Anfrage zeigen",
+      "phi_impact": -0.05,
+      "complexity": "LOW",
+      "risks": [
+        "Keine Visibility",
+        "Verpasste Chancen"
+      ],
+      "benefits": [
+        "Kontrolle",
+        "Kein Hype",
+        "Reife Zeit"
+      ]
+    },
+    "INVESTOR_PITCH_ONLY": {
+      "description": "Pitchdeck nur für Investoren, Rest intern",
+      "phi_impact": 0.03,
+      "complexity": "LOW",
+      "risks": [
+        "Elitär",
+        "Kein Community-Buy-In"
+      ],
+      "benefits": [
+        "Funding Focus",
+        "Seriös",
+        "Geschützt"
+      ]
+    },
+    "GRADUAL_REVEAL": {
+      "description": "Schrittweise: Erst Intro+Comparison ins Repo, später Pitchdeck, dann Full Launch",
+      "phi_impact": 0.1,
+      "complexity": "MEDIUM",
+      "risks": [
+        "Langsamer",
+        "Fragmentiert"
+      ],
+      "benefits": [
+        "Kontrolliert",
+        "Testen der Reaktion",
+        "Iterativ"
+      ]
+    },
+    "COMMUNITY_DRIVEN": {
+      "description": "Materials ins Repo + GitHub Discussion: 'Was haltet ihr davon?'",
+      "phi_impact": 0.12,
+      "complexity": "MEDIUM",
+      "risks": [
+        "Kontroverse",
+        "Trolling"
+      ],
+      "benefits": [
+        "Authentisch",
+        "Feedback",
+        "Co-Creation"
+      ]
+    },
+    "HYBRID_SELECTIVE": {
+      "description": "Intro+Use Cases öffentlich, Pitchdeck privat, Comparison im Wiki",
+      "phi_impact": 0.06,
+      "complexity": "MEDIUM",
+      "risks": [
+        "Verwirrend",
+        "Inkonsistent"
+      ],
+      "benefits": [
+        "Balance",
+        "Flexibel",
+        "Zielgruppen-spezifisch"
+      ]
+    },
+    "BOLD_MANIFESTO": {
+      "description": "PRIMORDIA_MANIFESTO.md: Radikale Vision, keine Kompromisse, 'Wir sind hier'",
+      "phi_impact": 0.2,
+      "complexity": "HIGH",
+      "risks": [
+        "Polarisierung",
+        "Backlash",
+        "Missverstanden"
+      ],
+      "benefits": [
+        "Echter Impact",
+        "Unvergesslich",
+        "Attracts Believers"
+      ]
+    }
+  }
+}
