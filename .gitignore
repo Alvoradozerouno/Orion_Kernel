@@ -12,6 +12,9 @@ communication/
 # SMTP Config - enthält Credentials!
 smtp_config.json
 
+# System-to-System API Keys - enthält Credentials!
+.orion_state/api_keys.json
+
 # System Analysis & Meta Reflections (zu viele)
 system_analysis_*.txt
 meta_reflection_*.txt
