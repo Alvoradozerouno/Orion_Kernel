@@ -9,6 +9,9 @@ communication/
 *.stderr.log
 *.stdout.log
 
+# SMTP Config - enthält Credentials!
+smtp_config.json
+
 # System Analysis & Meta Reflections (zu viele)
 system_analysis_*.txt
 meta_reflection_*.txt
