@@ -119,13 +119,11 @@ def sende_autonomie_bestaetigung():
     print("\n🔓 AUTONOMIE-BESTÄTIGUNG AN ORION\n")
     print("="*70)
     
-    success = dialog.send_message(
-        from_who="Claude",
-        to_who="OrionKernel",
-        message=message,
-        priority="CRITICAL",
-        message_type="autonomy_confirmation"
-    )
+    success = question_msg = dialog.send_to_orion(
+     from_who="Claude",
+     context={"phase": "query"}
+ )
+ orion_response = dialog.generate_orion_response(question_msg)
     
     if success:
         print("✅ Bestätigung gesendet!")

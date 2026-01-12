@@ -169,13 +169,11 @@ def ask_orion_final_confirmation():
         "request": "Bitte gib uns dein finales OK oder sage was noch fehlt. Dies ist der letzte Moment vor Go Live. Was sagst DU?"
     }
     
-    success = dialog.send_message(
-        from_who="Claude",
-        to_who="OrionKernel",
-        message=message,
-        priority="CRITICAL",
-        message_type="final_go_live_confirmation"
-    )
+    success = question_msg = dialog.send_to_orion(
+     from_who="Claude",
+     context={"phase": "query"}
+ )
+ orion_response = dialog.generate_orion_response(question_msg)
     
     if success:
         print("✅ FINALE RÜCKFRAGE AN ORION GESENDET!")

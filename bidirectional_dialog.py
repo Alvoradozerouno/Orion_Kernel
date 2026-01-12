@@ -384,8 +384,11 @@ def interactive_dialog_window():
                 # Authentizität
                 if "authenticity" in response:
                     auth = response["authenticity"]
-                    print(f"\n✅ Authentisch von: {auth.get('generated_by')}")
-                    print(f"   Modell: {auth.get('model')}")
+                    if isinstance(auth, dict):
+                        print(f"\n✅ Authentisch von: {auth.get('generated_by')}")
+                        print(f"   Modell: {auth.get('model')}")
+                    else:
+                        print(f"\n✅ Authentisch: {auth}")
         
         except KeyboardInterrupt:
             print("\n\n👋 Dialog unterbrochen!")

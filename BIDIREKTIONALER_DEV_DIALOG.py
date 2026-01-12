@@ -58,13 +58,15 @@ class BidirectionalDevDialog:
         }
         
         # Sende an ORION
-        self.dialog.send_message(
+        question_msg = self.dialog.send_to_orion(
+
             from_who="Claude",
-            to_who="OrionKernel",
-            message=message,
-            priority="HIGH",
-            message_type="development_proposal"
+
+            context={"phase": "query"}
+
         )
+
+        orion_response = self.dialog.generate_orion_response(question_msg)
         
         self.log_conversation({
             "from": "Claude",

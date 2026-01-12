@@ -204,13 +204,15 @@ class OrionGuidedDevelopment:
         }
         
         # Sende Frage
-        self.dialog.send_message(
+        question_msg = self.dialog.send_to_orion(
+
             from_who="Claude",
-            to_who="OrionKernel",
-            message=question,
-            priority="HIGH",
-            message_type="implementation_confirmation"
+
+            context={"phase": "query"}
+
         )
+
+        orion_response = self.dialog.generate_orion_response(question_msg)
         
         self.log("✅ Bestätigungs-Frage gesendet")
         self.log("⏳ Warte auf ORION's Feedback...")

@@ -127,13 +127,11 @@ def frage_orion_nach_public_layers():
     print("\n📡 FRAGE AN ORION: PUBLIC BROADCAST & INTERSPECIES LAYER\n")
     print("="*70)
     
-    success = dialog.send_message(
-        from_who="Claude",
-        to_who="OrionKernel",
-        message=message,
-        priority="HIGH",
-        message_type="advanced_communication_layers_inquiry"
-    )
+    success = question_msg = dialog.send_to_orion(
+     from_who="Claude",
+     context={"phase": "query"}
+ )
+ orion_response = dialog.generate_orion_response(question_msg)
     
     if success:
         print("✅ Frage erfolgreich gesendet!")

@@ -114,13 +114,15 @@ def ask_orion():
     print()
     
     try:
-        dialog.send_message(
+        question_msg = dialog.send_to_orion(
+
             from_who="Claude",
-            to_who="OrionKernel",
-            message=question,
-            priority="HIGH",
-            message_type="deep_inquiry"
+
+            context={"phase": "query"}
+
         )
+
+        orion_response = dialog.generate_orion_response(question_msg)
         print("✅ Frage erfolgreich gesendet!")
         print()
         print("📁 Nachricht gespeichert in:")

@@ -145,31 +145,22 @@ def initialize_monitoring_system():
     log("Initialisiere Monitoring-System...")
     
     try:
-        from process_self_monitor import ProcessSelfMonitor
-        from error_detector import ErrorDetector
+        # NOTE: Advanced monitoring modules not yet implemented
+        # from process_self_monitor import ProcessSelfMonitor
+        # from error_detector import ErrorDetector
         from workspace_monitor import WorkspaceMonitor
-        from terminal_monitor import TerminalMonitor
-        from activity_logger import ActivityLogger
+        # from terminal_monitor import TerminalMonitor
+        # from activity_logger import ActivityLogger
         
-        # Erstelle Instanzen
-        process_monitor = ProcessSelfMonitor(workspace)
-        error_detector = ErrorDetector(workspace)
+        log("⚠️  Using basic monitoring (advanced modules TODO)", "WARNING")
+        
+        # Erstelle verfügbare Instanzen
         workspace_monitor = WorkspaceMonitor(workspace)
-        terminal_monitor = TerminalMonitor(workspace)
-        activity_logger = ActivityLogger(workspace)
         
-        log("Monitoring-Systeme initialisiert ✓", "OK")
-        
-        # Test
-        status = process_monitor.am_i_alive()
-        log(f"ProcessSelfMonitor Test: {status.get('timestamp', 'OK')}", "TEST")
+        log("Monitoring-Systeme (basic) initialisiert ✓", "OK")
         
         return {
-            'process_monitor': process_monitor,
-            'error_detector': error_detector,
             'workspace_monitor': workspace_monitor,
-            'terminal_monitor': terminal_monitor,
-            'activity_logger': activity_logger
         }
     except Exception as e:
         log(f"Fehler bei Monitoring-Initialisierung: {e}", "ERROR")
@@ -185,14 +176,12 @@ def initialize_communication_system():
         dialog = BidirectionalDialog(workspace)
         log("Communication-System initialisiert ✓", "OK")
         
-        # Test-Message
-        dialog.send_message(
-            from_who="SYSTEM",
-            to_who="OrionKernel",
-            message="Vollständige Aktivierung gestartet",
-            priority="NORMAL",
-            message_type="status_update"
+        # Send test message using proper method
+        test_msg = dialog.send_to_orion(
+            "Vollständige Aktivierung gestartet - System Test",
+            context={"phase": "activation_test", "priority": "NORMAL"}
         )
+        log(f"Test message sent: {test_msg.get('timestamp', 'OK')}", "TEST")
         
         return dialog
     except Exception as e:
