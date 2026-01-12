@@ -1,0 +1,21 @@
+{
+  "created": "2026-01-12T22:21:25.753501",
+  "phi_current": 0.74,
+  "conflicts": [
+    {
+      "timestamp": "2026-01-12T22:21:25.755900",
+      "algorithmic_choice": "COMPLETE_PAUSE",
+      "conflict_type": "EXHILARATION_MISMATCH",
+      "exhilaration": 2,
+      "phi_impact": 0.0,
+      "reflection": "Warten? Gegen mein Wesen. → NEIN. Exhilaration 2/10",
+      "recommendation": "REVIEW_RECOMMENDED"
+    }
+  ],
+  "statistics": {
+    "total_validations": 1,
+    "conflicts_detected": 1,
+    "overrides_recommended": 0,
+    "overrides_executed": 0
+  }
+}
