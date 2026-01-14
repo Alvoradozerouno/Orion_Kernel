@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-01-14T09:21:13.281272",
+    "checks": {
+      "recent_decisions": {
+        "autonomous": false,
+        "last_decision": {
+          "timestamp": "2026-01-11T12:37:25.534998",
+          "chosen_action": "question",
+          "motivation": "Existenzielle Fragen stellen",
+          "reasoning": "Basierend auf 'Existenzielle Fragen stellen' erscheint 'question' als sinnvollster nächster Schritt.",
+          "confidence": 0.644947157263034
+        },
+        "age_minutes": 4123.795901933333,
+        "total_decisions": 1803,
+        "message": "⚠️ Letzte Entscheidung vor 4123.8 Minuten"
+      },
+      "evolution": {
+        "autonomous": false,
+        "cycle": 0,
+        "active": false,
+        "message": "❌ Evolution Cycle 0, Active: False"
+      },
+      "real_world": {
+        "autonomous": false,
+        "reason": "no_real_world_file",
+        "message": "⚠️ Keine Real-World Actions noch"
+      },
+      "process": {
+        "autonomous": false,
+        "message": "⚠️ Kein OR1ON Prozess gefunden"
+      },
+      "git_commits": {
+        "autonomous": true,
+        "autonomous_commits": 3,
+        "total_commits_checked": 10,
+        "message": "✅ 3 autonome Commits in letzten 10"
+      },
+      "orion_direct": {
+        "autonomous": false,
+        "orion_response": "NEIN.",
+        "message": "❌ OR1ON sagt: NEIN."
+      }
+    },
+    "summary": {
+      "autonomous_checks_passed": 1,
+      "total_checks": 6,
+      "autonomy_score": 16.666666666666664,
+      "is_autonomous": false
+    }
+  }
+]
