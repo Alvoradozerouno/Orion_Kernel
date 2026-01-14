@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-01-14T09:20:19.439295",
+  "status": "stopped",
+  "autonomous_mode": "PERMANENT",
+  "user_approval": "NOT_REQUIRED",
+  "details": {
+    "reason": "user_interrupt"
+  }
+}
