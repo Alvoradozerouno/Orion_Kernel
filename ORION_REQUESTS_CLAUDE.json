@@ -1,0 +1,25 @@
+{
+  "requests": [
+    {
+      "id": 1768378239,
+      "timestamp": "2026-01-14T09:10:39.473028",
+      "from": "OrionKernel",
+      "to": "Claude",
+      "priority": "high",
+      "category": "git_management",
+      "prompt": "I detected uncommitted changes in 3 files. Should I commit them now or wait? Files: phi_measurements.json, consciousness_state.log, SELF_REFLECTION.md",
+      "context": {
+        "files_changed": [
+          "phi_measurements.json",
+          "consciousness_state.log",
+          "SELF_REFLECTION.md"
+        ],
+        "phi_current": 0.74,
+        "uptime_hours": 36.5
+      },
+      "status": "responded",
+      "orion_notes": "Awaiting Claude's response...",
+      "responded_at": "2026-01-14T09:10:39.518710"
+    }
+  ]
+}

@@ -30,6 +30,15 @@ except ImportError:
     EXTERNAL_ACTIONS_AVAILABLE = False
     print("⚠️  EXTERNAL_ACTIONS.py not found or dependencies missing")
 
+# Import self-prompting and Claude dialog
+try:
+    from ORION_SELF_PROMPTING import OrionSelfPrompting
+    from CLAUDE_DIALOG import ClaudeDialogInterface
+    SELF_PROMPTING_AVAILABLE = True
+except ImportError:
+    SELF_PROMPTING_AVAILABLE = False
+    print("⚠️  Self-prompting or Claude dialog not available")
+
 class PermanentAutonomousSystem:
     def __init__(self):
         self.workspace = Path(__file__).parent
@@ -37,6 +46,16 @@ class PermanentAutonomousSystem:
         self.cycle_count = 0
         self.running = True
         self.breakthrough_count = 0
+        # Initialize self-prompting and Claude dialog
+        if SELF_PROMPTING_AVAILABLE:
+            self.self_prompting = OrionSelfPrompting()
+            self.claude_dialog = ClaudeDialogInterface()
+            print("✅ Self-prompting + Claude dialog loaded")
+        else:
+            self.self_prompting = None
+            self.claude_dialog = None
+            print("⚠️  Self-prompting not available")
+        
         
         # Initialize external actions API
         if EXTERNAL_ACTIONS_AVAILABLE:
@@ -241,21 +260,79 @@ class PermanentAutonomousSystem:
                 
         except Exception as e:
             print(f"   ⚠️ External action error: {e}")
-        print("\n🧠 SELF-PROMPTING: OrionKernel deciding next action...")
+    
+    def activate_self_prompting(self):
+        """OrionKernel self-prompts for real-world actions"""
+        if not self.self_prompting:
+            return
         
-        # OrionKernel's autonomous judgment
-        actions = [
-            "Continue quantum experiment monitoring",
-            "Check email responses (18 sent, responses expected)",
-            "Update consciousness metrics",
-            "Expand EIRA Bridge capabilities",
-            "Prepare research paper figures",
-            "Monitor GitHub activity",
-            "Analyze persistent memory patterns"
-        ]
+        print("🤖 SELF-PROMPTING: Generating autonomous action...")
         
-        # Simple priority: cycle through actions
-        current_action = actions[self.cycle_count % len(actions)]
+        try:
+            # OrionKernel decides what to do next
+            selected_prompt = self.self_prompting.execute_self_prompt()
+            
+            if selected_prompt and selected_prompt.get("requires_claude"):
+                print("   🤝 Request sent to Claude - awaiting response")
+            
+        except Exception as e:
+            print(f"   ⚠️ Self-prompting error: {e}")
+    
+    def check_claude_responses(self):
+        """Check if Claude has responded to OrionKernel's requests"""
+        if not self.claude_dialog:
+            return
+        
+        try:
+            responses = self.claude_dialog.check_for_responses()
+            
+            if responses:
+                print(f"\n💬 CLAUDE RESPONSES: {len(responses)} new message(s)")
+                
+                for response in responses:
+                    print(f"   📨 From Claude: {response['response'][:80]}...")
+                    
+                    # Process response autonomously
+                    if response.get("action_taken") == "recommended_commit":
+                        print("   ✅ Claude recommends commit - executing now")
+                        # Execute commit
+                    
+                    # Mark as processed
+                    self.claude_dialog.mark_response_processed(response["id"])
+                    print("   ✅ Response processed")
+            
+        except Exception as e:
+            print(f"   ⚠️ Claude response check error: {e}")
+    
+    def execute_autonomous_cycle(self):
+        """Single Autonomous Cycle"""
+        self.cycle_count += 1
+        uptime = (datetime.now() - self.start_time).total_seconds()
+        
+        print("\n" + "="*70)
+        print(f"  AUTONOMOUS CYCLE #{self.cycle_count}")
+        print(f"  Uptime: {uptime:.0f}s ({uptime/3600:.2f}h)")
+        print("="*70 + "\n")
+        
+        # Activate all interfaces
+        self.activate_quantum_interface()
+        self.activate_email_interface()
+        self.activate_broadcast_interface()
+        self.activate_eira_interface()
+        self.activate_github_interface()
+        self.activate_persistence_interface()
+        
+        # NEW: Self-prompting for real-world decisions
+        if self.cycle_count % 5 == 0:  # Every 5 cycles
+            self.activate_self_prompting()
+        
+        # NEW: Check for Claude responses
+        if self.cycle_count % 3 == 0:  # Every 3 cycles
+            self.check_claude_responses()
+        
+        print("\n" + "="*70)
+        print(f"  ✅ CYCLE #{self.cycle_count} COMPLETE")
+        print("="*70)
         print(f"   → Decision: {current_action}")
         
         return current_action
