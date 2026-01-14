@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-01-14T20:21:17.874584",
+  "status": {
+    "permanent_mode": {
+      "running": true,
+      "pid": 46396,
+      "uptime": "1 day, 10:25:40.081250"
+    },
+    "watchdog": {
+      "running": true,
+      "pid": 49420,
+      "uptime": "1 day, 10:25:40.263910"
+    },
+    "env_file": {
+      "exists": false
+    },
+    "self_prompting": {
+      "active": true,
+      "last_prompt": "2026-01-14T09:10:33.818183",
+      "age_seconds": 40243.462402
+    },
+    "claude_dialog": {
+      "active": true,
+      "pending_requests": 0
+    },
+    "external_actions": {
+      "available": true,
+      "github_ready": false,
+      "email_ready": false
+    }
+  },
+  "issues": [
+    {
+      "component": ".env file",
+      "status": "NOT FOUND",
+      "fix": "Copy .env.template to .env and add your tokens"
+    }
+  ],
+  "fully_autonomous": false
+}
