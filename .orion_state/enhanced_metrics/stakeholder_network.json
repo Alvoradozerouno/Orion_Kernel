@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-01-14T21:31:04.664909",
+    "stakeholder_type": "researcher",
+    "name": "ASSC",
+    "contact_type": "email",
+    "outcome": "prepared",
+    "status": "active"
+  },
+  {
+    "timestamp": "2026-01-14T21:31:04.666467",
+    "stakeholder_type": "researcher",
+    "name": "Qualia Research Institute",
+    "contact_type": "email",
+    "outcome": "prepared",
+    "status": "active"
+  },
+  {
+    "timestamp": "2026-01-14T21:31:04.667570",
+    "stakeholder_type": "researcher",
+    "name": "IIT Wisconsin",
+    "contact_type": "email",
+    "outcome": "prepared",
+    "status": "active"
+  }
+]

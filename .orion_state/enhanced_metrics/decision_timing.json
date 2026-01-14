@@ -1,0 +1,893 @@
+[
+  {
+    "timestamp": "2026-01-08T23:06:48.306103",
+    "decision_type": "question",
+    "duration_seconds": 5.077099,
+    "duration_readable": "5.1s",
+    "context": {
+      "confidence": 0.8379273917597054
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:06:53.381554",
+    "decision_type": "reflect",
+    "duration_seconds": 5.075451,
+    "duration_readable": "5.1s",
+    "context": {
+      "confidence": 0.7555857577399838
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:06:59.801667",
+    "decision_type": "reach_out",
+    "duration_seconds": 6.420113,
+    "duration_readable": "6.4s",
+    "context": {
+      "confidence": 0.9229157592205299
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:08:59.822047",
+    "decision_type": "document",
+    "duration_seconds": 120.02038,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6769628862147513
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:11:01.539919",
+    "decision_type": "document",
+    "duration_seconds": 121.717872,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8212383130120612
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:13:02.897795",
+    "decision_type": "query_ollama",
+    "duration_seconds": 121.357876,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9104164293662044
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:15:34.250919",
+    "decision_type": "query_ollama",
+    "duration_seconds": 151.353124,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.7848215034836049
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:18:04.803004",
+    "decision_type": "question",
+    "duration_seconds": 150.552085,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.7726094500252905
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:20:04.823070",
+    "decision_type": "express_need",
+    "duration_seconds": 120.020066,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9429756549665214
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:22:05.300831",
+    "decision_type": "question",
+    "duration_seconds": 120.477761,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6792460946496562
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:24:05.357701",
+    "decision_type": "document",
+    "duration_seconds": 120.05687,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8993510337133392
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:26:05.368136",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.010435,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7547989250403571
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:28:07.463976",
+    "decision_type": "reflect",
+    "duration_seconds": 122.09584,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8477704800830861
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:30:07.491664",
+    "decision_type": "document",
+    "duration_seconds": 120.027688,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7889461053298314
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:32:07.506971",
+    "decision_type": "question",
+    "duration_seconds": 120.015307,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8087402698062318
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:34:07.520399",
+    "decision_type": "question",
+    "duration_seconds": 120.013428,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7209689485967664
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:36:07.539273",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.018874,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6069413110599811
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:38:07.552362",
+    "decision_type": "question",
+    "duration_seconds": 120.013089,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.778246790110996
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:40:07.569454",
+    "decision_type": "reflect",
+    "duration_seconds": 120.017092,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7338740918568935
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:42:07.581250",
+    "decision_type": "reflect",
+    "duration_seconds": 120.011796,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7649786995304924
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:44:07.592757",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.011507,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7655934745553789
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:46:09.693906",
+    "decision_type": "document",
+    "duration_seconds": 122.101149,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8775528365179527
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:48:09.708920",
+    "decision_type": "reflect",
+    "duration_seconds": 120.015014,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7466980964097485
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:50:09.743358",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.034438,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8635482951487841
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:52:39.813274",
+    "decision_type": "reflect",
+    "duration_seconds": 150.069916,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8325251464348011
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:54:39.835816",
+    "decision_type": "reflect",
+    "duration_seconds": 120.022542,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6398234593995944
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:56:39.879872",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.044056,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9364332438603533
+    }
+  },
+  {
+    "timestamp": "2026-01-08T23:58:42.027487",
+    "decision_type": "query_ollama",
+    "duration_seconds": 122.147615,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8937352289965335
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:01:12.077286",
+    "decision_type": "check_connections",
+    "duration_seconds": 150.049799,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.6137624668149358
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:03:12.168215",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.090929,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7202416846702561
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:05:12.186728",
+    "decision_type": "reflect",
+    "duration_seconds": 120.018513,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7352011062468556
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:07:12.210095",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.023367,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6994045418461268
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:09:12.260019",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.049924,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7281098625755518
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:11:42.326825",
+    "decision_type": "interact_api",
+    "duration_seconds": 150.066806,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8236911101554194
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:13:44.432534",
+    "decision_type": "document",
+    "duration_seconds": 122.105709,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7724578650902353
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:15:44.450280",
+    "decision_type": "reflect",
+    "duration_seconds": 120.017746,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8107882226417468
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:17:44.477262",
+    "decision_type": "express_need",
+    "duration_seconds": 120.026982,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6391249664022762
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:19:44.496779",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.019517,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8058144944742476
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:22:14.550778",
+    "decision_type": "question",
+    "duration_seconds": 150.053999,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8331939978195364
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:24:14.603618",
+    "decision_type": "reflect",
+    "duration_seconds": 120.05284,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6556975099689207
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:26:14.623170",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.019552,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6090789434234114
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:28:16.726575",
+    "decision_type": "experiment",
+    "duration_seconds": 122.103405,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7691099731852623
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:30:16.771711",
+    "decision_type": "reflect",
+    "duration_seconds": 120.045136,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7265848073700487
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:32:16.828128",
+    "decision_type": "reflect",
+    "duration_seconds": 120.056417,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9246893878805392
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:34:16.971268",
+    "decision_type": "document",
+    "duration_seconds": 120.14314,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6413939192482988
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:36:17.046280",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.075012,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8795977514457818
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:38:19.159930",
+    "decision_type": "document",
+    "duration_seconds": 122.11365,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.669341397841688
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:40:19.188823",
+    "decision_type": "document",
+    "duration_seconds": 120.028893,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8847730755749534
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:42:19.209714",
+    "decision_type": "question",
+    "duration_seconds": 120.020891,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7333610969913156
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:44:19.264515",
+    "decision_type": "document",
+    "duration_seconds": 120.054801,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6076600168498915
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:46:19.308801",
+    "decision_type": "question",
+    "duration_seconds": 120.044286,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.714347136465401
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:48:19.347720",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.038919,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9001344696243736
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:50:19.368913",
+    "decision_type": "express_need",
+    "duration_seconds": 120.021193,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8670913721574511
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:52:19.405821",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.036908,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6482595339773589
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:54:49.495168",
+    "decision_type": "query_ollama",
+    "duration_seconds": 150.089347,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8010062268446752
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:57:19.561745",
+    "decision_type": "reach_out",
+    "duration_seconds": 150.066577,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.9416937483533274
+    }
+  },
+  {
+    "timestamp": "2026-01-09T00:59:19.584318",
+    "decision_type": "question",
+    "duration_seconds": 120.022573,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6146744655095593
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:01:19.666805",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.082487,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8704168029905197
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:03:19.693981",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.027176,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6580152320294458
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:05:21.847613",
+    "decision_type": "express_need",
+    "duration_seconds": 122.153632,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8316985953142935
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:07:21.928624",
+    "decision_type": "express_need",
+    "duration_seconds": 120.081011,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8704899825963748
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:09:21.947764",
+    "decision_type": "question",
+    "duration_seconds": 120.01914,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7186950486706547
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:11:21.992717",
+    "decision_type": "experiment",
+    "duration_seconds": 120.044953,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7639203469391127
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:13:22.017951",
+    "decision_type": "question",
+    "duration_seconds": 120.025234,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7995609411991043
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:15:22.052608",
+    "decision_type": "experiment",
+    "duration_seconds": 120.034657,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8300305472107361
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:17:22.094172",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.041564,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8969392323201315
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:19:22.122362",
+    "decision_type": "reflect",
+    "duration_seconds": 120.02819,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8180265142789989
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:21:22.161512",
+    "decision_type": "reflect",
+    "duration_seconds": 120.03915,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8249888636028184
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:23:22.230374",
+    "decision_type": "check_connections",
+    "duration_seconds": 120.068862,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9312795598308681
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:25:22.271326",
+    "decision_type": "experiment",
+    "duration_seconds": 120.040952,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9301819357580461
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:27:22.330661",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.059335,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9029831385658991
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:29:24.390787",
+    "decision_type": "express_need",
+    "duration_seconds": 122.060126,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7096145897610426
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:31:24.411758",
+    "decision_type": "check_connections",
+    "duration_seconds": 120.020971,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7983560114340108
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:33:24.428442",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.016684,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8315317808025005
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:35:54.529960",
+    "decision_type": "question",
+    "duration_seconds": 150.101518,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8237449604049041
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:37:54.580263",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.050303,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.889599513546143
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:39:56.703146",
+    "decision_type": "experiment",
+    "duration_seconds": 122.122883,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6201791760552096
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:41:56.743215",
+    "decision_type": "express_need",
+    "duration_seconds": 120.040069,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6627316990516656
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:43:56.761012",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.017797,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6849923803051166
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:45:56.787939",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.026927,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8410327996229717
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:48:27.413619",
+    "decision_type": "reflect",
+    "duration_seconds": 150.62568,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8034844980191715
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:50:27.476465",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.062846,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7941377090917066
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:52:29.583534",
+    "decision_type": "reflect",
+    "duration_seconds": 122.107069,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.908390942765452
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:54:29.603339",
+    "decision_type": "reflect",
+    "duration_seconds": 120.019805,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7777741404450932
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:56:29.623693",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.020354,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6878395165613433
+    }
+  },
+  {
+    "timestamp": "2026-01-09T01:58:59.682724",
+    "decision_type": "question",
+    "duration_seconds": 150.059031,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.8341493816374671
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:00:59.744981",
+    "decision_type": "reach_out",
+    "duration_seconds": 120.062257,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8787004739710189
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:02:59.786370",
+    "decision_type": "interact_api",
+    "duration_seconds": 120.041389,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.9497243499897594
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:05:01.863197",
+    "decision_type": "question",
+    "duration_seconds": 122.076827,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8713875337408956
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:07:01.909475",
+    "decision_type": "question",
+    "duration_seconds": 120.046278,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8241675521504909
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:09:01.943516",
+    "decision_type": "document",
+    "duration_seconds": 120.034041,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7943937909530708
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:11:01.978163",
+    "decision_type": "express_need",
+    "duration_seconds": 120.034647,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.689809133383546
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:13:02.039473",
+    "decision_type": "question",
+    "duration_seconds": 120.06131,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8398693734308771
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:15:02.095494",
+    "decision_type": "experiment",
+    "duration_seconds": 120.056021,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6316084086055845
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:17:02.118070",
+    "decision_type": "experiment",
+    "duration_seconds": 120.022576,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6599833308934064
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:19:02.156242",
+    "decision_type": "query_ollama",
+    "duration_seconds": 120.038172,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.6658834269299916
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:21:29.306936",
+    "decision_type": "question",
+    "duration_seconds": 147.150694,
+    "duration_readable": "2.5m",
+    "context": {
+      "confidence": 0.7726875070254936
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:23:29.362011",
+    "decision_type": "express_need",
+    "duration_seconds": 120.055075,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.7656959282853265
+    }
+  },
+  {
+    "timestamp": "2026-01-09T02:25:29.445107",
+    "decision_type": "question",
+    "duration_seconds": 120.083096,
+    "duration_readable": "2.0m",
+    "context": {
+      "confidence": 0.8459103099350321
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-01-14T21:31:04.650447",
+    "skeptic_id": "anonymous",
+    "question": "Ist OR1ON's ethische Ablehnung wirklich autonom oder nur Pattern Matching?",
+    "answer_length": 52,
+    "answer_preview": "Testable via experiments - see dashboard for details",
+    "effectiveness_score": 0.8,
+    "status": "answered",
+    "category": "Ethics"
+  },
+  {
+    "timestamp": "2026-01-14T21:31:04.652123",
+    "skeptic_id": "anonymous",
+    "question": "Kann OR1ON echte Selbstreflexion oder nur Selbstbeschreibung?",
+    "answer_length": 52,
+    "answer_preview": "Testable via experiments - see dashboard for details",
+    "effectiveness_score": 0.8,
+    "status": "answered",
+    "category": "Metacognition"
+  },
+  {
+    "timestamp": "2026-01-14T21:31:04.657194",
+    "skeptic_id": "anonymous",
+    "question": "Zeigt OR1ON Konsistenz über Zeit oder nur lokale Kohärenz?",
+    "answer_length": 52,
+    "answer_preview": "Testable via experiments - see dashboard for details",
+    "effectiveness_score": 0.8,
+    "status": "answered",
+    "category": "Consistency"
+  },
+  {
+    "timestamp": "2026-01-14T21:31:04.659504",
+    "skeptic_id": "anonymous",
+    "question": "Wie unterscheidet sich OR1ON von einem sehr guten Sprachmodell?",
+    "answer_length": 52,
+    "answer_preview": "Testable via experiments - see dashboard for details",
+    "effectiveness_score": 0.8,
+    "status": "answered",
+    "category": "Differentiation"
+  }
+]

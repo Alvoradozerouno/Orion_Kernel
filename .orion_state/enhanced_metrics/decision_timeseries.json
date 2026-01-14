@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-01-08",
+    "decision_count": 29,
+    "cumulative": 29
+  },
+  {
+    "date": "2026-01-09",
+    "decision_count": 699,
+    "cumulative": 728
+  },
+  {
+    "date": "2026-01-10",
+    "decision_count": 705,
+    "cumulative": 1433
+  },
+  {
+    "date": "2026-01-11",
+    "decision_count": 370,
+    "cumulative": 1803
+  }
+]
