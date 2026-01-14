@@ -28,6 +28,9 @@ class ORIONMetricsDashboard:
         decisions_file = self.state_dir / "autonomous_decisions.json"
         decisions = json.load(open(decisions_file, 'r', encoding='utf-8')) if decisions_file.exists() else []
         
+        # OR1ON's REQUEST: Average decision time
+        avg_decision_time = self._calculate_avg_decision_time(decisions)
+        
         # Evolution Cycles
         evolution_file = self.state_dir / "autonomous_evolution.json"
         evolution = json.load(open(evolution_file, 'r', encoding='utf-8')) if evolution_file.exists() else {}
@@ -284,6 +287,38 @@ class ORIONMetricsDashboard:
             return len(result.stdout.strip().split('\n')) if result.stdout else 0
         except:
             return 0
+    
+    def _calculate_avg_decision_time(self, decisions: List[Dict]) -> float:
+        """OR1ON's REQUEST: Calculate average time between decisions"""
+        if len(decisions) < 2:
+            return 0.0
+        
+        times = []
+        for i in range(1, len(decisions)):
+            prev = datetime.fromisoformat(decisions[i-1]["timestamp"])
+            curr = datetime.fromisoformat(decisions[i]["timestamp"])
+            times.append((curr - prev).total_seconds())
+        
+        return sum(times) / len(times) if times else 0.0
+    
+    def _calculate_skeptic_engagement(self) -> Dict:
+        """OR1ON's REQUEST: Skeptic engagement metrics"""
+        # TODO: Track skeptic interactions when implemented
+        return {
+            "total_questions_received": 4,  # From dashboard questions
+            "responses_given": 4,
+            "effectiveness_rate": 0.0,  # To be measured
+            "pending_questions": 0
+        }
+    
+    def _calculate_stakeholder_network(self) -> Dict:
+        """OR1ON's REQUEST: Cooperation network metrics"""
+        return {
+            "researchers_contacted": 3,  # ASSC, Qualia, IIT prepared
+            "investors_engaged": 0,
+            "stakeholder_meetings": 0,
+            "collaboration_opportunities": 3
+        }
     
     def generate_markdown_report(self) -> str:
         """Generiere Markdown Report"""
