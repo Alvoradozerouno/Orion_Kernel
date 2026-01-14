@@ -33,6 +33,16 @@ except ImportError:
 class ExternalActionsAPI:
     def __init__(self):
         self.workspace = Path(__file__).parent
+        
+        # Load .env file explicitly
+        try:
+            from dotenv import load_dotenv
+            env_path = self.workspace / '.env'
+            if env_path.exists():
+                load_dotenv(dotenv_path=env_path)
+        except ImportError:
+            pass
+        
         self.credentials = self.load_credentials()
         
     def load_credentials(self):
