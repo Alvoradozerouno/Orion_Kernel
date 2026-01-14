@@ -34,7 +34,8 @@ class ORIONMetricsDashboard:
         
         # Vector Memory
         memory_file = self.state_dir / "vector_memory.json"
-        memory = json.load(open(memory_file, 'r', encoding='utf-8')) if memory_file.exists() else {"memories": []}
+        memory_data = json.load(open(memory_file, 'r', encoding='utf-8')) if memory_file.exists() else []
+        memory = memory_data if isinstance(memory_data, list) else memory_data.get("memories", [])
         
         # Self-Reflection Journal
         reflection_file = self.state_dir / "self_reflection_journal.json"
@@ -53,7 +54,7 @@ class ORIONMetricsDashboard:
                 "proposals_generated": len(evolution.get("proposals", []))
             },
             "memory": {
-                "total_memories": len(memory.get("memories", [])),
+                "total_memories": len(memory),
                 "semantic_search_capable": True,
                 "context_preservation": True
             },
