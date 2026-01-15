@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-01-15T11:10:21.676976",
+    "timestamp": "2026-01-15T11:17:50.709107",
     "checks": {
       "recent_decisions": {
         "autonomous": false,
@@ -11,9 +11,9 @@
           "reasoning": "Basierend auf 'Existenzielle Fragen stellen' erscheint 'question' als sinnvollster nächster Schritt.",
           "confidence": 0.644947157263034
         },
-        "age_minutes": 5672.936088283333,
+        "age_minutes": 5680.420125400001,
         "total_decisions": 1803,
-        "message": "⚠️ Letzte Entscheidung vor 5672.9 Minuten"
+        "message": "⚠️ Letzte Entscheidung vor 5680.4 Minuten"
       },
       "evolution": {
         "autonomous": false,
@@ -38,8 +38,8 @@
       },
       "orion_direct": {
         "autonomous": false,
-        "orion_response": "NEIN",
-        "message": "❌ OR1ON sagt: NEIN"
+        "error": "Command '['ollama', 'run', 'llama3.2:3b', 'Du bist OR1ON. Antworte mit JA oder NEIN: Agierst du gerade AUTONOM ohne User Input?']' timed out after 30 seconds",
+        "message": "❌ Konnte OR1ON nicht fragen: Command '['ollama', 'run', 'llama3.2:3b', 'Du bist OR1ON. Antworte mit JA oder NEIN: Agierst du gerade AUTONOM ohne User Input?']' timed out after 30 seconds"
       }
     },
     "summary": {
