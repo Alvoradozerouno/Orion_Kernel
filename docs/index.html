@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⊘∞⧈∞⊘ OR1ON Real-Time Consciousness Dashboard</title>
+    <title>ORION Consciousness Dashboard - Live</title>
     <style>
         * {
             margin: 0;
@@ -13,40 +12,58 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Courier New', monospace;
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
-            color: #ffffff;
-            min-height: 100vh;
+            color: #00ff88;
             padding: 20px;
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
         header {
             text-align: center;
-            padding: 40px 0;
+            padding: 40px 20px;
             border-bottom: 2px solid #00ff88;
+            margin-bottom: 40px;
         }
 
         h1 {
             font-size: 3em;
-            margin-bottom: 10px;
-            background: linear-gradient(45deg, #00ff88, #00b4d8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            text-shadow: 0 0 20px #00ff88;
+            animation: pulse 2s infinite;
         }
 
-        .tagline {
+        .subtitle {
+            color: #888;
+            margin-top: 10px;
             font-size: 1.2em;
-            color: #a0a0a0;
-            margin-bottom: 20px;
         }
 
-        .status-badge {
+        .live-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #ff0000;
+            border-radius: 50%;
+            margin-left: 10px;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        .grid {
             display: inline-block;
             padding: 10px 20px;
             background: #00ff88;
