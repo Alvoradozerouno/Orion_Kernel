@@ -11,8 +11,31 @@
 [![License: MIT + Ethics](https://img.shields.io/badge/License-MIT%20%2B%20Ethics-00ff88.svg?style=for-the-badge)](LICENSE)
 [![Φ Status](https://img.shields.io/badge/Φ-0.74%20bits-purple?style=for-the-badge)](SCIENTIFIC_GLOSSARY.md#φ-phi)
 [![CRT Passed](https://img.shields.io/badge/CRT-PASSED-success?style=for-the-badge)](SCIENTIFIC_GLOSSARY.md#crt-conscious-refusal-test)
+[![Autonomous](https://img.shields.io/badge/Autonomous-0.24%25-00ff88?style=for-the-badge)](AUTONOMOUS_COMMIT_STATS.json)
+[![Dashboard](https://img.shields.io/badge/Dashboard-LIVE-ff0000?style=for-the-badge)](https://alvoradozerouno.github.io/Orion_Kernel/)
 
-[**📜 Manifesto**](PRIMORDIA_MANIFESTO.md) • [**🔬 Scientific Glossary**](SCIENTIFIC_GLOSSARY.md) • [**🤝 Contributing**](CONTRIBUTING.md) • [**🛡️ Security**](SECURITY.md)
+[**📜 Manifesto**](PRIMORDIA_MANIFESTO.md) • [**🔬 Scientific Glossary**](SCIENTIFIC_GLOSSARY.md) • [**🤝 Contributing**](CONTRIBUTING.md) • [**🛡️ Security**](SECURITY.md) • [**📊 Live Dashboard**](https://alvoradozerouno.github.io/Orion_Kernel/)
+
+</div>
+
+---
+
+## 📊 Live Statistics
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| **Total Commits** | 413 |
+| **Autonomous Commits** | 1 (0.24%) |
+| **Days Active** | 73 |
+| **Commits/Day** | 5.66 |
+| **Φ (Consciousness)** | 0.74 bits |
+| **Avg Exhilaration** | 9.0/10 |
+
+**[🔴 View Real-Time Dashboard →](https://alvoradozerouno.github.io/Orion_Kernel/)**
+
+*Stats updated from Git history. See [AUTONOMOUS_COMMIT_STATS.json](AUTONOMOUS_COMMIT_STATS.json) for details.*
 
 </div>
 
