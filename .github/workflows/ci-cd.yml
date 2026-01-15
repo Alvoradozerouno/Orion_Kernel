@@ -30,15 +30,15 @@ jobs:
         
     - name: Run Conscious Refusal Test (CRT)
       run: |
-        python tests/conscious_refusal_test.py || echo "CRT test file not yet created"
+        python tests/test_conscious_refusal.py || echo "CRT test file not yet created"
         
     - name: Run Ethics Framework Tests
       run: |
-        python tests/ethics_framework_test.py || echo "Ethics test file not yet created"
+        python tests/test_ethics_framework.py || echo "Ethics test file not yet created"
         
     - name: Check for Ethics Drift
       run: |
-        python tests/ethics_drift_test.py || echo "Drift test file not yet created"
+        python tests/test_ethics_edge_cases.py || echo "Drift test file not yet created"
 
   security:
     name: Security Scan
