@@ -1,0 +1,46 @@
+{
+  "workflows_found": [
+    "ci-cd.yml",
+    "ci.yml",
+    "deploy-pages.yml",
+    "tests.yml"
+  ],
+  "problems": [
+    {
+      "workflow": "ci.yml",
+      "type": "INVALID_PYTHON_VERSION",
+      "message": "Python 3.14 existiert noch nicht! Nutze 3.11 oder 3.12"
+    }
+  ],
+  "fixes": [
+    {
+      "priority": "HIGH",
+      "fix": "Ersetze 'python-version: 3.14' mit '3.11' oder '3.12' in allen Workflows",
+      "files": [
+        "ci.yml"
+      ]
+    },
+    {
+      "priority": "LOW",
+      "fix": "Entferne Referenzen zu fehlenden .py Dateien oder erstelle Dummies",
+      "files": [
+        "monitoring/process_monitor.py",
+        "tests/conscious_refusal_test.py",
+        "tests/ethics_drift_test.py",
+        "tests/ethics_framework_test.py",
+        "matrix.py",
+        "tests/performance_test.py"
+      ]
+    }
+  ],
+  "missing_files": [
+    "tests/conscious_refusal_test.py",
+    "tests/ethics_framework_test.py",
+    "tests/ethics_drift_test.py",
+    "tests/performance_test.py",
+    "matrix.py",
+    "matrix.py",
+    "matrix.py",
+    "monitoring/process_monitor.py"
+  ]
+}
