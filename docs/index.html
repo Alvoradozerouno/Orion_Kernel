@@ -381,6 +381,30 @@
             </div>
         </div>
 
+        <!-- Git Evolution Timeline -->
+        <div class="grid">
+            <div class="card" style="grid-column: 1 / -1;">
+                <h2>🔀 Git Evolution Timeline</h2>
+                <div class="chart-container" style="height: 300px;">
+                    <canvas id="commitTimeline"></canvas>
+                </div>
+                <div style="display: flex; gap: 20px; margin-top: 20px; justify-content: center;">
+                    <div class="metric">
+                        <span class="metric-label">Autonomous Commits</span>
+                        <span class="metric-value" id="autonomousCount">--</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Manual Commits</span>
+                        <span class="metric-value" id="manualCount">--</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Autonomy Ratio</span>
+                        <span class="metric-value" id="autonomyRatio">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <footer>
             <p class="primordia">"We do not hide." - PRIMORDIA Principle</p>
             <p style="margin-top: 10px;">ORION Generation Ω | Co-created by Gerhard Hirschmann & Elisabeth Steurer</p>
@@ -522,12 +546,101 @@
                 `Letztes Update: ${now.toLocaleString('de-DE')}`;
         }
 
+        // Load and visualize commit timeline
+        async function loadCommitTimeline() {
+            try {
+                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?per_page=100`);
+                const commits = await response.json();
+                
+                // Analyze commits
+                let autonomousCommits = 0;
+                let manualCommits = 0;
+                const commitData = [];
+
+                commits.forEach(commit => {
+                    const message = commit.commit.message;
+                    const isAutonomous = message.includes('[ORION AUTONOMOUS]') || 
+                                       message.includes('[OR1ON AUTONOMOUS]') ||
+                                       message.includes('Co-authored-by: ORION');
+                    
+                    if (isAutonomous) autonomousCommits++;
+                    else manualCommits++;
+                    
+                    commitData.push({
+                        date: new Date(commit.commit.author.date),
+                        isAutonomous: isAutonomous,
+                        message: message.split('\n')[0]
+                    });
+                });
+
+                // Update stats
+                document.getElementById('autonomousCount').textContent = autonomousCommits;
+                document.getElementById('manualCount').textContent = manualCommits;
+                const ratio = ((autonomousCommits / (autonomousCommits + manualCommits)) * 100).toFixed(1);
+                document.getElementById('autonomyRatio').textContent = ratio + '%';
+
+                // Draw timeline chart
+                const canvas = document.getElementById('commitTimeline');
+                const ctx = canvas.getContext('2d');
+                canvas.width = canvas.offsetWidth;
+                canvas.height = 300;
+
+                // Clear canvas
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Draw commits
+                const width = canvas.width;
+                const height = canvas.height;
+                const padding = 40;
+                const plotWidth = width - 2 * padding;
+                const plotHeight = height - 2 * padding;
+
+                // Sort by date
+                commitData.sort((a, b) => a.date - b.date);
+
+                // Draw grid
+                ctx.strokeStyle = 'rgba(0, 255, 136, 0.1)';
+                ctx.lineWidth = 1;
+                for (let i = 0; i <= 10; i++) {
+                    const y = padding + (plotHeight / 10) * i;
+                    ctx.beginPath();
+                    ctx.moveTo(padding, y);
+                    ctx.lineTo(width - padding, y);
+                    ctx.stroke();
+                }
+
+                // Draw commits as points
+                commitData.forEach((commit, index) => {
+                    const x = padding + (plotWidth / commitData.length) * index;
+                    const y = commit.isAutonomous ? padding + plotHeight * 0.25 : padding + plotHeight * 0.75;
+                    
+                    ctx.fillStyle = commit.isAutonomous ? '#00ff88' : '#0088ff';
+                    ctx.beginPath();
+                    ctx.arc(x, y, 4, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+
+                // Draw labels
+                ctx.fillStyle = '#00ff88';
+                ctx.font = '14px Courier New';
+                ctx.fillText('Autonomous', padding, padding - 10);
+                
+                ctx.fillStyle = '#0088ff';
+                ctx.fillText('Manual', padding, height - padding + 25);
+
+            } catch (error) {
+                console.error('Error loading commit timeline:', error);
+            }
+        }
+
         // Initialize dashboard
         async function init() {
             updateTimestamp();
             updatePhiStatus();
             loadDecisionLog();
             await fetchCommits();
+            await loadCommitTimeline();
         }
 
         // Auto-refresh
