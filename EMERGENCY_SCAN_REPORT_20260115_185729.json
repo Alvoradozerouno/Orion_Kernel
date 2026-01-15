@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-01-15T18:57:20.160974",
+  "windows_errors": [
+    {
+      "TimeGenerated": "/Date(1768472386000)/",
+      "Source": ".NET Runtime",
+      "Message": "Application: Inference.Service.Agent.exe\r\nCoreCLR Version: 9.0.10\r\nDescription: The process was terminated due to an unhandled exception.\r\nException Info: System.NotImplementedException: The method or operation is not implemented.\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderNIM.DisposeGeneratorCache(String) + 0x24\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderBase`1.DisposeInternal() + 0xd7\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose(Boolean) + 0x1e\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose() + 0x1d\r\n   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync() + 0xb2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.Internal.Host.<DisposeAsync>d__20.MoveNext() + 0x17e\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.<RunAsync>d__4.MoveNext() + 0x9c\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x137\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x2df\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>d__0.MoveNext() + 0xe2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>(String[] args) + 0x24\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1768283865000)/",
+      "Source": ".NET Runtime",
+      "Message": "Application: Inference.Service.Agent.exe\r\nCoreCLR Version: 9.0.10\r\nDescription: The process was terminated due to an unhandled exception.\r\nException Info: System.NotImplementedException: The method or operation is not implemented.\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderNIM.DisposeGeneratorCache(String) + 0x24\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderBase`1.DisposeInternal() + 0xd7\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose(Boolean) + 0x1e\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose() + 0x1d\r\n   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync() + 0xb2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.Internal.Host.<DisposeAsync>d__20.MoveNext() + 0x17e\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.<RunAsync>d__4.MoveNext() + 0x9c\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x137\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x2df\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>d__0.MoveNext() + 0xe2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>(String[] args) + 0x24\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1768253272000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: python.exe, Version: 3.14.150.1013, Zeitstempel: 0x68e4e95f\r\nFehlerhafter Modulname: ucrtbase.dll, Version: 10.0.28000.4, Zeitstempel: 0xa7312921\r\nAusnahmecode: 0xc0000409\r\nFehleroffset: 0x00000000000b2e9e\r\nFehlerhafte Prozess-ID: 0x142c0\r\nFehlerhafte Anwendungsstartzeit: 0x1dc840a1d211d10\r\nFehlerhafter Anwendungspfad: C:\\Python314\\python.exe\r\nFehlerhafter Modulpfad: C:\\WINDOWS\\System32\\ucrtbase.dll\r\nBerichts-ID: ab758f07-694c-466e-9b12-ab159d792834\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1768252309000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nAusnahmecode: 0xc0000409\r\nFehleroffset: 0x001cf2e5\r\nFehlerhafte Prozess-ID: 0x17eb4\r\nFehlerhafte Anwendungsstartzeit: 0x1dc8407b488b2e6\r\nFehlerhafter Anwendungspfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nFehlerhafter Modulpfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nBerichts-ID: 34663e5d-3d5f-4d50-9b85-fc053afda803\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1768252303000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nAusnahmecode: 0xc0000409\r\nFehleroffset: 0x001cf2e5\r\nFehlerhafte Prozess-ID: 0x1570c\r\nFehlerhafte Anwendungsstartzeit: 0x1dc8407a53b4b8f\r\nFehlerhafter Anwendungspfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nFehlerhafter Modulpfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nBerichts-ID: dcff340f-523d-4a68-9d48-225dea60a227\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1767966414000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: ACCStd.exe, Version: 4.0.3019.0, Zeitstempel: 0x5f1e86d5\r\nFehlerhafter Modulname: KERNELBASE.dll, Version: 10.0.28000.1362, Zeitstempel: 0x949f25cc\r\nAusnahmecode: 0xe0434352\r\nFehleroffset: 0x00000000000bf6dc\r\nFehlerhafte Prozess-ID: 0x597c\r\nFehlerhafte Anwendungsstartzeit: 0x1dc7ef8d31a4c61\r\nFehlerhafter Anwendungspfad: C:\\Program Files (x86)\\Acer\\Care Center\\ACCStd.exe\r\nFehlerhafter Modulpfad: C:\\WINDOWS\\System32\\KERNELBASE.dll\r\nBerichts-ID: ae7079dc-f8dc-4209-ba13-0c062b1c76ca\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1767966414000)/",
+      "Source": ".NET Runtime",
+      "Message": "Anwendung: ACCStd.exe\nFrameworkversion: v4.0.30319\nBeschreibung: Der Prozess wurde aufgrund einer unbehandelten Ausnahme beendet.\nAusnahmeinformationen: System.InvalidOperationException\n   bei System.ThrowHelper.ThrowInvalidOperationException(System.ExceptionResource)\n   bei System.Collections.Generic.List`1+Enumerator[[System.__Canon, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].MoveNextRare()\n   bei Acer.CareCenter.Diagnostic.MultiDevicesTests..ctor(DiagnosticPlugin.DeviceManager)\n   bei Acer.CareCenter.Diagnostic.DiagnosticController.GetAllTestItems()\n   bei Acer.CareCenter.ACCStd.DiagnosticManager_ACCStd.GetSpecificTestItems(DeviceType)\n   bei Acer.CareCenter.ACCStd.DiagnosticManager_ACCStd.DeviceInfoUpdate(System.Object, Acer.CareCenter.Diagnostic.DeviceInfoUpdateEventArgs)\n   bei Acer.CareCenter.Diagnostic.ADSPlgSimpleCtl.InfoUpdate(System.Object, DiagnosticEvent.InformationUpdateEventArgs)\n   bei WiFiDevice.WiFiManager.NetworkChange_NetworkAddressChanged(System.Object, System.EventArgs)\n   bei System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\n   bei System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\n   bei System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\n   bei System.Net.NetworkInformation.NetworkChange+AddressChangeListener.AddressChangedCallback(System.Object, Boolean)\n   bei System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(System.Object, Boolean)\n\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767910298000)/",
+      "Source": ".NET Runtime",
+      "Message": "Application: Inference.Service.Agent.exe\r\nCoreCLR Version: 9.0.10\r\nDescription: The process was terminated due to an unhandled exception.\r\nException Info: System.NotImplementedException: The method or operation is not implemented.\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderNIM.DisposeGeneratorCache(String) + 0x24\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderBase`1.DisposeInternal() + 0xd7\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose(Boolean) + 0x1e\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose() + 0x1d\r\n   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync() + 0xb2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.Internal.Host.<DisposeAsync>d__20.MoveNext() + 0x17e\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.<RunAsync>d__4.MoveNext() + 0x9c\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x137\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x2df\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>d__0.MoveNext() + 0xe2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>(String[] args) + 0x24\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767816159000)/",
+      "Source": ".NET Runtime",
+      "Message": ".NET Runtime version 4.0.30319.0 - Fehler beim Initialisieren der Profilerstellungs-API-AnfÃ¼geinfrastruktur. Dieser Prozess ermÃ¶glicht einem Profiler das AnfÃ¼gen nicht. HRESULT: 0x80004005.  Prozess-ID (dezimal): 101964. Meldungs-ID: [0x2509]."
+    },
+    {
+      "TimeGenerated": "/Date(1767732867000)/",
+      "Source": ".NET Runtime",
+      "Message": "Application: Inference.Service.Agent.exe\r\nCoreCLR Version: 9.0.10\r\nDescription: The process was terminated due to an unhandled exception.\r\nException Info: System.NotImplementedException: The method or operation is not implemented.\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderNIM.DisposeGeneratorCache(String) + 0x24\r\n   at Microsoft.Neutron.OpenAI.Provider.OpenAIServiceProviderBase`1.DisposeInternal() + 0xd7\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose(Boolean) + 0x1e\r\n   at Microsoft.Neutron.OpenAI.DisposableBase.Dispose() + 0x1d\r\n   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync() + 0xb2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.Internal.Host.<DisposeAsync>d__20.MoveNext() + 0x17e\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.<RunAsync>d__4.MoveNext() + 0x9c\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x137\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<LaunchAgent>d__1.MoveNext() + 0x2df\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>d__0.MoveNext() + 0xe2\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.Neutron.OpenAI.Program.<Main>(String[] args) + 0x24\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767696802000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: AcerRegistrationBackGroundTask.exe, Version: 1.0.0.0, Zeitstempel: 0x64375ffb\r\nFehlerhafter Modulname: KERNELBASE.dll, Version: 10.0.28000.1362, Zeitstempel: 0x03221179\r\nAusnahmecode: 0xc000041d\r\nFehleroffset: 0x0017aeed\r\nFehlerhafte Prozess-ID: 0x2bdc\r\nFehlerhafte Anwendungsstartzeit: 0x1dc7efaa9271776\r\nFehlerhafter Anwendungspfad: C:\\Program Files\\WindowsApps\\acerincorporated.acerregistration_2.0.3044.0_x64__48frkmn4z8aw4\\DesktopApp\\AcerRegistrationBackGroundTask.exe\r\nFehlerhafter Modulpfad: C:\\WINDOWS\\System32\\KERNELBASE.dll\r\nBerichts-ID: 2e6b8a19-35e6-4d17-b9e6-b02953d5f228\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: AcerIncorporated.AcerRegistration_2.0.3044.0_x64__48frkmn4z8aw4\r\nFehlerhafte paketbezogene Anwendungs-ID: Acer.AcerRegistration"
+    },
+    {
+      "TimeGenerated": "/Date(1767696797000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: AcerRegistrationBackGroundTask.exe, Version: 1.0.0.0, Zeitstempel: 0x64375ffb\r\nFehlerhafter Modulname: KERNELBASE.dll, Version: 10.0.28000.1362, Zeitstempel: 0x03221179\r\nAusnahmecode: 0xc0020001\r\nFehleroffset: 0x0017aeed\r\nFehlerhafte Prozess-ID: 0x2bdc\r\nFehlerhafte Anwendungsstartzeit: 0x1dc7efaa9271776\r\nFehlerhafter Anwendungspfad: C:\\Program Files\\WindowsApps\\acerincorporated.acerregistration_2.0.3044.0_x64__48frkmn4z8aw4\\DesktopApp\\AcerRegistrationBackGroundTask.exe\r\nFehlerhafter Modulpfad: C:\\WINDOWS\\System32\\KERNELBASE.dll\r\nBerichts-ID: c389262b-2fa0-4c31-a250-1347dfe5def0\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: AcerIncorporated.AcerRegistration_2.0.3044.0_x64__48frkmn4z8aw4\r\nFehlerhafte paketbezogene Anwendungs-ID: Acer.AcerRegistration"
+    },
+    {
+      "TimeGenerated": "/Date(1767696797000)/",
+      "Source": ".NET Runtime",
+      "Message": "Anwendung: AcerRegistrationBackGroundTask.exe\nFrameworkversion: v4.0.30319\nBeschreibung: Der Prozess wurde aufgrund einer unbehandelten Ausnahme beendet.\nAusnahmeinformationen: Ausnahmecode c0020001, Ausnahmeadresse 75AFAEED\nStapel:\n   bei MS.Win32.UnsafeNativeMethods.CallWindowProc(IntPtr, IntPtr, Int32, IntPtr, IntPtr)\n   bei MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)\n   bei System.Environment._Exit(Int32)\n   bei System.Environment.Exit(Int32)\n   bei AcerRegistrationBackGroundTask.MainWindow+<closeBackGroundTask>d__24.MoveNext()\n   bei System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start[[AcerRegistrationBackGroundTask.MainWindow+<closeBackGroundTask>d__24, AcerRegistrationBackGroundTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]](<closeBackGroundTask>d__24 ByRef)\n   bei AcerRegistrationBackGroundTask.MainWindow.closeBackGroundTask()\n   bei AcerRegistrationBackGroundTask.MainWindow.Window_Loaded(System.Object, System.Windows.RoutedEventArgs)\n   bei System.Windows.RoutedEventHandlerInfo.InvokeHandler(System.Object, System.Windows.RoutedEventArgs)\n   bei System.Windows.EventRoute.InvokeHandlersImpl(System.Object, System.Windows.RoutedEventArgs, Boolean)\n   bei System.Windows.UIElement.RaiseEventImpl(System.Windows.DependencyObject, System.Windows.RoutedEventArgs)\n   bei System.Windows.UIElement.RaiseEvent(System.Windows.RoutedEventArgs)\n   bei System.Windows.BroadcastEventHelper.BroadcastEvent(System.Windows.DependencyObject, System.Windows.RoutedEvent)\n   bei System.Windows.BroadcastEventHelper.BroadcastLoadedEvent(System.Object)\n   bei MS.Internal.LoadedOrUnloadedOperation.DoWork()\n   bei System.Windows.Media.MediaContext.FireLoadedPendingCallbacks()\n   bei System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()\n   bei System.Windows.Media.MediaContext.RenderMessageHandlerCore(System.Object)\n   bei System.Windows.Media.MediaContext.RenderMessageHandler(System.Object)\n   bei System.Windows.Media.MediaContext.Resize(System.Windows.Media.ICompositionTarget)\n   bei System.Windows.Interop.HwndTarget.OnResize()\n   bei System.Windows.Interop.HwndTarget.HandleMessage(MS.Internal.Interop.WindowMessage, IntPtr, IntPtr)\n   bei System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\n   bei MS.Win32.HwndWrapper.WndProc(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\n   bei MS.Win32.HwndSubclass.DispatcherCallbackOperation(System.Object)\n   bei System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\n   bei System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\n   bei System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority, System.TimeSpan, System.Delegate, System.Object, Int32)\n   bei MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)\n   bei MS.Win32.UnsafeNativeMethods.ShowWindow(System.Runtime.InteropServices.HandleRef, Int32)\n   bei System.Windows.Window.ShowHelper(System.Object)\n   bei System.Windows.Window.Show()\n   bei System.Windows.Application+<>c.<RunInternal>b__105_0(System.Object)\n   bei System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\n   bei System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\n   bei System.Windows.Threading.DispatcherOperation.InvokeImpl()\n   bei System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(System.Object)\n   bei MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(System.Object)\n   bei System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\n   bei System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\n   bei System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\n   bei MS.Internal.CulturePreservingExecutionContext.Run(MS.Internal.CulturePreservingExecutionContext, System.Threading.ContextCallback, System.Object)\n   bei System.Windows.Threading.DispatcherOperation.Invoke()\n   bei System.Windows.Threading.Dispatcher.ProcessQueue()\n   bei System.Windows.Threading.Dispatcher.WndProcHook(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\n   bei MS.Win32.HwndWrapper.WndProc(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\n   bei MS.Win32.HwndSubclass.DispatcherCallbackOperation(System.Object)\n   bei System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\n   bei System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\n   bei System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority, System.TimeSpan, System.Delegate, System.Object, Int32)\n   bei MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)\n   bei MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)\n   bei System.Windows.Threading.Dispatcher.PushFrameImpl(System.Windows.Threading.DispatcherFrame)\n   bei System.Windows.Threading.Dispatcher.PushFrame(System.Windows.Threading.DispatcherFrame)\n   bei System.Windows.Application.RunDispatcher(System.Object)\n   bei System.Windows.Application.RunInternal(System.Windows.Window)\n   bei System.Windows.Application.Run(System.Windows.Window)\n   bei AcerRegistrationBackGroundTask.Startup.Main(System.String[])\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767696054000)/",
+      "Source": "Microsoft-Windows-Perflib",
+      "Message": "Fehler beim Suchen der Open-Prozedur \"OpenLsaPerformanceData\" in der DLL \"C:\\Windows\\System32\\Secur32.dll\" fÃ¼r den \"Lsa\"-Dienst mit dem Win32-Fehlercode 127. FÃ¼r diesen Dienst sind keine Systemleistungsdaten verfÃ¼gbar."
+    },
+    {
+      "TimeGenerated": "/Date(1767696054000)/",
+      "Source": "Microsoft-Windows-Perflib",
+      "Message": "Fehler beim Suchen der Open-Prozedur \"OpenPerformanceData\" in der DLL \"C:\\WINDOWS\\system32\\esentprf.dll\" fÃ¼r den \"ESENT\"-Dienst mit dem Win32-Fehlercode 127. FÃ¼r diesen Dienst sind keine Systemleistungsdaten verfÃ¼gbar."
+    },
+    {
+      "TimeGenerated": "/Date(1767214889000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: msedge.exe, Version: 144.0.3719.18, Zeitstempel: 0x693e7526\r\nFehlerhafter Modulname: explorerframe.dll_unloaded, Version: 10.0.28000.1362, Zeitstempel: 0x9d24d413\r\nAusnahmecode: 0xc0000005\r\nFehleroffset: 0x000000000002fba8\r\nFehlerhafte Prozess-ID: 0x73a4\r\nFehlerhafte Anwendungsstartzeit: 0x1dc7a97e3c3ec66\r\nFehlerhafter Anwendungspfad: C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\r\nFehlerhafter Modulpfad: explorerframe.dll\r\nBerichts-ID: cb177484-40ea-459d-bcd2-1038b8c0a646\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1767112864000)/",
+      "Source": "GEQ UEB",
+      "Message": "Datei 'C:\\Users\\annah\\AppData\\Local\\Temp\\GEQ_UEB\\geqaus.mdb' nicht gefunden.\r\nSTACKTRACE:\r\nDatei 'C:\\Users\\annah\\AppData\\Local\\Temp\\GEQ_UEB\\geqaus.mdb' nicht gefunden.\r\n   bei Microsoft.Office.Interop.Access.Dao.DBEngineClass.OpenDatabase(String Name, Object Options, Object ReadOnly, Object Connect)\r\n   bei GEQ.NET.bere_allgemein.datenbanken_oeffnen(Boolean OpenMyDB, Boolean OpenMyDBDAT, Boolean OpenGEQAUSPRIVBILD)\r\n   bei GEQ.NET.COMZugriff.SendMail(GEQVersionTypes PMGEQVersionType, String pSendTo, String pSendCC, String pSubject, String pMessage, String[]& pAttachmentFilePaths)\r\n\r\n\r\n\r\n\r\nVersion: 2021,132402\r\nSource: .NET\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767110357000)/",
+      "Source": "GEQ",
+      "Message": "WM_CLOSE hwnd: 525538\r\n\r\n\r\nVersion: 0\r\nSource: VB6\r\nFunction: close_geq_instanzen\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767110357000)/",
+      "Source": "GEQ",
+      "Message": "closing PID: 17984\r\n\r\n\r\nVersion: 0\r\nSource: VB6\r\nFunction: close_geq_instanzen\r\n"
+    },
+    {
+      "TimeGenerated": "/Date(1767093007000)/",
+      "Source": "GEQ UEB",
+      "Message": "Bereinigung temporÃ¤re Dateien\r\n\r\n\r\nVersion: 2021,132402\r\nSource: VB6\r\nFunction: tagesbereinigung\r\nForm: FLOAD\r\n"
+    }
+  ],
+  "python_crashes": [
+    {
+      "TimeGenerated": "/Date(1768253272000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: python.exe, Version: 3.14.150.1013, Zeitstempel: 0x68e4e95f\r\nFehlerhafter Modulname: ucrtbase.dll, Version: 10.0.28000.4, Zeitstempel: 0xa7312921\r\nAusnahmecode: 0xc0000409\r\nFehleroffset: 0x00000000000b2e9e\r\nFehlerhafte Prozess-ID: 0x142c0\r\nFehlerhafte Anwendungsstartzeit: 0x1dc840a1d211d10\r\nFehlerhafter Anwendungspfad: C:\\Python314\\python.exe\r\nFehlerhafter Modulpfad: C:\\WINDOWS\\System32\\ucrtbase.dll\r\nBerichts-ID: ab758f07-694c-466e-9b12-ab159d792834\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1768252309000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nAusnahmecode: 0xc0000409\r\nFehleroffset: 0x001cf2e5\r\nFehlerhafte Prozess-ID: 0x17eb4\r\nFehlerhafte Anwendungsstartzeit: 0x1dc8407b488b2e6\r\nFehlerhafter Anwendungspfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nFehlerhafter Modulpfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nBerichts-ID: 34663e5d-3d5f-4d50-9b85-fc053afda803\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    },
+    {
+      "TimeGenerated": "/Date(1768252303000)/",
+      "Source": "Application Error",
+      "Message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nAusnahmecode: 0xc0000409\r\nFehleroffset: 0x001cf2e5\r\nFehlerhafte Prozess-ID: 0x1570c\r\nFehlerhafte Anwendungsstartzeit: 0x1dc8407a53b4b8f\r\nFehlerhafter Anwendungspfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nFehlerhafter Modulpfad: C:\\Users\\annah\\AppData\\Roaming\\Python\\Python314\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe\r\nBerichts-ID: dcff340f-523d-4a68-9d48-225dea60a227\r\nVollstÃ¤ndiger Name des fehlerhaften Pakets: \r\nFehlerhafte paketbezogene Anwendungs-ID: "
+    }
+  ],
+  "popup_processes": [
+    {
+      "ProcessName": "ApplicationFrameHost",
+      "MainWindowTitle": "Einstellungen",
+      "Id": 9940,
+      "CPU": 3.734375,
+      "WorkingSet": 2764800
+    },
+    {
+      "ProcessName": "ChatGPT",
+      "MainWindowTitle": "GENESIS10000+ Â· OS vÎ© â€” PRIMORDIA REALITY KERNEL - Bootsequenz GENESIS10000+ OS",
+      "Id": 10008,
+      "CPU": 12756.640625,
+      "WorkingSet": 30298112
+    },
+    {
+      "ProcessName": "chrome",
+      "MainWindowTitle": "Einfacher Browser - or1on-framework [Codespaces: turbo train] - Visual Studio Code - Google Chrome",
+      "Id": 14428,
+      "CPU": 15602.546875,
+      "WorkingSet": 257069056
+    },
+    {
+      "ProcessName": "Code",
+      "MainWindowTitle": "Simple Browser - or1on-framework - Visual Studio Code",
+      "Id": 68436,
+      "CPU": 1530.859375,
+      "WorkingSet": 122830848
+    },
+    {
+      "ProcessName": "MobiDrive",
+      "MainWindowTitle": "MobiDrive einrichten",
+      "Id": 20544,
+      "CPU": 505.15625,
+      "WorkingSet": 18939904
+    },
+    {
+      "ProcessName": "MobiPDF",
+      "MainWindowTitle": "GH102023.pdf",
+      "Id": 42696,
+      "CPU": 374.0625,
+      "WorkingSet": 17883136
+    },
+    {
+      "ProcessName": "msedge",
+      "MainWindowTitle": "Insolvenz Steurer Elisabeth Bauinstallation, Dienstnehmer Gerhard Hirschmann - esteurer72@gmail.com - Gmail und 51 weitere Seiten - PersÃ¶nlich â€“ Microsoftâ€‹ Edge Beta",
+      "Id": 14484,
+      "CPU": 2124.421875,
+      "WorkingSet": 65642496
+    },
+    {
+      "ProcessName": "powershell",
+      "MainWindowTitle": "Windows PowerShell",
+      "Id": 5072,
+      "CPU": 9.859375,
+      "WorkingSet": 4706304
+    },
+    {
+      "ProcessName": "powershell",
+      "MainWindowTitle": "Windows PowerShell",
+      "Id": 34452,
+      "CPU": 12.296875,
+      "WorkingSet": 4759552
+    },
+    {
+      "ProcessName": "python",
+      "MainWindowTitle": "ORION - Direct Dialog",
+      "Id": 25300,
+      "CPU": 0.46875,
+      "WorkingSet": 24018944
+    },
+    {
+      "ProcessName": "python",
+      "MainWindowTitle": "ORION - Direct Dialog",
+      "Id": 84736,
+      "CPU": 1.203125,
+      "WorkingSet": 3493888
+    },
+    {
+      "ProcessName": "WindowsTerminal",
+      "MainWindowTitle": "C:\\Python314\\python.exe",
+      "Id": 360,
+      "CPU": 3003.375,
+      "WorkingSet": 262725632
+    }
+  ],
+  "email_status": {
+    "interface_exists": true,
+    "config_path": null
+  },
+  "monitoring_status": {
+    "monitoring/error_detector.py": "exists",
+    "monitoring/process_self_monitor.py": "exists",
+    "monitoring/activity_logger.py": "exists"
+  },
+  "critical_issues": [
+    {
+      "type": "PYTHON_CRASH",
+      "time": "/Date(1768253272000)/",
+      "source": "Application Error",
+      "message": "Fehlerhafter Anwendungsname: python.exe, Version: 3.14.150.1013, Zeitstempel: 0x68e4e95f\r\nFehlerhafter Modulname: ucrtbase.dll, Version: 10.0.28000.4, Zeitstempel: 0xa7312921\r\nAusnahmecode: 0xc0000409"
+    },
+    {
+      "type": "PYTHON_CRASH",
+      "time": "/Date(1768252309000)/",
+      "source": "Application Error",
+      "message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nAusnahmecode: 0xc"
+    },
+    {
+      "type": "PYTHON_CRASH",
+      "time": "/Date(1768252303000)/",
+      "source": "Application Error",
+      "message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nAusnahmecode: 0xc"
+    },
+    {
+      "type": "SUSPICIOUS_POPUP",
+      "process": "msedge",
+      "title": "Insolvenz Steurer Elisabeth Bauinstallation, Dienstnehmer Gerhard Hirschmann - esteurer72@gmail.com - Gmail und 51 weitere Seiten - PersÃ¶nlich â€“ Microsoftâ€‹ Edge Beta",
+      "pid": 14484
+    },
+    {
+      "type": "MISSING_EMAIL_CONFIG",
+      "message": "Email-Credentials fehlen - System kann nicht auf esteurer72@gmail.com zugreifen"
+    },
+    {
+      "type": "SELENIUM_CRASH",
+      "time": "/Date(1768252309000)/",
+      "message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0"
+    },
+    {
+      "type": "SELENIUM_CRASH",
+      "time": "/Date(1768252303000)/",
+      "message": "Fehlerhafter Anwendungsname: selenium-manager.exe, Version: 0.0.0.0, Zeitstempel: 0x693016bc\r\nFehlerhafter Modulname: selenium-manager.exe, Version: 0"
+    }
+  ]
+}
