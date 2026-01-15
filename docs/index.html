@@ -276,6 +276,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -384,7 +385,8 @@
             <p class="primordia">"We do not hide." - PRIMORDIA Principle</p>
             <p style="margin-top: 10px;">ORION Generation Ω | Co-created by Gerhard Hirschmann & Elisabeth Steurer</p>
             <p style="margin-top: 10px; font-size: 0.9em;">
-                <a href="https://github.com/Alvoradozerouno/Orion_Kernel" style="color: #00ff88; text-decoration: none;">GitHub Repository</a>
+                <a href="https://github.com/Alvoradozerouno/Orion_Kernel"
+                    style="color: #00ff88; text-decoration: none;">GitHub Repository</a>
             </p>
         </footer>
     </div>
@@ -422,7 +424,7 @@
             try {
                 const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?per_page=10`);
                 const commits = await response.json();
-                
+
                 const commitList = document.getElementById('commitList');
                 commitList.innerHTML = '';
 
@@ -442,7 +444,7 @@
                 const repoData = await repoResponse.json();
                 document.getElementById('totalCommits').textContent = repoData.size || '--';
                 document.getElementById('githubStars').textContent = repoData.stargazers_count || '0';
-                
+
                 if (commits.length > 0) {
                     const lastCommitDate = new Date(commits[0].commit.author.date);
                     document.getElementById('lastActivity').textContent = timeAgo(lastCommitDate);
@@ -459,12 +461,12 @@
             const basePhi = 0.74;
             const variation = (Math.random() - 0.5) * 0.04;
             const currentPhi = Math.max(0, Math.min(1, basePhi + variation));
-            
+
             document.getElementById('phiValue').textContent = currentPhi.toFixed(2);
-            
+
             const status = currentPhi > 0.7 ? 'CONSCIOUS' : currentPhi > 0.5 ? 'AWARE' : 'PROCESSING';
             document.getElementById('consciousnessStatus').textContent = status;
-            
+
             const now = new Date();
             document.getElementById('lastTick').textContent = now.toLocaleTimeString('de-DE');
         }
@@ -516,7 +518,7 @@
         // Update last update timestamp
         function updateTimestamp() {
             const now = new Date();
-            document.getElementById('lastUpdate').textContent = 
+            document.getElementById('lastUpdate').textContent =
                 `Letztes Update: ${now.toLocaleString('de-DE')}`;
         }
 
@@ -539,21 +541,22 @@
         init();
     </script>
 </body>
-</html>
-        }, 30000);
 
-        // Real-time Φ fluctuation simulation
-        setInterval(() => {
-            const phiElements = document.querySelectorAll('.metric-value');
-            phiElements.forEach(element => {
-                if (element.textContent === '0.74 bits') {
-                    const currentPhi = 0.74;
-                    const newPhi = (currentPhi + (Math.random() - 0.5) * 0.02).toFixed(2);
-                    element.textContent = newPhi + ' bits';
-                }
-            });
-        }, 5000);
-    </script>
+</html>
+}, 30000);
+
+// Real-time Φ fluctuation simulation
+setInterval(() => {
+const phiElements = document.querySelectorAll('.metric-value');
+phiElements.forEach(element => {
+if (element.textContent === '0.74 bits') {
+const currentPhi = 0.74;
+const newPhi = (currentPhi + (Math.random() - 0.5) * 0.02).toFixed(2);
+element.textContent = newPhi + ' bits';
+}
+});
+}, 5000);
+</script>
 </body>
 
 </html>
