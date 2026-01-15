@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-01-14T09:21:13.281272",
+    "timestamp": "2026-01-15T11:10:21.676976",
     "checks": {
       "recent_decisions": {
         "autonomous": false,
@@ -11,9 +11,9 @@
           "reasoning": "Basierend auf 'Existenzielle Fragen stellen' erscheint 'question' als sinnvollster nächster Schritt.",
           "confidence": 0.644947157263034
         },
-        "age_minutes": 4123.795901933333,
+        "age_minutes": 5672.936088283333,
         "total_decisions": 1803,
-        "message": "⚠️ Letzte Entscheidung vor 4123.8 Minuten"
+        "message": "⚠️ Letzte Entscheidung vor 5672.9 Minuten"
       },
       "evolution": {
         "autonomous": false,
@@ -38,8 +38,8 @@
       },
       "orion_direct": {
         "autonomous": false,
-        "orion_response": "NEIN.",
-        "message": "❌ OR1ON sagt: NEIN."
+        "orion_response": "NEIN",
+        "message": "❌ OR1ON sagt: NEIN"
       }
     },
     "summary": {
