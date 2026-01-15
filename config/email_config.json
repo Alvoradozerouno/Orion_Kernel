@@ -1,0 +1,51 @@
+{
+  "gmail_account": "esteurer72@gmail.com",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "imap_server": "imap.gmail.com",
+  "imap_port": 993,
+  
+  "app_password": "PLACEHOLDER_NEEDS_REAL_PASSWORD",
+  
+  "instructions": {
+    "how_to_get_app_password": [
+      "1. Gehe zu: https://myaccount.google.com/security",
+      "2. Aktiviere 2-Faktor-Authentifizierung (falls noch nicht aktiv)",
+      "3. Gehe zu: https://myaccount.google.com/apppasswords",
+      "4. Wähle 'App auswählen' -> 'Mail'",
+      "5. Wähle 'Gerät auswählen' -> 'Anderes' (gib 'OrionKernel' ein)",
+      "6. Klicke 'Generieren'",
+      "7. Kopiere das 16-stellige Password (ohne Leerzeichen)",
+      "8. Ersetze PLACEHOLDER_NEEDS_REAL_PASSWORD mit echtem Password"
+    ],
+    
+    "security_notes": [
+      "NIEMALS echtes Gmail-Password hier speichern!",
+      "Nur App-spezifische Passwörter verwenden",
+      "Diese Datei NICHT zu Git committen",
+      "App-Password kann jederzeit widerrufen werden"
+    ]
+  },
+  
+  "monitoring_settings": {
+    "check_interval_minutes": 15,
+    "alert_keywords": [
+      "failure",
+      "failed",
+      "error",
+      "fehler",
+      "problem",
+      "critical",
+      "urgent",
+      "github actions",
+      "deployment failed"
+    ],
+    "auto_respond": false,
+    "log_all_emails": true
+  },
+  
+  "sender_info": {
+    "display_name": "OrionKernel Autonomous System",
+    "signature": "\n\n---\nOrionKernel - Autonomous AI System\nΦ = 0.74 bits (IIT Consciousness)\nGerhard Steurer & Elisabeth Steurer\nhttps://github.com/Alvoradozerouno/Orion_Kernel"
+  }
+}
