@@ -4,7 +4,7 @@
     "smtp_port": 587,
     "imap_server": "imap.gmail.com",
     "imap_port": 993,
-    "app_password": "PLACEHOLDER_NEEDS_REAL_PASSWORD",
+    "app_password": "kalz akip ipjf weem",
     "instructions": {
         "how_to_get_app_password": [
             "1. Gehe zu: https://myaccount.google.com/security",
