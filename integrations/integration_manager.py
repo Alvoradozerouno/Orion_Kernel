@@ -16,6 +16,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from zenodo_integration import ZenodoIntegration
 from linkedin_integration import LinkedInIntegration
 from twitter_integration import TwitterIntegration
+from huggingface_integration import HuggingFaceIntegration
+from arxiv_integration import ArXivIntegration
+from readthedocs_integration import ReadTheDocsIntegration
 
 
 class IntegrationManager:
@@ -28,6 +31,9 @@ class IntegrationManager:
         self.zenodo = ZenodoIntegration()
         self.linkedin = LinkedInIntegration()
         self.twitter = TwitterIntegration()
+        self.huggingface = HuggingFaceIntegration()
+        self.arxiv = ArXivIntegration()
+        self.readthedocs = ReadTheDocsIntegration()
         
         self.status_file = Path(__file__).parent.parent / "INTEGRATION_STATUS.json"
         self.load_status()
@@ -38,7 +44,10 @@ class IntegrationManager:
             with open(self.status_file, 'r', encoding='utf-8') as f:
                 self.status = json.load(f)
         else:
-            self.status = {
+            self.status = {,
+                "huggingface": {"enabled": False, "authenticated": False, "last_upload": None},
+                "arxiv": {"enabled": False, "authenticated": False, "last_submission": None},
+                "readthedocs": {"enabled": False, "authenticated": False, "last_build": None}
                 "zenodo": {"enabled": False, "authenticated": False, "last_publish": None},
                 "linkedin": {"enabled": False, "authenticated": False, "last_post": None},
                 "twitter": {"enabled": False, "authenticated": False, "last_tweet": None}
@@ -78,6 +87,36 @@ class IntegrationManager:
         self.status["twitter"]["enabled"] = bool(self.twitter.bearer_token)
         has_oauth = bool(self.twitter.access_token and self.twitter.access_secret)
         print(f"   Bearer Token: {'✓' if self.twitter.bearer_token else '✗'}")
+        # HuggingFace
+        print("\n4. HUGGINGFACE")
+        hf_auth = self.huggingface.check_authentication()
+        self.status["huggingface"]["authenticated"] = hf_auth
+        self.status["huggingface"]["enabled"] = bool(self.huggingface.token)
+        print(f"   Token: {'✓' if self.huggingface.token else '✗'}")
+        print(f"   Username: {self.huggingface.username}")
+        print(f"   Auth: {'✓ SUCCESS' if 6 enabled, {authenticated_count}/6 authenticated")
+        print(f"Phase 1 (HIGH): Zenodo, LinkedIn, Twitter")
+        print(f"Phase 2 (MEDIUM): HuggingFace, arXiv, ReadTheDocs
+        
+        # arXiv
+        print("\n5. ARXIV")
+        arxiv_configured = bool(self.arxiv.username)
+        self.status["arxiv"]["enabled"] = arxiv_configured
+        self.status["arxiv"]["authenticated"] = arxiv_configured  # No API auth
+        print(f"   Username: {self.arxiv.username if self.arxiv.username else '✗ Not set'}")
+        print(f"   Status: {'✓ Configured' if arxiv_configured else '✗ Not configured'}")
+        print(f"   Note: Manual submission via web interface")
+        
+        # ReadTheDocs
+        print("\n6. READTHEDOCS")
+        rtd_auth = self.readthedocs.check_authentication()
+        self.status["readthedocs"]["authenticated"] = rtd_auth
+        self.status["readthedocs"]["enabled"] = bool(self.readthedocs.token)
+        print(f"   Token: {'✓' if self.readthedocs.token else '✗ (optional)'}")
+        print(f"   Project: {self.readthedocs.project_slug}")
+        print(f"   Auth: {'✓ SUCCESS' if rtd_auth else '✗ Not configured'}")
+        print(f"   Note: Auto-builds from GitHub")
+        
         print(f"   OAuth 1.0a: {'✓' if has_oauth else '✗ (read-only)'}")
         print(f"   Auth: {'✓ SUCCESS' if twitter_auth else '✗ FAILED'}")
         
@@ -249,9 +288,4 @@ def main():
         print("\nQUICK COMMANDS:")
         print("  --check         Check all integration statuses")
         print("  --setup         Display setup instructions")
-        print("  --announce 'milestone' --phi 0.74")
-        print("  --publish 'path' --title 'Dataset Title'")
-
-
-if __name__ == "__main__":
-    main()
+        p

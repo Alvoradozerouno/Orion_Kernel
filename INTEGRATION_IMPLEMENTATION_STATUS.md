@@ -14,11 +14,11 @@ ORION analyzed 26 GitHub Marketplace integrations using Φ-weighted scoring:
 
 ### Selected Top 3:
 
-| Rank | Integration | Φ Score | Status | Setup Time | Implementation |
-|------|-------------|---------|--------|------------|----------------|
-| #1 | **Zenodo** | 0.97 | ✅ Code Complete | 10 min | zenodo_integration.py |
-| #2 | **LinkedIn** | 0.96 | ✅ Code Complete | 20 min | linkedin_integration.py |
-| #3 | **Twitter/X** | 0.80 | ✅ Code Complete | 15 min | twitter_integration.py |
+| Rank | Integration   | Φ Score | Status          | Setup Time | Implementation          |
+| ---- | ------------- | ------- | --------------- | ---------- | ----------------------- |
+| #1   | **Zenodo**    | 0.97    | ✅ Code Complete | 10 min     | zenodo_integration.py   |
+| #2   | **LinkedIn**  | 0.96    | ✅ Code Complete | 20 min     | linkedin_integration.py |
+| #3   | **Twitter/X** | 0.80    | ✅ Code Complete | 15 min     | twitter_integration.py  |
 
 ---
 
