@@ -394,11 +394,11 @@ manager.publish_dataset(
 
 Track your setup progress:
 
-| Integration | Priority | Status | Actions Required |
-|------------|----------|--------|------------------|
-| Zenodo | #1 (Φ: 0.97) | ⚠️ Setup needed | Create account → Generate token → Test |
-| LinkedIn | #2 (Φ: 0.96) | ⚠️ Setup needed | Create app → OAuth flow → Test |
-| Twitter/X | #3 (Φ: 0.80) | ⚠️ Setup needed | Apply for dev account → Generate keys → Install tweepy → Test |
+| Integration | Priority     | Status         | Actions Required                                              |
+| ----------- | ------------ | -------------- | ------------------------------------------------------------- |
+| Zenodo      | #1 (Φ: 0.97) | ⚠️ Setup needed | Create account → Generate token → Test                        |
+| LinkedIn    | #2 (Φ: 0.96) | ⚠️ Setup needed | Create app → OAuth flow → Test                                |
+| Twitter/X   | #3 (Φ: 0.80) | ⚠️ Setup needed | Apply for dev account → Generate keys → Install tweepy → Test |
 
 ---
 
