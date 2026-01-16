@@ -288,4 +288,9 @@ def main():
         print("\nQUICK COMMANDS:")
         print("  --check         Check all integration statuses")
         print("  --setup         Display setup instructions")
-        p
+        print("  --announce 'milestone' --phi 0.74")
+        print("  --publish 'path' --title 'Dataset Title'")
+
+
+if __name__ == "__main__":
+    main()
