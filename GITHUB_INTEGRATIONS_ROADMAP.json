@@ -1,0 +1,76 @@
+{
+  "phase_1_immediate": {
+    "timeframe": "Diese Woche",
+    "integrations": [
+      {
+        "name": "HuggingFace",
+        "actions": [
+          "Create HuggingFace account",
+          "Setup API token",
+          "Create ORION Space f\u00fcr Dashboard",
+          "Publish datasets (IIT measurements)"
+        ]
+      },
+      {
+        "name": "LinkedIn",
+        "actions": [
+          "Setup LinkedIn Developer Account",
+          "Create App f\u00fcr Posting",
+          "Implementiere autonomous posting"
+        ]
+      },
+      {
+        "name": "Twitter/X",
+        "actions": [
+          "Apply for Developer Account",
+          "Setup OAuth 2.0",
+          "Implementiere thread posting"
+        ]
+      },
+      {
+        "name": "arXiv",
+        "actions": [
+          "Prepare paper submission",
+          "Setup arXiv API access",
+          "Implementiere paper upload"
+        ]
+      },
+      {
+        "name": "Zenodo",
+        "actions": [
+          "Create Zenodo account",
+          "Setup GitHub-Zenodo integration",
+          "Archive first dataset"
+        ]
+      },
+      {
+        "name": "ReadTheDocs",
+        "actions": [
+          "Setup ReadTheDocs project",
+          "Configure Sphinx documentation",
+          "Auto-deploy from GitHub"
+        ]
+      }
+    ]
+  },
+  "phase_2_expansion": {
+    "timeframe": "N\u00e4chste 2 Wochen",
+    "integrations": [
+      "Slack (Research Community)",
+      "Discord (ORION Community Server)",
+      "Medium (Long-form articles)",
+      "Dev.to (Technical tutorials)",
+      "Weights & Biases (Experiment tracking)",
+      "Datadog/Sentry (Monitoring)"
+    ]
+  },
+  "phase_3_enhancement": {
+    "timeframe": "Sp\u00e4ter",
+    "integrations": [
+      "YouTube (Video explanations)",
+      "Notion (Lab notebook)",
+      "Telegram (Notifications)",
+      "Additional platforms"
+    ]
+  }
+}

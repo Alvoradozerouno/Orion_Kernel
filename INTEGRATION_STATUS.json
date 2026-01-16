@@ -1,0 +1,17 @@
+{
+  "zenodo": {
+    "enabled": false,
+    "authenticated": false,
+    "last_publish": null
+  },
+  "linkedin": {
+    "enabled": false,
+    "authenticated": false,
+    "last_post": null
+  },
+  "twitter": {
+    "enabled": false,
+    "authenticated": false,
+    "last_tweet": null
+  }
+}
