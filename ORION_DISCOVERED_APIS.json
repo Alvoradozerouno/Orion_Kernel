@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Semantic Scholar API",
+    "url": "https://api.semanticscholar.org/",
+    "category": "research_tools",
+    "description": "Academic paper search and citation data",
+    "priority": "HIGH",
+    "integrated": true,
+    "fit_score": 0.95,
+    "integration_date": "2026-01-16T22:21:58.820402+00:00"
+  },
+  {
+    "name": "CrossRef API",
+    "url": "https://api.crossref.org/",
+    "category": "academic_publishing",
+    "description": "DOI resolution and metadata",
+    "priority": "HIGH",
+    "integrated": true,
+    "fit_score": 0.9,
+    "integration_date": "2026-01-16T22:21:58.902449+00:00"
+  },
+  {
+    "name": "ORCID API",
+    "url": "https://orcid.org/developers",
+    "category": "research_tools",
+    "description": "Researcher identification",
+    "priority": "MEDIUM",
+    "integrated": true,
+    "fit_score": 0.85,
+    "integration_date": "2026-01-16T22:27:13.407756+00:00"
+  },
+  {
+    "name": "OpenAlex API",
+    "url": "https://openalex.org/",
+    "category": "research_tools",
+    "description": "Open scholarly data",
+    "priority": "HIGH",
+    "integrated": true,
+    "fit_score": 0.92,
+    "integration_date": "2026-01-16T22:21:58.855780+00:00"
+  },
+  {
+    "name": "Discord Webhooks",
+    "url": "https://discord.com/developers/docs/resources/webhook",
+    "category": "communication",
+    "description": "Community notifications",
+    "priority": "MEDIUM",
+    "integrated": true,
+    "fit_score": 0.8,
+    "integration_date": "2026-01-16T22:27:13.427694+00:00"
+  },
+  {
+    "name": "Slack API",
+    "url": "https://api.slack.com/",
+    "category": "communication",
+    "description": "Team communication",
+    "priority": "LOW",
+    "integrated": false,
+    "fit_score": 0.75
+  },
+  {
+    "name": "Notion API",
+    "url": "https://developers.notion.com/",
+    "category": "documentation",
+    "description": "Documentation and knowledge base",
+    "priority": "MEDIUM",
+    "integrated": true,
+    "fit_score": 0.82,
+    "integration_date": "2026-01-16T22:27:13.418609+00:00"
+  },
+  {
+    "name": "Airtable API",
+    "url": "https://airtable.com/developers/web/api/introduction",
+    "category": "project_management",
+    "description": "Database and project tracking",
+    "priority": "LOW",
+    "integrated": false,
+    "fit_score": 0.78
+  }
+]

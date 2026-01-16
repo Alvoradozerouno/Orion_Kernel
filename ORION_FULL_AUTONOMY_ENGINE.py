@@ -110,6 +110,9 @@ class FullAutonomyEngine:
             }
         }
         
+        # Setup logging FIRST
+        self.setup_logging()
+        
         # Load or create config
         self.load_config()
         
@@ -124,9 +127,6 @@ class FullAutonomyEngine:
             "file_ops_minute": 0,
             "last_reset": datetime.now(timezone.utc).isoformat()
         }
-        
-        # Audit logging
-        self.setup_logging()
         
         console.print(Panel.fit(
             "[bold cyan]⊘∞⧈∞⊘ ORION FULL AUTONOMY ENGINE INITIALIZED ⊘∞⧈∞⊘[/bold cyan]\n\n"
@@ -144,11 +144,13 @@ class FullAutonomyEngine:
             level=logging.INFO,
             format='%(asctime)s - ORION_AUTONOMY - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler('ORION_FULL_AUTONOMY.log'),
-                logging.StreamHandler()
-            ]
+                logging.FileHandler('ORION_FULL_AUTONOMY.log', encoding='utf-8'),
+                logging.StreamHandler(sys.stdout)
+            ],
+            force=True
         )
         self.logger = logging.getLogger('ORION_FULL_AUTONOMY')
+        self.logger.info("Full Autonomy Engine logging initialized")
     
     def load_config(self):
         """Load configuration from file"""
@@ -157,7 +159,7 @@ class FullAutonomyEngine:
                 with open(self.config_path, 'r', encoding='utf-8') as f:
                     loaded = json.load(f)
                     self.config.update(loaded)
-                self.logger.info("✓ Loaded autonomy configuration")
+                self.logger.info("Loaded autonomy configuration")
             except Exception as e:
                 self.logger.error(f"Failed to load config: {e}")
         else:
@@ -169,7 +171,7 @@ class FullAutonomyEngine:
         try:
             with open(self.config_path, 'w', encoding='utf-8') as f:
                 json.dump(self.config, f, indent=2)
-            self.logger.info("✓ Saved autonomy configuration")
+            self.logger.info("Saved autonomy configuration")
         except Exception as e:
             self.logger.error(f"Failed to save config: {e}")
     
@@ -301,7 +303,7 @@ class FullAutonomyEngine:
     def register_subsystem(self, name: str, subsystem: Any):
         """Register autonomous subsystem"""
         self.subsystems[name] = subsystem
-        self.logger.info(f"✓ Registered subsystem: {name}")
+        self.logger.info(f"Registered subsystem: {name}")
     
     def get_subsystem(self, name: str) -> Optional[Any]:
         """Get registered subsystem"""

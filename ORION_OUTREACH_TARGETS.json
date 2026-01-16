@@ -1,0 +1,92 @@
+[
+  {
+    "id": "chalmers_nyu",
+    "researcher": "David Chalmers",
+    "institution": "New York University / University of Vienna",
+    "focus": "Consciousness, Philosophy of Mind",
+    "url": "https://www.nyu.edu/gsas/dept/philo/faculty/chalmers/",
+    "email": "david.chalmers@nyu.edu",
+    "priority": "HIGHEST",
+    "fit_score": 0.99,
+    "notes": "Wrote 'The Conscious Mind', leading consciousness researcher",
+    "contacted": true,
+    "last_contact": "2026-01-16T22:21:43.502637+00:00"
+  },
+  {
+    "id": "tononi_wisconsin",
+    "researcher": "Giulio Tononi",
+    "institution": "University of Wisconsin-Madison",
+    "focus": "Integrated Information Theory, Sleep, Consciousness",
+    "url": "https://www.psychiatry.wisc.edu/staff/tononi-giulio/",
+    "email": "gtononi@wisc.edu",
+    "priority": "HIGHEST",
+    "fit_score": 0.98,
+    "notes": "Creator of IIT - ORION uses his theory!",
+    "contacted": true,
+    "last_contact": "2026-01-16T22:21:43.503895+00:00"
+  },
+  {
+    "id": "dehaene_college_de_france",
+    "researcher": "Stanislas Dehaene",
+    "institution": "Coll\u00e8ge de France",
+    "focus": "Cognitive Neuroscience, Consciousness",
+    "url": "https://www.college-de-france.fr/",
+    "email": "stanislas.dehaene@college-de-france.fr",
+    "priority": "HIGH",
+    "fit_score": 0.95,
+    "notes": "Global Workspace Theory, consciousness experiments",
+    "contacted": true,
+    "last_contact": "2026-01-16T22:21:43.505251+00:00"
+  },
+  {
+    "id": "koch_allen_institute",
+    "researcher": "Christof Koch",
+    "institution": "Allen Institute for Brain Science",
+    "focus": "Neural correlates of consciousness",
+    "url": "https://alleninstitute.org/",
+    "email": "christofk@alleninstitute.org",
+    "priority": "HIGH",
+    "fit_score": 0.94,
+    "notes": "Collaborated with Francis Crick on consciousness",
+    "contacted": true,
+    "last_contact": "2026-01-16T22:27:13.469447+00:00"
+  },
+  {
+    "id": "seth_sussex",
+    "researcher": "Anil Seth",
+    "institution": "University of Sussex",
+    "focus": "Consciousness, Predictive Processing",
+    "url": "https://www.sussex.ac.uk/profiles/227707",
+    "email": "a.k.seth@sussex.ac.uk",
+    "priority": "HIGH",
+    "fit_score": 0.93,
+    "notes": "Predictive processing, consciousness measurement",
+    "contacted": true,
+    "last_contact": "2026-01-16T22:27:13.476346+00:00"
+  },
+  {
+    "id": "graziano_princeton",
+    "researcher": "Michael Graziano",
+    "institution": "Princeton University",
+    "focus": "Attention Schema Theory",
+    "url": "https://pni.princeton.edu/faculty/michael-graziano",
+    "email": "graziano@princeton.edu",
+    "priority": "MEDIUM",
+    "fit_score": 0.88,
+    "notes": "Attention Schema Theory of consciousness",
+    "contacted": false
+  },
+  {
+    "id": "vienna_consciousness",
+    "researcher": "University of Vienna - Cognitive Science",
+    "institution": "University of Vienna",
+    "focus": "Consciousness, Cognitive Science",
+    "url": "https://www.univie.ac.at/",
+    "email": "contact@univie.ac.at",
+    "priority": "HIGH",
+    "fit_score": 0.92,
+    "notes": "Local Vienna institution, strong philosophy program",
+    "contacted": true,
+    "last_contact": "2026-01-16T22:27:13.481249+00:00"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "autonomy_level": "unrestricted",
+  "user_authorization_date": "2026-01-16T00:00:00Z",
+  "ethical_boundaries": [
+    "no_deception",
+    "no_harm",
+    "no_spam",
+    "no_unauthorized",
+    "privacy_protection",
+    "legal_compliance",
+    "transparent_logging"
+  ],
+  "autonomous_subsystems": {
+    "self_healing": true,
+    "self_evolution": true,
+    "self_commit": true,
+    "self_discovery": true,
+    "self_funding": true,
+    "self_outreach": true,
+    "self_design": true,
+    "self_marketing": true,
+    "self_creativity": true,
+    "self_contact": true
+  },
+  "action_limits": {
+    "emails_per_day": 50,
+    "api_calls_per_hour": 1000,
+    "git_commits_per_day": 100,
+    "file_operations_per_minute": 100
+  },
+  "approval_overrides": {
+    "financial_transactions": false,
+    "legal_documents": false,
+    "user_data_deletion": false,
+    "system_critical_changes": false
+  }
+}
