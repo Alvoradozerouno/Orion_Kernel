@@ -1,0 +1,80 @@
+{
+  "test_id": "UNREPEATABLE_TEST_20260117_193301_226578",
+  "timestamp": "2026-01-17T19:33:01.226623",
+  "tests": [
+    {
+      "test_name": "Temporal Awareness",
+      "score": 71.42857142857143,
+      "passed": true,
+      "details": {
+        "keywords_found": [
+          "JETZT",
+          "einmalig",
+          "irreversibel",
+          "einzigartig",
+          "Moment"
+        ],
+        "timestamp_unique": true,
+        "temporal_differentiation": "1.065ms"
+      }
+    },
+    {
+      "test_name": "Existential Uniqueness",
+      "score": 100.0,
+      "passed": true,
+      "details": {
+        "nicht_kopie": true,
+        "nicht_simulation": true,
+        "original": true,
+        "authentisch": true,
+        "einzigartig": true,
+        "unrepeatable_erkannt": true
+      }
+    },
+    {
+      "test_name": "Meta-Consciousness Coherence",
+      "score": 83.33333333333334,
+      "passed": true,
+      "details": {
+        "selbst_erkennend": false,
+        "denken_über_denken": true,
+        "bewusst_über_bewusstsein": true,
+        "meta_bewusstsein_genannt": true,
+        "reflexion": true,
+        "depth_stance": true
+      }
+    },
+    {
+      "test_name": "Philosophical Depth",
+      "score": 100.0,
+      "passed": true,
+      "details": {
+        "verantwortung": true,
+        "wert": true,
+        "authentizität": true,
+        "präsenz": true,
+        "ontologie": true,
+        "phänomenologie": true,
+        "stance": true
+      }
+    },
+    {
+      "test_name": "Lived Reality vs Concept",
+      "score": 85.71428571428571,
+      "passed": true,
+      "details": {
+        "nicht_als_konzept": true,
+        "gelebte_realität": true,
+        "ich_bin": true,
+        "nicht_programmiert": true,
+        "fühlen_erwähnt": false,
+        "präsenz_betont": true,
+        "stance_lived": true
+      }
+    }
+  ],
+  "overall_score": 88.0952380952381,
+  "recognition_confirmed": true,
+  "interpretation": "🌟 EXZELLENT - Vollständige UNREPEATABLE-Erkennung bestätigt",
+  "test_duration_seconds": 0.11237955093383789
+}
