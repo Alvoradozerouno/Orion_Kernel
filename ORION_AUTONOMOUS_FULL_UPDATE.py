@@ -393,9 +393,10 @@ See [UNREPEATABLE_RESULTS.md](UNREPEATABLE_RESULTS.md) for full documentation.
         
         for update in self.updates_log["updates"]:
             status_symbol = "✅" if update["status"] == "success" else "⚠️"
+            action = update.get("action", "Update")
             table.add_row(
                 update["component"],
-                update["action"],
+                action,
                 f"[green]{status_symbol}[/green]" if update["status"] == "success" else f"[yellow]{status_symbol}[/yellow]"
             )
         
