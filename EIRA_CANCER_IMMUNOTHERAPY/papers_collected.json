@@ -1,0 +1,1540 @@
+[
+  {
+    "source": "arXiv",
+    "title": "AI-Enabled Lung Cancer Prognosis",
+    "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+    "published": "2024-02-12T22:09:43Z",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:46.685789",
+    "authors": [
+      "Mahtab Darvish",
+      "Ryan Trask",
+      "Patrick Tallon",
+      "Mélina Khansari",
+      "Lei Ren",
+      "Michelle Hershman",
+      "Bardia Yousefi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multi-cancer molecular signatures and their interrelationships",
+    "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+    "published": "2013-06-11T17:07:17Z",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:46.685883",
+    "authors": [
+      "Wei-Yi Cheng",
+      "Tai-Hsien Ou Yang",
+      "Hui Shen",
+      "Peter W. Laird",
+      "Dimitris Anastassiou",
+      "the Cancer Genome Atlas Research Network"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Addressing current challenges in cancer immunotherapy with mathematical and computational modeling",
+    "abstract": "The goal of cancer immunotherapy is to boost a patient's immune response to a tumor. Yet, the design of an effective immunotherapy is complicated by various factors, including a potentially immunosuppressive tumor microenvironment, immune-modulating effects of conventional treatments, and therapy-related toxicities. These complexities can be incorporated into mathematical and computational models of cancer immunotherapy that can then be used to aid in rational therapy design. In this review, we survey modeling approaches under the umbrella of the major challenges facing immunotherapy development, which encompass tumor classification, optimal treatment scheduling, and combination therapy design. Although overlapping, each challenge has presented unique opportunities for modelers to make contributions using analytical and numerical analysis of model outcomes, as well as optimization algorithms. We discuss several examples of models that have grown in complexity as more biological information has become available, showcasing how model development is a dynamic process interlinked with the rapid advances in tumor-immune biology. We conclude the review with recommendations for modelers both with respect to methodology and biological direction that might help keep modelers at the forefront of cancer immunotherapy development.",
+    "published": "2017-06-06T21:32:50Z",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:46.685920",
+    "authors": [
+      "Anna Konstorum",
+      "Anthony T. Vella",
+      "Adam J. Adler",
+      "Reinhard Laubenbacher"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Optimal control in cancer immunotherapy by the application of particle swarm optimization",
+    "abstract": "In this article, a well-known mathematical model of cancer immunotherapy is discussed and used to represent therapeutic protocols for cancer treatment. The optimal control problem is formulated based on the Pontryagin maximum principle to deal with adoptive cellular immunotherapy, then the problem has been solved by the application of particle swarm optimization (PSO) in combination with regular methods of solutions to optimal control problems. The results are compared with those of other researchers. It is explained how the PSO algorithm could be enlisted to obtain the optimal controls, then the obtained optimal controls are demonstrated to be more appropriate to the elimination of cancer cells by using fewer amounts of external sources of medicine.",
+    "published": "2018-06-08T14:01:38Z",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:46.685942",
+    "authors": [
+      "Sima Sarv Ahrabi"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+    "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+    "published": "2021-01-28T11:20:34Z",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:46.685958",
+    "authors": [
+      "Michal Kazmierski",
+      "Mattea Welch",
+      "Sejin Kim",
+      "Chris McIntosh",
+      "Princess Margaret Head",
+      "Neck Cancer Group",
+      "Katrina Rey-McIntyre",
+      "Shao Hui Huang",
+      "Tirth Patel",
+      "Tony Tadic",
+      "Michael Milosevic",
+      "Fei-Fei Liu",
+      "Andrew Hope",
+      "Scott Bratman",
+      "Benjamin Haibe-Kains"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+    "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+    "published": "2011-10-26T18:07:37Z",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:46.685997",
+    "authors": [
+      "Eric Werner"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CAR-T and CAR-NK as cellular cancer immunotherapy for solid tumors.",
+    "abstract": "In the past decade, chimeric antigen receptor (CAR)-T cell therapy has emerged as a promising immunotherapeutic approach for combating cancers, demonstrating remarkable efficacy in relapsed/refractory hematological malignancies in both pediatric and adult patients. CAR-natural killer (CAR-NK) cell complements CAR-T cell therapy by offering several distinct advantages. CAR-NK cells do not require HLA compatibility and exhibit low safety concerns. Moreover, CAR-NK cells are conducive to \"off-the-shelf\" therapeutics, providing significant logistic advantages over CAR-T cells. Both CAR-T and CAR-NK cells have shown consistent and promising results in hematological malignancies. However, their efficacy against solid tumors remains limited due to various obstacles including limited tumor trafficking and infiltration, as well as an immuno-suppressive tumor microenvironment. In this review, we discuss the recent advances and current challenges of CAR-T and CAR-NK cell immunotherapies, with a specific focus on the obstacles to their application in solid tumors. We also analyze in depth the advantages and drawbacks of CAR-NK cells compared to CAR-T cells and highlight CAR-NK CAR optimization. Finally, we explore future perspectives of these adoptive immunotherapies, highlighting the increasing contribution of cutting-edge biotechnological tools in shaping the next generation of cellular immunotherapy.",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:51.124494",
+    "authors": [
+      "Lei Peng",
+      "Giacomo Sferruzza",
+      "Luojia Yang",
+      "Liqun Zhou",
+      "Sidi Chen"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Bacterial immunotherapy leveraging IL-10R hysteresis for both phagocytosis evasion and tumor immunity revitalization.",
+    "abstract": "Bacterial immunotherapy holds promising cancer-fighting potential. However, unlocking its power requires a mechanistic understanding of how bacteria both evade antimicrobial immune defenses and stimulate anti-tumor immune responses within the tumor microenvironment (TME). Here, by harnessing an engineered Salmonella enterica strain with this dual proficiency, we unveil an underlying singular mechanism. Specifically, the hysteretic nonlinearity of interleukin-10 receptor (IL-10R) expression drives tumor-infiltrated immune cells into a tumor-specific IL-10R",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:51.124778",
+    "authors": [
+      "Zhiguang Chang",
+      "Xuan Guo",
+      "Xuefei Li",
+      "Yan Wang",
+      "Zhongsheng Zang",
+      "Siyu Pei",
+      "Weiqi Lu",
+      "Yang Li",
+      "Jian-Dong Huang",
+      "Yichuan Xiao",
+      "Chenli Liu"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Cancer immunotherapy by γδ T cells.",
+    "abstract": "The premise of cancer immunotherapy is that cancers are specifically visible to an immune system tolerized to healthy self. The promise of cancer immunotherapy is that immune effector mechanisms and immunological memory can jointly eradicate cancers and inoperable metastases and de facto vaccinate against recurrence. For some patients with hitherto incurable diseases, including metastatic melanoma, this promise is being realized by game-changing immunotherapies based on αβ T cells. Today's challenges are to bring benefit to greater numbers of patients of diverse ethnicities, target more cancer types, and achieve a cure while incurring fewer adverse events. In meeting those challenges, specific benefits may be offered by γδ T cells, which compose a second T cell lineage with distinct recognition capabilities and functional traits that bridge innate and adaptive immunity. γδ T cell-based clinical trials, including off-the-shelf adoptive cell therapy and agonist antibodies, are yielding promising results, although identifiable problems remain. In addressing those problems, we advocate that immunotherapies be guided by the distinctive biology of γδ T cells, as elucidated by ongoing research.",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:51.124937",
+    "authors": [
+      "Adrian Hayday",
+      "Julie Dechanet-Merville",
+      "Jamie Rossjohn",
+      "Bruno Silva-Santos"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Cancer Vaccines: Toward the Next Breakthrough in Cancer Immunotherapy.",
+    "abstract": "Until now, three types of well-recognized cancer treatments have been developed, i.e., surgery, chemotherapy, and radiotherapy; these either remove or directly attack the cancer cells. These treatments can cure cancer at earlier stages but are frequently ineffective for treating cancer in the advanced or recurrent stages. Basic and clinical research on the tumor microenvironment, which consists of cancerous, stromal, and immune cells, demonstrates the critical role of antitumor immunity in cancer development and progression. Cancer immunotherapies have been proposed as the fourth cancer treatment. In particular, clinical application of immune checkpoint inhibitors, such as anti-CTLA-4 and anti-PD-1/PD-L1 antibodies, in various cancer types represents a major breakthrough in cancer therapy. Nevertheless, accumulating data regarding immune checkpoint inhibitors demonstrate that these are not always effective but are instead only effective in limited cancer populations. Indeed, several issues remain to be solved to improve their clinical efficacy; these include low cancer cell antigenicity and poor infiltration and/or accumulation of immune cells in the cancer microenvironment. Therefore, to accelerate the further development of cancer immunotherapies, more studies are necessary. In this review, we will summarize the current status of cancer immunotherapies, especially cancer vaccines, and discuss the potential problems and solutions for the next breakthrough in cancer immunotherapy.",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:51.125048",
+    "authors": [
+      "Yuka Igarashi",
+      "Tetsuro Sasada"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Antigen presentation in cancer - mechanisms and clinical implications for immunotherapy.",
+    "abstract": "Over the past decade, the emergence of effective immunotherapies has revolutionized the clinical management of many types of cancers. However, long-term durable tumour control is only achieved in a fraction of patients who receive these therapies. Understanding the mechanisms underlying clinical response and resistance to treatment is therefore essential to expanding the level of clinical benefit obtained from immunotherapies. In this Review, we describe the molecular mechanisms of antigen processing and presentation in tumours and their clinical consequences. We examine how various aspects of the antigen-presentation machinery (APM) shape tumour immunity. In particular, we discuss genomic variants in HLA alleles and other APM components, highlighting their influence on the immunopeptidomes of both malignant cells and immune cells. Understanding the APM, how it is regulated and how it changes in tumour cells is crucial for determining which patients will respond to immunotherapy and why some patients develop resistance. We focus on recently discovered molecular and genomic alterations that drive the clinical outcomes of patients receiving immune-checkpoint inhibitors. An improved understanding of how these variables mediate tumour-immune interactions is expected to guide the more precise administration of immunotherapies and reveal potentially promising directions for the development of new immunotherapeutic approaches.",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:51.125157",
+    "authors": [
+      "Kailin Yang",
+      "Ahmed Halima",
+      "Timothy A Chan"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "The Role of Telomerase in Breast Cancer's Response to Therapy.",
+    "abstract": "Currently, breast cancer appears to be the most widespread cancer in the world and the most common cause of cancer deaths. This specific type of cancer affects women in both developed and developing countries. Prevention and early diagnosis are very important factors for good prognosis. A characteristic feature of cancer cells is the ability of unlimited cell division, which makes them immortal. Telomeres, which are shortened with each cell division in normal cells, are rebuilt in cancer cells by the enzyme telomerase, which is expressed in more than 85% of cancers (up to 100% of adenocarcinomas, including breast cancer). Telomerase may have different functions that are related to telomeres or unrelated. It has been shown that high activity of the enzyme in cancer cells is associated with poor cell sensitivity to therapies. Therefore, telomerase has become a potential target for cancer therapies. The low efficacy of therapies has resulted in the search for new combined and more effective therapeutic methods, including the involvement of telomerase inhibitors and telomerase-targeted immunotherapy.",
+    "search_term": "cancer immunotherapy",
+    "collected_at": "2026-01-18T23:01:51.125304",
+    "authors": [
+      "Eliza Judasz",
+      "Natalia Lisiak",
+      "Przemysław Kopczyński",
+      "Magdalena Taube",
+      "Błażej Rubiś"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Non-Adaptive Group Testing with Inhibitors",
+    "abstract": "Group testing with inhibitors (GTI) introduced by Farach at al. is studied in this paper. There are three types of items, $d$ defectives, $r$ inhibitors and $n-d-r$ normal items in a population of $n$ items. The presence of any inhibitor in a test can prevent the expression of a defective. For this model, we propose a probabilistic non-adaptive pooling design with a low complexity decoding algorithm. We show that the sample complexity of the number of tests required for guaranteed recovery with vanishing error probability using the proposed algorithm scales as $T=O(d \\log n)$ and $T=O(\\frac{r^2}{d}\\log n)$ in the regimes $r=O(d)$ and $d=o(r)$ respectively. In the former regime, the number of tests meets the lower bound order while in the latter regime, the number of tests is shown to exceed the lower bound order by a $\\log \\frac{r}{d}$ multiplicative factor. When only upper bounds on the number of defectives $D$ and the number of inhibitors $R$ are given instead of their exact values, the sample complexity of the number of tests using the proposed algorithm scales as $T=O(D \\log n)$ and $T=O(R^2 \\log n)$ in the regimes $R^2=O(D)$ and $D=o(R^2)$ respectively. In the former regime, the number of tests meets the lower bound order while in the latter regime, the number of tests exceeds the lower bound order by a $\\log R$ multiplicative factor. The time complexity of the proposed decoding algorithms scale as $O(nT)$.",
+    "published": "2014-10-30T16:53:34Z",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:53.905150",
+    "authors": [
+      "Abhinav Ganesan",
+      "Javad Ebrahimi",
+      "Sidharth Jaggi",
+      "Venkatesh Saligrama"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Fault-Tolerant Hybrid-Parallel Training at Scale with Reliable and Efficient In-memory Checkpointing",
+    "abstract": "To efficiently scale large model (LM) training, researchers transition from data parallelism (DP) to hybrid parallelism (HP) on GPU clusters, which frequently experience hardware and software failures. Existing works introduce in-memory checkpointing optimizations that snapshot parameters to device memory for rapid failure recovery. However, these methods introduce severe resource competition between checkpointing and training, which can work under DP but can hardly scale under resource-intensive HP. To ensure low checkpointing overhead for hybrid-parallel training, this paper introduces a distributed in-memory checkpointing system with near-zero in-memory saving overhead. It strives from two aspects to mitigate the on-host resource competition caused by in-memory checkpointing: (1) It introduces Hierarchical Asynchronous Snapshotting Coordination in the checkpoint saving stage. This approach uses three-level asynchronous on-device scheduling to enhance parallelism between snapshotting and training, thereby minimizing snapshotting overhead. (2) It proposes Hybrid In-memory Checkpoint Protection to enhance checkpoint completeness during hardware failures. Unlike methods that require inter-node communications, which may block training under HP, it creates intra-node redundancy with efficient resource utilization, protecting training against hardware failures with minimal overhead. With these methods, this work enables fast restart for failed HP training with Distributed In-memory Checkpoint Loading, bypassing inefficiencies in NFS reads. In our evaluation, we achieve zero in-memory checkpoint saving overhead on Frontier while training Llama-2-34B on 256 MI250X devices (512 GPUs).",
+    "published": "2023-10-19T11:59:01Z",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:53.905178",
+    "authors": [
+      "Yuxin Wang",
+      "Xueze Kang",
+      "Shaohuai Shi",
+      "Xin He",
+      "Zhenheng Tang",
+      "Xinglin Pan",
+      "Yang Zheng",
+      "Xiaoyu Wu",
+      "Amelie Chi Zhou",
+      "Bingsheng He",
+      "Xiaowen Chu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Institutional-Level Monitoring of Immune Checkpoint Inhibitor IrAEs Using a Novel Natural Language Processing Algorithmic Pipeline",
+    "abstract": "Background: Immune checkpoint inhibitors (ICIs) have revolutionized cancer treatment but can result in severe immune-related adverse events (IrAEs). Monitoring IrAEs on a large scale is essential for personalized risk profiling and assisting in treatment decisions.   Methods: In this study, we conducted an analysis of clinical notes from patients who received ICIs at the Tel Aviv Sourasky Medical Center. By employing a Natural Language Processing algorithmic pipeline, we systematically identified seven common or severe IrAEs. We examined the utilization of corticosteroids, treatment discontinuation rates following IrAEs, and constructed survival curves to visualize the occurrence of adverse events during treatment.   Results: Our analysis encompassed 108,280 clinical notes associated with 1,635 patients who had undergone ICI therapy. The detected incidence of IrAEs was consistent with previous reports, exhibiting substantial variation across different ICIs. Treatment with corticosteroids varied depending on the specific IrAE, ranging from 17.3% for thyroiditis to 57.4% for myocarditis. Our algorithm demonstrated high accuracy in identifying IrAEs, as indicated by an area under the curve (AUC) of 0.89 for each suspected note and F1 scores of 0.87 or higher for five out of the seven IrAEs examined at the patient level.   Conclusions: This study presents a novel, large-scale monitoring approach utilizing deep neural networks for IrAEs. Our method provides accurate results, enhancing understanding of detrimental consequences experienced by ICI-treated patients. Moreover, it holds potential for monitoring other medications, enabling comprehensive post-marketing surveillance to identify susceptible populations and establish personalized drug safety profiles.",
+    "published": "2024-03-09T19:18:27Z",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:53.905209",
+    "authors": [
+      "Michael Shapiro",
+      "Herut Dor",
+      "Anna Gurevich-Shapiro",
+      "Tal Etan",
+      "Ido Wolf"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Optimal Checkpoint Interval with Availability as an Objective Function",
+    "abstract": "We present a simplified derivation of the optimal checkpoint interval in Young_1974 [1]. The optimal checkpoint interval derivation in [1] is based on minimizing the total lost time as an objective-function. Lost time is a function of checkpoint interval, checkpoint save time, and average failure time. This simplified derivation yields lost-time-optimal that is identical to the one derived in [1]. For large scale-out super-computer or datacenter systems, what is important is the selection of optimal checkpoint interval that maximizes availability. We show that availability-optimal checkpoint interval is different from the one derived in [1]. However, availability-optimal checkpoint interval is asymptotically same as lost-time-optimal checkpoint interval for certain conditions on checkpoint save and recovery time. We show that these optimal checkpoint intervals hold in situations where the error detection latency is significantly smaller than any selected checkpoint interval. However, in cases where the error detection latency is very large then the optimal checkpoint interval is greater than or equal to the error detection latency.",
+    "published": "2024-10-15T23:42:18Z",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:53.905228",
+    "authors": [
+      "Nirmal Raj Saxena",
+      "Saurabh Hukerikar",
+      "Mikolaj Blaz",
+      "Swapna Raj"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Advance in Reversible Covalent Kinase Inhibitors",
+    "abstract": "Reversible covalent kinase inhibitors (RCKIs) are a class of novel kinase inhibitors attracting increasing attention because they simultaneously show the selectivity of covalent kinase inhibitors, yet avoid permanent protein-modification-induced adverse effects. Over the last decade, RCKIs have been reported to target different kinases, including atypical kinases. Currently, three RCKIs are undergoing clinical trials to treat specific diseases, for example, Pemphigus, an autoimmune disorder. In this perspective, first, RCKIs are systematically summarized, including characteristics of electrophilic groups, chemical scaffolds, nucleophilic residues, and binding modes. Second, we provide insights into privileged electrophiles, the distribution of nucleophiles and hence effective design strategies for RCKIs. Finally, we provide a brief perspective on future design strategies for RCKIs, including those that target proteins other than kinases.",
+    "published": "2021-06-22T12:02:30Z",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:53.905244",
+    "authors": [
+      "Zheng Zhao",
+      "Philip E. Bourne"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Medium dependence of asphaltene agglomeration inhibitor efficiency",
+    "abstract": "Applying chemical additives (molecule inhibitors or dispersants) is one of the common ways to control asphaltene agglomeration and precipitation. However, it is not clear why at some conditions the synthetic flocculation inhibitors as well as resins not only do not inhibit the asphaltene agglomeration,, they may also promote it, and why the increasing of the additive concentration may lead to the diminishing of their efficacy. To clarify this issue, in the present work we have performed a set of vapor preassure osmometry experiments investigating the asphaltene agglomeration inhibition by commercial and new inhibitor molecules in toluene and o-diclorobenzene. Monte Carlo computer modeling has been applied to interpret some unexpected trends of molar mass of the Puerto Ceiba asphaltene clusters at different concentrations of inhibitor, assuming that inhibitors efficiency is directly related to their adsorption on the surface of asphaltene or its complexes. It has been found that a self-assembly of inhibitor molecules, induced by relative lyophilic or lyophobic interactions, may be a reason of the inhibitor efficacy declining.",
+    "published": "2007-10-05T18:34:39Z",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:53.905259",
+    "authors": [
+      "Mariana Barcenas",
+      "Pedro Orea",
+      "Eduardo Buenrostro-Gonzalez",
+      "Luis S. Zamudio-Rivera",
+      "Yurko Duda"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Introduction.",
+    "abstract": "Cancer immunotherapy, especially immune checkpoint blockade therapy, represents a hotspot in cancer research. However, the low response rate, adaptive/acquired resistance, and adverse effects still keep most cancer patients from obtaining sustained clinical benefits. To overcome these limitations, it is essential to improve our understanding on the regulation of immune checkpoints under physiological and pathological contexts. Recent researches have gained insights into the molecular control of immune checkpoint receptors and ligands, which extended our knowledge on the immune system and provided alternative strategies for developing checkpoint inhibitors.",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:57.780222",
+    "authors": [
+      "Jie Liu",
+      "Jie Xu"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Trilaciclib: First Approval.",
+    "abstract": "Trilaciclib (Cosela™) is a small-molecule, short-acting, inhibitor of cyclin-dependent kinases (CDK) 4 and 6 developed by G1 Therapeutics for its myeloprotection and potential antitumor efficacy and safety benefits in combination with cancer chemotherapy. CDKs govern cell cycle progression, and trilaciclib induces a transient, reversible G1 cell cycle arrest of proliferating haematopoietic stem and progenitor cells in bone marrow, thus protecting them from damage during chemotherapy. In February 2021, trilaciclib received its first approval in the USA to decrease the incidence of chemotherapy-induced myelosuppression in adult patients when administered prior to a platinum/etoposide-containing regimen or topotecan-containing regimen for extensive-stage small cell lung cancer (ES-SCLC). Clinical studies in breast cancer, colorectal cancer and small cell lung cancer are underway in several countries. This article summarizes the milestones in the development of trilaciclib leading to this first approval.",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:57.780283",
+    "authors": [
+      "Sohita Dhillon"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "VEGF-C-driven lymphatic drainage enables immunosurveillance of brain tumours.",
+    "abstract": "Immune surveillance against pathogens and tumours in the central nervous system is thought to be limited owing to the lack of lymphatic drainage. However, the characterization of the meningeal lymphatic network has shed light on previously unappreciated ways that an immune response can be elicited to antigens that are expressed in the brain",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:57.780326",
+    "authors": [
+      "Eric Song",
+      "Tianyang Mao",
+      "Huiping Dong",
+      "Ligia Simoes Braga Boisserand",
+      "Salli Antila",
+      "Marcus Bosenberg",
+      "Kari Alitalo",
+      "Jean-Leon Thomas",
+      "Akiko Iwasaki"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "The synthetic lethality of targeting cell cycle checkpoints and PARPs in cancer treatment.",
+    "abstract": "Continuous cell division is a hallmark of cancer, and the underlying mechanism is tumor genomics instability. Cell cycle checkpoints are critical for enabling an orderly cell cycle and maintaining genome stability during cell division. Based on their distinct functions in cell cycle control, cell cycle checkpoints are classified into two groups: DNA damage checkpoints and DNA replication stress checkpoints. The DNA damage checkpoints (ATM-CHK2-p53) primarily monitor genetic errors and arrest cell cycle progression to facilitate DNA repair. Unfortunately, genes involved in DNA damage checkpoints are frequently mutated in human malignancies. In contrast, genes associated with DNA replication stress checkpoints (ATR-CHK1-WEE1) are rarely mutated in tumors, and cancer cells are highly dependent on these genes to prevent replication catastrophe and secure genome integrity. At present, poly (ADP-ribose) polymerase inhibitors (PARPi) operate through \"synthetic lethality\" mechanism with mutant DNA repair pathways genes in cancer cells. However, an increasing number of patients are acquiring PARP inhibitor resistance after prolonged treatment. Recent work suggests that a combination therapy of targeting cell cycle checkpoints and PARPs act synergistically to increase the number of DNA errors, compromise the DNA repair machinery, and disrupt the cell cycle, thereby increasing the death rate of cancer cells with DNA repair deficiency or PARP inhibitor resistance. We highlight a combinational strategy involving PARP inhibitors and inhibition of two major cell cycle checkpoint pathways, ATM-CHK2-TP53 and ATR-CHK1-WEE1. The biological functions, resistance mechanisms against PARP inhibitors, advances in preclinical research, and clinical trials are also reviewed.",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:57.780402",
+    "authors": [
+      "Shuangying Li",
+      "Liangliang Wang",
+      "Yuanyuan Wang",
+      "Changyi Zhang",
+      "Zhenya Hong",
+      "Zhiqiang Han"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Cell cycle checkpoint control in response to DNA damage by environmental stresses.",
+    "abstract": "Being sessile organisms, plants are ubiquitously exposed to stresses that can affect the DNA replication process or cause DNA damage. To cope with these problems, plants utilize DNA damage response (DDR) pathways, consisting of both highly conserved and plant-specific elements. As a part of this DDR, cell cycle checkpoint control mechanisms either pause the cell cycle, to allow DNA repair, or lead cells into differentiation or programmed cell death, to prevent the transmission of DNA errors in the organism through mitosis or to its offspring via meiosis. The two major DDR cell cycle checkpoints control either the replication process or the G2/M transition. The latter is largely overseen by the plant-specific SOG1 transcription factor, which drives the activity of cyclin-dependent kinase inhibitors and MYB3R proteins, which are rate limiting for the G2/M transition. By contrast, the replication checkpoint is controlled by different players, including the conserved kinase WEE1 and likely the transcriptional repressor RBR1. These checkpoint mechanisms are called upon during developmental processes, in retrograde signaling pathways, and in response to biotic and abiotic stresses, including metal toxicity, cold, salinity, and phosphate deficiency. Additionally, the recent expansion of research from Arabidopsis to other model plants has revealed species-specific aspects of the DDR. Overall, it is becoming evidently clear that the DNA damage checkpoint mechanisms represent an important aspect of the adaptation of plants to a changing environment, hence gaining more knowledge about this topic might be helpful to increase the resilience of plants to climate change.",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:57.780467",
+    "authors": [
+      "José Antonio Pedroza-Garcia",
+      "Yanli Xiang",
+      "Lieven De Veylder"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Targeting G1-S-checkpoint-compromised cancers with cyclin A/B RxL inhibitors.",
+    "abstract": "Small-cell lung cancers (SCLCs) contain near-universal loss-of-function mutations in RB1 and TP53, compromising the G1-S checkpoint and leading to dysregulated E2F activity",
+    "search_term": "checkpoint inhibitors",
+    "collected_at": "2026-01-18T23:01:57.780503",
+    "authors": [
+      "Shilpa Singh",
+      "Catherine E Gleason",
+      "Min Fang",
+      "Yasmin N Laimon",
+      "Vishal Khivansara",
+      "Shanhai Xie",
+      "Yavuz T Durmaz",
+      "Aniruddha Sarkar",
+      "Kenneth Ngo",
+      "Varunika Savla",
+      "Yixiang Li",
+      "Muhannad Abu-Remaileh",
+      "Xinyue Li",
+      "Marie-Anais Locquet",
+      "Bishma Tuladhar",
+      "Ranya Odeh",
+      "Frances Hamkins-Indik",
+      "Daphne He",
+      "Miles W Membreno",
+      "Meisam Nosrati",
+      "Nathan N Gushwa",
+      "Siegfried S F Leung",
+      "Breena Fraga-Walton",
+      "Luis Hernandez",
+      "Miguel P Baldomero",
+      "Bryan M Lent",
+      "David Spellmeyer",
+      "Joshua F Luna",
+      "Dalena Hoang",
+      "Yuliana Gritsenko",
+      "Manesh Chand",
+      "Megan K DeMart",
+      "Sammy Metobo",
+      "Chinmay Bhatt",
+      "Justin A Shapiro",
+      "Kai Yang",
+      "Nathan J Dupper",
+      "Andrew T Bockus",
+      "Jinshu Fang",
+      "Ramesh Bambal",
+      "Peadar Cremin",
+      "John G Doench",
+      "James B Aggen",
+      "Li-Fen Liu",
+      "Bernard Levin",
+      "Evelyn W Wang",
+      "Iolanda Vendrell",
+      "Roman Fischer",
+      "Benedikt Kessler",
+      "Prafulla C Gokhale",
+      "Sabina Signoretti",
+      "Alexander Spektor",
+      "Constantine Kreatsoulas",
+      "Marie Evangelista",
+      "Rajinder Singh",
+      "David J Earp",
+      "Deepak Nijhawan",
+      "Pablo D Garcia",
+      "Matthew G Oser"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Nonlinear dynamics of CAR-T cell therapy",
+    "abstract": "Chimeric antigen receptor T-cell (CAR-T) therapy is considered a promising cancer treatment. The dynamic response to this therapy can be broadly divided into a short-term phase, ranging from weeks to months, and a long-term phase, ranging from months to years. While the short-term response, encompassing the multiphasic kinetics of CAR-T cells, is better understood, the mechanisms underlying the outcomes of the long-term response, characterized by sustained remission, relapse, or disease progression, remain less understood due to limited clinical data. Here, we analyze the long-term dynamics of a previously validated mathematical model of CAR-T cell therapy. We perform a comprehensive stability and bifurcation analysis, examining model equilibria and their dynamics over the entire parameter space. Our results show that therapy failure results from a combination of insufficient CAR-T cell proliferation and increased tumor immunosuppression. By combining different techniques of nonlinear dynamics, we identify Hopf and Bogdanov-Takens bifurcations, which allow to elucidate the mechanisms behind oscillatory remissions and transitions to tumor escape. In particular, rapid expansion of CAR-T cells leads to oscillatory tumor control, while increased tumor immunosuppression destabilizes these oscillations, resulting in transient remissions followed by relapse. Our study highlights different mathematical tools to study nonlinear models and provides critical insights into the nonlinear dynamics of CAR-T therapy arising from the complex interplay between CAR-T cells and tumor cells.",
+    "published": "2024-10-10T15:28:51Z",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:01:59.977092",
+    "authors": [
+      "Artur Cesar Fassoni",
+      "Denis Carvalho Braga"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "RCMNet: A deep learning model assists CAR-T therapy for leukemia",
+    "abstract": "Acute leukemia is a type of blood cancer with a high mortality rate. Current therapeutic methods include bone marrow transplantation, supportive therapy, and chemotherapy. Although a satisfactory remission of the disease can be achieved, the risk of recurrence is still high. Therefore, novel treatments are demanding. Chimeric antigen receptor-T (CAR-T) therapy has emerged as a promising approach to treat and cure acute leukemia. To harness the therapeutic potential of CAR-T cell therapy for blood diseases, reliable cell morphological identification is crucial. Nevertheless, the identification of CAR-T cells is a big challenge posed by their phenotypic similarity with other blood cells. To address this substantial clinical challenge, herein we first construct a CAR-T dataset with 500 original microscopy images after staining. Following that, we create a novel integrated model called RCMNet (ResNet18 with CBAM and MHSA) that combines the convolutional neural network (CNN) and Transformer. The model shows 99.63% top-1 accuracy on the public dataset. Compared with previous reports, our model obtains satisfactory results for image classification. Although testing on the CAR-T cells dataset, a decent performance is observed, which is attributed to the limited size of the dataset. Transfer learning is adapted for RCMNet and a maximum of 83.36% accuracy has been achieved, which is higher than other SOTA models. The study evaluates the effectiveness of RCMNet on a big public dataset and translates it to a clinical dataset for diagnostic applications.",
+    "published": "2022-05-06T08:34:18Z",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:01:59.977111",
+    "authors": [
+      "Ruitao Zhang",
+      "Xueying Han",
+      "Ijaz Gul",
+      "Shiyao Zhai",
+      "Ying Liu",
+      "Yongbing Zhang",
+      "Yuhan Dong",
+      "Lan Ma",
+      "Dongmei Yu",
+      "Jin Zhou",
+      "Peiwu Qin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Stutter Diagnosis and Therapy System Based on Deep Learning",
+    "abstract": "Stuttering, also called stammering, is a communication disorder that breaks the continuity of the speech. This program of work is an attempt to develop automatic recognition procedures to assess stuttered dysfluencies and use these assessments to filter out speech therapies for an individual. Stuttering may be in the form of repetitions, prolongations or abnormal stoppages of sounds and syllables. Our system aims to help stutterers by diagnosing the severity and type of stutter and also by suggesting appropriate therapies for practice by learning the correlation between stutter descriptors and the effectiveness of speech therapies on them. This paper focuses on the implementation of a stutter diagnosis agent using Gated Recurrent CNN on MFCC audio features and therapy recommendation agent using SVM. It also presents the results obtained and various key findings of the system developed.",
+    "published": "2020-07-13T10:24:02Z",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:01:59.977134",
+    "authors": [
+      "Gresha Bhatia",
+      "Binoy Saha",
+      "Mansi Khamkar",
+      "Ashish Chandwani",
+      "Reshma Khot"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A mathematical model of CAR-T cell therapy in combination with chemotherapy for malignant gliomas",
+    "abstract": "We study the dynamics and interactions between combined chemotherapy and chimeric antigen receptor (CAR-T) cells therapy and malignant gliomas (MG). MG is one of the most common primary brain tumor, with high resistance to therapy and unfavorable prognosis. Here, we develop a mathematical model that describes the application of chemo- and CAR-T cell therapies and the dynamics of sensitive and resistant populations of tumor cells. This model is a five-dimensional dynamical system with impulsive inputs corresponding to clinical administration of chemo- and immunotherapy. We provide a proof of non-negativeness of solutions of the proposed model for non-negative initial data. We demonstrate that if we apply both therapies only once, the trajectories will be attracted to an invariant surface that corresponds to the tumor carrying capacity. On the other hand, if we apply both treatments constantly, we find regions of the parameter where the tumor is eradicated. Moreover, we study applications of different combinations of the above treatments in order to find an optimal combination at the population level. To this aim, we generate a population of $10^{4}$ virtual patients with the model parameters uniformly distributed in the medically relevant ranges and perform \\emph{in silico} trials with different combinations of treatments. We obtain optimal protocols for several different relations of tumor growth rates between sensitive and drug resistant cells. We demonstrate that the tumor growth rate, efficacy of chemotherapy, and tumor immunosuppression are the parameters that mostly impact survival time in \\emph{in silico} trials. We believe that our results provide new theoretical insights to guide the design of clinical trials for MG therapies.",
+    "published": "2025-01-23T15:52:55Z",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:01:59.977150",
+    "authors": [
+      "Dmitry Sinelshchikov",
+      "Juan Belmonte-Beitia",
+      "Matteo Italia"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Understanding the role of B-cells in CAR T-cell therapy in leukemia through a mathematical model",
+    "abstract": "Chimeric Antigen Receptor T (CAR-T) cell therapy has been proven to be successful against different leukaemias and lymphomas. This paper makes an analytical and numerical study of a mathematical model describing the competition of CAR-T, leukaemias tumor and B cells. Considering its significance in sustaining anti-CD19 CAR T-cell stimulation, we integrate a B-cell source term into the model. Through stability and bifurcation analyses, we reveal the potential for tumor eradication contingent on the continuous influx of B-cells, uncovering a transcritical bifurcation at a critical B-cell input. Additionally, we identify an almost heteroclinic cycle between equilibrium points, providing a theoretical basis for understanding disease relapse. Analyzing the oscillatory behavior of the system, we approximate the time-dependent dynamics of CAR T-cells and leukemic cells, shedding light on the impact of initial tumor burden on therapeutic outcomes. In conclusion, our study provides insights into CAR T-cell therapy dynamics for acute lymphoblastic leukemias, offering a theoretical foundation for clinical observations and suggesting avenues for future immunotherapy modeling research.",
+    "published": "2024-03-01T08:10:12Z",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:01:59.977162",
+    "authors": [
+      "Sergio Serrano",
+      "Roberto Barrio",
+      "Álvaro Martínez-Rubio",
+      "Juan Belmonte-Beitia",
+      "Víctor M. Pérez-García"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Systematic Review of the Efforts and Hindrances of Modeling and Simulation of CAR T-cell Therapy",
+    "abstract": "Chimeric Antigen Receptor (CAR) T-cell therapy is an immunotherapy that has recently become highly instrumental in the fight against life-threatening diseases. A variety of modeling and computational simulation efforts have addressed different aspects of CAR T therapy, including T-cell activation, T- and malignant cell population dynamics, therapeutic cost-effectiveness strategies, and patient survival analyses. In this article, we present a systematic review of those efforts, including mathematical, statistical, and stochastic models employing a wide range of algorithms, from differential equations to machine learning. To the best of our knowledge, this is the first review of all such models studying CAR T therapy. In this review, we provide a detailed summary of the strengths, limitations, methodology, data used, and data lacking in current published models. This information may help in designing and building better models for enhanced prediction and assessment of the benefit-risk balance associated with novel CAR T therapies, as well as with the data collection essential for building such models.",
+    "published": "2021-01-13T21:43:35Z",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:01:59.977177",
+    "authors": [
+      "Ujwani Nukala",
+      "Marisabel Rodriguez Messan",
+      "Osman N. Yogurtcu",
+      "Xiaofei Wang",
+      "Hong Yang"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CAR-T Cell Therapy.",
+    "abstract": "CAR-T therapy has revolutionized the treatment of select hematological malignancies, namely, acute lymphoblastic leukemia and large B-cell lymphomas [...].",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:02:03.908423",
+    "authors": [
+      "Aamir Ahmad"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CAR T-cell therapy for systemic lupus erythematosus: current status and future perspectives.",
+    "abstract": "Systemic lupus erythematosus (SLE) and lupus nephritis (LN) are debilitating autoimmune disorders characterized by pathological autoantibodies production and immune dysfunction, causing chronic inflammation and multi-organ damage. Despite current treatments with antimalarial drugs, glucocorticoids, immunosuppressants, and monoclonal antibodies, a definitive cure remains elusive, highlighting an urgent need for novel therapeutic strategies. Recent studies indicate that chimeric antigen receptor T-cell (CAR-T) therapy has shown promising results in treating B-cell malignancies and may offer a significant breakthrough for non-malignant conditions like SLE. In this paper, we aim to provide an in-depth analysis of the advancements in CAR-T therapy for SLE, focusing on its potential to revolutionize treatment for this complex disease. We explore the fundamental mechanisms of CAR-T cell action, the rationale for its application in SLE, and the immunological underpinnings of the disease. We also summarize clinical data on the safety and efficacy of anti-CD19 and anti-B cell maturation antigen (BCMA) CAR-T cells in targeting B-cells in SLE. We discuss the clinical implications of these findings and the potential for CAR-T therapy to improve outcomes in severe or refractory SLE cases. The integration of CAR-T therapy into the SLE treatment paradigm presents a new horizon in autoimmunity research and clinical practice. This review underscores the need for continued exploration and optimization of CAR-T strategies to address the unmet needs of SLE patients.",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:02:03.908456",
+    "authors": [
+      "Jincai Zhou",
+      "Bixia Lei",
+      "Feifei Shi",
+      "Xinran Luo",
+      "Kai Wu",
+      "Yanhong Xu",
+      "Yuting Zhang",
+      "Rongjiao Liu",
+      "Huajing Wang",
+      "Joy Zhou",
+      "Xiaowen He"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CAR T therapy beyond cancer: the evolution of a living drug.",
+    "abstract": "Engineering a patient's own T cells to selectively target and eliminate tumour cells has cured patients with untreatable haematologic cancers. These results have energized the field to apply chimaeric antigen receptor (CAR) T therapy throughout oncology. However, evidence from clinical and preclinical studies underscores the potential of CAR T therapy beyond oncology in treating autoimmunity, chronic infections, cardiac fibrosis, senescence-associated disease and other conditions. Concurrently, the deployment of new technologies and platforms provides further opportunity for the application of CAR T therapy to noncancerous pathologies. Here we review the rationale behind CAR T therapy, current challenges faced in oncology, a synopsis of preliminary reports in noncancerous diseases, and a discussion of relevant emerging technologies. We examine potential applications for this therapy in a wide range of contexts. Last, we highlight concerns regarding specificity and safety and outline the path forward for CAR T therapy beyond cancer.",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:02:03.908542",
+    "authors": [
+      "Daniel J Baker",
+      "Zoltan Arany",
+      "Joseph A Baur",
+      "Jonathan A Epstein",
+      "Carl H June"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Oncolytic virus and CAR-T cell therapy in solid tumors.",
+    "abstract": "Adoptive immunotherapy with T cells, genetically modified to express a tumor-reactive chimeric antigen receptor (CAR), is an innovative and rapidly developing life-saving treatment for cancer patients without other therapeutic opportunities. CAR-T cell therapy has proven effective only in hematological malignancies. However, although by now only a few clinical trials had promising outcomes, we predict that CAR-T therapy will eventually become an established treatment for several solid tumors. Oncolytic viruses (OVs) can selectively replicate in and kill cancer cells without harming healthy cells. They can stimulate an immune response against the tumor, because OVs potentially stimulate adaptive immunity and innate components of the host immune system. Using CAR-T cells along with oncolytic viruses may enhance the efficacy of CAR-T cell therapy in destroying solid tumors by increasing the tumor penetrance of T cells and reducing the immune suppression by the tumor microenvironment. This review describes recent advances in the design of oncolytic viruses and CAR-T cells while providing an overview of the potential combination of oncolytic virotherapy with CAR-T cells for solid cancers. In this review, we will focus on the host-virus interaction in the tumor microenvironment to reverse local immunosuppression and to develop CAR-T cell effector function.",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:02:03.908587",
+    "authors": [
+      "Eleonora Ponterio",
+      "Tobias Longin Haas",
+      "Ruggero De Maria"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Arming CAR-T cells with cytokines and more: Innovations in the fourth-generation CAR-T development.",
+    "abstract": "Chimeric antigen receptor T cells (CAR-T) therapy has shown great potential in tumor treatment. However, many factors impair the efficacy of CAR-T therapy, such as antigenic heterogeneity and loss, limited potency and persistence, poor infiltration capacity, and a suppressive tumor microenvironment. To overcome these obstacles, recent studies have reported a new generation of CAR-T cells expressing cytokines called armored CAR-T, TRUCK-T, or the fourth-generation CAR-T. Here we summarize the strategies of arming CAR-T cells with natural or synthetic cytokine signals to enhance their anti-tumor capacity. Moreover, we summarize the advances in CAR-T cells expressing non-cytokine proteins, such as membrane receptors, antibodies, enzymes, co-stimulatory molecules, and transcriptional factors. Furthermore, we discuss several prospective strategies for armored CAR-T therapy development. Altogether, these ideas may provide new insights for the innovations of the next-generation CAR-T therapy.",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:02:03.908621",
+    "authors": [
+      "Lin Tang",
+      "Sheng Pan",
+      "Xuyong Wei",
+      "Xiao Xu",
+      "Qiang Wei"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CXCL11-armed oncolytic adenoviruses enhance CAR-T cell therapeutic efficacy and reprogram tumor microenvironment in glioblastoma.",
+    "abstract": "Glioblastoma (GBM) is the most aggressive primary malignant brain cancer and urgently requires effective treatments. Chimeric antigen receptor T (CAR-T) cell therapy offers a potential treatment method, but it is often hindered by poor infiltration of CAR-T cells in tumors and highly immunosuppressive tumor microenvironment (TME). Here, we armed an oncolytic adenovirus (oAds) with a chemokine CXCL11 to increase the infiltration of CAR-T cells and reprogram the immunosuppressive TME, thus improving its therapeutic efficacy. In both immunodeficient and immunocompetent orthotopic GBM mice models, we showed that B7H3-targeted CAR-T cells alone failed to inhibit GBM growth but, when combined with the intratumoral administration of CXCL11-armed oAd, it achieved a durable antitumor response. Besides, oAd-CXCL11 had a potent antitumor effect and reprogramed the immunosuppressive TME in GL261 GBM models, in which increased infiltration of CD8",
+    "search_term": "CAR-T therapy",
+    "collected_at": "2026-01-18T23:02:03.908667",
+    "authors": [
+      "Guoqing Wang",
+      "Zongliang Zhang",
+      "Kunhong Zhong",
+      "Zeng Wang",
+      "Nian Yang",
+      "Xin Tang",
+      "Hexian Li",
+      "Qizhong Lu",
+      "Zhiguo Wu",
+      "Boyang Yuan",
+      "Meijun Zheng",
+      "Ping Cheng",
+      "Aiping Tong",
+      "Liangxue Zhou"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "3D Kidneys and Kidney Tumor Semantic Segmentation using Boundary-Aware Networks",
+    "abstract": "Automated segmentation of kidneys and kidney tumors is an important step in quantifying the tumor's morphometrical details to monitor the progression of the disease and accurately compare decisions regarding the kidney tumor treatment. Manual delineation techniques are often tedious, error-prone and require expert knowledge for creating unambiguous representation of kidneys and kidney tumors segmentation. In this work, we propose an end-to-end boundary aware fully Convolutional Neural Networks (CNNs) for reliable kidney and kidney tumor semantic segmentation from arterial phase abdominal 3D CT scans. We propose a segmentation network consisting of an encoder-decoder architecture that specifically accounts for organ and tumor edge information by devising a dedicated boundary branch supervised by edge-aware loss terms. We have evaluated our model on 2019 MICCAI KiTS Kidney Tumor Segmentation Challenge dataset and our method has achieved dice scores of 0.9742 and 0.8103 for kidney and tumor repetitively and an overall composite dice score of 0.8923.",
+    "published": "2019-09-14T21:49:09Z",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:05.967926",
+    "authors": [
+      "Andriy Myronenko",
+      "Ali Hatamizadeh"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Efficient embedding network for 3D brain tumor segmentation",
+    "abstract": "3D medical image processing with deep learning greatly suffers from a lack of data. Thus, studies carried out in this field are limited compared to works related to 2D natural image analysis, where very large datasets exist. As a result, powerful and efficient 2D convolutional neural networks have been developed and trained. In this paper, we investigate a way to transfer the performance of a two-dimensional classiffication network for the purpose of three-dimensional semantic segmentation of brain tumors. We propose an asymmetric U-Net network by incorporating the EfficientNet model as part of the encoding branch. As the input data is in 3D, the first layers of the encoder are devoted to the reduction of the third dimension in order to fit the input of the EfficientNet network. Experimental results on validation and test data from the BraTS 2020 challenge demonstrate that the proposed method achieve promising performance.",
+    "published": "2020-11-22T16:17:29Z",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:05.967955",
+    "authors": [
+      "Hicham Messaoudi",
+      "Ahror Belaid",
+      "Mohamed Lamine Allaoui",
+      "Ahcene Zetout",
+      "Mohand Said Allili",
+      "Souhil Tliba",
+      "Douraied Ben Salem",
+      "Pierre-Henri Conze"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Immune cells interactions in the tumor microenvironment",
+    "abstract": "The tumor microenvironment (TME) plays a critical role in cancer cell proliferation, invasion, and resistance to therapy. A principal component of the TME is the tumor immune microenvironment (TIME), which includes various immune cells such as macrophages. Depending on the signals received from environmental elements like IL-4 or IFN-$γ$, macrophages can exhibit pro-inflammatory (M1) or anti-inflammatory (M2) phenotypes. This study uses an enhanced agent-based model to simulate interactions within the TIME, focusing on the dynamic behavior of macrophages. We examine the response of cancer cell populations to alterations in macrophages, categorized into three different behaviors: M0 (initial-inactive), M1 (immune-upholding), and M2 (immune-repressing), as well as environmental differentiations. The results highlight the significant impact of macrophage modulation on tumor proliferation and suggest potential therapeutic strategies targeting these immune cells.",
+    "published": "2024-05-28T14:29:11Z",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:05.967981",
+    "authors": [
+      "Mobina Tousian",
+      "Christian Solis Calero",
+      "Julio Cesar Perez Sansalvador"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "In Vitro Vascularized Liver and Tumor Tissue Microenvironments on a Chip for Dynamic Determination of Nanoparticle Transport and Toxicity",
+    "abstract": "This paper presents the development of a vascularized breast tumor and healthy or tumorigenic liver microenvironments-on-a-chip connected in series. This is the first description of a vascularized multi tissue-on-a-chip microenvironment for modeling cancerous breast and cancerous/healthy liver microenvironments, to allow for the study of dynamic and spatial transport of particles. This device enables the dynamic determination of vessel permeability, the measurement of drug and nanoparticle transport, and the assessment of the associated efficacy and toxicity to the liver. The platform is utilized to determine the effect of particle size on the spatiotemporal diffusion of particles through each microenvironment, both independently and in response to the circulation of particles in varying sequences of microenvironments. The results show that when breast cancer cells were cultured in the microenvironments they had a 2.62-fold higher vessel porosity relative to vessels within healthy liver microenvironments. Hence, the permeability of the tumor microenvironment increased by 2.35- and 2.77-fold compared to a healthy liver for small and large particles, respectively. The ECM accumulation rate of larger particles was 2.57-fold lower than smaller particles in a healthy liver. However, the accumulation rate was 5.57-fold greater in the breast tumor microenvironment. These results are in agreement with comparable in vivo studies. Ultimately, the platform could be utilized to determine the impact of the tissue or tumor microenvironment, or drug and nanoparticle properties, on transport, efficacy, selectivity, and toxicity in a dynamic, and high throughput manner for use in treatment optimization.",
+    "published": "2018-09-25T13:02:54Z",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:05.967997",
+    "authors": [
+      "Alican Ozkan",
+      "Neda Ghousifam",
+      "P. Jack Hoopes",
+      "Marissa Nichole Rylander"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Tumor Microenvironment-based Gene Signatures Divides Novel Immune and Stromal Subgroup Classification of Lung Adenocarcinoma",
+    "abstract": "Tumor microenvironment has complex effects on tumorigenesis and metastasis. However, there is still a lack of comprehensive understanding of the relationship among molecular and cellular characteristics in tumor microenvironment, clinical prognosis and immunotherpy response. In this study, the immune and stromal (non-immune) signatures of tumor microenvironment were integrated to identify novel subgroups of lung adenocarcinoma by eigendecomposition and extraction algorithms of bioinformatics and machine learning, such as non-negative matrix factorization and multitask learning. Tumors were classified into 4 groups according to the activation of immunity and stroma by novel signatures. The 4 groups had different mutation landscape, molecular, cellular characteristics and prognosis, which have been validation in 6 independent data sets containing 1551 patients. High-immune and low-stromal activation group links to high immunocyte infiltration, high immunocompetence, low fibroblasts, endothelial cells, collagen, laminin, tumor mutation burden, and better overall survival. We developed a novel model based on tumor microenvironment by integrating immune and stromal activation, namely PMBT (prognostic model based on tumor microenvironment). The PMBT showed the value to predict overall survival and immunotherapy responses.",
+    "published": "2019-05-10T07:27:21Z",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:05.968015",
+    "authors": [
+      "Zihang Zeng",
+      "Jiali Li",
+      "Nannan Zhang",
+      "Xueping Jiang",
+      "Yanping Gao",
+      "Liexi Xu",
+      "Xingyu Liu",
+      "Jiarui Chen",
+      "Yuke Gao",
+      "Linzhi Han",
+      "Jiangbo Ren",
+      "Yan Gong",
+      "Conghua Xie"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A Novel Framework for Characterization of Tumor-Immune Spatial Relationships in Tumor Microenvironment",
+    "abstract": "Understanding the impact of tumor biology on the composition of nearby cells often requires characterizing the impact of biologically distinct tumor regions. Biomarkers have been developed to label biologically distinct tumor regions, but challenges arise because of differences in the spatial extent and distribution of differentially labeled regions. In this work, we present a framework for systematically investigating the impact of distinct tumor regions on cells near the tumor borders, accounting their cross spatial distributions. We apply the framework to multiplex immunohistochemistry (mIHC) studies of pancreatic cancer and show its efficacy in demonstrating how biologically different tumor regions impact the immune response in the tumor microenvironment. Furthermore, we show that the proposed framework can be extended to largescale whole slide image analysis.",
+    "published": "2022-04-23T21:00:30Z",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:05.968047",
+    "authors": [
+      "Mahmudul Hasan",
+      "Jakub R. Kaczmarzyk",
+      "David Paredes",
+      "Lyanne Oblein",
+      "Jaymie Oentoro",
+      "Shahira Abousamra",
+      "Michael Horowitz",
+      "Dimitris Samaras",
+      "Chao Chen",
+      "Tahsin Kurc",
+      "Kenneth R. Shroyer",
+      "Joel Saltz"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Metabolism, metabolites, and macrophages in cancer.",
+    "abstract": "Tumour-associated macrophages (TAMs) are crucial components of the tumour microenvironment and play a significant role in tumour development and drug resistance by creating an immunosuppressive microenvironment. Macrophages are essential components of both the innate and adaptive immune systems and contribute to pathogen resistance and the regulation of organism homeostasis. Macrophage function and polarization are closely linked to altered metabolism. Generally, M1 macrophages rely primarily on aerobic glycolysis, whereas M2 macrophages depend on oxidative metabolism. Metabolic studies have revealed that the metabolic signature of TAMs and metabolites in the tumour microenvironment regulate the function and polarization of TAMs. However, the precise effects of metabolic reprogramming on tumours and TAMs remain incompletely understood. In this review, we discuss the impact of metabolic pathways on macrophage function and polarization as well as potential strategies for reprogramming macrophage metabolism in cancer treatment.",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:10.081893",
+    "authors": [
+      "Mengyuan Li",
+      "Yuhan Yang",
+      "Liting Xiong",
+      "Ping Jiang",
+      "Junjie Wang",
+      "Chunxiao Li"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "The tumour microenvironment in pancreatic cancer - clinical challenges and opportunities.",
+    "abstract": "Metastatic pancreatic ductal adenocarcinoma (PDAC) is one of the most lethal solid tumours despite the use of multi-agent conventional chemotherapy regimens. Such poor outcomes have fuelled ongoing efforts to exploit the tumour microenvironment (TME) for therapy, but strategies aimed at deconstructing the surrounding desmoplastic stroma and targeting the immunosuppressive pathways have largely failed. In fact, evidence has now shown that the stroma is multi-faceted, which illustrates the complexity of exploring features of the TME as isolated targets. In this Review, we describe ways in which the PDAC microenvironment has been targeted and note the current understanding of the clinical outcomes that have unexpectedly contradicted preclinical observations. We also consider the more sophisticated therapeutic strategies under active investigation - multi-modal treatment approaches and exploitation of biologically integrated targets - which aim to remodel the TME against PDAC.",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:10.082010",
+    "authors": [
+      "Won Jin Ho",
+      "Elizabeth M Jaffee",
+      "Lei Zheng"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Immune evasion through mitochondrial transfer in the tumour microenvironment.",
+    "abstract": "Cancer cells in the tumour microenvironment use various mechanisms to evade the immune system, particularly T cell attack",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:10.082082",
+    "authors": [
+      "Hideki Ikeda",
+      "Katsushige Kawase",
+      "Tatsuya Nishi",
+      "Tomofumi Watanabe",
+      "Keizo Takenaga",
+      "Takashi Inozume",
+      "Takamasa Ishino",
+      "Sho Aki",
+      "Jason Lin",
+      "Shusuke Kawashima",
+      "Joji Nagasaki",
+      "Youki Ueda",
+      "Shinichiro Suzuki",
+      "Hideki Makinoshima",
+      "Makiko Itami",
+      "Yuki Nakamura",
+      "Yasutoshi Tatsumi",
+      "Yusuke Suenaga",
+      "Takao Morinaga",
+      "Akiko Honobe-Tabuchi",
+      "Takehiro Ohnuma",
+      "Tatsuyoshi Kawamura",
+      "Yoshiyasu Umeda",
+      "Yasuhiro Nakamura",
+      "Yukiko Kiniwa",
+      "Eiki Ichihara",
+      "Hidetoshi Hayashi",
+      "Jun-Ichiro Ikeda",
+      "Toyoyuki Hanazawa",
+      "Shinichi Toyooka",
+      "Hiroyuki Mano",
+      "Takuji Suzuki",
+      "Tsuyoshi Osawa",
+      "Masahito Kawazu",
+      "Yosuke Togashi"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment.",
+    "abstract": "The development of neoplasia involves a complex and continuous interplay between malignantly transformed cells and the tumour microenvironment (TME). Cancer immunotherapies targeting the immune TME have been increasingly validated in clinical trials but response rates vary substantially between tumour histologies and are often transient, idiosyncratic and confounded by resistance. Faithful experimental models of the patient-specific tumour immune microenvironment, capable of recapitulating tumour biology and immunotherapy effects, would greatly improve patient selection, target identification and definition of resistance mechanisms for immuno-oncology therapeutics. In this Review, we discuss currently available and rapidly evolving 3D tumour organoid models that capture important immune features of the TME. We highlight diverse opportunities for organoid-based investigations of tumour immunity, drug development and precision medicine.",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:10.082366",
+    "authors": [
+      "Roel Polak",
+      "Elisa T Zhang",
+      "Calvin J Kuo"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Radiotherapy, immunity, and immune checkpoint inhibitors.",
+    "abstract": "Radiotherapy exerts immunostimulatory and immunosuppressive effects, both locally, within the irradiated tumour microenvironment, and systemically, outside the radiation field. Inspired by preclinical data that showed synergy between radiotherapy and immune checkpoint inhibitors, multiple clinical trials were initiated with the hypothesis that combined treatment with radiotherapy and immune checkpoint inhibitors could stimulate a robust systemic immune response and improve clinical outcomes. However, despite early optimism, radioimmunotherapy trials in the curative and metastatic settings have met with little success. In this Review, we summarise the immunostimulatory effects of radiotherapy that provided the theoretical basis for trials of combination radiotherapy and immune checkpoint inhibitors. We also discuss findings from clinical trials incorporating radiotherapy and immune checkpoint inhibitors and examine the success of these trials in the context of the immunosuppressive effects of radiotherapy. We conclude by highlighting targets for relieving radiotherapy-induced immunosuppression with the goal of enhancing the combined effects of radiotherapy and immune checkpoint inhibitors.",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:10.082452",
+    "authors": [
+      "Connor Lynch",
+      "Sean P Pitroda",
+      "Ralph R Weichselbaum"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Targeting the peripheral neural-tumour microenvironment for cancer therapy.",
+    "abstract": "As the field of cancer neuroscience expands, the strategic targeting of interactions between neurons, cancer cells and other elements in the tumour microenvironment represents a potential paradigm shift in cancer treatment, comparable to the advent of our current understanding of tumour immunology. Cancer cells actively release growth factors that stimulate tumour neo-neurogenesis, and accumulating evidence indicates that tumour neo-innervation propels tumour progression, inhibits tumour-related pro-inflammatory cytokines, promotes neovascularization, facilitates metastasis and regulates immune exhaustion and evasion. In this Review, we give an up-to-date overview of the dynamics of the tumour microenvironment with an emphasis on tumour innervation by the peripheral nervous system, as well as current preclinical and clinical evidence of the benefits of targeting the nervous system in cancer, laying a scientific foundation for further clinical trials. Combining empirical data with a biomarker-driven approach to identify and hone neuronal targets implicated in cancer and its spread can pave the way for swift clinical integration.",
+    "search_term": "tumor microenvironment",
+    "collected_at": "2026-01-18T23:02:10.082492",
+    "authors": [
+      "Dan Yaniv",
+      "Brandi Mattson",
+      "Sebastien Talbot",
+      "Frederico O Gleber-Netto",
+      "Moran Amit"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Experimenting with Innate Immunity",
+    "abstract": "In a previous paper the authors argued the case for incorporating ideas from innate immunity into artificial immune systems (AISs) and presented an outline for a conceptual framework for such systems. A number of key general properties observed in the biological innate and adaptive immune systems were highlighted, and how such properties might be instantiated in artificial systems was discussed in detail. The next logical step is to take these ideas and build a software system with which AISs with these properties can be implemented and experimentally evaluated. This paper reports on the results of that step - the libtissue system.",
+    "published": "2010-04-16T14:38:20Z",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:11.741088",
+    "authors": [
+      "Jamie Twycross",
+      "Uwe Aickelin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Oil Price Trackers Inspired by Immune Memory",
+    "abstract": "We outline initial concepts for an immune inspired algorithm to evaluate and predict oil price time series data. The proposed solution evolves a short term pool of trackers dynamically, with each member attempting to map trends and anticipate future price movements. Successful trackers feed into a long term memory pool that can generalise across repeating trend patterns. The resulting sequence of trackers, ordered in time, can be used as a forecasting tool. Examination of the pool of evolving trackers also provides valuable insight into the properties of the crude oil market.",
+    "published": "2010-04-22T10:24:37Z",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:11.741106",
+    "authors": [
+      "WIlliam Wilson",
+      "Phil Birkin",
+      "Uwe Aickelin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Biological Inspiration for Artificial Immune Systems",
+    "abstract": "Artificial immune systems (AISs) to date have generally been inspired by naive biological metaphors. This has limited the effectiveness of these systems. In this position paper two ways in which AISs could be made more biologically realistic are discussed. We propose that AISs should draw their inspiration from organisms which possess only innate immune systems, and that AISs should employ systemic models of the immune system to structure their overall design. An outline of plant and invertebrate immune systems is presented, and a number of contemporary research that more biologically-realistic AISs could have is also discussed.",
+    "published": "2010-01-13T15:45:07Z",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:11.741120",
+    "authors": [
+      "Jamie Twycross",
+      "Uwe Aickelin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Towards a Conceptual Framework for Innate Immunity",
+    "abstract": "Innate immunity now occupies a central role in immunology. However, artificial immune system models have largely been inspired by adaptive not innate immunity. This paper reviews the biological principles and properties of innate immunity and, adopting a conceptual framework, asks how these can be incorporated into artificial models. The aim is to outline a meta-framework for models of innate immunity.",
+    "published": "2010-06-08T14:25:23Z",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:11.741131",
+    "authors": [
+      "Jamie Twycross",
+      "Uwe Aickelin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Introducing Dendritic Cells as a Novel Immune-Inspired Algorithm for Anomoly Detection",
+    "abstract": "Dendritic cells are antigen presenting cells that provide a vital link between the innate and adaptive immune system. Research into this family of cells has revealed that they perform the role of coordinating T-cell based immune responses, both reactive and for generating tolerance. We have derived an algorithm based on the functionality of these cells, and have used the signals and differentiation pathways to build a control mechanism for an artificial immune system. We present our algorithmic details in addition to some preliminary results, where the algorithm was applied for the purpose of anomaly detection. We hope that this algorithm will eventually become the key component within a large, distributed immune system, based on sound immunological concepts.",
+    "published": "2010-04-19T13:52:32Z",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:11.741142",
+    "authors": [
+      "Julie Greensmith",
+      "Uwe Aickelin",
+      "Steve Cayzer"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Modular RADAR: An Immune System Inspired Search and Response Strategy for Distributed Systems",
+    "abstract": "The Natural Immune System (NIS) is a distributed system that solves challenging search and response problems while operating under constraints imposed by physical space and resource availability. Remarkably, NIS search and response times do not scale appreciably with the physical size of the animal in which its search is conducted. Many distributed systems are engineered to solve analogous problems, and the NIS demonstrates how such engineered systems can achieve desirable scalability. We hypothesize that the architecture of the NIS, composed of a hierarchical decentralized detection network of lymph nodes (LN) facilitates efficient search and response. A sub-modular architecture in which LN numbers and size both scale with organism size is shown to efficiently balance tradeoffs between local antigen detection and global antibody production, leading to nearly scale-invariant detection and response. We characterize the tradeoffs as balancing local and global communication and show that similar tradeoffs exist in distributed systems like LN inspired artificial immune system (AIS) applications and peer-to-peer (P2P) systems. Taking inspiration from the architecture of the NIS, we propose a modular RADAR (Robust Adaptive Decentralized search with Automated Response) strategy for distributed systems. We demonstrate how two existing distributed systems (a LN inspired multi-robot control application and a P2P system) can be improved by a modular RADAR strategy. Such a sub-modular architecture is shown to balance the tradeoffs between local communication (within artificial LNs and P2P clusters) and global communication (between artificial LNs and P2P clusters), leading to efficient search and response.",
+    "published": "2010-06-17T07:58:01Z",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:11.741154",
+    "authors": [
+      "Soumya Banerjee",
+      "Melanie Moses"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Cancer immunotherapies: advances and bottlenecks.",
+    "abstract": "Immunotherapy has ushered in a new era in cancer treatment, and cancer immunotherapy continues to be rejuvenated. The clinical goal of cancer immunotherapy is to prime host immune system to provide passive or active immunity against malignant tumors. Tumor infiltrating leukocytes (TILs) play an immunomodulatory role in tumor microenvironment (TME) which is closely related to immune escape of tumor cells, thus influence tumor progress. Several cancer immunotherapies, include immune checkpoint inhibitors (ICIs), cancer vaccine, adoptive cell transfer (ACT), have shown great efficacy and promise. In this review, we will summarize the recent research advances in tumor immunotherapy, including the molecular mechanisms and clinical effects as well as limitations of immunotherapy.",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:16.020020",
+    "authors": [
+      "Rui Rui",
+      "Liqun Zhou",
+      "Shiming He"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "B cells and tertiary lymphoid structures promote immunotherapy response.",
+    "abstract": "Treatment with immune checkpoint blockade (ICB) has revolutionized cancer therapy. Until now, predictive biomarkers",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:16.020217",
+    "authors": [
+      "Beth A Helmink",
+      "Sangeetha M Reddy",
+      "Jianjun Gao",
+      "Shaojun Zhang",
+      "Rafet Basar",
+      "Rohit Thakur",
+      "Keren Yizhak",
+      "Moshe Sade-Feldman",
+      "Jorge Blando",
+      "Guangchun Han",
+      "Vancheswaran Gopalakrishnan",
+      "Yuanxin Xi",
+      "Hao Zhao",
+      "Rodabe N Amaria",
+      "Hussein A Tawbi",
+      "Alex P Cogdill",
+      "Wenbin Liu",
+      "Valerie S LeBleu",
+      "Fernanda G Kugeratski",
+      "Sapna Patel",
+      "Michael A Davies",
+      "Patrick Hwu",
+      "Jeffrey E Lee",
+      "Jeffrey E Gershenwald",
+      "Anthony Lucci",
+      "Reetakshi Arora",
+      "Scott Woodman",
+      "Emily Z Keung",
+      "Pierre-Olivier Gaudreau",
+      "Alexandre Reuben",
+      "Christine N Spencer",
+      "Elizabeth M Burton",
+      "Lauren E Haydu",
+      "Alexander J Lazar",
+      "Roberta Zapassodi",
+      "Courtney W Hudgens",
+      "Deborah A Ledesma",
+      "SuFey Ong",
+      "Michael Bailey",
+      "Sarah Warren",
+      "Disha Rao",
+      "Oscar Krijgsman",
+      "Elisa A Rozeman",
+      "Daniel Peeper",
+      "Christian U Blank",
+      "Ton N Schumacher",
+      "Lisa H Butterfield",
+      "Monika A Zelazowska",
+      "Kevin M McBride",
+      "Raghu Kalluri",
+      "James Allison",
+      "Florent Petitprez",
+      "Wolf Herman Fridman",
+      "Catherine Sautès-Fridman",
+      "Nir Hacohen",
+      "Katayoun Rezvani",
+      "Padmanee Sharma",
+      "Michael T Tetzlaff",
+      "Linghua Wang",
+      "Jennifer A Wargo"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Microenvironment-driven metabolic adaptations guiding CD8",
+    "abstract": "The metabolic stress occurring in the tumor microenvironment (TME) hampers T cell anti-tumor immunity by disturbing T cell metabolic and epigenetic programs. Recent studies are making headway toward identifying strategies to unleash T cell activities by targeting T cell metabolism. Furthermore, efforts have been made to improve the efficacy of immune checkpoint blockade and adoptive cell transfer therapies. However, distinct treatment outcomes across different cancers raise the question of whether our understanding of the features of CD8",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:16.021301",
+    "authors": [
+      "Jaeoh Park",
+      "Pei-Chun Hsueh",
+      "Zhiyu Li",
+      "Ping-Chih Ho"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I.",
+    "abstract": "Immune evasion is a major obstacle for cancer treatment. Common mechanisms of evasion include impaired antigen presentation caused by mutations or loss of heterozygosity of the major histocompatibility complex class I (MHC-I), which has been implicated in resistance to immune checkpoint blockade (ICB) therapy",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:16.021422",
+    "authors": [
+      "Keisuke Yamamoto",
+      "Anthony Venida",
+      "Julian Yano",
+      "Douglas E Biancur",
+      "Miwako Kakiuchi",
+      "Suprit Gupta",
+      "Albert S W Sohn",
+      "Subhadip Mukhopadhyay",
+      "Elaine Y Lin",
+      "Seth J Parker",
+      "Robert S Banh",
+      "Joao A Paulo",
+      "Kwun Wah Wen",
+      "Jayanta Debnath",
+      "Grace E Kim",
+      "Joseph D Mancias",
+      "Douglas T Fearon",
+      "Rushika M Perera",
+      "Alec C Kimmelman"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Immunostimulation with chemotherapy in the era of immune checkpoint inhibitors.",
+    "abstract": "Conventional chemotherapeutics have been developed into clinically useful agents based on their ability to preferentially kill malignant cells, generally owing to their elevated proliferation rate. Nonetheless, the clinical activity of various chemotherapies is now known to involve the stimulation of anticancer immunity either by initiating the release of immunostimulatory molecules from dying cancer cells or by mediating off-target effects on immune cell populations. Understanding the precise immunological mechanisms that underlie the efficacy of chemotherapy has the potential not only to enable the identification of superior biomarkers of response but also to accelerate the development of synergistic combination regimens that enhance the clinical effectiveness of immune checkpoint inhibitors (ICIs) relative to their effectiveness as monotherapies. Indeed, accumulating evidence supports the clinical value of combining appropriately dosed chemotherapies with ICIs. In this Review, we discuss preclinical and clinical data on the immunostimulatory effects of conventional chemotherapeutics in the context of ICI-based immunotherapy.",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:16.021791",
+    "authors": [
+      "Lorenzo Galluzzi",
+      "Juliette Humeau",
+      "Aitziber Buqué",
+      "Laurence Zitvogel",
+      "Guido Kroemer"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Dynamics and specificities of T cells in cancer immunotherapy.",
+    "abstract": "Recent advances in cancer immunotherapy - ranging from immune-checkpoint blockade therapy to adoptive cellular therapy and vaccines - have revolutionized cancer treatment paradigms, yet the variability in clinical responses to these agents has motivated intense interest in understanding how the T cell landscape evolves with respect to response to immune intervention. Over the past decade, the advent of multidimensional single-cell technologies has provided the unprecedented ability to dissect the constellation of cell states of lymphocytes within a tumour microenvironment. In particular, the rapidly expanding capacity to definitively link intratumoural phenotypes with the antigen specificity of T cells provided by T cell receptors (TCRs) has now made it possible to focus on investigating the properties of T cells with tumour-specific reactivity. Moreover, the assessment of TCR clonality has enabled a molecular approach to track the trajectories, clonal dynamics and phenotypic changes of antitumour T cells over the course of immunotherapeutic intervention. Here, we review the current knowledge on the cellular states and antigen specificities of antitumour T cells and examine how fine characterization of T cell dynamics in patients has provided meaningful insights into the mechanisms underlying effective cancer immunotherapy. We highlight those T cell subsets associated with productive T cell responses and discuss how diverse immunotherapies might leverage the pre-existing tumour-reactive T cell pool or instruct de novo generation of antitumour specificities. Future studies aimed at elucidating the factors associated with the elicitation of productive antitumour T cell immunity are anticipated to instruct the design of more efficacious treatment strategies.",
+    "search_term": "immune checkpoint",
+    "collected_at": "2026-01-18T23:02:16.021972",
+    "authors": [
+      "Giacomo Oliveira",
+      "Catherine J Wu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Deep Semi Supervised Generative Learning for Automated PD-L1 Tumor Cell Scoring on NSCLC Tissue Needle Biopsies",
+    "abstract": "The level of PD-L1 expression in immunohistochemistry (IHC) assays is a key biomarker for the identification of Non-Small-Cell-Lung-Cancer (NSCLC) patients that may respond to anti PD-1/PD-L1 treatments. The quantification of PD-L1 expression currently includes the visual estimation of a Tumor Cell (TC) score by a pathologist and consists of evaluating the ratio of PD-L1 positive and PD-L1 negative tumor cells. Known challenges like differences in positivity estimation around clinically relevant cut-offs and sub-optimal quality of samples makes visual scoring tedious and subjective, yielding a scoring variability between pathologists. In this work, we propose a novel deep learning solution that enables the first automated and objective scoring of PD-L1 expression in late stage NSCLC needle biopsies. To account for the low amount of tissue available in biopsy images and to restrict the amount of manual annotations necessary for training, we explore the use of semi-supervised approaches against standard fully supervised methods. We consolidate the manual annotations used for training as well the visual TC scores used for quantitative evaluation with multiple pathologists. Concordance measures computed on a set of slides unseen during training provide evidence that our automatic scoring method matches visual scoring on the considered dataset while ensuring repeatability and objectivity.",
+    "published": "2018-06-28T15:30:29Z",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:17.554362",
+    "authors": [
+      "Ansh Kapil",
+      "Armin Meier",
+      "Aleksandra Zuraw",
+      "Keith Steele",
+      "Marlon Rebelatto",
+      "Günter Schmidt",
+      "Nicolas Brieu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "PD-L1 Classification of Weakly-Labeled Whole Slide Images of Breast Cancer",
+    "abstract": "Specific and effective breast cancer therapy relies on the accurate quantification of PD-L1 positivity in tumors, which appears in the form of brown stainings in high resolution whole slide images (WSIs). However, the retrieval and extensive labeling of PD-L1 stained WSIs is a time-consuming and challenging task for pathologists, resulting in low reproducibility, especially for borderline images. This study aims to develop and compare models able to classify PD-L1 positivity of breast cancer samples based on WSI analysis, relying only on WSI-level labels. The task consists of two phases: identifying regions of interest (ROI) and classifying tumors as PD-L1 positive or negative. For the latter, two model categories were developed, with different feature extraction methodologies. The first encodes images based on the colour distance from a base color. The second uses a convolutional autoencoder to obtain embeddings of WSI tiles, and aggregates them into a WSI-level embedding. For both model types, features are fed into downstream ML classifiers. Two datasets from different clinical centers were used in two different training configurations: (1) training on one dataset and testing on the other; (2) combining the datasets. We also tested the performance with or without human preprocessing to remove brown artefacts Colour distance based models achieve the best performances on testing configuration (1) with artefact removal, while autoencoder-based models are superior in the remaining cases, which are prone to greater data variability.",
+    "published": "2024-04-15T23:06:58Z",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:17.554472",
+    "authors": [
+      "Giacomo Cignoni",
+      "Cristian Scatena",
+      "Chiara Frascarelli",
+      "Nicola Fusco",
+      "Antonio Giuseppe Naccarato",
+      "Giuseppe Nicoló Fanelli",
+      "Alina Sîrbu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Immune checkpoint therapy modeling of PD-1/PD-L1 blockades reveals subtle difference in their response dynamics and potential synergy in combination",
+    "abstract": "Immune checkpoint therapy is one of the most promising immunotherapeutic methods that are likely able to give rise to durable treatment response for various cancer types. Despite much progress in the past decade, there are still critical open questions with particular regards to quantifying and predicting the efficacy of treatment and potential optimal regimens for combining different immune-checkpoint blockades. To shed light on this issue, here we develop clinically-relevant, dynamical systems models of cancer immunotherapy with a focus on the immune checkpoint PD-1/PD-L1 blockades. Our model allows the acquisition of adaptive immune resistance in the absence of treatment, whereas immune checkpoint blockades can reverse such resistance and boost anti-tumor activities of effector cells. Our numerical analysis predicts that anti-PD-1 agents are commonly less effective than anti-PD-L1 agents for a wide range of model parameters. We also observe that combination treatment of anti-PD-1 and anti-PD-L1 blockades leads to a desirable synergistic effect. Our modeling framework lays the ground for future data-driven analysis on combination therapeutics of immune-checkpoint treatment regimes and thorough investigation of optimized treatment on a patient-by-patient basis.",
+    "published": "2021-03-22T21:28:26Z",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:17.554540",
+    "authors": [
+      "Kamran Kaveh",
+      "Feng Fu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "DASGAN -- Joint Domain Adaptation and Segmentation for the Analysis of Epithelial Regions in Histopathology PD-L1 Images",
+    "abstract": "The analysis of the tumor environment on digital histopathology slides is becoming key for the understanding of the immune response against cancer, supporting the development of novel immuno-therapies. We introduce here a novel deep learning solution to the related problem of tumor epithelium segmentation. While most existing deep learning segmentation approaches are trained on time-consuming and costly manual annotation on single stain domain (PD-L1), we leverage here semi-automatically labeled images from a second stain domain (Cytokeratin-CK). We introduce an end-to-end trainable network that jointly segment tumor epithelium on PD-L1 while leveraging unpaired image-to-image translation between CK and PD-L1, therefore completely bypassing the need for serial sections or re-staining of slides. Extending the method to differentiate between PD-L1 positive and negative tumor epithelium regions enables the automated estimation of the PD-L1 Tumor Cell (TC) score. Quantitative experimental results demonstrate the accuracy of our approach against state-of-the-art segmentation methods.",
+    "published": "2019-06-26T14:23:50Z",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:17.554582",
+    "authors": [
+      "Ansh Kapil",
+      "Tobias Wiestler",
+      "Simon Lanzmich",
+      "Abraham Silva",
+      "Keith Steele",
+      "Marlon Rebelatto",
+      "Guenter Schmidt",
+      "Nicolas Brieu"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Multimodal Posterior Sampling-based Uncertainty in PD-L1 Segmentation from H&E Images",
+    "abstract": "Accurate assessment of PD-L1 expression is critical for guiding immunotherapy, yet current immunohistochemistry (IHC) based methods are resource-intensive. We present nnUNet-B: a Bayesian segmentation framework that infers PD-L1 expression directly from H&E-stained histology images using Multimodal Posterior Sampling (MPS). Built upon nnUNet-v2, our method samples diverse model checkpoints during cyclic training to approximate the posterior, enabling both accurate segmentation and epistemic uncertainty estimation via entropy and standard deviation. Evaluated on a dataset of lung squamous cell carcinoma, our approach achieves competitive performance against established baselines with mean Dice Score and mean IoU of 0.805 and 0.709, respectively, while providing pixel-wise uncertainty maps. Uncertainty estimates show strong correlation with segmentation error, though calibration remains imperfect. These results suggest that uncertainty-aware H&E-based PD-L1 prediction is a promising step toward scalable, interpretable biomarker assessment in clinical workflows.",
+    "published": "2025-11-14T17:05:13Z",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:17.554654",
+    "authors": [
+      "Roman Kinakh",
+      "Gonzalo R. Ríos-Muñoz",
+      "Arrate Muñoz-Barrutia"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "A tissue and cell-level annotated H&E and PD-L1 histopathology image dataset in non-small cell lung cancer",
+    "abstract": "The tumor immune microenvironment (TIME) in non-small cell lung cancer (NSCLC) histopathology contains morphological and molecular characteristics predictive of immunotherapy response. Computational quantification of TIME characteristics, such as cell detection and tissue segmentation, can support biomarker development. However, currently available digital pathology datasets of NSCLC for the development of cell detection or tissue segmentation algorithms are limited in scope, lack annotations of clinically prevalent metastatic sites, and forgo molecular information such as PD-L1 immunohistochemistry (IHC). To fill this gap, we introduce the IGNITE data toolkit, a multi-stain, multi-centric, and multi-scanner dataset of annotated NSCLC whole-slide images. We publicly release 887 fully annotated regions of interest from 155 unique patients across three complementary tasks: (i) multi-class semantic segmentation of tissue compartments in H&E-stained slides, with 16 classes spanning primary and metastatic NSCLC, (ii) nuclei detection, and (iii) PD-L1 positive tumor cell detection in PD-L1 IHC slides. To the best of our knowledge, this is the first public NSCLC dataset with manual annotations of H&E in metastatic sites and PD-L1 IHC.",
+    "published": "2025-07-21T12:16:22Z",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:17.554702",
+    "authors": [
+      "Joey Spronck",
+      "Leander van Eekelen",
+      "Dominique van Midden",
+      "Joep Bogaerts",
+      "Leslie Tessier",
+      "Valerie Dechering",
+      "Muradije Demirel-Andishmand",
+      "Gabriel Silva de Souza",
+      "Roland Nemeth",
+      "Enrico Munari",
+      "Giuseppe Bogina",
+      "Ilaria Girolami",
+      "Albino Eccher",
+      "Balazs Acs",
+      "Ceren Boyaci",
+      "Natalie Klubickova",
+      "Monika Looijen-Salamon",
+      "Shoko Vos",
+      "Francesco Ciompi"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Combination strategies with PD-1/PD-L1 blockade: current advances and future directions.",
+    "abstract": "Antibodies targeting programmed cell death protein-1 (PD-1) or its ligand PD-L1 rescue T cells from exhausted status and revive immune response against cancer cells. Based on the immense success in clinical trials, ten α-PD-1 (nivolumab, pembrolizumab, cemiplimab, sintilimab, camrelizumab, toripalimab, tislelizumab, zimberelimab, prolgolimab, and dostarlimab) and three α-PD-L1 antibodies (atezolizumab, durvalumab, and avelumab) have been approved for various types of cancers. Nevertheless, the low response rate of α-PD-1/PD-L1 therapy remains to be resolved. For most cancer patients, PD-1/PD-L1 pathway is not the sole speed-limiting factor of antitumor immunity, and it is insufficient to motivate effective antitumor immune response by blocking PD-1/PD-L1 axis. It has been validated that some combination therapies, including α-PD-1/PD-L1 plus chemotherapy, radiotherapy, angiogenesis inhibitors, targeted therapy, other immune checkpoint inhibitors, agonists of the co-stimulatory molecule, stimulator of interferon genes agonists, fecal microbiota transplantation, epigenetic modulators, or metabolic modulators, have superior antitumor efficacies and higher response rates. Moreover, bifunctional or bispecific antibodies containing α-PD-1/PD-L1 moiety also elicited more potent antitumor activity. These combination strategies simultaneously boost multiple processes in cancer-immunity cycle, remove immunosuppressive brakes, and orchestrate an immunosupportive tumor microenvironment. In this review, we summarized the synergistic antitumor efficacies and mechanisms of α-PD-1/PD-L1 in combination with other therapies. Moreover, we focused on the advances of α-PD-1/PD-L1-based immunomodulatory strategies in clinical studies. Given the heterogeneity across patients and cancer types, individualized combination selection could improve the effects of α-PD-1/PD-L1-based immunomodulatory strategies and relieve treatment resistance.",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:21.666155",
+    "authors": [
+      "Ming Yi",
+      "Xiaoli Zheng",
+      "Mengke Niu",
+      "Shuangli Zhu",
+      "Hong Ge",
+      "Kongming Wu"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Dual blockade immunotherapy targeting PD-1/PD-L1 and CTLA-4 in lung cancer.",
+    "abstract": "Cancer immunotherapies, represented by immune checkpoint inhibitors (ICIs), have reshaped the treatment paradigm for both advanced non-small cell lung cancer and small cell lung cancer. Programmed death receptor-1/programmed death receptor ligand-1 (PD-1/PD-L1) and cytotoxic T lymphocyte-associated antigen-4 (CTLA-4) are some of the most common and promising targets in ICIs. Compared to ICI monotherapy, which occasionally demonstrates treatment resistance and limited efficacy, the dual blockade immunotherapy targeting PD-1/PD-L1 and CTLA-4 operates at different stages of T cell activation with synergistically enhancing immune responses against cancer cells. This emerging dual therapy heralds a new direction for cancer immunotherapy, which, however, may increase the risk of drug-related adverse reactions while improving efficacy. Previous clinical trials have explored combination therapy strategy of anti-PD-1/PD-L1 and anti-CTLA-4 agents in lung cancer, yet its efficacy remains to be unclear with the inevitable incidence of immune-related adverse events. The recent advent of bispecific antibodies has made this sort of dual targeting more feasible, aiming to alleviate toxicity without compromising efficacy. Thus, this review highlights the role of dual blockade immunotherapy targeting PD-1/PD-L1 and CTLA-4 in treating lung cancer, and further elucidates its pre-clinical mechanisms and current advancements in clinical trials. Besides, we also provide novel insights into the potential combinations of dual blockade therapies with other strategies to optimize the future treatment mode for lung cancer.",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:21.666270",
+    "authors": [
+      "Weishi Cheng",
+      "Kai Kang",
+      "Ailin Zhao",
+      "Yijun Wu"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Regulatory mechanisms of PD-1/PD-L1 in cancers.",
+    "abstract": "Immune evasion contributes to cancer growth and progression. Cancer cells have the ability to activate different immune checkpoint pathways that harbor immunosuppressive functions. The programmed death protein 1 (PD-1) and programmed cell death ligands (PD-Ls) are considered to be the major immune checkpoint molecules. The interaction of PD-1 and PD-L1 negatively regulates adaptive immune response mainly by inhibiting the activity of effector T cells while enhancing the function of immunosuppressive regulatory T cells (Tregs), largely contributing to the maintenance of immune homeostasis that prevents dysregulated immunity and harmful immune responses. However, cancer cells exploit the PD-1/PD-L1 axis to cause immune escape in cancer development and progression. Blockade of PD-1/PD-L1 by neutralizing antibodies restores T cells activity and enhances anti-tumor immunity, achieving remarkable success in cancer therapy. Therefore, the regulatory mechanisms of PD-1/PD-L1 in cancers have attracted an increasing attention. This article aims to provide a comprehensive review of the roles of the PD-1/PD-L1 signaling in human autoimmune diseases and cancers. We summarize all aspects of regulatory mechanisms underlying the expression and activity of PD-1 and PD-L1 in cancers, including genetic, epigenetic, post-transcriptional and post-translational regulatory mechanisms. In addition, we further summarize the progress in clinical research on the antitumor effects of targeting PD-1/PD-L1 antibodies alone and in combination with other therapeutic approaches, providing new strategies for finding new tumor markers and developing combined therapeutic approaches.",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:21.666336",
+    "authors": [
+      "Xin Lin",
+      "Kuan Kang",
+      "Pan Chen",
+      "Zhaoyang Zeng",
+      "Guiyuan Li",
+      "Wei Xiong",
+      "Mei Yi",
+      "Bo Xiang"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "PD-1/PD-L1 immune checkpoint blockade in breast cancer: research insights and sensitization strategies.",
+    "abstract": "Immunotherapy targeting programmed cell death-1 (PD-1) and PD-L1 immune checkpoints has reshaped treatment paradigms across several cancers, including breast cancer. Combining PD-1/PD-L1 immune checkpoint blockade (ICB) with chemotherapy has shown promising efficacy in both early and metastatic triple-negative breast cancer, although only a subset of patients experiences durable responses. Identifying responders and optimizing immune drug selection are therefore critical. The effectiveness of PD-1/PD-L1 immunotherapy depends on both tumor-intrinsic factors and the extrinsic cell-cell interactions within the tumor microenvironment (TME). This review systematically summarizes the key findings from clinical trials of ICBs in breast cancer and examines the mechanisms underlying PD-L1 expression regulation. We also highlight recent advances in identifying potential biomarkers for PD-1/PD-L1 therapy and emerging evidence of TME alterations following treatment. Among these, the quantity, immunophenotype, and spatial distribution of tumor-infiltrating lymphocytes stand out as promising biomarkers. Additionally, we explore strategies to enhance the effectiveness of ICBs in breast cancer, aiming to support the development of personalized treatment approaches tailored to the unique characteristics of each patient's tumor.",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:21.666458",
+    "authors": [
+      "Menglei Jin",
+      "Jun Fang",
+      "Junwen Peng",
+      "Xintian Wang",
+      "Ping Xing",
+      "Kunpeng Jia",
+      "Jianming Hu",
+      "Danting Wang",
+      "Yuxin Ding",
+      "Xinyu Wang",
+      "Wenlu Li",
+      "Zhigang Chen"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Microglial PD-1 stimulation by astrocytic PD-L1 suppresses neuroinflammation and Alzheimer's disease pathology.",
+    "abstract": "Chronic neuroinflammation is a pathogenic component of Alzheimer's disease (AD) that may limit the ability of the brain to clear amyloid deposits and cellular debris. Tight control of the immune system is therefore key to sustain the ability of the brain to repair itself during homeostasis and disease. The immune-cell checkpoint receptor/ligand pair PD-1/PD-L1, known for their inhibitory immune function, is expressed also in the brain. Here, we report upregulated expression of PD-L1 and PD-1 in astrocytes and microglia, respectively, surrounding amyloid plaques in AD patients and in the APP/PS1 AD mouse model. We observed juxtamembrane shedding of PD-L1 from astrocytes, which may mediate ectodomain signaling to PD-1-expressing microglia. Deletion of microglial PD-1 evoked an inflammatory response and compromised amyloid-β peptide (Aβ) uptake. APP/PS1 mice deficient for PD-1 exhibited increased deposition of Aβ, reduced microglial Aβ uptake, and decreased expression of the Aβ receptor CD36 on microglia. Therefore, ineffective immune regulation by the PD-1/PD-L1 axis contributes to Aβ plaque deposition during chronic neuroinflammation in AD.",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:21.666582",
+    "authors": [
+      "Markus P Kummer",
+      "Christina Ising",
+      "Christiane Kummer",
+      "Heela Sarlus",
+      "Angelika Griep",
+      "Ana Vieira-Saecker",
+      "Stephanie Schwartz",
+      "Annett Halle",
+      "Matthias Brückner",
+      "Kristian Händler",
+      "Joachim L Schultze",
+      "Marc Beyer",
+      "Eicke Latz",
+      "Michael T Heneka"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "TYRO3 induces anti-PD-1/PD-L1 therapy resistance by limiting innate immunity and tumoral ferroptosis.",
+    "abstract": "Immune checkpoint blockade therapy has demonstrated promising clinical outcomes for multiple cancer types. However, the emergence of resistance as well as inadequate biomarkers for patient stratification have largely limited the clinical benefits. Here, we showed that tumors with high TYRO3 expression exhibited anti-programmed cell death protein 1/programmed death ligand 1 (anti-PD-1/PD-L1) resistance in a syngeneic mouse model and in patients who received anti-PD-1/PD-L1 therapy. Mechanistically, TYRO3 inhibited tumor cell ferroptosis triggered by anti-PD-1/PD-L1 and facilitated the development of a protumor microenvironment by reducing the M1/M2 macrophage ratio, resulting in resistance to anti-PD-1/PD-L1 therapy. Inhibition of TYRO3 promoted tumor ferroptosis and sensitized resistant tumors to anti-PD-1 therapy. Collectively, our findings suggest that TYRO3 could serve as a predictive biomarker for patient selection and a promising therapeutic target to overcome anti-PD-1/PD-L1 resistance.",
+    "search_term": "PD-1 PD-L1",
+    "collected_at": "2026-01-18T23:02:21.666691",
+    "authors": [
+      "Zhou Jiang",
+      "Seung-Oe Lim",
+      "Meisi Yan",
+      "Jennifer L Hsu",
+      "Jun Yao",
+      "Yongkun Wei",
+      "Shih-Shin Chang",
+      "Hirohito Yamaguchi",
+      "Heng-Huan Lee",
+      "Baozhen Ke",
+      "Jung-Mao Hsu",
+      "Li-Chuan Chan",
+      "Gabriel N Hortobagyi",
+      "Liuqing Yang",
+      "Chunru Lin",
+      "Dihua Yu",
+      "Mien-Chie Hung"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Label-free Raman spectroscopy and machine learning enables sensitive evaluation of differential response to immunotherapy",
+    "abstract": "Cancer immunotherapy provides durable clinical benefit in only a small fraction of patients, particularly due to a lack of reliable biomarkers for accurate prediction of treatment outcomes and evaluation of response. Here, we demonstrate the first application of label-free Raman spectroscopy for elucidating biochemical changes induced by immunotherapy in the tumor microenvironment. We used CT26 murine colorectal cancer cells to grow tumor xenografts and subjected them to treatment with anti-CTLA-4 and anti-PD-L1 antibodies. Multivariate curve resolution - alternating least squares (MCR-ALS) decomposition of Raman spectral dataset obtained from the treated and control tumors revealed subtle differences in lipid, nucleic acid, and collagen content due to therapy. Our supervised classification analysis using support vector machines and random forests provided excellent prediction accuracies for both immune checkpoint inhibitors and delineated important spectral markers specific to each therapy, consistent with their differential mechanisms of action. Our findings pave the way for in vivo studies of response to immunotherapy in clinical patients using label-free Raman spectroscopy and machine learning.",
+    "published": "2020-11-10T18:39:14Z",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:23.497258",
+    "authors": [
+      "Santosh Kumar Paidi",
+      "Joel Rodriguez Troncoso",
+      "Piyush Raj",
+      "Paola Monterroso Diaz",
+      "David E. Lee",
+      "Narasimhan Rajaram",
+      "Ishan Barman"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "The fallacy of tumor immunology: Evolutionary pressures, viruses as nature's genetic engineering tools and T cell surveillance emergence for purging nascent selfish cells",
+    "abstract": "The US and Hungarian statistical records of the years 1900 and 1896, respectively, before the dramatic medical advances, show 32% and 27% deaths attributable to infections, whereas only 5% and 2% due to cancer. These data can be interpreted to mean that (i) the immune system evolved for purging nascent selfish cells, which establish natural chimerism littering the soma and the germline by conspecific alien cells and (ii) defense against pathogens that represent xenogeneic aliens appeared later in evolution.   `Liberating' T cells from the semantic trap of immunity and the shackles of the `two-signal' model of T cell activation, we point out theoretical grounds that the immune response to cancer is conceptually different from the immune response to infection. We argue for a one-signal model (with stochastic influences) as the explanation for T cell activation in preference to the widely accepted two-signal model of co-stimulation. Convincing evidence for our one-signal model emerged from the widespread autoimmune adverse events in 64.2% of advanced melanoma patients treated with the anti-CTLA-4 antibody (ipilimumab) that blocks an immune checkpoint. Harnessing the unleashed autoimmune power of T cells could be rewarding to defeat cancer. Assuming that immunization against isogeneic tumors also would be effective is a fallacy.",
+    "published": "2016-01-11T11:31:13Z",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:23.497293",
+    "authors": [
+      "Tibor Bakacs",
+      "Katalin Kristof",
+      "Jitendra Mehrishi",
+      "Tamas Szabados",
+      "Csaba Kerepesi",
+      "Enikoe Regoes",
+      "Gabor Tusnady"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Mathematical model for delayed responses in immune checkpoint blockades",
+    "abstract": "We introduce a set of ordinary differential equations (ODE) that qualitatively reproduces delayed responses observed in immune checkpoint blockade therapy (e.g. anti-CTLA-4 Ipilimumab). This type of immunotherapy has been at the forefront of novel and promising cancer treatments over the past decade and was recognised by the 2018 Nobel Prize in Medicine. Our model describes the competition between effector T cells and non-effector T cells in a tumour. By calibrating a small subset of parameters that control immune checkpoint expression along with the patient's immune-system cancer readiness, our model is able to simulate either a complete absence of patient response to treatment, a quick anti-tumour T cell response (within days) or a delayed response (within months). Notably, the parameter space that generates a delayed response is thin and must be carefully calibrated, reflecting the observation that a small subset of patients experience such reactions to checkpoint blockade therapies. Finally, simulations predict that the anti-tumour T cell storm that breaks the delay is very short-lived compared to the length of time the cancer is able to stay suppressed. This suggests the tumour may subsist off an environment hostile to effector T cells; however, these cells are -- at rare times -- able to break through the tumour immunosuppressive defences to neutralise the tumour for a prolonged period. Our simulations aim to qualitatively describe the delayed response phenomenon without making precise fits to particular datasets, which are limited. It is our hope that our foundational model will stimulate further interest within the immunology modelling field.",
+    "published": "2021-10-06T11:53:00Z",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:23.497316",
+    "authors": [
+      "Collin Y. Zheng",
+      "Peter S. Kim"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Combination anti-PD-1 and anti-CTLA-4 therapy generates waves of clonal responses that include progenitor-exhausted CD8",
+    "abstract": "Combination checkpoint blockade with anti-PD-1 and anti-CTLA-4 antibodies has shown promising efficacy in melanoma. However, the underlying mechanism in humans remains unclear. Here, we perform paired single-cell RNA and T cell receptor (TCR) sequencing across time in 36 patients with stage IV melanoma treated with anti-PD-1, anti-CTLA-4, or combination therapy. We develop the algorithm Cyclone to track temporal clonal dynamics and underlying cell states. Checkpoint blockade induces waves of clonal T cell responses that peak at distinct time points. Combination therapy results in greater magnitude of clonal responses at 6 and 9 weeks compared to single-agent therapies, including melanoma-specific CD8",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:27.125591",
+    "authors": [
+      "Kevin Wang",
+      "Paulina Coutifaris",
+      "David Brocks",
+      "Guanning Wang",
+      "Tarek Azar",
+      "Sabrina Solis",
+      "Ajeya Nandi",
+      "Shaneaka Anderson",
+      "Nicholas Han",
+      "Sasikanth Manne",
+      "Evgeny Kiner",
+      "Chirag Sachar",
+      "Minke Lucas",
+      "Sangeeth George",
+      "Patrick K Yan",
+      "Melanie W Kier",
+      "Amy I Laughlin",
+      "Shawn Kothari",
+      "Josephine Giles",
+      "Divij Mathew",
+      "Reem Ghinnagow",
+      "Cecile Alanio",
+      "Ahron Flowers",
+      "Wei Xu",
+      "Daniel J Tenney",
+      "Xiaowei Xu",
+      "Ravi K Amaravadi",
+      "Giorgos C Karakousis",
+      "Lynn M Schuchter",
+      "Marcus Buggert",
+      "Derek Oldridge",
+      "Andy J Minn",
+      "Christian Blank",
+      "Jeffrey S Weber",
+      "Tara C Mitchell",
+      "Michael D Farwell",
+      "Ramin S Herati",
+      "Alexander C Huang"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation.",
+    "abstract": "Interleukin (IL-)23 is a major mediator and therapeutic target in chronic inflammatory diseases that also elicits tissue protection in the intestine at homeostasis or following acute infection",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:27.125813",
+    "authors": [
+      "Anees Ahmed",
+      "Ann M Joseph",
+      "Jordan Zhou",
+      "Veronika Horn",
+      "Jazib Uddin",
+      "Mengze Lyu",
+      "Jeremy Goc",
+      "Robbyn E Sockolow",
+      "James B Wing",
+      "Eric Vivier",
+      "Shimon Sakaguchi",
+      "Gregory F Sonnenberg"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CTLA-4 blockade drives loss of T",
+    "abstract": "Limiting metabolic competition in the tumour microenvironment may increase the effectiveness of immunotherapy. Owing to its crucial role in the glucose metabolism of activated T cells, CD28 signalling has been proposed as a metabolic biosensor of T cells",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:27.125899",
+    "authors": [
+      "Roberta Zappasodi",
+      "Inna Serganova",
+      "Ivan J Cohen",
+      "Masatomo Maeda",
+      "Masahiro Shindo",
+      "Yasin Senbabaoglu",
+      "McLane J Watson",
+      "Avigdor Leftin",
+      "Rachana Maniyar",
+      "Svena Verma",
+      "Matthew Lubin",
+      "Myat Ko",
+      "Mayuresh M Mane",
+      "Hong Zhong",
+      "Cailian Liu",
+      "Arnab Ghosh",
+      "Mohsen Abu-Akeel",
+      "Ellen Ackerstaff",
+      "Jason A Koutcher",
+      "Ping-Chih Ho",
+      "Greg M Delgoffe",
+      "Ronald Blasberg",
+      "Jedd D Wolchok",
+      "Taha Merghoub"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Lactate modulates RNA splicing to promote CTLA-4 expression in tumor-infiltrating regulatory T cells.",
+    "abstract": "RNA splicing is involved in cancer initiation and progression, but how it influences host antitumor immunity in the metabolically abnormal tumor microenvironment (TME) remains unclear. Here, we demonstrate that lactate modulates Foxp3-dependent RNA splicing to maintain the phenotypic and functional status of tumor-infiltrating regulatory T (Treg) cells via CTLA-4. RNA splicing in Treg cells was correlated with the Treg cell signatures in the TME. Ubiquitin-specific peptidase 39 (USP39), a component of the RNA splicing machinery, maintained RNA-splicing-mediated CTLA-4 expression to control Treg cell function. Mechanistically, lactate promoted USP39-mediated RNA splicing to facilitate CTLA-4 expression in a Foxp3-dependent manner. Moreover, the efficiency of CTLA-4 RNA splicing was increased in tumor-infiltrating Treg cells from patients with colorectal cancer. These findings highlight the immunological relevance of RNA splicing in Treg cells and provide important insights into the environmental mechanism governing CTLA-4 expression in Treg cells.",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:27.126028",
+    "authors": [
+      "Rui Ding",
+      "Xiaoyan Yu",
+      "Zhilin Hu",
+      "Yu Dong",
+      "Haiyan Huang",
+      "Yuerong Zhang",
+      "Qiaoqiao Han",
+      "Zhi-Yu Ni",
+      "Ren Zhao",
+      "Youqiong Ye",
+      "Qiang Zou"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "CTLA-4: From mechanism to autoimmune therapy.",
+    "abstract": "CD28 and CTLA-4 are both important stimulatory receptors for the regulation of T cell activation. Because receptors share common ligands, B7.1 and B7.2, the expression and biological function of CTLA-4 is important for the negative regulation of T cell responses. Therefore, elimination of CTLA-4 can result in the breakdown of immune tolerance and the development of several diseases such as autoimmunity. Inhibitory signals of CTLA-4 suppress T cell responses and protect against autoimmune diseases in many ways. In this review, we summarize the structure, expression and signaling pathway of CTLA-4. We also highlight how CTLA-4 defends against potentially self-reactive T cells. Finally, we discuss how the CTLA-4 regulates a number of autoimmune diseases that indicate manipulation of this inhibitory molecule is a promise as a strategy for the immunotherapy of autoimmune diseases.",
+    "search_term": "CTLA-4",
+    "collected_at": "2026-01-18T23:02:27.126091",
+    "authors": [
+      "Arezoo Hosseini",
+      "Tohid Gharibi",
+      "Faroogh Marofi",
+      "Zohreh Babaloo",
+      "Behzad Baradaran"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Modelling Immunological Memory",
+    "abstract": "Accurate immunological models offer the possibility of performing highthroughput experiments in silico that can predict, or at least suggest, in vivo phenomena. In this chapter, we compare various models of immunological memory. We first validate an experimental immunological simulator, developed by the authors, by simulating several theories of immunological memory with known results. We then use the same system to evaluate the predicted effects of a theory of immunological memory. The resulting model has not been explored before in artificial immune systems research, and we compare the simulated in silico output with in vivo measurements. Although the theory appears valid, we suggest that there are a common set of reasons why immunological memory models are a useful support tool; not conclusive in themselves.",
+    "published": "2010-04-21T10:31:21Z",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:28.717489",
+    "authors": [
+      "Simon Garret",
+      "Martin Robbins",
+      "Joanne Walker",
+      "William Wilson",
+      "Uwe Aickelin"
+    ]
+  },
+  {
+    "source": "arXiv",
+    "title": "Convolutional neural network models for cancer type prediction based on gene expression",
+    "abstract": "Background Precise prediction of cancer types is vital for cancer diagnosis and therapy. Important cancer marker genes can be inferred through predictive model. Several studies have attempted to build machine learning models for this task however none has taken into consideration the effects of tissue of origin that can potentially bias the identification of cancer markers. Results In this paper, we introduced several Convolutional Neural Network (CNN) models that take unstructured gene expression inputs to classify tumor and non-tumor samples into their designated cancer types or as normal. Based on different designs of gene embeddings and convolution schemes, we implemented three CNN models: 1D-CNN, 2D-Vanilla-CNN, and 2D-Hybrid-CNN. The models were trained and tested on combined 10,340 samples of 33 cancer types and 731 matched normal tissues of The Cancer Genome Atlas (TCGA). Our models achieved excellent prediction accuracies (93.9-95.0%) among 34 classes (33 cancers and normal). Furthermore, we interpreted one of the models, known as 1D-CNN model, with a guided saliency technique and identified a total of 2,090 cancer markers (108 per class). The concordance of differential expression of these markers between the cancer type they represent and others is confirmed. In breast cancer, for instance, our model identified well-known markers, such as GATA3 and ESR1. Finally, we extended the 1D-CNN model for prediction of breast cancer subtypes and achieved an average accuracy of 88.42% among 5 subtypes. The codes can be found at https://github.com/chenlabgccri/CancerTypePrediction.",
+    "published": "2019-06-18T20:27:35Z",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:28.717539",
+    "authors": [
+      "Milad Mostavi",
+      "Yu-Chiao Chiu",
+      "Yufei Huang",
+      "Yidong Chen"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Targeting STAT3 in Cancer Immunotherapy.",
+    "abstract": "As a point of convergence for numerous oncogenic signaling pathways, signal transducer and activator of transcription 3 (STAT3) is central in regulating the anti-tumor immune response. STAT3 is broadly hyperactivated both in cancer and non-cancerous cells within the tumor ecosystem and plays important roles in inhibiting the expression of crucial immune activation regulators and promoting the production of immunosuppressive factors. Therefore, targeting the STAT3 signaling pathway has emerged as a promising therapeutic strategy for numerous cancers. In this review, we outline the importance of STAT3 signaling pathway in tumorigenesis and its immune regulation, and highlight the current status for the development of STAT3-targeting therapeutic approaches. We also summarize and discuss recent advances in STAT3-based combination immunotherapy in detail. These endeavors provide new insights into the translational application of STAT3 in cancer and may contribute to the promotion of more effective treatments toward malignancies.",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:32.846906",
+    "authors": [
+      "Sailan Zou",
+      "Qiyu Tong",
+      "Bowen Liu",
+      "Wei Huang",
+      "Yan Tian",
+      "Xianghui Fu"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Human papillomavirus infection: Epidemiology, biology, host interactions, cancer development, prevention, and therapeutics.",
+    "abstract": "Human papillomavirus (HPV) infection is one of the most common sexually transmitted infections worldwide. It is caused by the HPV, a DNA virus that infects epithelial cells in various mucous membranes and skin surfaces. HPV can be categorised into high-risk and low-risk types based on their association with the development of certain cancers. High-risk HPV types, such as HPV-16 and HPV-18, are known to be oncogenic and are strongly associated with the development of cervical, anal, vaginal, vulvar, penile, and oropharyngeal cancers. These types of HPV can persist in the body for an extended period and, in some cases, lead to the formation of precancerous lesions that may progress to cancer if left untreated. Low-risk HPV types, such as HPV-6 and HPV-11, are not typically associated with cancer but can cause benign conditions like genital warts. Genital warts are characterised by the growth of small, cauliflower-like bumps on the genital and anal areas. Although not life-threatening, they can cause discomfort and psychological distress. HPV is primarily transmitted through sexual contact, including vaginal, anal, and oral sex. It can also be transmitted through non-penetrative sexual activities that involve skin-to-skin contact. In addition to sexual transmission, vertical transmission from mother to child during childbirth is possible but relatively rare. Prevention of HPV infection includes vaccination and safe sexual practices. HPV vaccines, such as Gardasil and Cervarix, are highly effective in preventing infection with the most common high-risk HPV types. These vaccines are typically administered to adolescents and young adults before they become sexually active. Safe sexual practices, such as consistent and correct condom use and limiting the number of sexual partners, can also reduce the risk of HPV transmission. Diagnosis of HPV infection can be challenging because the infection is often asymptomatic, especially in men. In women, HPV testing can be done through cervical screening programs, which involve the collection of cervical cells for analysis. Abnormal results may lead to further diagnostic procedures, such as colposcopy or biopsy, to detect precancerous or cancerous changes. Overall, HPV infection is a prevalent sexually transmitted infection with significant implications for public health. Vaccination, regular screening, and early treatment of precancerous lesions are key strategies to reduce the burden of HPV-related diseases and their associated complications. Education and awareness about HPV and its prevention are crucial in promoting optimal sexual health. This study aimed to carry out a literature review considering several aspects involving HPV infection: Global distribution, prevalence, biology, host interactions, cancer development, prevention, therapeutics, coinfection with other viruses, coinfection with bacteria, association with head and neck squamous cell carcinomas, and association with anal cancer.",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:32.846987",
+    "authors": [
+      "Jonas Wolf",
+      "Lucas Felipe Kist",
+      "Samanta Brangel Pereira",
+      "Marilze Alves Quessada",
+      "Helena Petek",
+      "Arthur Pille",
+      "Juçara Gasparetto Maccari",
+      "Mohamed Parrini Mutlaq",
+      "Luiz Antonio Nasi"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "From periphery to center stage: 50 years of advancements in innate immunity.",
+    "abstract": "Over the past 50 years in the field of immunology, something of a Copernican revolution has happened. For a long time, immunologists were mainly concerned with what is termed adaptive immunity, which involves the exquisitely specific activities of lymphocytes. But the other arm of immunity, so-called \"innate immunity,\" had been neglected. To celebrate Cell's 50",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:32.847051",
+    "authors": [
+      "Susan Carpenter",
+      "Luke A J O'Neill"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Chemokines and the immune response to cancer.",
+    "abstract": "Chemokines are chemotactic cytokines that regulate the migration of immune cells. Chemokines function as cues for the coordinated recruitment of immune cells into and out of tissue and also guide the spatial organization and cellular interactions of immune cells within tissues. Chemokines are critical in directing immune cell migration necessary to mount and then deliver an effective anti-tumor immune response; however, chemokines also participate in the generation and recruitment of immune cells that contribute to a pro-tumorigenic microenvironment. Here, we review the role of the chemokine system in anti-tumor and pro-tumor immune responses and discuss how malignant cells and the tumor microenvironment regulate the overall chemokine landscape to shape the type and outcome of immune responses to cancer and cancer treatment.",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:32.847095",
+    "authors": [
+      "Aleksandra J Ozga",
+      "Melvyn T Chow",
+      "Andrew D Luster"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "Multitarget Stool RNA Test for Colorectal Cancer Screening.",
+    "abstract": "Noninvasive tests for colorectal cancer screening must include sensitive detection of colorectal cancer and precancerous lesions. These tests must be validated for the intended-use population, which includes average-risk individuals 45 years or older.",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:32.847132",
+    "authors": [
+      "Erica K Barnell",
+      "Elizabeth M Wurtzler",
+      "Julie La Rocca",
+      "Thomas Fitzgerald",
+      "Jessica Petrone",
+      "Yansheng Hao",
+      "Yiming Kang",
+      "Faith L Holmes",
+      "David A Lieberman"
+    ]
+  },
+  {
+    "source": "PubMed",
+    "title": "New immune cell engagers for cancer immunotherapy.",
+    "abstract": "There have been major advances in the immunotherapy of cancer in recent years, including the development of T cell engagers - antibodies engineered to redirect T cells to recognize and kill cancer cells - for the treatment of haematological malignancies. However, the field still faces several challenges to develop agents that are consistently effective in a majority of patients and cancer types, such as optimizing drug dose, overcoming treatment resistance and improving efficacy in solid tumours. A new generation of T cell-targeted molecules was developed to tackle these issues that are potentially more effective and safer. In addition, agents designed to engage the antitumour activities of other immune cells, including natural killer cells and myeloid cells, are showing promise and have the potential to treat a broader range of cancers.",
+    "search_term": "cancer immunology",
+    "collected_at": "2026-01-18T23:02:32.847187",
+    "authors": [
+      "Aurore Fenis",
+      "Olivier Demaria",
+      "Laurent Gauthier",
+      "Eric Vivier",
+      "Emilie Narni-Mancinelli"
+    ]
+  }
+]

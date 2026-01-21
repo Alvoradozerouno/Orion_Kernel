@@ -1,0 +1,515 @@
+[
+  {
+    "concept1": "TME",
+    "concept2": "melanoma",
+    "frequency1": 44,
+    "frequency2": 3,
+    "significance": 23.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'TME' and 'melanoma' are frequently mentioned (freq: 44, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "immunotherapy",
+    "concept2": "cytokine",
+    "frequency1": 31,
+    "frequency2": 3,
+    "significance": 17.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'immunotherapy' and 'cytokine' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "immunotherapy",
+    "concept2": "CD8",
+    "frequency1": 31,
+    "frequency2": 3,
+    "significance": 17.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'immunotherapy' and 'CD8' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "immunotherapy",
+    "concept2": "macrophage",
+    "frequency1": 31,
+    "frequency2": 3,
+    "significance": 17.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'immunotherapy' and 'macrophage' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "immunotherapy",
+    "concept2": "immune evasion",
+    "frequency1": 31,
+    "frequency2": 3,
+    "significance": 17.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'immunotherapy' and 'immune evasion' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "T cell",
+    "concept2": "breast cancer",
+    "frequency1": 25,
+    "frequency2": 6,
+    "significance": 15.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'T cell' and 'breast cancer' are frequently mentioned (freq: 25, 6) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "T cell",
+    "concept2": "macrophage",
+    "frequency1": 25,
+    "frequency2": 3,
+    "significance": 14.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'T cell' and 'macrophage' are frequently mentioned (freq: 25, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "T cell",
+    "concept2": "PD-L1 expression",
+    "frequency1": 25,
+    "frequency2": 3,
+    "significance": 14.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'T cell' and 'PD-L1 expression' are frequently mentioned (freq: 25, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "lung cancer",
+    "concept2": "tumor microenvironment",
+    "frequency1": 5,
+    "frequency2": 19,
+    "significance": 12.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'lung cancer' and 'tumor microenvironment' are frequently mentioned (freq: 5, 19) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "PD-L1",
+    "frequency1": 10,
+    "frequency2": 14,
+    "significance": 12.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'PD-L1' are frequently mentioned (freq: 10, 14) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "tumor microenvironment",
+    "concept2": "melanoma",
+    "frequency1": 19,
+    "frequency2": 3,
+    "significance": 11.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'tumor microenvironment' and 'melanoma' are frequently mentioned (freq: 19, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "tumor microenvironment",
+    "concept2": "immune evasion",
+    "frequency1": 19,
+    "frequency2": 3,
+    "significance": 11.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'tumor microenvironment' and 'immune evasion' are frequently mentioned (freq: 19, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "biomarker",
+    "concept2": "CAR-T",
+    "frequency1": 11,
+    "frequency2": 10,
+    "significance": 10.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'biomarker' and 'CAR-T' are frequently mentioned (freq: 11, 10) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "lung cancer",
+    "concept2": "TIL",
+    "frequency1": 5,
+    "frequency2": 15,
+    "significance": 10.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'lung cancer' and 'TIL' are frequently mentioned (freq: 5, 15) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "PD-1",
+    "frequency1": 10,
+    "frequency2": 10,
+    "significance": 10.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'PD-1' are frequently mentioned (freq: 10, 10) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "CTLA-4",
+    "frequency1": 10,
+    "frequency2": 10,
+    "significance": 10.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'CTLA-4' are frequently mentioned (freq: 10, 10) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "checkpoint inhibitor",
+    "frequency1": 10,
+    "frequency2": 10,
+    "significance": 10.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'checkpoint inhibitor' are frequently mentioned (freq: 10, 10) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "resistance",
+    "concept2": "breast cancer",
+    "frequency1": 13,
+    "frequency2": 6,
+    "significance": 9.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'resistance' and 'breast cancer' are frequently mentioned (freq: 13, 6) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "melanoma",
+    "concept2": "TIL",
+    "frequency1": 3,
+    "frequency2": 15,
+    "significance": 9.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'melanoma' and 'TIL' are frequently mentioned (freq: 3, 15) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "TIL",
+    "concept2": "cytokine",
+    "frequency1": 15,
+    "frequency2": 3,
+    "significance": 9.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'TIL' and 'cytokine' are frequently mentioned (freq: 15, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "TIL",
+    "concept2": "CD8",
+    "frequency1": 15,
+    "frequency2": 3,
+    "significance": 9.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'TIL' and 'CD8' are frequently mentioned (freq: 15, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "TIL",
+    "concept2": "macrophage",
+    "frequency1": 15,
+    "frequency2": 3,
+    "significance": 9.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'TIL' and 'macrophage' are frequently mentioned (freq: 15, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "TIL",
+    "concept2": "immune evasion",
+    "frequency1": 15,
+    "frequency2": 3,
+    "significance": 9.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'TIL' and 'immune evasion' are frequently mentioned (freq: 15, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "TIL",
+    "concept2": "PD-L1 expression",
+    "frequency1": 15,
+    "frequency2": 3,
+    "significance": 9.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'TIL' and 'PD-L1 expression' are frequently mentioned (freq: 15, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "melanoma",
+    "concept2": "PD-L1",
+    "frequency1": 3,
+    "frequency2": 14,
+    "significance": 8.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'melanoma' and 'PD-L1' are frequently mentioned (freq: 3, 14) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "PD-L1",
+    "concept2": "cytokine",
+    "frequency1": 14,
+    "frequency2": 3,
+    "significance": 8.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'PD-L1' and 'cytokine' are frequently mentioned (freq: 14, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "PD-L1",
+    "concept2": "CD8",
+    "frequency1": 14,
+    "frequency2": 3,
+    "significance": 8.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'PD-L1' and 'CD8' are frequently mentioned (freq: 14, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "vaccine",
+    "concept2": "resistance",
+    "frequency1": 4,
+    "frequency2": 13,
+    "significance": 8.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'vaccine' and 'resistance' are frequently mentioned (freq: 4, 13) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "breast cancer",
+    "frequency1": 10,
+    "frequency2": 6,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'breast cancer' are frequently mentioned (freq: 10, 6) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "melanoma",
+    "concept2": "resistance",
+    "frequency1": 3,
+    "frequency2": 13,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'melanoma' and 'resistance' are frequently mentioned (freq: 3, 13) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CTLA-4",
+    "concept2": "breast cancer",
+    "frequency1": 10,
+    "frequency2": 6,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CTLA-4' and 'breast cancer' are frequently mentioned (freq: 10, 6) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "checkpoint inhibitor",
+    "concept2": "breast cancer",
+    "frequency1": 10,
+    "frequency2": 6,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'checkpoint inhibitor' and 'breast cancer' are frequently mentioned (freq: 10, 6) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "resistance",
+    "concept2": "cytokine",
+    "frequency1": 13,
+    "frequency2": 3,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'resistance' and 'cytokine' are frequently mentioned (freq: 13, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "resistance",
+    "concept2": "CD8",
+    "frequency1": 13,
+    "frequency2": 3,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'resistance' and 'CD8' are frequently mentioned (freq: 13, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "resistance",
+    "concept2": "PD-L1 expression",
+    "frequency1": 13,
+    "frequency2": 3,
+    "significance": 8.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'resistance' and 'PD-L1 expression' are frequently mentioned (freq: 13, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "lung cancer",
+    "concept2": "CAR-T",
+    "frequency1": 5,
+    "frequency2": 10,
+    "significance": 7.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'lung cancer' and 'CAR-T' are frequently mentioned (freq: 5, 10) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "biomarker",
+    "concept2": "vaccine",
+    "frequency1": 11,
+    "frequency2": 4,
+    "significance": 7.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'biomarker' and 'vaccine' are frequently mentioned (freq: 11, 4) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "biomarker",
+    "concept2": "melanoma",
+    "frequency1": 11,
+    "frequency2": 3,
+    "significance": 7.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'biomarker' and 'melanoma' are frequently mentioned (freq: 11, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "biomarker",
+    "concept2": "CD8",
+    "frequency1": 11,
+    "frequency2": 3,
+    "significance": 7.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'biomarker' and 'CD8' are frequently mentioned (freq: 11, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "biomarker",
+    "concept2": "immune evasion",
+    "frequency1": 11,
+    "frequency2": 3,
+    "significance": 7.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'biomarker' and 'immune evasion' are frequently mentioned (freq: 11, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "vaccine",
+    "frequency1": 10,
+    "frequency2": 4,
+    "significance": 7.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'vaccine' are frequently mentioned (freq: 10, 4) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "melanoma",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'melanoma' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "macrophage",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'macrophage' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "immune evasion",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'immune evasion' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CAR-T",
+    "concept2": "PD-L1 expression",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CAR-T' and 'PD-L1 expression' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "melanoma",
+    "concept2": "checkpoint inhibitor",
+    "frequency1": 3,
+    "frequency2": 10,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'melanoma' and 'checkpoint inhibitor' are frequently mentioned (freq: 3, 10) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "PD-1",
+    "concept2": "cytokine",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'PD-1' and 'cytokine' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CTLA-4",
+    "concept2": "cytokine",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CTLA-4' and 'cytokine' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CTLA-4",
+    "concept2": "macrophage",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CTLA-4' and 'macrophage' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CTLA-4",
+    "concept2": "immune evasion",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CTLA-4' and 'immune evasion' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "CTLA-4",
+    "concept2": "PD-L1 expression",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'CTLA-4' and 'PD-L1 expression' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "checkpoint inhibitor",
+    "concept2": "cytokine",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'checkpoint inhibitor' and 'cytokine' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "checkpoint inhibitor",
+    "concept2": "CD8",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'checkpoint inhibitor' and 'CD8' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "checkpoint inhibitor",
+    "concept2": "macrophage",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'checkpoint inhibitor' and 'macrophage' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "checkpoint inhibitor",
+    "concept2": "immune evasion",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'checkpoint inhibitor' and 'immune evasion' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "checkpoint inhibitor",
+    "concept2": "PD-L1 expression",
+    "frequency1": 10,
+    "frequency2": 3,
+    "significance": 6.5,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'checkpoint inhibitor' and 'PD-L1 expression' are frequently mentioned (freq: 10, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+  },
+  {
+    "concept1": "vaccine",
+    "concept2": "breast cancer",
+    "frequency1": 4,
+    "frequency2": 6,
+    "significance": 5.0,
+    "gap_type": "missing_connection",
+    "reasoning": "Both 'vaccine' and 'breast cancer' are frequently mentioned (freq: 4, 6) but never appear together in the same paper. This suggests an unexplored relationship."
+  }
+]

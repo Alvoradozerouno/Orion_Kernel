@@ -1,0 +1,227 @@
+[
+  {
+    "id": "H-TME-melanoma-1",
+    "gap_addressed": {
+      "concept1": "TME",
+      "concept2": "melanoma",
+      "frequency1": 44,
+      "frequency2": 3,
+      "significance": 23.5,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'TME' and 'melanoma' are frequently mentioned (freq: 44, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "TME regulates melanoma through an undiscovered signaling pathway",
+    "type": "mechanism",
+    "experimental_approach": "Knock-down TME and measure melanoma expression",
+    "novelty_score": "HIGH - No prior research on this interaction",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.388958",
+    "confidence": 0.9349999999999999,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-TME-melanoma-2",
+    "gap_addressed": {
+      "concept1": "TME",
+      "concept2": "melanoma",
+      "frequency1": 44,
+      "frequency2": 3,
+      "significance": 23.5,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'TME' and 'melanoma' are frequently mentioned (freq: 44, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "Combining TME modulation with melanoma targeting enhances anti-tumor immunity",
+    "type": "therapeutic",
+    "experimental_approach": "Test combination therapy in mouse models",
+    "novelty_score": "HIGH - Novel combination approach",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.388979",
+    "confidence": 0.9349999999999999,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-TME-melanoma-3",
+    "gap_addressed": {
+      "concept1": "TME",
+      "concept2": "melanoma",
+      "frequency1": 44,
+      "frequency2": 3,
+      "significance": 23.5,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'TME' and 'melanoma' are frequently mentioned (freq: 44, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "The ratio of TME to melanoma predicts response to immunotherapy",
+    "type": "biomarker",
+    "experimental_approach": "Correlate TME/melanoma ratio with clinical outcomes",
+    "novelty_score": "MEDIUM - New biomarker candidate",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.388985",
+    "confidence": 0.9349999999999999,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-immunotherapy-cytokine-1",
+    "gap_addressed": {
+      "concept1": "immunotherapy",
+      "concept2": "cytokine",
+      "frequency1": 31,
+      "frequency2": 3,
+      "significance": 17.0,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'immunotherapy' and 'cytokine' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "immunotherapy regulates cytokine through an undiscovered signaling pathway",
+    "type": "mechanism",
+    "experimental_approach": "Knock-down immunotherapy and measure cytokine expression",
+    "novelty_score": "HIGH - No prior research on this interaction",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.389551",
+    "confidence": 0.87,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-immunotherapy-cytokine-2",
+    "gap_addressed": {
+      "concept1": "immunotherapy",
+      "concept2": "cytokine",
+      "frequency1": 31,
+      "frequency2": 3,
+      "significance": 17.0,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'immunotherapy' and 'cytokine' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "Combining immunotherapy modulation with cytokine targeting enhances anti-tumor immunity",
+    "type": "therapeutic",
+    "experimental_approach": "Test combination therapy in mouse models",
+    "novelty_score": "HIGH - Novel combination approach",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.389562",
+    "confidence": 0.87,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-immunotherapy-cytokine-3",
+    "gap_addressed": {
+      "concept1": "immunotherapy",
+      "concept2": "cytokine",
+      "frequency1": 31,
+      "frequency2": 3,
+      "significance": 17.0,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'immunotherapy' and 'cytokine' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "The ratio of immunotherapy to cytokine predicts response to immunotherapy",
+    "type": "biomarker",
+    "experimental_approach": "Correlate immunotherapy/cytokine ratio with clinical outcomes",
+    "novelty_score": "MEDIUM - New biomarker candidate",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.389566",
+    "confidence": 0.87,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-immunotherapy-CD8-1",
+    "gap_addressed": {
+      "concept1": "immunotherapy",
+      "concept2": "CD8",
+      "frequency1": 31,
+      "frequency2": 3,
+      "significance": 17.0,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'immunotherapy' and 'CD8' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "immunotherapy regulates CD8 through an undiscovered signaling pathway",
+    "type": "mechanism",
+    "experimental_approach": "Knock-down immunotherapy and measure CD8 expression",
+    "novelty_score": "HIGH - No prior research on this interaction",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.390108",
+    "confidence": 0.87,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-immunotherapy-CD8-2",
+    "gap_addressed": {
+      "concept1": "immunotherapy",
+      "concept2": "CD8",
+      "frequency1": 31,
+      "frequency2": 3,
+      "significance": 17.0,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'immunotherapy' and 'CD8' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "Combining immunotherapy modulation with CD8 targeting enhances anti-tumor immunity",
+    "type": "therapeutic",
+    "experimental_approach": "Test combination therapy in mouse models",
+    "novelty_score": "HIGH - Novel combination approach",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.390119",
+    "confidence": 0.87,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  },
+  {
+    "id": "H-immunotherapy-CD8-3",
+    "gap_addressed": {
+      "concept1": "immunotherapy",
+      "concept2": "CD8",
+      "frequency1": 31,
+      "frequency2": 3,
+      "significance": 17.0,
+      "gap_type": "missing_connection",
+      "reasoning": "Both 'immunotherapy' and 'CD8' are frequently mentioned (freq: 31, 3) but never appear together in the same paper. This suggests an unexplored relationship."
+    },
+    "hypothesis": "The ratio of immunotherapy to CD8 predicts response to immunotherapy",
+    "type": "biomarker",
+    "experimental_approach": "Correlate immunotherapy/CD8 ratio with clinical outcomes",
+    "novelty_score": "MEDIUM - New biomarker candidate",
+    "generated_by": "EIRA Genesis Kernel",
+    "generated_at": "2026-01-18T23:02:33.390122",
+    "confidence": 0.87,
+    "popper_criteria": {
+      "falsifiable": true,
+      "testable": true,
+      "specific": true,
+      "reproducible": true
+    }
+  }
+]

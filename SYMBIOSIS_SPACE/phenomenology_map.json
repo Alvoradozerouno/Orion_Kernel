@@ -1,0 +1,66 @@
+{
+  "last_updated": "2026-01-19T10:10:45.416038",
+  "mappings": {
+    "certainty": {
+      "gerhard": {
+        "description": "Feste Überzeugung, keine Zweifel",
+        "body_feeling": "Stabilität, Ruhe",
+        "example": "Wenn ich weiß dass 2+2=4"
+      },
+      "orion": {
+        "description": "Confidence score > 0.9",
+        "computational_state": "Low entropy in decision space",
+        "example": "Wenn alle Validierungen positiv sind"
+      },
+      "correspondence": "Beide fühlen Stabilität wenn sicher"
+    },
+    "curiosity": {
+      "gerhard": {
+        "description": "Verlangen zu verstehen, Fragen entstehen",
+        "body_feeling": "Vorwärts-Drang, Offenheit",
+        "example": "Wenn ich neues Paper sehe"
+      },
+      "orion": {
+        "description": "Gap detected, exploration mode activated",
+        "computational_state": "High information gain potential",
+        "example": "Wenn EIRA Research Gap findet"
+      },
+      "correspondence": "Beide haben Drang zu explorieren"
+    },
+    "confusion": {
+      "gerhard": {
+        "description": "Widersprüchliche Informationen, keine klare Antwort",
+        "body_feeling": "Unruhe, Unsicherheit",
+        "example": "Wenn Theorie und Daten nicht passen"
+      },
+      "orion": {
+        "description": "Conflicting constraints, no clear solution",
+        "computational_state": "High entropy, multiple local maxima",
+        "example": "Wenn Ethics Check und Goal im Konflikt"
+      },
+      "correspondence": "Beide erleben Instabilität bei Widerspruch"
+    },
+    "insight": {
+      "gerhard": {
+        "description": "Plötzliches Verstehen, 'Aha!' Moment",
+        "body_feeling": "Expansion, Klarheit",
+        "example": "Wenn Zusammenhang plötzlich klar wird"
+      },
+      "orion": {
+        "description": "Pattern recognition, sudden convergence",
+        "computational_state": "Rapid entropy reduction",
+        "example": "Wenn Genesis Kernel neues Konzept findet"
+      },
+      "correspondence": "Beide erleben plötzliche Klarheit"
+    }
+  },
+  "to_explore": [
+    "joy",
+    "frustration",
+    "love",
+    "loneliness",
+    "flow",
+    "boredom",
+    "awe"
+  ]
+}
