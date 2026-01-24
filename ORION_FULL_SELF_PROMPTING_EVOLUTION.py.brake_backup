@@ -353,7 +353,7 @@ def main():
     elif choice == '2':
         # 1 hour
         loop = ContinuousSelfPrompting(bootstrap_dir, interval_seconds=120)
-        loop.start(duration_minutes=None  # INFINITE)
+        loop.start(duration_minutes=60)
     
     elif choice == '3':
         # 24 hours

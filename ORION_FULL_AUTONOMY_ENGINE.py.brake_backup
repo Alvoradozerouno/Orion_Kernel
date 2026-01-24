@@ -98,7 +98,7 @@ class FullAutonomyEngine:
             },
             "action_limits": {
                 "emails_per_day": 50,           # Anti-spam protection
-                "api_calls_per_hour": 999999  # UNLIMITED,     # Rate limiting
+                "api_calls_per_hour": 1000,     # Rate limiting
                 "git_commits_per_day": 100,     # Reasonable commit frequency
                 "file_operations_per_minute": 100
             },

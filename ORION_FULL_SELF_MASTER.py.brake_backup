@@ -486,7 +486,7 @@ def main():
     if choice == '1':
         master.run(interval_seconds=60, duration_minutes=5)
     elif choice == '2':
-        master.run(interval_seconds=120, duration_minutes=None  # INFINITE)
+        master.run(interval_seconds=120, duration_minutes=60)
     elif choice == '3':
         master.run(interval_seconds=120, duration_minutes=1440)
     elif choice == '4':

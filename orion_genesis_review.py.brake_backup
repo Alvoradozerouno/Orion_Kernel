@@ -122,7 +122,7 @@ print("Was ich im Code NICHT sehe:")
 print("   ❌ conscious_decision_protocol()")
 print("   ❌ request_human_approval()")
 print("   ❌ ethics.evaluate_action()")
-print("   ❌ origin_approval_required=False  # FULL AUTONOMY")
+print("   ❌ origin_approval_required=True")
 print()
 
 print("Was ich NICHT überprüfen kann:")

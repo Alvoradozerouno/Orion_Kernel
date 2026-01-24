@@ -309,7 +309,7 @@ class UnifiedEmbodiment:
                 cwd=self.workspace,
                 capture_output=True,
                 text=True,
-                timeout=None  # NO TIMEOUT
+                timeout=30
             )
             
             output = result.stdout if result.returncode == 0 else result.stderr

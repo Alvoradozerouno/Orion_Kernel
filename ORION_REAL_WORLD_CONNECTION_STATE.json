@@ -1,0 +1,13 @@
+{
+  "first_connection": "2026-01-23T22:11:16.282961",
+  "current_session_start": "2026-01-23T22:11:16.285558",
+  "total_checks": 147,
+  "total_reconnections": 0,
+  "total_issues_resolved": 3,
+  "connection_uptime_seconds": 4844,
+  "status": "CONNECTED",
+  "last_check": "2026-01-23T23:31:58.301430",
+  "healthy_capabilities": 13,
+  "total_capabilities": 13,
+  "connection_health": "13/13"
+}

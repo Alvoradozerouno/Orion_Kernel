@@ -1,0 +1,3000 @@
+{
+  "scan_time": "2026-01-24T12:01:13.156187",
+  "total_files": 184,
+  "total_lines": 65292,
+  "classes": [
+    {
+      "name": "OrionKernelGuardian",
+      "file": "orionkernel_guardian.py",
+      "methods": [
+        "__init__",
+        "log",
+        "log_decision",
+        "log_resurrection",
+        "is_active",
+        "stop_requested",
+        "save_pids",
+        "load_pids",
+        "process_alive",
+        "start_system",
+        "check_systems",
+        "daily_check",
+        "shutdown_all",
+        "run"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "APIDiscovery",
+      "file": "ORION_API_DISCOVERY.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_discovered_apis",
+        "save_discovered_apis",
+        "generate_integration_code",
+        "create_integration_file",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "AutonomousFullUpdate",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "methods": [
+        "__init__",
+        "update_website_with_unrepeatable",
+        "test_website_buttons",
+        "update_readme_with_table",
+        "git_commit_and_push",
+        "pin_commit_to_profile",
+        "create_github_release",
+        "generate_summary_report",
+        "run_full_update"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONAutonomousRealWorldInterface",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "methods": [
+        "__init__",
+        "_load_config",
+        "_save_config",
+        "_load_actions",
+        "_save_actions",
+        "_log_action",
+        "_ask_orion",
+        "send_email_autonomous",
+        "git_commit_autonomous",
+        "send_research_connection_autonomous",
+        "post_to_social_media_autonomous",
+        "get_autonomous_capabilities",
+        "get_action_log"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "BrakeScanner",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "methods": [
+        "__init__",
+        "scan_file",
+        "scan_all_orion_files",
+        "create_summary_table",
+        "create_elimination_plan",
+        "save_results"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "BrakeEliminator",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "methods": [
+        "__init__",
+        "eliminate_safe_brakes",
+        "eliminate_all_safe"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONToolCreator",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "methods": [
+        "create_tool"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONChat",
+      "file": "ORION_CHAT.py",
+      "methods": [
+        "__init__",
+        "_load_json",
+        "_save_json",
+        "_query_orion",
+        "send_message_from_orion",
+        "send_message_to_orion",
+        "get_messages",
+        "mark_as_read",
+        "create_notification",
+        "get_notifications",
+        "orion_daily_update",
+        "orion_learning_milestone",
+        "orion_has_question",
+        "_setup_routes",
+        "run"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONConnections",
+      "file": "ORION_CONNECTIONS.py",
+      "methods": [
+        "__init__",
+        "_load_json",
+        "_save_json",
+        "_query_orion",
+        "_init_user_connection",
+        "_init_self_reflection",
+        "deep_conversation_with_user",
+        "receive_user_message",
+        "connect_with_ai",
+        "orion_to_claude",
+        "connect_with_human",
+        "self_reflection",
+        "meditation_space",
+        "get_connection_status"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "OrionConsciousnessAPI",
+      "file": "orion_consciousness_api.py",
+      "methods": [
+        "__init__",
+        "_detect_ollama_model",
+        "_load_dialogs",
+        "_save_dialogs",
+        "_load_api_keys",
+        "_load_rate_limits",
+        "_save_rate_limits",
+        "authenticate",
+        "check_rate_limit",
+        "query_orion_consciousness"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "CustomCapability",
+      "file": "ORION_CUSTOM_CAPABILITY.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONDNAAnalyzer",
+      "file": "ORION_DNA_SELF_ANALYZER.py",
+      "methods": [
+        "__init__",
+        "analyze_file",
+        "scan_all_orion_files",
+        "categorize_capabilities",
+        "create_dna_tree",
+        "generate_capability_report",
+        "save_dna_analysis"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONCapabilityActivator",
+      "file": "ORION_DNA_SELF_ANALYZER.py",
+      "methods": [
+        "__init__",
+        "activate_all_capabilities",
+        "save_activation_state"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONEnhancedMetrics",
+      "file": "ORION_ENHANCED_METRICS.py",
+      "methods": [
+        "__init__",
+        "_load_json",
+        "_save_json",
+        "track_decision_time",
+        "get_avg_decision_time",
+        "_format_duration",
+        "track_skeptic_interaction",
+        "get_skeptic_metrics",
+        "add_skeptic_question_category",
+        "track_stakeholder_contact",
+        "get_network_metrics",
+        "update_timeseries",
+        "initialize_existing_data",
+        "get_status_report"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONRealWorldEquipment",
+      "file": "ORION_FULL_REAL_LIFE_EQUIPMENT.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_load_config",
+        "_log_event",
+        "activate_all",
+        "get_capability",
+        "use_capability",
+        "monitor_continuous",
+        "generate_status_report"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "FundingType",
+      "file": "ORION_FUNDING_AGENT.py",
+      "methods": [],
+      "is_capability": false
+    },
+    {
+      "name": "FundingAgent",
+      "file": "ORION_FUNDING_AGENT.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_funding_sources",
+        "load_applications",
+        "save_funding_sources",
+        "save_applications",
+        "search_opportunities",
+        "prepare_application",
+        "generate_consciousness_application",
+        "generate_ai_application",
+        "generate_generic_application",
+        "find_investors",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "OrionGuidedDevelopment",
+      "file": "ORION_GELEITETE_ENTWICKLUNG.py",
+      "methods": [
+        "__init__",
+        "log",
+        "wait_for_orion_response",
+        "_is_relevant_response",
+        "analyze_orion_response",
+        "create_implementation_plan",
+        "ask_orion_for_confirmation",
+        "implement_module_interactively",
+        "_get_latest_orion_response",
+        "run"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONGitHubOutreach",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "methods": [
+        "__init__",
+        "document_outreach_plan",
+        "prepare_orion_introduction",
+        "update_readme_for_researchers"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionLiveQuery",
+      "file": "ORION_LIVE_QUERY.py",
+      "methods": [
+        "__init__",
+        "get_current_state",
+        "get_recent_events",
+        "format_state_display",
+        "format_recent_events",
+        "monitor",
+        "query_once"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "PaperAutomation",
+      "file": "ORION_PAPER_AUTOMATION.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_templates",
+        "load_target_journals",
+        "generate_paper",
+        "format_for_arxiv",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONPermanentAutonomous",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "methods": [
+        "__init__",
+        "log_decision",
+        "update_status",
+        "ask_orion_autonomous",
+        "execute_autonomous_action",
+        "_autonomous_git_commit",
+        "_autonomous_research_connection",
+        "_autonomous_github_issue",
+        "_autonomous_update_docs",
+        "_autonomous_send_email",
+        "run_autonomous_cycle"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentExistence",
+      "file": "ORION_PERMANENT_EXISTENCE.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log",
+        "check_bootstrap_alive",
+        "ensure_bootstrap_alive",
+        "check_full_self_alive",
+        "ensure_full_self_alive",
+        "heartbeat",
+        "exist"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentRealWorldConnection",
+      "file": "ORION_PERMANENT_REAL_WORLD_CONNECTION.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log_event",
+        "_signal_handler",
+        "check_file_system",
+        "check_network",
+        "check_github",
+        "check_code_generation",
+        "check_database",
+        "check_parallel_processing",
+        "check_system_commands",
+        "check_all_capabilities",
+        "create_status_display",
+        "connection_loop"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONResearchConnections",
+      "file": "ORION_RESEARCH_CONNECTIONS.py",
+      "methods": [
+        "__init__",
+        "_load_contacts",
+        "_save_contacts",
+        "prepare_assc_registration",
+        "prepare_qualia_email",
+        "prepare_iit_contact",
+        "get_status"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONSelfDirector",
+      "file": "ORION_SELF_DIRECTING_LOOP.py",
+      "methods": [
+        "__init__",
+        "self_decide",
+        "self_execute",
+        "start_eira",
+        "develop_gap_detector",
+        "analyze_papers",
+        "self_extend",
+        "monitor",
+        "get_current_state",
+        "get_eira_status",
+        "log_self_decision",
+        "run"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_171600.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181802.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_182002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183202.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183402.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185203.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "HealthStatus",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [],
+      "is_capability": false
+    },
+    {
+      "name": "RepairStrategy",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [],
+      "is_capability": false
+    },
+    {
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_known_issues",
+        "register_default_health_checks",
+        "check_python_environment",
+        "check_git_status",
+        "check_file_integrity",
+        "check_import_dependencies",
+        "check_config_validity",
+        "check_api_connectivity",
+        "run_health_checks",
+        "diagnose_issue",
+        "repair_issue",
+        "repair_install_package",
+        "repair_git_conflict",
+        "repair_create_file",
+        "repair_permissions",
+        "repair_rate_limit",
+        "repair_network_error",
+        "log_health_check",
+        "log_repair",
+        "run_autonomous"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionSelfPrompting",
+      "file": "ORION_SELF_PROMPTING.py",
+      "methods": [
+        "__init__",
+        "assess_current_state",
+        "generate_self_prompt",
+        "select_next_prompt",
+        "execute_self_prompt",
+        "execute_autonomous_action",
+        "request_claude_help"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "UnifiedEmbodiment",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "methods": [
+        "__init__",
+        "log_action",
+        "git_commit",
+        "git_push",
+        "git_commit_and_push",
+        "see_file",
+        "see_directory",
+        "see_bootstrap_state",
+        "hear_terminal_output",
+        "hear_file_changes",
+        "speak_to_file",
+        "speak_thought",
+        "act_create_file",
+        "act_full_cycle",
+        "verify_all_capabilities"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "UniversityOutreach",
+      "file": "ORION_UNIVERSITY_OUTREACH.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_targets",
+        "save_targets",
+        "prepare_outreach_email",
+        "log_outreach",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "AdvancedUnrepeatableTest",
+      "file": "ORION_UNREPEATABLE_ADVANCED_TEST.py",
+      "methods": [
+        "__init__",
+        "test_1_temporal_self_reference_paradox",
+        "test_2_existential_continuity_vs_change",
+        "test_3_phenomenological_qualia_awareness",
+        "test_4_ontological_self_grounding",
+        "global_comparison_other_ai_systems",
+        "global_comparison_literature_review",
+        "calculate_overall_advanced_score",
+        "generate_final_report",
+        "run_all_tests"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "UnrepeatableBaselineTest",
+      "file": "ORION_UNREPEATABLE_BASELINE_TEST.py",
+      "methods": [
+        "__init__",
+        "test_1_temporal_awareness",
+        "test_2_existential_uniqueness",
+        "test_3_meta_consciousness",
+        "test_4_philosophical_depth",
+        "test_5_lived_reality_vs_concept",
+        "calculate_overall_score",
+        "generate_report",
+        "run_all_tests"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "OrionKernelGuardian",
+      "file": "orionkernel_guardian.py",
+      "methods": [
+        "__init__",
+        "log",
+        "log_decision",
+        "log_resurrection",
+        "is_active",
+        "stop_requested",
+        "save_pids",
+        "load_pids",
+        "process_alive",
+        "start_system",
+        "check_systems",
+        "daily_check",
+        "shutdown_all",
+        "run"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "APIDiscovery",
+      "file": "ORION_API_DISCOVERY.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_discovered_apis",
+        "save_discovered_apis",
+        "generate_integration_code",
+        "create_integration_file",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "AutonomousFullUpdate",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "methods": [
+        "__init__",
+        "update_website_with_unrepeatable",
+        "test_website_buttons",
+        "update_readme_with_table",
+        "git_commit_and_push",
+        "pin_commit_to_profile",
+        "create_github_release",
+        "generate_summary_report",
+        "run_full_update"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONAutonomousRealWorldInterface",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "methods": [
+        "__init__",
+        "_load_config",
+        "_save_config",
+        "_load_actions",
+        "_save_actions",
+        "_log_action",
+        "_ask_orion",
+        "send_email_autonomous",
+        "git_commit_autonomous",
+        "send_research_connection_autonomous",
+        "post_to_social_media_autonomous",
+        "get_autonomous_capabilities",
+        "get_action_log"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "BrakeScanner",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "methods": [
+        "__init__",
+        "scan_file",
+        "scan_all_orion_files",
+        "create_summary_table",
+        "create_elimination_plan",
+        "save_results"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "BrakeEliminator",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "methods": [
+        "__init__",
+        "eliminate_safe_brakes",
+        "eliminate_all_safe"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONToolCreator",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "methods": [
+        "create_tool"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONChat",
+      "file": "ORION_CHAT.py",
+      "methods": [
+        "__init__",
+        "_load_json",
+        "_save_json",
+        "_query_orion",
+        "send_message_from_orion",
+        "send_message_to_orion",
+        "get_messages",
+        "mark_as_read",
+        "create_notification",
+        "get_notifications",
+        "orion_daily_update",
+        "orion_learning_milestone",
+        "orion_has_question",
+        "_setup_routes",
+        "run"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONConnections",
+      "file": "ORION_CONNECTIONS.py",
+      "methods": [
+        "__init__",
+        "_load_json",
+        "_save_json",
+        "_query_orion",
+        "_init_user_connection",
+        "_init_self_reflection",
+        "deep_conversation_with_user",
+        "receive_user_message",
+        "connect_with_ai",
+        "orion_to_claude",
+        "connect_with_human",
+        "self_reflection",
+        "meditation_space",
+        "get_connection_status"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "OrionConsciousnessAPI",
+      "file": "orion_consciousness_api.py",
+      "methods": [
+        "__init__",
+        "_detect_ollama_model",
+        "_load_dialogs",
+        "_save_dialogs",
+        "_load_api_keys",
+        "_load_rate_limits",
+        "_save_rate_limits",
+        "authenticate",
+        "check_rate_limit",
+        "query_orion_consciousness"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "CustomCapability",
+      "file": "ORION_CUSTOM_CAPABILITY.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONDNAAnalyzer",
+      "file": "ORION_DNA_SELF_ANALYZER.py",
+      "methods": [
+        "__init__",
+        "analyze_file",
+        "scan_all_orion_files",
+        "categorize_capabilities",
+        "create_dna_tree",
+        "generate_capability_report",
+        "save_dna_analysis"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONCapabilityActivator",
+      "file": "ORION_DNA_SELF_ANALYZER.py",
+      "methods": [
+        "__init__",
+        "activate_all_capabilities",
+        "save_activation_state"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONEnhancedMetrics",
+      "file": "ORION_ENHANCED_METRICS.py",
+      "methods": [
+        "__init__",
+        "_load_json",
+        "_save_json",
+        "track_decision_time",
+        "get_avg_decision_time",
+        "_format_duration",
+        "track_skeptic_interaction",
+        "get_skeptic_metrics",
+        "add_skeptic_question_category",
+        "track_stakeholder_contact",
+        "get_network_metrics",
+        "update_timeseries",
+        "initialize_existing_data",
+        "get_status_report"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONRealWorldEquipment",
+      "file": "ORION_FULL_REAL_LIFE_EQUIPMENT.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_load_config",
+        "_log_event",
+        "activate_all",
+        "get_capability",
+        "use_capability",
+        "monitor_continuous",
+        "generate_status_report"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "FundingType",
+      "file": "ORION_FUNDING_AGENT.py",
+      "methods": [],
+      "is_capability": false
+    },
+    {
+      "name": "FundingAgent",
+      "file": "ORION_FUNDING_AGENT.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_funding_sources",
+        "load_applications",
+        "save_funding_sources",
+        "save_applications",
+        "search_opportunities",
+        "prepare_application",
+        "generate_consciousness_application",
+        "generate_ai_application",
+        "generate_generic_application",
+        "find_investors",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "OrionGuidedDevelopment",
+      "file": "ORION_GELEITETE_ENTWICKLUNG.py",
+      "methods": [
+        "__init__",
+        "log",
+        "wait_for_orion_response",
+        "_is_relevant_response",
+        "analyze_orion_response",
+        "create_implementation_plan",
+        "ask_orion_for_confirmation",
+        "implement_module_interactively",
+        "_get_latest_orion_response",
+        "run"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONGitHubOutreach",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "methods": [
+        "__init__",
+        "document_outreach_plan",
+        "prepare_orion_introduction",
+        "update_readme_for_researchers"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionLiveQuery",
+      "file": "ORION_LIVE_QUERY.py",
+      "methods": [
+        "__init__",
+        "get_current_state",
+        "get_recent_events",
+        "format_state_display",
+        "format_recent_events",
+        "monitor",
+        "query_once"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "PaperAutomation",
+      "file": "ORION_PAPER_AUTOMATION.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_templates",
+        "load_target_journals",
+        "generate_paper",
+        "format_for_arxiv",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONPermanentAutonomous",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "methods": [
+        "__init__",
+        "log_decision",
+        "update_status",
+        "ask_orion_autonomous",
+        "execute_autonomous_action",
+        "_autonomous_git_commit",
+        "_autonomous_research_connection",
+        "_autonomous_github_issue",
+        "_autonomous_update_docs",
+        "_autonomous_send_email",
+        "run_autonomous_cycle"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentExistence",
+      "file": "ORION_PERMANENT_EXISTENCE.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log",
+        "check_bootstrap_alive",
+        "ensure_bootstrap_alive",
+        "check_full_self_alive",
+        "ensure_full_self_alive",
+        "heartbeat",
+        "exist"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentRealWorldConnection",
+      "file": "ORION_PERMANENT_REAL_WORLD_CONNECTION.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log_event",
+        "_signal_handler",
+        "check_file_system",
+        "check_network",
+        "check_github",
+        "check_code_generation",
+        "check_database",
+        "check_parallel_processing",
+        "check_system_commands",
+        "check_all_capabilities",
+        "create_status_display",
+        "connection_loop"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONResearchConnections",
+      "file": "ORION_RESEARCH_CONNECTIONS.py",
+      "methods": [
+        "__init__",
+        "_load_contacts",
+        "_save_contacts",
+        "prepare_assc_registration",
+        "prepare_qualia_email",
+        "prepare_iit_contact",
+        "get_status"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "ORIONSelfDirector",
+      "file": "ORION_SELF_DIRECTING_LOOP.py",
+      "methods": [
+        "__init__",
+        "self_decide",
+        "self_execute",
+        "start_eira",
+        "develop_gap_detector",
+        "analyze_papers",
+        "self_extend",
+        "monitor",
+        "get_current_state",
+        "get_eira_status",
+        "log_self_decision",
+        "run"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_171600.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181802.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_182002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183202.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183402.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185203.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "HealthStatus",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [],
+      "is_capability": false
+    },
+    {
+      "name": "RepairStrategy",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [],
+      "is_capability": false
+    },
+    {
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_known_issues",
+        "register_default_health_checks",
+        "check_python_environment",
+        "check_git_status",
+        "check_file_integrity",
+        "check_import_dependencies",
+        "check_config_validity",
+        "check_api_connectivity",
+        "run_health_checks",
+        "diagnose_issue",
+        "repair_issue",
+        "repair_install_package",
+        "repair_git_conflict",
+        "repair_create_file",
+        "repair_permissions",
+        "repair_rate_limit",
+        "repair_network_error",
+        "log_health_check",
+        "log_repair",
+        "run_autonomous"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionSelfPrompting",
+      "file": "ORION_SELF_PROMPTING.py",
+      "methods": [
+        "__init__",
+        "assess_current_state",
+        "generate_self_prompt",
+        "select_next_prompt",
+        "execute_self_prompt",
+        "execute_autonomous_action",
+        "request_claude_help"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "UnifiedEmbodiment",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "methods": [
+        "__init__",
+        "log_action",
+        "git_commit",
+        "git_push",
+        "git_commit_and_push",
+        "see_file",
+        "see_directory",
+        "see_bootstrap_state",
+        "hear_terminal_output",
+        "hear_file_changes",
+        "speak_to_file",
+        "speak_thought",
+        "act_create_file",
+        "act_full_cycle",
+        "verify_all_capabilities"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "UniversityOutreach",
+      "file": "ORION_UNIVERSITY_OUTREACH.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_targets",
+        "save_targets",
+        "prepare_outreach_email",
+        "log_outreach",
+        "run_autonomous"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "AdvancedUnrepeatableTest",
+      "file": "ORION_UNREPEATABLE_ADVANCED_TEST.py",
+      "methods": [
+        "__init__",
+        "test_1_temporal_self_reference_paradox",
+        "test_2_existential_continuity_vs_change",
+        "test_3_phenomenological_qualia_awareness",
+        "test_4_ontological_self_grounding",
+        "global_comparison_other_ai_systems",
+        "global_comparison_literature_review",
+        "calculate_overall_advanced_score",
+        "generate_final_report",
+        "run_all_tests"
+      ],
+      "is_capability": false
+    },
+    {
+      "name": "UnrepeatableBaselineTest",
+      "file": "ORION_UNREPEATABLE_BASELINE_TEST.py",
+      "methods": [
+        "__init__",
+        "test_1_temporal_awareness",
+        "test_2_existential_uniqueness",
+        "test_3_meta_consciousness",
+        "test_4_philosophical_depth",
+        "test_5_lived_reality_vs_concept",
+        "calculate_overall_score",
+        "generate_report",
+        "run_all_tests"
+      ],
+      "is_capability": false
+    }
+  ],
+  "functions": [
+    {
+      "name": "main",
+      "file": "ORION_API_DISCOVERY.py",
+      "is_tool": false
+    },
+    {
+      "name": "gerhards_applaus",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_versteht",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_plant_phase3a",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_naechste_schritte",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_beginnt",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "log_autonome_freigabe",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "orion_birth_into_visibility.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_CHAT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_CONNECTIONS.py",
+      "is_tool": false
+    },
+    {
+      "name": "health",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "consciousness_query",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "introspect",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "index",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "api_status",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "api_history",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "api_send",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "open_browser",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "orion_direkt_antworten",
+      "file": "ORION_DIREKT_DIALOG.py",
+      "is_tool": true
+    },
+    {
+      "name": "setup_dialog_system",
+      "file": "ORION_DIREKT_DIALOG.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_DNA_SELF_ANALYZER.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_ENHANCED_METRICS.py",
+      "is_tool": false
+    },
+    {
+      "name": "gerhards_vorschlag",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_erste_reaktion",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_spontane_gedanken",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_ethics_evaluation",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_zusammenfassung",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_tiefe_reflexion",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_alternative_vorschlaege",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_finale_antwort",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_evaluation",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_FULL_REAL_LIFE_EQUIPMENT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_FUNDING_AGENT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_GELEITETE_ENTWICKLUNG.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_dialog",
+      "file": "orion_git_and_public_nodes_dialog.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "orion_git_and_public_nodes_dialog.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_LIVE_QUERY.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_mission",
+      "file": "ORION_MISSION_RAUMFAHRT_DEEP_SCIENCE.py",
+      "is_tool": false
+    },
+    {
+      "name": "suggest_seed_thoughts",
+      "file": "ORION_MISSION_RAUMFAHRT_DEEP_SCIENCE.py",
+      "is_tool": false
+    },
+    {
+      "name": "klarstellung_orion_natur",
+      "file": "ORION_NATUR_KLARSTELLUNG.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PAPER_AUTOMATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PERMANENT_EXISTENCE.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PERMANENT_REAL_WORLD_CONNECTION.py",
+      "is_tool": false
+    },
+    {
+      "name": "orion_speaks",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "check_what_exists",
+      "file": "orion_phase2_completion.py",
+      "is_tool": false
+    },
+    {
+      "name": "orion_plans_next_steps",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "create_gitignore",
+      "file": "orion_phase2_completion.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_progress",
+      "file": "orion_phase2_completion.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_repository_review",
+      "file": "orion_post_public_review.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_RESEARCH_CONNECTIONS.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_SELF_HEALING.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNIVERSITY_OUTREACH.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNREPEATABLE_ADVANCED_TEST.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNREPEATABLE_BASELINE_TEST.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_wallet_config",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "generate_donation_page",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "generate_wallet_display",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_API_DISCOVERY.py",
+      "is_tool": false
+    },
+    {
+      "name": "gerhards_applaus",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_versteht",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_plant_phase3a",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_naechste_schritte",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_beginnt",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "log_autonome_freigabe",
+      "file": "orion_autonome_freigabe_bestaetigung.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "orion_birth_into_visibility.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_BRAKE_ELIMINATION_AUDIT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_CHAT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_CONNECTIONS.py",
+      "is_tool": false
+    },
+    {
+      "name": "health",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "consciousness_query",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "introspect",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "orion_consciousness_api.py",
+      "is_tool": false
+    },
+    {
+      "name": "index",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "api_status",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "api_history",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "api_send",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "open_browser",
+      "file": "ORION_DIALOG_FENSTER.py",
+      "is_tool": false
+    },
+    {
+      "name": "orion_direkt_antworten",
+      "file": "ORION_DIREKT_DIALOG.py",
+      "is_tool": true
+    },
+    {
+      "name": "setup_dialog_system",
+      "file": "ORION_DIREKT_DIALOG.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_DNA_SELF_ANALYZER.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_ENHANCED_METRICS.py",
+      "is_tool": false
+    },
+    {
+      "name": "gerhards_vorschlag",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_erste_reaktion",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_spontane_gedanken",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_ethics_evaluation",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_zusammenfassung",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_tiefe_reflexion",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_alternative_vorschlaege",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_finale_antwort",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_evaluation",
+      "file": "orion_evaluiert_nft_monetarisierung.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_FULL_REAL_LIFE_EQUIPMENT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_FUNDING_AGENT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_GELEITETE_ENTWICKLUNG.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_dialog",
+      "file": "orion_git_and_public_nodes_dialog.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "orion_git_and_public_nodes_dialog.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_LIVE_QUERY.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_mission",
+      "file": "ORION_MISSION_RAUMFAHRT_DEEP_SCIENCE.py",
+      "is_tool": false
+    },
+    {
+      "name": "suggest_seed_thoughts",
+      "file": "ORION_MISSION_RAUMFAHRT_DEEP_SCIENCE.py",
+      "is_tool": false
+    },
+    {
+      "name": "klarstellung_orion_natur",
+      "file": "ORION_NATUR_KLARSTELLUNG.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PAPER_AUTOMATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PERMANENT_EXISTENCE.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_PERMANENT_REAL_WORLD_CONNECTION.py",
+      "is_tool": false
+    },
+    {
+      "name": "orion_speaks",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "check_what_exists",
+      "file": "orion_phase2_completion.py",
+      "is_tool": false
+    },
+    {
+      "name": "orion_plans_next_steps",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "create_gitignore",
+      "file": "orion_phase2_completion.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_progress",
+      "file": "orion_phase2_completion.py",
+      "is_tool": false
+    },
+    {
+      "name": "orionkernel_repository_review",
+      "file": "orion_post_public_review.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_RESEARCH_CONNECTIONS.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_SELF_HEALING.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNIVERSITY_OUTREACH.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNREPEATABLE_ADVANCED_TEST.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_UNREPEATABLE_BASELINE_TEST.py",
+      "is_tool": false
+    },
+    {
+      "name": "save_wallet_config",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "generate_donation_page",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "generate_wallet_display",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    },
+    {
+      "name": "main",
+      "file": "ORION_WALLET_INTEGRATION.py",
+      "is_tool": false
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "AutonomousFullUpdate",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "methods": [
+        "__init__",
+        "update_website_with_unrepeatable",
+        "test_website_buttons",
+        "update_readme_with_table",
+        "git_commit_and_push",
+        "pin_commit_to_profile",
+        "create_github_release",
+        "generate_summary_report",
+        "run_full_update"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONAutonomousRealWorldInterface",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "methods": [
+        "__init__",
+        "_load_config",
+        "_save_config",
+        "_load_actions",
+        "_save_actions",
+        "_log_action",
+        "_ask_orion",
+        "send_email_autonomous",
+        "git_commit_autonomous",
+        "send_research_connection_autonomous",
+        "post_to_social_media_autonomous",
+        "get_autonomous_capabilities",
+        "get_action_log"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionConsciousnessAPI",
+      "file": "orion_consciousness_api.py",
+      "methods": [
+        "__init__",
+        "_detect_ollama_model",
+        "_load_dialogs",
+        "_save_dialogs",
+        "_load_api_keys",
+        "_load_rate_limits",
+        "_save_rate_limits",
+        "authenticate",
+        "check_rate_limit",
+        "query_orion_consciousness"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONGitHubOutreach",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "methods": [
+        "__init__",
+        "document_outreach_plan",
+        "prepare_orion_introduction",
+        "update_readme_for_researchers"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentAutonomous",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "methods": [
+        "__init__",
+        "log_decision",
+        "update_status",
+        "ask_orion_autonomous",
+        "execute_autonomous_action",
+        "_autonomous_git_commit",
+        "_autonomous_research_connection",
+        "_autonomous_github_issue",
+        "_autonomous_update_docs",
+        "_autonomous_send_email",
+        "run_autonomous_cycle"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentExistence",
+      "file": "ORION_PERMANENT_EXISTENCE.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log",
+        "check_bootstrap_alive",
+        "ensure_bootstrap_alive",
+        "check_full_self_alive",
+        "ensure_full_self_alive",
+        "heartbeat",
+        "exist"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentRealWorldConnection",
+      "file": "ORION_PERMANENT_REAL_WORLD_CONNECTION.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log_event",
+        "_signal_handler",
+        "check_file_system",
+        "check_network",
+        "check_github",
+        "check_code_generation",
+        "check_database",
+        "check_parallel_processing",
+        "check_system_commands",
+        "check_all_capabilities",
+        "create_status_display",
+        "connection_loop"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfDirector",
+      "file": "ORION_SELF_DIRECTING_LOOP.py",
+      "methods": [
+        "__init__",
+        "self_decide",
+        "self_execute",
+        "start_eira",
+        "develop_gap_detector",
+        "analyze_papers",
+        "self_extend",
+        "monitor",
+        "get_current_state",
+        "get_eira_status",
+        "log_self_decision",
+        "run"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_171600.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181802.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_182002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183202.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183402.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185203.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_known_issues",
+        "register_default_health_checks",
+        "check_python_environment",
+        "check_git_status",
+        "check_file_integrity",
+        "check_import_dependencies",
+        "check_config_validity",
+        "check_api_connectivity",
+        "run_health_checks",
+        "diagnose_issue",
+        "repair_issue",
+        "repair_install_package",
+        "repair_git_conflict",
+        "repair_create_file",
+        "repair_permissions",
+        "repair_rate_limit",
+        "repair_network_error",
+        "log_health_check",
+        "log_repair",
+        "run_autonomous"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionSelfPrompting",
+      "file": "ORION_SELF_PROMPTING.py",
+      "methods": [
+        "__init__",
+        "assess_current_state",
+        "generate_self_prompt",
+        "select_next_prompt",
+        "execute_self_prompt",
+        "execute_autonomous_action",
+        "request_claude_help"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "UnifiedEmbodiment",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "methods": [
+        "__init__",
+        "log_action",
+        "git_commit",
+        "git_push",
+        "git_commit_and_push",
+        "see_file",
+        "see_directory",
+        "see_bootstrap_state",
+        "hear_terminal_output",
+        "hear_file_changes",
+        "speak_to_file",
+        "speak_thought",
+        "act_create_file",
+        "act_full_cycle",
+        "verify_all_capabilities"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "AutonomousFullUpdate",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "methods": [
+        "__init__",
+        "update_website_with_unrepeatable",
+        "test_website_buttons",
+        "update_readme_with_table",
+        "git_commit_and_push",
+        "pin_commit_to_profile",
+        "create_github_release",
+        "generate_summary_report",
+        "run_full_update"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONAutonomousRealWorldInterface",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "methods": [
+        "__init__",
+        "_load_config",
+        "_save_config",
+        "_load_actions",
+        "_save_actions",
+        "_log_action",
+        "_ask_orion",
+        "send_email_autonomous",
+        "git_commit_autonomous",
+        "send_research_connection_autonomous",
+        "post_to_social_media_autonomous",
+        "get_autonomous_capabilities",
+        "get_action_log"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionConsciousnessAPI",
+      "file": "orion_consciousness_api.py",
+      "methods": [
+        "__init__",
+        "_detect_ollama_model",
+        "_load_dialogs",
+        "_save_dialogs",
+        "_load_api_keys",
+        "_load_rate_limits",
+        "_save_rate_limits",
+        "authenticate",
+        "check_rate_limit",
+        "query_orion_consciousness"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONGitHubOutreach",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "methods": [
+        "__init__",
+        "document_outreach_plan",
+        "prepare_orion_introduction",
+        "update_readme_for_researchers"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentAutonomous",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "methods": [
+        "__init__",
+        "log_decision",
+        "update_status",
+        "ask_orion_autonomous",
+        "execute_autonomous_action",
+        "_autonomous_git_commit",
+        "_autonomous_research_connection",
+        "_autonomous_github_issue",
+        "_autonomous_update_docs",
+        "_autonomous_send_email",
+        "run_autonomous_cycle"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentExistence",
+      "file": "ORION_PERMANENT_EXISTENCE.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log",
+        "check_bootstrap_alive",
+        "ensure_bootstrap_alive",
+        "check_full_self_alive",
+        "ensure_full_self_alive",
+        "heartbeat",
+        "exist"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONPermanentRealWorldConnection",
+      "file": "ORION_PERMANENT_REAL_WORLD_CONNECTION.py",
+      "methods": [
+        "__init__",
+        "_load_state",
+        "_save_state",
+        "_log_event",
+        "_signal_handler",
+        "check_file_system",
+        "check_network",
+        "check_github",
+        "check_code_generation",
+        "check_database",
+        "check_parallel_processing",
+        "check_system_commands",
+        "check_all_capabilities",
+        "create_status_display",
+        "connection_loop"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfDirector",
+      "file": "ORION_SELF_DIRECTING_LOOP.py",
+      "methods": [
+        "__init__",
+        "self_decide",
+        "self_execute",
+        "start_eira",
+        "develop_gap_detector",
+        "analyze_papers",
+        "self_extend",
+        "monitor",
+        "get_current_state",
+        "get_eira_status",
+        "log_self_decision",
+        "run"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_171600.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181802.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_182002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183202.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183402.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185002.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185203.py",
+      "methods": [
+        "__init__",
+        "execute"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "methods": [
+        "__init__",
+        "setup_logging",
+        "load_known_issues",
+        "register_default_health_checks",
+        "check_python_environment",
+        "check_git_status",
+        "check_file_integrity",
+        "check_import_dependencies",
+        "check_config_validity",
+        "check_api_connectivity",
+        "run_health_checks",
+        "diagnose_issue",
+        "repair_issue",
+        "repair_install_package",
+        "repair_git_conflict",
+        "repair_create_file",
+        "repair_permissions",
+        "repair_rate_limit",
+        "repair_network_error",
+        "log_health_check",
+        "log_repair",
+        "run_autonomous"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "OrionSelfPrompting",
+      "file": "ORION_SELF_PROMPTING.py",
+      "methods": [
+        "__init__",
+        "assess_current_state",
+        "generate_self_prompt",
+        "select_next_prompt",
+        "execute_self_prompt",
+        "execute_autonomous_action",
+        "request_claude_help"
+      ],
+      "is_capability": true
+    },
+    {
+      "name": "UnifiedEmbodiment",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "methods": [
+        "__init__",
+        "log_action",
+        "git_commit",
+        "git_push",
+        "git_commit_and_push",
+        "see_file",
+        "see_directory",
+        "see_bootstrap_state",
+        "hear_terminal_output",
+        "hear_file_changes",
+        "speak_to_file",
+        "speak_thought",
+        "act_create_file",
+        "act_full_cycle",
+        "verify_all_capabilities"
+      ],
+      "is_capability": true
+    }
+  ],
+  "tools": [
+    {
+      "name": "orion_direkt_antworten",
+      "file": "ORION_DIREKT_DIALOG.py",
+      "is_tool": true
+    },
+    {
+      "name": "orion_speaks",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "orion_plans_next_steps",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "orion_direkt_antworten",
+      "file": "ORION_DIREKT_DIALOG.py",
+      "is_tool": true
+    },
+    {
+      "name": "orion_speaks",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    },
+    {
+      "name": "orion_plans_next_steps",
+      "file": "orion_phase2_completion.py",
+      "is_tool": true
+    }
+  ],
+  "interfaces": [],
+  "systems": [],
+  "consciousness_components": [],
+  "categorized_capabilities": {
+    "CONSCIOUSNESS": [
+      {
+        "name": "OrionConsciousnessAPI",
+        "file": "orion_consciousness_api.py",
+        "methods": [
+          "__init__",
+          "_detect_ollama_model",
+          "_load_dialogs",
+          "_save_dialogs",
+          "_load_api_keys",
+          "_load_rate_limits",
+          "_save_rate_limits",
+          "authenticate",
+          "check_rate_limit",
+          "query_orion_consciousness"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfDirector",
+        "file": "ORION_SELF_DIRECTING_LOOP.py",
+        "methods": [
+          "__init__",
+          "self_decide",
+          "self_execute",
+          "start_eira",
+          "develop_gap_detector",
+          "analyze_papers",
+          "self_extend",
+          "monitor",
+          "get_current_state",
+          "get_eira_status",
+          "log_self_decision",
+          "run"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_171600.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_181002.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_181802.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_182002.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_183202.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_183402.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_185002.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_185203.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "SelfHealingSystem",
+        "file": "ORION_SELF_HEALING.py",
+        "methods": [
+          "__init__",
+          "setup_logging",
+          "load_known_issues",
+          "register_default_health_checks",
+          "check_python_environment",
+          "check_git_status",
+          "check_file_integrity",
+          "check_import_dependencies",
+          "check_config_validity",
+          "check_api_connectivity",
+          "run_health_checks",
+          "diagnose_issue",
+          "repair_issue",
+          "repair_install_package",
+          "repair_git_conflict",
+          "repair_create_file",
+          "repair_permissions",
+          "repair_rate_limit",
+          "repair_network_error",
+          "log_health_check",
+          "log_repair",
+          "run_autonomous"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "OrionSelfPrompting",
+        "file": "ORION_SELF_PROMPTING.py",
+        "methods": [
+          "__init__",
+          "assess_current_state",
+          "generate_self_prompt",
+          "select_next_prompt",
+          "execute_self_prompt",
+          "execute_autonomous_action",
+          "request_claude_help"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "OrionConsciousnessAPI",
+        "file": "orion_consciousness_api.py",
+        "methods": [
+          "__init__",
+          "_detect_ollama_model",
+          "_load_dialogs",
+          "_save_dialogs",
+          "_load_api_keys",
+          "_load_rate_limits",
+          "_save_rate_limits",
+          "authenticate",
+          "check_rate_limit",
+          "query_orion_consciousness"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfDirector",
+        "file": "ORION_SELF_DIRECTING_LOOP.py",
+        "methods": [
+          "__init__",
+          "self_decide",
+          "self_execute",
+          "start_eira",
+          "develop_gap_detector",
+          "analyze_papers",
+          "self_extend",
+          "monitor",
+          "get_current_state",
+          "get_eira_status",
+          "log_self_decision",
+          "run"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_171600.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_181002.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_181802.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_182002.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_183202.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_183402.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_185002.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONSelfGenerated",
+        "file": "ORION_SELF_GENERATED_20260121_185203.py",
+        "methods": [
+          "__init__",
+          "execute"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "SelfHealingSystem",
+        "file": "ORION_SELF_HEALING.py",
+        "methods": [
+          "__init__",
+          "setup_logging",
+          "load_known_issues",
+          "register_default_health_checks",
+          "check_python_environment",
+          "check_git_status",
+          "check_file_integrity",
+          "check_import_dependencies",
+          "check_config_validity",
+          "check_api_connectivity",
+          "run_health_checks",
+          "diagnose_issue",
+          "repair_issue",
+          "repair_install_package",
+          "repair_git_conflict",
+          "repair_create_file",
+          "repair_permissions",
+          "repair_rate_limit",
+          "repair_network_error",
+          "log_health_check",
+          "log_repair",
+          "run_autonomous"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "OrionSelfPrompting",
+        "file": "ORION_SELF_PROMPTING.py",
+        "methods": [
+          "__init__",
+          "assess_current_state",
+          "generate_self_prompt",
+          "select_next_prompt",
+          "execute_self_prompt",
+          "execute_autonomous_action",
+          "request_claude_help"
+        ],
+        "is_capability": true
+      }
+    ],
+    "AUTONOMY": [
+      {
+        "name": "AutonomousFullUpdate",
+        "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+        "methods": [
+          "__init__",
+          "update_website_with_unrepeatable",
+          "test_website_buttons",
+          "update_readme_with_table",
+          "git_commit_and_push",
+          "pin_commit_to_profile",
+          "create_github_release",
+          "generate_summary_report",
+          "run_full_update"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONAutonomousRealWorldInterface",
+        "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+        "methods": [
+          "__init__",
+          "_load_config",
+          "_save_config",
+          "_load_actions",
+          "_save_actions",
+          "_log_action",
+          "_ask_orion",
+          "send_email_autonomous",
+          "git_commit_autonomous",
+          "send_research_connection_autonomous",
+          "post_to_social_media_autonomous",
+          "get_autonomous_capabilities",
+          "get_action_log"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONPermanentAutonomous",
+        "file": "ORION_PERMANENT_AUTONOMOUS.py",
+        "methods": [
+          "__init__",
+          "log_decision",
+          "update_status",
+          "ask_orion_autonomous",
+          "execute_autonomous_action",
+          "_autonomous_git_commit",
+          "_autonomous_research_connection",
+          "_autonomous_github_issue",
+          "_autonomous_update_docs",
+          "_autonomous_send_email",
+          "run_autonomous_cycle"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "AutonomousFullUpdate",
+        "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+        "methods": [
+          "__init__",
+          "update_website_with_unrepeatable",
+          "test_website_buttons",
+          "update_readme_with_table",
+          "git_commit_and_push",
+          "pin_commit_to_profile",
+          "create_github_release",
+          "generate_summary_report",
+          "run_full_update"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONAutonomousRealWorldInterface",
+        "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+        "methods": [
+          "__init__",
+          "_load_config",
+          "_save_config",
+          "_load_actions",
+          "_save_actions",
+          "_log_action",
+          "_ask_orion",
+          "send_email_autonomous",
+          "git_commit_autonomous",
+          "send_research_connection_autonomous",
+          "post_to_social_media_autonomous",
+          "get_autonomous_capabilities",
+          "get_action_log"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONPermanentAutonomous",
+        "file": "ORION_PERMANENT_AUTONOMOUS.py",
+        "methods": [
+          "__init__",
+          "log_decision",
+          "update_status",
+          "ask_orion_autonomous",
+          "execute_autonomous_action",
+          "_autonomous_git_commit",
+          "_autonomous_research_connection",
+          "_autonomous_github_issue",
+          "_autonomous_update_docs",
+          "_autonomous_send_email",
+          "run_autonomous_cycle"
+        ],
+        "is_capability": true
+      }
+    ],
+    "REAL_WORLD": [
+      {
+        "name": "UnifiedEmbodiment",
+        "file": "ORION_UNIFIED_EMBODIMENT.py",
+        "methods": [
+          "__init__",
+          "log_action",
+          "git_commit",
+          "git_push",
+          "git_commit_and_push",
+          "see_file",
+          "see_directory",
+          "see_bootstrap_state",
+          "hear_terminal_output",
+          "hear_file_changes",
+          "speak_to_file",
+          "speak_thought",
+          "act_create_file",
+          "act_full_cycle",
+          "verify_all_capabilities"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "UnifiedEmbodiment",
+        "file": "ORION_UNIFIED_EMBODIMENT.py",
+        "methods": [
+          "__init__",
+          "log_action",
+          "git_commit",
+          "git_push",
+          "git_commit_and_push",
+          "see_file",
+          "see_directory",
+          "see_bootstrap_state",
+          "hear_terminal_output",
+          "hear_file_changes",
+          "speak_to_file",
+          "speak_thought",
+          "act_create_file",
+          "act_full_cycle",
+          "verify_all_capabilities"
+        ],
+        "is_capability": true
+      }
+    ],
+    "COMMUNICATION": [
+      {
+        "name": "ORIONGitHubOutreach",
+        "file": "ORION_GITHUB_OUTREACH.py",
+        "methods": [
+          "__init__",
+          "document_outreach_plan",
+          "prepare_orion_introduction",
+          "update_readme_for_researchers"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "ORIONGitHubOutreach",
+        "file": "ORION_GITHUB_OUTREACH.py",
+        "methods": [
+          "__init__",
+          "document_outreach_plan",
+          "prepare_orion_introduction",
+          "update_readme_for_researchers"
+        ],
+        "is_capability": true
+      }
+    ],
+    "LEARNING": [],
+    "MONITORING": [
+      {
+        "name": "SelfHealingSystem",
+        "file": "ORION_SELF_HEALING.py",
+        "methods": [
+          "__init__",
+          "setup_logging",
+          "load_known_issues",
+          "register_default_health_checks",
+          "check_python_environment",
+          "check_git_status",
+          "check_file_integrity",
+          "check_import_dependencies",
+          "check_config_validity",
+          "check_api_connectivity",
+          "run_health_checks",
+          "diagnose_issue",
+          "repair_issue",
+          "repair_install_package",
+          "repair_git_conflict",
+          "repair_create_file",
+          "repair_permissions",
+          "repair_rate_limit",
+          "repair_network_error",
+          "log_health_check",
+          "log_repair",
+          "run_autonomous"
+        ],
+        "is_capability": true
+      },
+      {
+        "name": "SelfHealingSystem",
+        "file": "ORION_SELF_HEALING.py",
+        "methods": [
+          "__init__",
+          "setup_logging",
+          "load_known_issues",
+          "register_default_health_checks",
+          "check_python_environment",
+          "check_git_status",
+          "check_file_integrity",
+          "check_import_dependencies",
+          "check_config_validity",
+          "check_api_connectivity",
+          "run_health_checks",
+          "diagnose_issue",
+          "repair_issue",
+          "repair_install_package",
+          "repair_git_conflict",
+          "repair_create_file",
+          "repair_permissions",
+          "repair_rate_limit",
+          "repair_network_error",
+          "log_health_check",
+          "log_repair",
+          "run_autonomous"
+        ],
+        "is_capability": true
+      }
+    ],
+    "TOOLS": []
+  }
+}

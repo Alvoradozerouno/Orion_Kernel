@@ -589,7 +589,7 @@ def main():
         print("\n🔄 Running single cycle...\n")
         loop.run_single_cycle()
     elif choice == "2":
-        loop.run_continuous(duration_minutes=None  # INFINITE)
+        loop.run_continuous(duration_minutes=60)
     elif choice == "3":
         loop.run_continuous(duration_minutes=24*60)
     elif choice == "4":

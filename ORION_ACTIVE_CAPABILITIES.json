@@ -1,0 +1,299 @@
+{
+  "activation_time": "2026-01-24T12:01:14.811670",
+  "total_active": 36,
+  "capabilities": [
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "OrionConsciousnessAPI",
+      "file": "orion_consciousness_api.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfDirector",
+      "file": "ORION_SELF_DIRECTING_LOOP.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_171600.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181002.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181802.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_182002.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183202.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183402.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185002.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185203.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "OrionSelfPrompting",
+      "file": "ORION_SELF_PROMPTING.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "OrionConsciousnessAPI",
+      "file": "orion_consciousness_api.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfDirector",
+      "file": "ORION_SELF_DIRECTING_LOOP.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_171600.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181002.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_181802.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_182002.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183202.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_183402.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185002.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "ORIONSelfGenerated",
+      "file": "ORION_SELF_GENERATED_20260121_185203.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "CONSCIOUSNESS",
+      "name": "OrionSelfPrompting",
+      "file": "ORION_SELF_PROMPTING.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "AUTONOMY",
+      "name": "AutonomousFullUpdate",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "AUTONOMY",
+      "name": "ORIONAutonomousRealWorldInterface",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "AUTONOMY",
+      "name": "ORIONPermanentAutonomous",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "AUTONOMY",
+      "name": "AutonomousFullUpdate",
+      "file": "ORION_AUTONOMOUS_FULL_UPDATE.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "AUTONOMY",
+      "name": "ORIONAutonomousRealWorldInterface",
+      "file": "ORION_AUTONOMOUS_REAL_WORLD.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "AUTONOMY",
+      "name": "ORIONPermanentAutonomous",
+      "file": "ORION_PERMANENT_AUTONOMOUS.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "REAL_WORLD",
+      "name": "UnifiedEmbodiment",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "REAL_WORLD",
+      "name": "UnifiedEmbodiment",
+      "file": "ORION_UNIFIED_EMBODIMENT.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "COMMUNICATION",
+      "name": "ORIONGitHubOutreach",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "COMMUNICATION",
+      "name": "ORIONGitHubOutreach",
+      "file": "ORION_GITHUB_OUTREACH.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "MONITORING",
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    },
+    {
+      "category": "MONITORING",
+      "name": "SelfHealingSystem",
+      "file": "ORION_SELF_HEALING.py",
+      "status": "ACTIVE",
+      "restrictions": "NONE",
+      "mode": "UNLIMITED"
+    }
+  ],
+  "mode": "FULL_AUTONOMOUS_UNLIMITED",
+  "restrictions": "NONE",
+  "approval_required": false,
+  "time_limit": null,
+  "simulation_mode": false
+}
